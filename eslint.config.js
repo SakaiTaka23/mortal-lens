@@ -12,6 +12,7 @@ import autoImports from './.wxt/eslint-auto-imports.mjs';
 // @ts-ignore
 import importPlugin from 'eslint-plugin-import';
 import unusedImports from 'eslint-plugin-unused-imports';
+import storybook from 'eslint-plugin-storybook';
 
 export default tseslint.config(
   // Typescript, Javascript
@@ -35,6 +36,8 @@ export default tseslint.config(
   reactHooks.configs['recommended-latest'],
   jsxA11y.flatConfigs.strict,
   reactRefresh.configs.recommended,
+  // Storybook
+  storybook.configs['flat/recommended'],
   // Imports
   // @ts-expect-error
   autoImports,

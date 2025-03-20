@@ -3,5 +3,10 @@
   "compilerOptions": {
     "allowImportingTsExtensions": true,
     "jsx": "react-jsx"
-  }
+  },
+  "include": [
+    "../**/*",
+    ".wtx/wxt.d.ts",
+    ".storybook/**/*.ts",
+  ]
 }

@@ -27,3 +27,5 @@ web-ext.config.ts
 
 # Project
 **/__tests__/fixtures/*.json
+
+*storybook.log
