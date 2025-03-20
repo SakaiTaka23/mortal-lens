@@ -1,10 +1,11 @@
 import { z } from 'zod';
 
+import { PlayerIDSchema } from '@/types/common/PlayerID';
+import { TilesSchema } from '@/types/common/Tiles';
+
 import { DetailSchema } from './entry/Detail';
 import { EvaluationResultSchema } from './entry/Evaluation';
 import { StateSchema } from './entry/State';
-import { PlayerIDSchema } from '@/types/common/PlayerID';
-import { TilesSchema } from '@/types/common/Tiles';
 
 export const JunmeSchema = z.number().min(0);
 

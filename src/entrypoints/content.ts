@@ -1,3 +1,5 @@
+import { defineContentScript } from 'wxt/sandbox';
+
 import { Input, InputSchema } from '@/types/input';
 
 export default defineContentScript({

@@ -1,4 +1,6 @@
 import ReactDOM from 'react-dom/client';
+import { createIntegratedUi } from 'wxt/client';
+import { defineContentScript } from 'wxt/sandbox';
 
 import { App } from './App';
 

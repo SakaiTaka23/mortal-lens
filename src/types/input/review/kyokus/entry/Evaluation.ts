@@ -1,8 +1,9 @@
 import { z } from 'zod';
 
-import { Consumed2Schema, Consumed3Schema, Consumed4Schema } from './State';
 import { PlayerIDSchema } from '@/types/common/PlayerID';
 import { TilesSchema } from '@/types/common/Tiles';
+
+import { Consumed2Schema, Consumed3Schema, Consumed4Schema } from './State';
 
 export const EvaluationResultSchema = z.discriminatedUnion('type', [
   // Can happen when the player can call
