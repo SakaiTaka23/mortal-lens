@@ -37,3 +37,4 @@ export const EntrySchema = z
     atFuriten: data.at_furiten,
     actualIndex: data.actual_index,
   }));
+export type Entry = z.infer<typeof EntrySchema>;
