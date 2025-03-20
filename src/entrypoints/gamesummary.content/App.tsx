@@ -1,3 +1,4 @@
+import { Accordion, AccordionDetails, AccordionSummary } from '@mui/material';
 import { useEffect, useState } from 'react';
 
 import { GameSummary } from '@/components/GameSummary';
@@ -27,8 +28,18 @@ export const App = () => {
 
   return (
     <>
-      <GameSummary roundDiffs={roundDiffs} />
-      <KyokuSummary kyokuDiffs={kyokuDiffs} />
+      <Accordion>
+        <AccordionSummary>Round Diffs</AccordionSummary>
+        <AccordionDetails>
+          <GameSummary roundDiffs={roundDiffs} />
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary>Kyoku Diffs</AccordionSummary>
+        <AccordionDetails>
+          <KyokuSummary kyokuDiffs={kyokuDiffs} />
+        </AccordionDetails>
+      </Accordion>
     </>
   );
 };
