@@ -1,17 +1,22 @@
 import { useEffect, useState } from 'react';
 
 import { GameSummary } from '@/components/GameSummary';
+import { KyokuSummary } from '@/components/KyokuSummary';
 import { HanchanFilter } from '@/filter/HanchanFilter';
+import { KyokuFilter } from '@/filter/KyokuFilter';
 import { Input } from '@/types/input';
-import { RoundDiff } from '@/types/output/RoundDiff';
+import { KyokuDiff, RoundDiff } from '@/types/output/RoundDiff';
 
 export const App = () => {
   const [roundDiffs, setRoundDiffs] = useState<RoundDiff[]>([]);
+  const [kyokuDiffs, setKyokuDiffs] = useState<KyokuDiff[]>([]);
 
   useEffect(() => {
     const handleUpdate = (event: CustomEvent<Input>) => {
-      const res = HanchanFilter(event.detail.review.kyokus);
-      setRoundDiffs(res);
+      const rd = HanchanFilter(event.detail.review.kyokus);
+      setRoundDiffs(rd);
+      const kd = KyokuFilter(event.detail.review.kyokus);
+      setKyokuDiffs(kd);
     };
 
     window.addEventListener('input', handleUpdate as EventListener);
@@ -23,6 +28,7 @@ export const App = () => {
   return (
     <>
       <GameSummary roundDiffs={roundDiffs} />
+      <KyokuSummary kyokuDiffs={kyokuDiffs} />
     </>
   );
 };

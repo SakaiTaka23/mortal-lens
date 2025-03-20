@@ -15,12 +15,14 @@ export const HanchanFilter = (kyokus: Kyoku[]): RoundDiff[] => {
       if (entry.isEqual) {
         return;
       }
-      const aiProbability = entry.details[entry.actualIndex].prob;
+      const aiProbability = Number(
+        (entry.details[entry.actualIndex].prob * 100).toFixed(2),
+      );
       if (aiProbability === 0) {
         critical++;
-      } else if (aiProbability >= 0.01 && aiProbability < 5) {
+      } else if (aiProbability < 5) {
         significant++;
-      } else if (aiProbability >= 5 && aiProbability < 25) {
+      } else if (aiProbability < 25) {
         moderate++;
       } else {
         optimal++;
