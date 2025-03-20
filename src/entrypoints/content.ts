@@ -5,6 +5,15 @@ import { Input, InputSchema } from '@/types/input';
 export default defineContentScript({
   matches: ['https://mjai.ekyu.moe/killerducky/*'],
   main() {
+    // Disable going to next in the page
+    document.addEventListener(
+      'wheel',
+      (event) => {
+        event.stopPropagation();
+      },
+      true,
+    );
+
     processGameData()
       .then((input) => {
         window.dispatchEvent(new CustomEvent('input', { detail: input }));
