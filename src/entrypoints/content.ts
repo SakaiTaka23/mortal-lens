@@ -1,6 +1,26 @@
+import { Input, InputSchema } from '@/types/input';
+
 export default defineContentScript({
-  matches: ['*://*.google.com/*'],
+  matches: ['https://mjai.ekyu.moe/killerducky/*'],
   main() {
-    console.log('Hello content.');
+    processGameData()
+      .then((input) => {
+        window.dispatchEvent(new CustomEvent('input', { detail: input }));
+      })
+      .catch((error: unknown) => {
+        console.error('error processing game data:', error);
+      });
   },
 });
+
+export const processGameData = async (): Promise<Input> => {
+  const match = /data=\/report\/(.*\.json)/.exec(window.location.href);
+  if (!match) {
+    return Promise.reject(new Error('No JSON URL found in current page'));
+  }
+
+  const jsonUrl = `https://mjai.ekyu.moe/report/${match[1]}`;
+  return fetch(jsonUrl)
+    .then((response) => response.json())
+    .then((rawResponse) => InputSchema.parse(rawResponse));
+};
