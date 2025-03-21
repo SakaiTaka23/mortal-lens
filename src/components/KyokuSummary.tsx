@@ -68,6 +68,23 @@ export const KyokuSummary = ({ kyokuDiffs }: Props) => {
   const table = useMaterialReactTable({
     columns,
     data: kyokuDiffs,
+    initialState: {
+      density: 'compact',
+      pagination: {
+        pageSize: 50,
+        pageIndex: 0,
+      },
+    },
+    muiTableProps: {
+      sx: {
+        '& .MuiTableCell-root': {
+          padding: '4px 8px',
+        },
+        '& .MuiTable-root': {
+          borderSpacing: '0px',
+        },
+      },
+    },
   });
   return <MaterialReactTable table={table} />;
 };
