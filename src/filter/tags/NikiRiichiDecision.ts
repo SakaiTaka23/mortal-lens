@@ -3,7 +3,7 @@ import { Tag } from '@/types/output/Tags';
 
 const riichiType = ['reach', 'hora'];
 
-export const NakiRiichiTags = (entry: Entry): Tag[] => {
+export const NakiRiichiDecisionTags = (entry: Entry): Tag[] => {
   if (entry.actual.type == 'dahai' || entry.expected.type == 'dahai') {
     return [];
   }
