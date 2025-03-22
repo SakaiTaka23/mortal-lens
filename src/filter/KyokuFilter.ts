@@ -4,6 +4,7 @@ import { KyokuDiff } from '@/types/output/RoundDiff';
 import { Tag } from '@/types/output/Tags';
 
 import { TileSpecTags } from './tags/JihaiJihai';
+import { NakiRiichiTags } from './tags/NikiRiichi';
 
 export const KyokuFilter = (kyokus: Kyoku[]): KyokuDiff[] => {
   const result: KyokuDiff[] = [];
@@ -19,7 +20,7 @@ export const KyokuFilter = (kyokus: Kyoku[]): KyokuDiff[] => {
       );
       const diffLevel = getDiffLevel(aiProbability);
 
-      const tags: Tag[] = [...TileSpecTags(entry)];
+      const tags: Tag[] = [...TileSpecTags(entry), ...NakiRiichiTags(entry)];
 
       result.push({
         kyoku: kyoku.kyoku,
