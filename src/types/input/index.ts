@@ -1,5 +1,6 @@
 import { z } from 'zod';
 
+import { MjaiLogSchema } from './MjaiLog';
 import { ReviewSchema } from './review';
 import { PlayerIDSchema } from '../common/PlayerID';
 
@@ -13,6 +14,7 @@ export const InputSchema = z
     version: z.string(),
     review: ReviewSchema,
     player_id: PlayerIDSchema,
+    mjai_log: z.array(MjaiLogSchema),
     lang: z.string(),
   })
   .transform((data) => ({
