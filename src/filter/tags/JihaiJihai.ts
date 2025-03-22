@@ -21,11 +21,11 @@ export const TileSpecTags = (entry: Entry): Tag[] => {
   const actualTileJihai = entry.actual.pai;
   const expectedTile = entry.actual.pai;
 
-  if (jihai.includes(actualTileJihai) && expectedTile.includes(expectedTile)) {
+  if (jihai.includes(actualTileJihai) && jihai.includes(expectedTile)) {
     return ['jihai&jihai'];
   } else if (
     !jihai.includes(actualTileJihai) &&
-    !expectedTile.includes(expectedTile)
+    !jihai.includes(expectedTile)
   ) {
     return [];
   } else {
