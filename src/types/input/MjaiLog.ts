@@ -81,7 +81,7 @@ export const MjaiLogSchema = z
     }),
     z.object({
       type: z.literal('start_kyoku'),
-      bakaze: z.enum(['E', 'S', 'W', 'N']),
+      bakaze: z.enum(['E', 'S', 'W']),
       dora_marker: TilesSchema,
       kyoku: KyokuNumberSchema,
       honba: HonbaSchema,
@@ -113,4 +113,10 @@ export const MjaiLogSchema = z
         doraMarker: data.dora_marker,
       };
     }
+    return data;
   });
+export type Bakaze = Extract<
+  z.infer<typeof MjaiLogSchema>,
+  { type: 'start_kyoku' }
+>['bakaze'];
+export type MjaiLog = z.infer<typeof MjaiLogSchema>;

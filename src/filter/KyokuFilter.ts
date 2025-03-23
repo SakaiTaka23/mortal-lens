@@ -1,12 +1,17 @@
 import { Kyoku } from '@/types/input/review/kyokus';
 import { DiffLevel } from '@/types/output/DiffLevel';
+import { EventKey, RiichiEvent } from '@/types/output/KyokuEvent';
 import { KyokuDiff } from '@/types/output/RoundDiff';
 import { Tag } from '@/types/output/Tags';
 
 import { NakiRiichiDecisionTags } from './tags/NikiRiichiDecision';
+import { RiichiEventTags } from './tags/RiichiEvent';
 import { TileSpecTags } from './tags/TileSpec';
 
-export const KyokuFilter = (kyokus: Kyoku[]): KyokuDiff[] => {
+export const KyokuFilter = (
+  kyokus: Kyoku[],
+  riichiEvent: Record<EventKey, RiichiEvent[]>,
+): KyokuDiff[] => {
   const result: KyokuDiff[] = [];
   kyokus.forEach((kyoku) => {
     const entries = kyoku.entries;
@@ -20,9 +25,13 @@ export const KyokuFilter = (kyokus: Kyoku[]): KyokuDiff[] => {
       );
       const diffLevel = getDiffLevel(aiProbability);
 
+      console.log('getting for', `${kyoku.kyoku}-${kyoku.honba}`);
+      console.log(riichiEvent);
+
       const tags: Tag[] = [
         ...TileSpecTags(entry),
         ...NakiRiichiDecisionTags(entry),
+        ...RiichiEventTags(entry, riichiEvent[`${kyoku.kyoku}-${kyoku.honba}`]),
       ];
 
       result.push({

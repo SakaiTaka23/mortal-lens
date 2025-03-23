@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 
 import { GameSummary } from '@/components/GameSummary';
 import { KyokuSummary } from '@/components/KyokuSummary';
+import { RiichiEventFilter } from '@/event/RiichiEvent';
 import { HanchanFilter } from '@/filter/HanchanFilter';
 import { KyokuFilter } from '@/filter/KyokuFilter';
 import { Input } from '@/types/input';
@@ -14,9 +15,15 @@ export const App = () => {
 
   useEffect(() => {
     const handleUpdate = (event: CustomEvent<Input>) => {
+      const re = RiichiEventFilter(
+        event.detail.mjai_log,
+        event.detail.playerID,
+      );
+      console.log('re', re);
+
       const rd = HanchanFilter(event.detail.review.kyokus);
       setRoundDiffs(rd);
-      const kd = KyokuFilter(event.detail.review.kyokus);
+      const kd = KyokuFilter(event.detail.review.kyokus, re);
       setKyokuDiffs(kd);
     };
 
