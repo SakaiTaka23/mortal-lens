@@ -7,5 +7,7 @@ export const TagSchema = z.enum([
   'riichi',
   'riichi1',
   'riichi2',
+  '2fuuro',
+  'myfuuro',
 ]);
 export type Tag = z.infer<typeof TagSchema>;

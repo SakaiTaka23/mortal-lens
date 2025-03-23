@@ -1,16 +1,20 @@
+import { PlayerID } from '@/types/common/PlayerID';
 import { Kyoku } from '@/types/input/review/kyokus';
 import { DiffLevel } from '@/types/output/DiffLevel';
-import { EventKey, RiichiEvent } from '@/types/output/KyokuEvent';
+import { EventKey, NakiEvent, RiichiEvent } from '@/types/output/KyokuEvent';
 import { KyokuDiff } from '@/types/output/RoundDiff';
 import { Tag } from '@/types/output/Tags';
 
+import { NakiEventTags } from './tags/NakiEvent';
 import { NakiRiichiDecisionTags } from './tags/NikiRiichiDecision';
 import { RiichiEventTags } from './tags/RiichiEvent';
 import { TileSpecTags } from './tags/TileSpec';
 
 export const KyokuFilter = (
   kyokus: Kyoku[],
+  playerID: PlayerID,
   riichiEvent: Record<EventKey, RiichiEvent[]>,
+  nakiEvent: Record<EventKey, NakiEvent[]>,
 ): KyokuDiff[] => {
   const result: KyokuDiff[] = [];
   kyokus.forEach((kyoku) => {
@@ -32,6 +36,11 @@ export const KyokuFilter = (
         ...TileSpecTags(entry),
         ...NakiRiichiDecisionTags(entry),
         ...RiichiEventTags(entry, riichiEvent[`${kyoku.kyoku}-${kyoku.honba}`]),
+        ...NakiEventTags(
+          entry,
+          nakiEvent[`${kyoku.kyoku}-${kyoku.honba}`],
+          playerID,
+        ),
       ];
 
       result.push({
