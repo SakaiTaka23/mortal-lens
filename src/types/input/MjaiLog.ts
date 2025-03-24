@@ -100,7 +100,7 @@ export const MjaiLogSchema = z
     if (data.type === 'dora') {
       return {
         ...data,
-        doraMarkers: [data.dora_marker],
+        doraMarkers: data.dora_marker,
       };
     } else if (data.type === 'hora') {
       return {

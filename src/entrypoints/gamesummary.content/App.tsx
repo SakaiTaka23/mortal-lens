@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 
 import { GameSummary } from '@/components/GameSummary';
 import { KyokuSummary } from '@/components/KyokuSummary';
+import { DoraEventFilter } from '@/event/DoraEvent';
 import { NakiEventFilter } from '@/event/NakiEvent';
 import { RiichiEventFilter } from '@/event/RiichiEvent';
 import { HanchanFilter } from '@/filter/HanchanFilter';
@@ -21,6 +22,7 @@ export const App = () => {
         event.detail.playerID,
       );
       const ne = NakiEventFilter(event.detail.mjai_log, event.detail.playerID);
+      const de = DoraEventFilter(event.detail.mjai_log, event.detail.playerID);
 
       const rd = HanchanFilter(event.detail.review.kyokus);
       setRoundDiffs(rd);
@@ -29,6 +31,7 @@ export const App = () => {
         event.detail.playerID,
         re,
         ne,
+        de,
       );
       setKyokuDiffs(kd);
     };
