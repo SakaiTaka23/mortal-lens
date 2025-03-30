@@ -9,6 +9,7 @@ export const EvaluationResultSchema = z.discriminatedUnion('type', [
   // Can happen when the player can call
   z.object({ type: z.literal('none') }),
   z.object({ type: z.literal('reach') }),
+  z.object({ type: z.literal('ryukyoku') }),
   z.object({
     type: z.literal('hora'),
     actor: PlayerIDSchema,
