@@ -18,17 +18,15 @@ export const TileSpecTags = (entry: Entry): Tag[] => {
   if (entry.actual.type != 'dahai' || entry.expected.type != 'dahai') {
     return [];
   }
-  const actualTileJihai = entry.actual.pai;
-  const expectedTile = entry.actual.pai;
 
-  if (jihai.includes(actualTileJihai) && jihai.includes(expectedTile)) {
+  const actualIsJihai = jihai.includes(entry.actual.pai);
+  const expectedIsJihai = jihai.includes(entry.expected.pai);
+
+  if (actualIsJihai && expectedIsJihai) {
     return ['jihai&jihai'];
-  } else if (
-    !jihai.includes(actualTileJihai) &&
-    !jihai.includes(expectedTile)
-  ) {
-    return [];
-  } else {
+  }
+  if (actualIsJihai !== expectedIsJihai) {
     return ['jihai&suhai'];
   }
+  return [];
 };
