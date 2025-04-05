@@ -6,7 +6,7 @@ export const EndStatusSchema = z.object({
   type: z.string(),
 });
 
-export const KyokuNumberSchema = z.number().min(0).max(7);
+export const KyokuNumberSchema = z.number().min(0).max(11);
 export type KyokuNumber = z.infer<typeof KyokuNumberSchema>;
 export const HonbaSchema = z.number().min(0);
 export type Honba = z.infer<typeof HonbaSchema>;
