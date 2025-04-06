@@ -19,6 +19,7 @@ interface Props {
 
 const diffLevels = ['optimal', 'moderate', 'significant', 'critical'] as const;
 const tags = [
+  'suhai&suhai',
   'jihai&jihai',
   'jihai&suhai',
   'naki',

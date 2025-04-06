@@ -1,6 +1,7 @@
 import { z } from 'zod';
 
 export const TagSchema = z.enum([
+  'suhai&suhai',
   'jihai&jihai',
   'jihai&suhai',
   'naki',

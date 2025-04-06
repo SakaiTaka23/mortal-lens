@@ -28,5 +28,5 @@ export const TileSpecTags = (entry: Entry): Tag[] => {
   if (actualIsJihai !== expectedIsJihai) {
     return ['jihai&suhai'];
   }
-  return [];
+  return ['suhai&suhai'];
 };

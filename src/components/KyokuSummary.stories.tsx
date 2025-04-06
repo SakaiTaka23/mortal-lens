@@ -66,7 +66,7 @@ const defaultArgs = [
     shanten: 4,
     diffLevel: 'optimal',
     aiProbability: 34.57,
-    tags: ['jihai&jihai'],
+    tags: ['suhai&suhai'],
   },
   {
     kyoku: 1,
