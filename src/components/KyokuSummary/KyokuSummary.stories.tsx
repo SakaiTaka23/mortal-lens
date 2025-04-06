@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 
 import { KyokuDiff } from '@/types/output/RoundDiff';
 
-import { KyokuSummary } from './KyokuSummary';
+import { KyokuSummary } from '.';
 
 const meta = {
   component: KyokuSummary,
