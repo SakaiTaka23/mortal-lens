@@ -43,8 +43,9 @@ export const useColumns = (): MRT_ColumnDef<KyokuDiff>[] => [
         const value = row.original.diffLevel;
         counts.set(value, (counts.get(value) ?? 0) + 1);
       });
-      return Array.from(counts.entries())
-        .map(([level, count]) => `${level}: ${count}`)
+      return diffLevels
+        .filter((level) => counts.has(level))
+        .map((level) => `${level}: ${counts.get(level)}`)
         .join(', ');
     }) as unknown as MRT_AggregationFn<KyokuDiff>,
     AggregatedCell: ({ cell }: { cell: MRT_Cell<KyokuDiff> }) => (
