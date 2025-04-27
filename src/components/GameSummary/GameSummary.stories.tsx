@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 
 import { RoundDiff } from '@/types/output/RoundDiff';
 
-import { GameSummary } from './GameSummary';
+import { GameSummary } from '.';
 
 const meta = {
   component: GameSummary,
