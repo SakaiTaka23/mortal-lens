@@ -66,10 +66,10 @@ const tileComponentMap: Record<
 interface Props {
   name: Tiles;
   naki: boolean;
-  size: 'tehai' | 'doraMarker';
+  size?: 'tehai' | 'doraMarker';
 }
 
-export const Tile: React.FC<Props> = ({ name, naki, size }) => {
+export const Tile: React.FC<Props> = ({ name, naki, size = 'tehai' }) => {
   const IconComponent = tileComponentMap[name];
 
   const tileSize =
