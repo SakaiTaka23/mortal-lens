@@ -1,3 +1,4 @@
+import { Stack } from '@mui/material';
 import React from 'react';
 
 import { PlayerID } from '@/types/common/PlayerID';
@@ -15,13 +16,13 @@ interface Props {
 }
 
 export const Fuuros: React.FC<Props> = ({ actor, fuuros }) => (
-  <div style={{ display: 'flex', flexDirection: 'row', gap: '2px' }}>
+  <Stack direction='row' spacing={1} sx={{ alignItems: 'flex-end' }}>
     {fuuros.map((fuuro) => {
       switch (fuuro.type) {
         case 'pon':
           return <Pon key={fuuro.pai} playerID={actor} fuuro={fuuro} />;
         case 'chi':
-          return <Chi key={fuuro.pai} fuuro={fuuro} />;
+          return <Chi key={fuuro.pai} playerID={actor} fuuro={fuuro} />;
         case 'ankan':
           return <Ankan key={fuuro.consumed[0]} fuuro={fuuro} />;
         case 'daiminkan':
@@ -32,5 +33,5 @@ export const Fuuros: React.FC<Props> = ({ actor, fuuros }) => (
           return null;
       }
     })}
-  </div>
+  </Stack>
 );

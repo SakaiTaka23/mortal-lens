@@ -64,3 +64,5 @@ export const StateSchema = z.object({
   fuuros: z.array(FuuroSchema).min(0).max(4),
 });
 export type State = z.infer<typeof StateSchema>;
+export type Tehai = z.infer<typeof StateSchema>['tehai'];
+export type FuuroType = z.infer<typeof FuuroSchema>['type'];
