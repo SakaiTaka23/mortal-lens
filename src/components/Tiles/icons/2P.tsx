@@ -3,8 +3,9 @@ const Svg2P = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    width={300}
-    height={400}
+    width="1em"
+    height="1em"
+    viewBox="0 0 300 400"
     {...props}
   >
     <g transform="translate(512.082 -162.704)scale(.76584)">
