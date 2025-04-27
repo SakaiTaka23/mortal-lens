@@ -19,7 +19,8 @@
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "icon": "pnpm svgr -d src/components/Tiles/icons src/assets/Regular_shortnames"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -42,6 +43,7 @@
     "@storybook/react": "^8.6.7",
     "@storybook/react-vite": "^8.6.7",
     "@storybook/test": "^8.6.7",
+    "@svgr/cli": "^8.1.0",
     "@types/chrome": "^0.0.280",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
