@@ -119,4 +119,9 @@ export type Bakaze = Extract<
   z.infer<typeof MjaiLogSchema>,
   { type: 'start_kyoku' }
 >['bakaze'];
+export type Tehais = Extract<
+  z.infer<typeof MjaiLogSchema>,
+  { type: 'start_kyoku' }
+>['tehais'];
+
 export type MjaiLog = z.infer<typeof MjaiLogSchema>;

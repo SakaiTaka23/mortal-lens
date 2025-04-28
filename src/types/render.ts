@@ -7,3 +7,6 @@ export type scores = z.infer<typeof scoreSchema>;
 
 export const doraMarkersSchema = z.array(TilesSchema).min(1).max(5);
 export type doraMarkers = z.infer<typeof doraMarkersSchema>;
+
+export const tehaiSchema = z.array(z.array(TilesSchema).length(13)).length(4);
+export type tehai = z.infer<typeof tehaiSchema>;
