@@ -13,7 +13,7 @@ interface KawaStore {
 
 interface KawaStoreActions {
   init: () => void;
-  ankan: () => void;
+  kan: () => void;
   dahai: (playerId: PlayerID, tile: Tiles) => void;
 }
 
@@ -25,13 +25,13 @@ const initialState: KawaStore = {
   remaining: 69,
 };
 
-export const kawaStore = create<KawaStore & KawaStoreActions>((set) => ({
+export const useKawaStore = create<KawaStore & KawaStoreActions>((set) => ({
   ...initialState,
 
   init: () => {
     set(initialState);
   },
-  ankan: () => {
+  kan: () => {
     set((state) => ({
       ...state,
       remaining: state.remaining - 1,

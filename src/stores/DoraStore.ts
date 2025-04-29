@@ -8,7 +8,7 @@ interface DoraStore {
   init: (initDora: Tiles) => void;
 }
 
-export const doraStore = create<DoraStore>((set) => ({
+export const useDoraState = create<DoraStore>((set) => ({
   doraList: [],
 
   shinDora: (newDora: Tiles) => {
