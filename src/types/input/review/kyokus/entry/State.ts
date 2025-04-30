@@ -61,6 +61,7 @@ export type AnkanFuuro = z.infer<typeof FuuroSchema> & { type: 'ankan' };
 
 export const StateSchema = z.object({
   tehai: z.array(TilesSchema).min(2).max(14),
+  tsumo: TilesSchema.nullable(),
   fuuros: z.array(FuuroSchema).min(0).max(4),
 });
 export type State = z.infer<typeof StateSchema>;

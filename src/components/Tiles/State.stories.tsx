@@ -32,6 +32,7 @@ export const SimpleHand: Story = {
         '3p',
         '4p',
       ],
+      tsumo: null,
       fuuros: [],
     },
   },
@@ -42,6 +43,7 @@ export const WithPon: Story = {
     actor: 1,
     state: {
       tehai: ['1m', '2m', '3m', '4m', '5m', '6m', '7m', '8m', '9m', '1p'],
+      tsumo: '1p',
       fuuros: [
         {
           type: 'pon',
@@ -59,6 +61,7 @@ export const WithMultipleFuuros: Story = {
     actor: 2,
     state: {
       tehai: ['1m', '2m', '3m', '4m', '5m', '6m', '7m'],
+      tsumo: null,
       fuuros: [
         {
           type: 'chi',
@@ -88,6 +91,7 @@ export const ComplexHand: Story = {
     actor: 3,
     state: {
       tehai: ['1m', '2m', '3m', '1p', '2p', '3p', '1s'],
+      tsumo: null,
       fuuros: [
         {
           type: 'chi',

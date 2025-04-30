@@ -14,7 +14,7 @@ interface Prop {
 
 export const State: React.FC<Prop> = ({ actor, state }) => (
   <Stack direction='row' spacing={2} sx={{ alignItems: 'flex-end' }}>
-    <Tehai tehai={state.tehai} />
+    <Tehai tehai={state.tehai} tsumo={state.tsumo} />
     <Fuuros actor={actor} fuuros={state.fuuros} />
   </Stack>
 );

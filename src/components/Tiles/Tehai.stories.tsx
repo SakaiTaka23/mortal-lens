@@ -31,3 +31,25 @@ export const Default: Story = {
     ],
   },
 };
+
+export const WithTsumo: Story = {
+  args: {
+    tehai: [
+      '8m',
+      '1p',
+      '4p',
+      '5pr',
+      '9p',
+      '1s',
+      '1s',
+      '1s',
+      '3s',
+      '5s',
+      '8s',
+      'E',
+      'F',
+      '7m',
+    ],
+    tsumo: '1m',
+  },
+};
