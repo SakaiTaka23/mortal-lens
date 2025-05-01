@@ -1,23 +1,31 @@
 import { Stack } from '@mui/material';
 
 import { Tiles } from '@/types/common/Tiles';
+import { kawa } from '@/types/render';
 
 import { Tile } from './Tile';
 
 interface Props {
-  tiles: Tiles[];
+  kawa: kawa;
 }
 
-export const Kawa = ({ tiles }: Props) => {
+export const Kawa = ({ kawa }: Props) => {
+  const { sutehai, riichi, naki } = kawa;
   const rows: Tiles[][] = [];
-  for (let i = 0; i < tiles.length; i += 6) {
-    rows.push(tiles.slice(i, i + 6));
+  for (let i = 0; i < sutehai.length; i += 6) {
+    rows.push(sutehai.slice(i, i + 6));
   }
 
   return (
     <Stack spacing={0}>
-      {rows.map((row, index) => (
-        <KawaRow key={index} tiles={row} />
+      {rows.map((row, rowIndex) => (
+        <KawaRow
+          key={rowIndex}
+          tiles={row}
+          riichi={riichi}
+          naki={naki}
+          startIndex={rowIndex * 6}
+        />
       ))}
     </Stack>
   );
@@ -25,14 +33,25 @@ export const Kawa = ({ tiles }: Props) => {
 
 interface KawaRowProps {
   tiles: Tiles[];
+  riichi: number | null;
+  naki: number[];
+  startIndex: number;
 }
 
-const KawaRow = ({ tiles }: KawaRowProps) => {
+const KawaRow = ({ tiles, riichi, startIndex, naki }: KawaRowProps) => {
   return (
     <Stack spacing={0} direction='row'>
-      {tiles.map((tile, index) => (
-        <Tile key={index} name={tile} naki={false} />
-      ))}
+      {tiles.map((tile, index) => {
+        const absoluteIndex = startIndex + index;
+        return (
+          <Tile
+            key={index}
+            name={tile}
+            naki={riichi === absoluteIndex}
+            dimmed={naki.includes(absoluteIndex)}
+          />
+        );
+      })}
     </Stack>
   );
 };

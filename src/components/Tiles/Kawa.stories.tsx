@@ -15,50 +15,75 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    tiles: [
-      '1m',
-      '2m',
-      '3m',
-      '4m',
-      '5m',
-      '6m',
-      '7m',
-      '8m',
-      '9m',
-      '1p',
-      '2p',
-      '3p',
-    ],
+    kawa: {
+      sutehai: [
+        '1m',
+        '2m',
+        '3m',
+        '4m',
+        '5m',
+        '6m',
+        '7m',
+        '8m',
+        '9m',
+        '1p',
+        '2p',
+        '3p',
+      ],
+      riichi: null,
+      naki: [],
+    },
   },
 };
 
-export const WithMultipleRows: Story = {
+export const WithRiichi: Story = {
   args: {
-    tiles: [
-      '1m',
-      '2m',
-      '3m',
-      '4m',
-      '5m',
-      '6m',
-      '7m',
-      '8m',
-      '9m',
-      '1p',
-      '2p',
-      '3p',
-      '4p',
-      '5p',
-      '6p',
-      '7p',
-      '8p',
-      '9p',
-    ],
+    kawa: {
+      sutehai: [
+        '1m',
+        '2m',
+        '3m',
+        '4m',
+        '5m',
+        '6m',
+        '7m',
+        '8m',
+        '9m',
+        '1p',
+        '2p',
+        '3p',
+        '4p',
+        '5p',
+        '6p',
+        '7p',
+        '8p',
+        '9p',
+      ],
+      riichi: 4,
+      naki: [],
+    },
   },
 };
 
-export const WithHonors: Story = {
+export const WithNaki: Story = {
   args: {
-    tiles: ['E', 'S', 'W', 'N', 'P', 'F', 'C', '1m', '2m', '3m', '4m', '5m'],
+    kawa: {
+      sutehai: [
+        'E',
+        'S',
+        'W',
+        'N',
+        'P',
+        'F',
+        'C',
+        '1m',
+        '2m',
+        '3m',
+        '4m',
+        '5m',
+      ],
+      riichi: null,
+      naki: [3, 7],
+    },
   },
 };

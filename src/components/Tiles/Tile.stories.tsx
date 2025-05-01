@@ -35,6 +35,15 @@ export const Naki: Story = {
   },
 };
 
+export const Dimmed: Story = {
+  args: {
+    name: '1m',
+    naki: false,
+    size: 'tehai',
+    dimmed: true,
+  },
+};
+
 export const Back: Story = {
   args: {
     name: 'back',

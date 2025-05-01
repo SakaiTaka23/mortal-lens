@@ -10,3 +10,10 @@ export type doraMarkers = z.infer<typeof doraMarkersSchema>;
 
 export const tehaiSchema = z.array(z.array(TilesSchema).length(13)).length(4);
 export type tehai = z.infer<typeof tehaiSchema>;
+
+export const kawaSchema = z.object({
+  sutehai: z.array(TilesSchema).min(0),
+  riichi: z.number().nullable(),
+  naki: z.array(z.number()),
+});
+export type kawa = z.infer<typeof kawaSchema>;

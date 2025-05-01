@@ -67,9 +67,15 @@ interface Props {
   name: Tiles;
   naki: boolean;
   size?: 'tehai' | 'doraMarker';
+  dimmed?: boolean;
 }
 
-export const Tile: React.FC<Props> = ({ name, naki, size = 'tehai' }) => {
+export const Tile: React.FC<Props> = ({
+  name,
+  naki,
+  size = 'tehai',
+  dimmed = false,
+}) => {
   const IconComponent = tileComponentMap[name];
 
   const tileSize =
@@ -80,6 +86,7 @@ export const Tile: React.FC<Props> = ({ name, naki, size = 'tehai' }) => {
       style={{
         transform: naki ? 'rotate(90deg)' : 'none',
         position: 'relative',
+        opacity: dimmed ? 0.5 : 1,
         ...tileSize,
       }}
     >
