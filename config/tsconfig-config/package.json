@@ -1,0 +1,11 @@
+{
+  "name": "@mortal-lens/tsconfig-config",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "packageManager": "pnpm@10.6.4",
+  "exports": {
+    "./tsconfig.json": "./tsconfig.json"
+  }
+}
