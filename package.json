@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "types": "pnpm -F \"types\"",
+    "test": "vitest"
   },
   "packageManager": "pnpm@10.6.4",
   "dependencies": {
     "@mortal-lens/eslint-config": "workspace:^",
     "@mortal-lens/prettier-config": "workspace:^",
-    "@mortal-lens/tsconfig-config": "workspace:^"
+    "@mortal-lens/tsconfig-config": "workspace:^",
+    "eslint": "^9.26.0",
+    "prettier": "^3.5.3",
+    "tsup": "^8.4.0",
+    "vitest": "^3.1.3"
   }
 }

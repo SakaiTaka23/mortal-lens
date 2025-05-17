@@ -1,0 +1,13 @@
+{
+  "extends": "@mortal-lens/tsconfig-config/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@": ["../src"],
+      "@/*": ["../src/*"]
+    },
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["src"],
+  "exclude": ["../.dist"]
+}
