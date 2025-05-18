@@ -2,7 +2,7 @@
   "name": "@mortal-lens/types",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "tsup src/*",
     "lint": "eslint .",

@@ -13,18 +13,22 @@ import {
 } from '@mjai/types';
 
 type EvaluationResult =
+  | Ankan
+  | Chi
+  | Dahai
+  | Daiminkan
+  | {
+      type: 'hora';
+      actor: PlayerID;
+      target: PlayerID;
+    }
+  | Kakan
   | {
       type: 'none';
     }
-  | Reach
-  | Ryukyoku
-  | Hora
-  | Dahai
   | Pon
-  | Chi
-  | Kakan
-  | Daiminkan
-  | Ankan;
+  | Reach
+  | Ryukyoku;
 
 interface EvaluationDetail {
   action: EvaluationResult;
@@ -39,13 +43,43 @@ interface Entry {
   tile: Tile;
   state: {
     tehai: Tile[];
-    fuuros: (Ankan | Daiminkan | Chi | Kakan | Pon)[];
+    fuuros: (
+      | {
+          type: 'ankan';
+          consumed: [Tile, Tile, Tile, Tile];
+        }
+      | {
+          type: 'chi';
+          target: PlayerID;
+          pai: Tile;
+          consumed: [Tile, Tile];
+        }
+      | {
+          type: 'daiminkan';
+          target: PlayerID;
+          pai: Tile;
+          consumed: [Tile, Tile, Tile];
+        }
+      | {
+          type: 'pon';
+          target: PlayerID;
+          pai: Tile;
+          consumed: [Tile, Tile];
+        }
+      | {
+          type: 'kakan';
+          pai: Tile;
+          previousPonTarget: PlayerID;
+          previousPonPai: Tile;
+          consumed: [Tile, Tile];
+        }
+    )[];
   };
   atSelfChiPon: boolean;
   atSelfRiichi: boolean;
   atOpponentKakan: boolean;
-  expected: EvaluationDetail;
-  actual: EvaluationDetail;
+  expected: EvaluationResult;
+  actual: EvaluationResult;
   isEqual: boolean;
   details: EvaluationDetail[];
   shanten: number;
@@ -56,7 +90,7 @@ interface Entry {
 interface Kyoku {
   kyoku: number;
   honba: number;
-  end_status: (Ryukyoku | Hora)[];
+  endStatus: (Ryukyoku | Hora)[];
   relativeScores: [number, number, number, number];
   entries: Entry[];
 }
@@ -67,6 +101,11 @@ export interface Review {
   rating: number;
   temperature: number;
   kyokus: Kyoku[];
-  relativePhiMatrix: [number, number, number, number][][];
+  relativePhiMatrix: [
+    [number, number, number, number],
+    [number, number, number, number],
+    [number, number, number, number],
+    [number, number, number, number],
+  ][];
   modelTag: string;
 }
