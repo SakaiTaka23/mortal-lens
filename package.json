@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "types": "pnpm -F \"types\"",
+    "parser": "pnpm -F \"parser\"",
     "test": "vitest"
   },
   "packageManager": "pnpm@10.6.4",
