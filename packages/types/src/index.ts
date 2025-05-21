@@ -1,16 +1,4 @@
-import { Event, PlayerID } from '@mjai/types';
+import { Input } from './Input';
+import { Output } from './output';
 
-import { Review } from './Review';
-
-export interface Input {
-  engine: string;
-  gameLength: string;
-  loadingTime: string;
-  reviewTime: string;
-  showRating: boolean;
-  version: string;
-  review: Review;
-  playerID: PlayerID;
-  mjaiLog: Event[];
-  lang: string;
-}
+export type { Input, Output };

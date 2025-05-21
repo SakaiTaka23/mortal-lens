@@ -95,7 +95,7 @@ interface Kyoku {
   entries: Entry[];
 }
 
-export interface Review {
+interface Review {
   totalReviewed: number;
   totalMatches: number;
   rating: number;
@@ -108,4 +108,17 @@ export interface Review {
     [number, number, number, number],
   ][];
   modelTag: string;
+}
+
+export interface Input {
+  engine: string;
+  gameLength: string;
+  loadingTime: string;
+  reviewTime: string;
+  showRating: boolean;
+  version: string;
+  review: Review;
+  playerID: PlayerID;
+  mjaiLog: Event[];
+  lang: string;
 }
