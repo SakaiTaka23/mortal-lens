@@ -1,10 +1,4 @@
-import { Tile } from '@mjai/types';
-
-export interface Kawa {
-  sutehai: Tile[];
-  nakiIndex: number[];
-  reachIndex: number | null;
-}
+import { Kawa } from '@mjai/core';
 
 export interface KawaState {
   kawas: [Kawa, Kawa, Kawa, Kawa];

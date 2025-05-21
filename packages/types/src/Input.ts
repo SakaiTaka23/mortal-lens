@@ -3,6 +3,7 @@ import {
   Chi,
   Dahai,
   Daiminkan,
+  Event,
   Hora,
   Kakan,
   PlayerID,

@@ -15,7 +15,8 @@
   "license": "ISC",
   "packageManager": "pnpm@10.6.4",
   "dependencies": {
-    "@mjai/types": "link:../../../mjai-ts/packages/types"
+    "@mjai/types": "link:../../../mjai-ts/packages/types",
+    "@mjai/core": "link:../../../mjai-ts/packages/core"
   },
   "exports": {
     ".": {
