@@ -1,12 +1,11 @@
-import { HandState } from '@mjai/core';
+import { HandState, Kawa } from '@mjai/core';
 import { PlayerID } from '@mjai/types';
 
-import { KawaState } from './KawaState';
 import { KyokuState } from './KyokuState';
 import { MetaState } from './MetaState';
 import { ReviewMetaState, ReviewState } from './ReviewState';
 
-export type { KawaState, KyokuState, MetaState, ReviewMetaState, ReviewState };
+export type { KyokuState, MetaState, ReviewMetaState, ReviewState };
 
 export interface Output {
   meta: MetaState;
@@ -17,7 +16,7 @@ export interface Output {
 
 export interface StepState {
   hand: [HandState, HandState, HandState, HandState];
-  kawa: [KawaState, KawaState, KawaState, KawaState];
+  kawa: [Kawa, Kawa, Kawa, Kawa];
   kyoku: KyokuState;
   review?: ReviewState;
 }

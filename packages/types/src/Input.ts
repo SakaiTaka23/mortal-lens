@@ -13,7 +13,7 @@ import {
   Tile,
 } from '@mjai/types';
 
-type EvaluationResult =
+export type EvaluationResult =
   | Ankan
   | Chi
   | Dahai
@@ -31,13 +31,13 @@ type EvaluationResult =
   | Reach
   | Ryukyoku;
 
-interface EvaluationDetail {
+export interface EvaluationDetail {
   action: EvaluationResult;
   QValue: number;
   prob: number;
 }
 
-interface Entry {
+export interface Entry {
   junme: number;
   tilesLeft: number;
   lastActor: PlayerID;
@@ -88,7 +88,7 @@ interface Entry {
   actualIndex: number;
 }
 
-interface Kyoku {
+export interface Kyoku {
   kyoku: number;
   honba: number;
   endStatus: (Ryukyoku | Hora)[];
@@ -96,7 +96,7 @@ interface Kyoku {
   entries: Entry[];
 }
 
-interface Review {
+export interface Review {
   totalReviewed: number;
   totalMatches: number;
   rating: number;

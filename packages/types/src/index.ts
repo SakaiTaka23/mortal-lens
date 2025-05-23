@@ -1,20 +1,26 @@
-import { Input } from './Input';
 import {
-  HandState,
-  KawaState,
+  Entry,
+  EvaluationDetail,
+  EvaluationResult,
+  Input,
+  Kyoku,
+  Review,
+} from './Input';
+import {
   KyokuState,
   MetaState,
   Output,
   ReviewMetaState,
   ReviewState,
+  StepState,
 } from './output';
 
-export type { Input, Output };
+export type { Entry, EvaluationDetail, EvaluationResult, Input, Kyoku, Review };
 export type {
-  HandState,
-  KawaState,
   KyokuState,
   MetaState,
+  Output,
   ReviewMetaState,
   ReviewState,
+  StepState,
 };
