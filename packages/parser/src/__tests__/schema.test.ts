@@ -1,5 +1,11 @@
-import { readdirSync, readFileSync } from 'fs';
-import { join } from 'path';
+import {
+  existsSync,
+  mkdirSync,
+  readdirSync,
+  readFileSync,
+  writeFileSync,
+} from 'fs';
+import { basename, join, resolve } from 'path';
 
 import { describe, expect, it } from 'vitest';
 
@@ -16,13 +22,24 @@ const getFixtureFiles = () => {
   return readdirSync(fixturesPath).filter((file) => file.endsWith('.json'));
 };
 
+const saveResult = (fileName: string, obj: unknown) => {
+  const resultsDir = resolve(__dirname, './results');
+  if (!existsSync(resultsDir)) {
+    mkdirSync(resultsDir);
+  }
+  const outPath = join(resultsDir, basename(fileName));
+  writeFileSync(outPath, JSON.stringify(obj, null, 2), 'utf-8');
+};
+
 describe('Input Schema Validation', () => {
   const fixtureFiles = getFixtureFiles();
 
   fixtureFiles.forEach((fileName) => {
     it(`should validate ${fileName}`, () => {
       const rawData = loadTestJson(fileName);
-      expect(() => ParseInput(rawData)).not.toThrow();
+      const input = ParseInput(rawData);
+      saveResult(fileName, input);
+      expect(() => input).not.toThrow();
     });
   });
 });
