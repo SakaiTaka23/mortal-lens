@@ -83,8 +83,27 @@ importers:
         specifier: ^22.15.18
         version: 22.15.18
 
+  packages/processor:
+    dependencies:
+      '@mjai/core':
+        specifier: link:../../../mjai-ts/packages/core
+        version: link:../../../mjai-ts/packages/core
+      '@mjai/types':
+        specifier: link:../../../mjai-ts/packages/types
+        version: link:../../../mjai-ts/packages/types
+      '@mortal-lens/types':
+        specifier: workspace:^
+        version: link:../types
+    devDependencies:
+      '@mortal-lens/parser':
+        specifier: workspace:^
+        version: link:../parser
+
   packages/types:
     dependencies:
+      '@mjai/core':
+        specifier: link:../../../mjai-ts/packages/core
+        version: link:../../../mjai-ts/packages/core
       '@mjai/types':
         specifier: link:../../../mjai-ts/packages/types
         version: link:../../../mjai-ts/packages/types

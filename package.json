@@ -5,7 +5,9 @@
   "scripts": {
     "types": "pnpm -F \"types\"",
     "parser": "pnpm -F \"parser\"",
-    "test": "vitest"
+    "processor": "pnpm -F \"processor\"",
+    "test": "vitest",
+    "build": "pnpm -r build"
   },
   "packageManager": "pnpm@10.6.4",
   "dependencies": {

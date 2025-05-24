@@ -1,0 +1,26 @@
+{
+  "name": "@mortal-lens/processor",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsup src/*",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.4",
+  "dependencies": {
+    "@mjai/core": "link:../../../mjai-ts/packages/core",
+    "@mjai/types": "link:../../../mjai-ts/packages/types",
+    "@mortal-lens/types": "workspace:^"
+  },
+  "devDependencies": {
+    "@mortal-lens/parser": "workspace:^"
+  }
+}
