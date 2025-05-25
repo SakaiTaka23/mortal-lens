@@ -6,13 +6,14 @@
     "types": "pnpm -F \"types\"",
     "parser": "pnpm -F \"parser\"",
     "processor": "pnpm -F \"processor\"",
+    "ui": "pnpm -F \"ui\"",
     "test": "vitest",
     "build": "pnpm -r build",
     "lint": "pnpm -r lint",
     "lint:fix": "pnpm -r lint:fix",
     "format": "pnpm -r format",
     "format:fix": "pnpm -r format:fix",
-    "check": "pnpm build && pnpm lint && pnpm format && vitest run"
+    "check": "pnpm format && pnpm lint && pnpm build && vitest run"
   },
   "packageManager": "pnpm@10.6.4",
   "dependencies": {

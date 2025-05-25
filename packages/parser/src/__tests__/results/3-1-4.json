@@ -19,11 +19,21 @@
             "type": "hora",
             "actor": 1,
             "target": 1,
-            "deltas": [-1000, 2000, -500, -500],
+            "deltas": [
+              -1000,
+              2000,
+              -500,
+              -500
+            ],
             "uraMarkers": []
           }
         ],
-        "relative_scores": [25000, 25000, 25000, 25000],
+        "relative_scores": [
+          25000,
+          25000,
+          25000,
+          25000
+        ],
         "entries": [
           {
             "junme": 1,
@@ -664,7 +674,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "4m",
-                  "consumed": ["2m", "3m"]
+                  "consumed": [
+                    "2m",
+                    "3m"
+                  ]
                 },
                 "q_value": -1.2731874,
                 "prob": 0.0000030235503,
@@ -1694,7 +1707,10 @@
                   "actor": 2,
                   "target": 3,
                   "pai": "N",
-                  "consumed": ["N", "N"]
+                  "consumed": [
+                    "N",
+                    "N"
+                  ]
                 },
                 "q_value": -1.1637744,
                 "prob": 0.0000047395642,
@@ -1719,11 +1735,21 @@
             "type": "hora",
             "actor": 1,
             "target": 1,
-            "deltas": [-1000, 2000, -500, -500],
+            "deltas": [
+              -1000,
+              2000,
+              -500,
+              -500
+            ],
             "uraMarkers": []
           }
         ],
-        "relativeScores": [25000, 25000, 25000, 25000]
+        "relativeScores": [
+          25000,
+          25000,
+          25000,
+          25000
+        ]
       },
       {
         "kyoku": 1,
@@ -1733,11 +1759,21 @@
             "type": "hora",
             "actor": 1,
             "target": 3,
-            "deltas": [0, 2000, 0, -2000],
+            "deltas": [
+              0,
+              2000,
+              0,
+              -2000
+            ],
             "uraMarkers": []
           }
         ],
-        "relative_scores": [24500, 24500, 24000, 27000],
+        "relative_scores": [
+          24500,
+          24500,
+          24000,
+          27000
+        ],
         "entries": [
           {
             "junme": 0,
@@ -1787,7 +1823,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "9s",
-                  "consumed": ["9s", "9s"]
+                  "consumed": [
+                    "9s",
+                    "9s"
+                  ]
                 },
                 "q_value": -1.0534167,
                 "prob": 0.00006877291,
@@ -2839,7 +2878,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "7m",
-                  "consumed": ["5m", "6m"]
+                  "consumed": [
+                    "5m",
+                    "6m"
+                  ]
                 },
                 "q_value": -1.1333828,
                 "prob": 0.00003354167,
@@ -3092,7 +3134,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "1p",
-                  "consumed": ["2p", "3p"]
+                  "consumed": [
+                    "2p",
+                    "3p"
+                  ]
                 },
                 "q_value": -0.7668078,
                 "prob": 0.0012960252,
@@ -3511,11 +3556,21 @@
             "type": "hora",
             "actor": 1,
             "target": 3,
-            "deltas": [0, 2000, 0, -2000],
+            "deltas": [
+              0,
+              2000,
+              0,
+              -2000
+            ],
             "uraMarkers": []
           }
         ],
-        "relativeScores": [24500, 24500, 24000, 27000]
+        "relativeScores": [
+          24500,
+          24500,
+          24000,
+          27000
+        ]
       },
       {
         "kyoku": 1,
@@ -3523,10 +3578,20 @@
         "end_status": [
           {
             "type": "ryukyoku",
-            "deltas": [-1500, -1500, 1500, 1500]
+            "deltas": [
+              -1500,
+              -1500,
+              1500,
+              1500
+            ]
           }
         ],
-        "relative_scores": [24500, 22500, 24000, 29000],
+        "relative_scores": [
+          24500,
+          22500,
+          24000,
+          29000
+        ],
         "entries": [
           {
             "junme": 1,
@@ -4382,7 +4447,10 @@
               "actor": 2,
               "target": 1,
               "pai": "7p",
-              "consumed": ["6p", "8p"]
+              "consumed": [
+                "6p",
+                "8p"
+              ]
             },
             "is_equal": false,
             "details": [
@@ -4400,7 +4468,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 "q_value": 0.19753301,
                 "prob": 0.49504346,
@@ -4443,7 +4514,10 @@
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 }
               ]
             },
@@ -4589,7 +4663,10 @@
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 }
               ]
             },
@@ -4746,7 +4823,10 @@
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 }
               ]
             },
@@ -4902,7 +4982,10 @@
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 }
               ]
             },
@@ -4914,14 +4997,20 @@
               "actor": 2,
               "target": 3,
               "pai": "C",
-              "consumed": ["C", "C"]
+              "consumed": [
+                "C",
+                "C"
+              ]
             },
             "actual": {
               "type": "pon",
               "actor": 2,
               "target": 3,
               "pai": "C",
-              "consumed": ["C", "C"]
+              "consumed": [
+                "C",
+                "C"
+              ]
             },
             "is_equal": true,
             "details": [
@@ -4931,7 +5020,10 @@
                   "actor": 2,
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 },
                 "q_value": 0.85542005,
                 "prob": 1,
@@ -4964,19 +5056,34 @@
             "last_actor": 2,
             "tile": "C",
             "state": {
-              "tehai": ["7m", "7m", "9m", "6p", "7p", "8p", "5sr", "6s"],
+              "tehai": [
+                "7m",
+                "7m",
+                "9m",
+                "6p",
+                "7p",
+                "8p",
+                "5sr",
+                "6s"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -5093,19 +5200,34 @@
             "last_actor": 2,
             "tile": "9p",
             "state": {
-              "tehai": ["7m", "7m", "6p", "7p", "8p", "5sr", "6s", "9p"],
+              "tehai": [
+                "7m",
+                "7m",
+                "6p",
+                "7p",
+                "8p",
+                "5sr",
+                "6s",
+                "9p"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -5222,19 +5344,34 @@
             "last_actor": 2,
             "tile": "8s",
             "state": {
-              "tehai": ["7m", "7m", "6p", "7p", "8p", "5sr", "6s", "8s"],
+              "tehai": [
+                "7m",
+                "7m",
+                "6p",
+                "7p",
+                "8p",
+                "5sr",
+                "6s",
+                "8s"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -5351,19 +5488,34 @@
             "last_actor": 2,
             "tile": "3p",
             "state": {
-              "tehai": ["7m", "7m", "6p", "7p", "8p", "5sr", "6s", "3p"],
+              "tehai": [
+                "7m",
+                "7m",
+                "6p",
+                "7p",
+                "8p",
+                "5sr",
+                "6s",
+                "3p"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -5480,19 +5632,34 @@
             "last_actor": 2,
             "tile": "P",
             "state": {
-              "tehai": ["7m", "7m", "6p", "7p", "8p", "5sr", "6s", "P"],
+              "tehai": [
+                "7m",
+                "7m",
+                "6p",
+                "7p",
+                "8p",
+                "5sr",
+                "6s",
+                "P"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -5609,19 +5776,34 @@
             "last_actor": 2,
             "tile": "5p",
             "state": {
-              "tehai": ["7m", "7m", "6p", "7p", "8p", "5sr", "6s", "5p"],
+              "tehai": [
+                "7m",
+                "7m",
+                "6p",
+                "7p",
+                "8p",
+                "5sr",
+                "6s",
+                "5p"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -5738,19 +5920,33 @@
             "last_actor": 1,
             "tile": "8p",
             "state": {
-              "tehai": ["7m", "7m", "5p", "6p", "7p", "5sr", "6s"],
+              "tehai": [
+                "7m",
+                "7m",
+                "5p",
+                "6p",
+                "7p",
+                "5sr",
+                "6s"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -5779,7 +5975,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "8p",
-                  "consumed": ["6p", "7p"]
+                  "consumed": [
+                    "6p",
+                    "7p"
+                  ]
                 },
                 "q_value": -0.29422468,
                 "prob": 0.00014791053,
@@ -5804,19 +6003,34 @@
             "last_actor": 2,
             "tile": "2p",
             "state": {
-              "tehai": ["7m", "7m", "5p", "6p", "7p", "5sr", "6s", "2p"],
+              "tehai": [
+                "7m",
+                "7m",
+                "5p",
+                "6p",
+                "7p",
+                "5sr",
+                "6s",
+                "2p"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -5933,19 +6147,34 @@
             "last_actor": 2,
             "tile": "5m",
             "state": {
-              "tehai": ["7m", "7m", "5p", "6p", "7p", "5sr", "6s", "5m"],
+              "tehai": [
+                "7m",
+                "7m",
+                "5p",
+                "6p",
+                "7p",
+                "5sr",
+                "6s",
+                "5m"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -6062,19 +6291,34 @@
             "last_actor": 2,
             "tile": "W",
             "state": {
-              "tehai": ["7m", "7m", "5p", "6p", "7p", "5sr", "6s", "W"],
+              "tehai": [
+                "7m",
+                "7m",
+                "5p",
+                "6p",
+                "7p",
+                "5sr",
+                "6s",
+                "W"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -6191,19 +6435,34 @@
             "last_actor": 2,
             "tile": "4m",
             "state": {
-              "tehai": ["7m", "7m", "5p", "6p", "7p", "5sr", "6s", "4m"],
+              "tehai": [
+                "7m",
+                "7m",
+                "5p",
+                "6p",
+                "7p",
+                "5sr",
+                "6s",
+                "4m"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -6320,19 +6579,34 @@
             "last_actor": 2,
             "tile": "9s",
             "state": {
-              "tehai": ["7m", "7m", "5p", "6p", "7p", "5sr", "6s", "9s"],
+              "tehai": [
+                "7m",
+                "7m",
+                "5p",
+                "6p",
+                "7p",
+                "5sr",
+                "6s",
+                "9s"
+              ],
               "fuuros": [
                 {
                   "type": "chi",
                   "target": 1,
                   "pai": "7p",
-                  "consumed": ["6p", "8p"]
+                  "consumed": [
+                    "6p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "C",
-                  "consumed": ["C", "C"]
+                  "consumed": [
+                    "C",
+                    "C"
+                  ]
                 }
               ]
             },
@@ -6447,10 +6721,20 @@
         "endStatus": [
           {
             "type": "ryukyoku",
-            "deltas": [-1500, -1500, 1500, 1500]
+            "deltas": [
+              -1500,
+              -1500,
+              1500,
+              1500
+            ]
           }
         ],
-        "relativeScores": [24500, 22500, 24000, 29000]
+        "relativeScores": [
+          24500,
+          22500,
+          24000,
+          29000
+        ]
       },
       {
         "kyoku": 2,
@@ -6460,11 +6744,23 @@
             "type": "hora",
             "actor": 3,
             "target": 3,
-            "deltas": [-1500, -1500, -2800, 6800],
-            "uraMarkers": ["C"]
+            "deltas": [
+              -1500,
+              -1500,
+              -2800,
+              6800
+            ],
+            "uraMarkers": [
+              "C"
+            ]
           }
         ],
-        "relative_scores": [26000, 24000, 22500, 27500],
+        "relative_scores": [
+          26000,
+          24000,
+          22500,
+          27500
+        ],
         "entries": [
           {
             "junme": 1,
@@ -7630,7 +7926,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "1p",
-                  "consumed": ["2p", "3p"]
+                  "consumed": [
+                    "2p",
+                    "3p"
+                  ]
                 },
                 "q_value": -1.1131003,
                 "prob": 0.000013132527,
@@ -7883,7 +8182,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "1s",
-                  "consumed": ["2s", "3s"]
+                  "consumed": [
+                    "2s",
+                    "3s"
+                  ]
                 },
                 "q_value": -0.85196424,
                 "prob": 0.008146699,
@@ -9822,11 +10124,23 @@
             "type": "hora",
             "actor": 3,
             "target": 3,
-            "deltas": [-1500, -1500, -2800, 6800],
-            "uraMarkers": ["C"]
+            "deltas": [
+              -1500,
+              -1500,
+              -2800,
+              6800
+            ],
+            "uraMarkers": [
+              "C"
+            ]
           }
         ],
-        "relativeScores": [26000, 24000, 22500, 27500]
+        "relativeScores": [
+          26000,
+          24000,
+          22500,
+          27500
+        ]
       },
       {
         "kyoku": 3,
@@ -9836,11 +10150,23 @@
             "type": "hora",
             "actor": 2,
             "target": 2,
-            "deltas": [-2000, -2000, 9900, -3900],
-            "uraMarkers": ["8p"]
+            "deltas": [
+              -2000,
+              -2000,
+              9900,
+              -3900
+            ],
+            "uraMarkers": [
+              "8p"
+            ]
           }
         ],
-        "relative_scores": [23200, 29800, 21000, 26000],
+        "relative_scores": [
+          23200,
+          29800,
+          21000,
+          26000
+        ],
         "entries": [
           {
             "junme": 0,
@@ -9890,7 +10216,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "9p",
-                  "consumed": ["7p", "8p"]
+                  "consumed": [
+                    "7p",
+                    "8p"
+                  ]
                 },
                 "q_value": -0.48746324,
                 "prob": 0.029927338,
@@ -10351,7 +10680,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "1p",
-                  "consumed": ["2p", "3p"]
+                  "consumed": [
+                    "2p",
+                    "3p"
+                  ]
                 },
                 "q_value": -0.9851624,
                 "prob": 0.00015090565,
@@ -10604,7 +10936,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "9s",
-                  "consumed": ["9s", "9s"]
+                  "consumed": [
+                    "9s",
+                    "9s"
+                  ]
                 },
                 "q_value": -1.3665508,
                 "prob": 0.0000056359454,
@@ -11032,7 +11367,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "4p",
-                  "consumed": ["2p", "3p"]
+                  "consumed": [
+                    "2p",
+                    "3p"
+                  ]
                 },
                 "q_value": -1.0085038,
                 "prob": 0.00018114827,
@@ -11263,7 +11601,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "4p",
-                  "consumed": ["2p", "3p"]
+                  "consumed": [
+                    "2p",
+                    "3p"
+                  ]
                 },
                 "q_value": -0.8062711,
                 "prob": 0.001431458,
@@ -11275,7 +11616,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "4p",
-                  "consumed": ["4p", "4p"]
+                  "consumed": [
+                    "4p",
+                    "4p"
+                  ]
                 },
                 "q_value": -0.85592175,
                 "prob": 0.00087126147,
@@ -12043,11 +12387,23 @@
             "type": "hora",
             "actor": 2,
             "target": 2,
-            "deltas": [-2000, -2000, 9900, -3900],
-            "uraMarkers": ["8p"]
+            "deltas": [
+              -2000,
+              -2000,
+              9900,
+              -3900
+            ],
+            "uraMarkers": [
+              "8p"
+            ]
           }
         ],
-        "relativeScores": [23200, 29800, 21000, 26000]
+        "relativeScores": [
+          23200,
+          29800,
+          21000,
+          26000
+        ]
       },
       {
         "kyoku": 4,
@@ -12057,11 +12413,23 @@
             "type": "hora",
             "actor": 3,
             "target": 0,
-            "deltas": [-7700, 0, 0, 8700],
-            "uraMarkers": ["3m"]
+            "deltas": [
+              -7700,
+              0,
+              0,
+              8700
+            ],
+            "uraMarkers": [
+              "3m"
+            ]
           }
         ],
-        "relative_scores": [32100, 25900, 18000, 24000],
+        "relative_scores": [
+          32100,
+          25900,
+          18000,
+          24000
+        ],
         "entries": [
           {
             "junme": 1,
@@ -13919,11 +14287,23 @@
             "type": "hora",
             "actor": 3,
             "target": 0,
-            "deltas": [-7700, 0, 0, 8700],
-            "uraMarkers": ["3m"]
+            "deltas": [
+              -7700,
+              0,
+              0,
+              8700
+            ],
+            "uraMarkers": [
+              "3m"
+            ]
           }
         ],
-        "relativeScores": [32100, 25900, 18000, 24000]
+        "relativeScores": [
+          32100,
+          25900,
+          18000,
+          24000
+        ]
       },
       {
         "kyoku": 5,
@@ -13933,11 +14313,23 @@
             "type": "hora",
             "actor": 0,
             "target": 0,
-            "deltas": [4700, -1300, -700, -700],
-            "uraMarkers": ["6p"]
+            "deltas": [
+              4700,
+              -1300,
+              -700,
+              -700
+            ],
+            "uraMarkers": [
+              "6p"
+            ]
           }
         ],
-        "relative_scores": [32100, 33600, 10300, 24000],
+        "relative_scores": [
+          32100,
+          33600,
+          10300,
+          24000
+        ],
         "entries": [
           {
             "junme": 1,
@@ -14534,7 +14926,10 @@
                   "actor": 2,
                   "target": 0,
                   "pai": "2s",
-                  "consumed": ["2s", "2s"]
+                  "consumed": [
+                    "2s",
+                    "2s"
+                  ]
                 },
                 "q_value": -0.8393371,
                 "prob": 0.0004678824,
@@ -14601,7 +14996,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "2m",
-                  "consumed": ["3m", "4m"]
+                  "consumed": [
+                    "3m",
+                    "4m"
+                  ]
                 },
                 "q_value": -0.83003163,
                 "prob": 0.0006175818,
@@ -15204,7 +15602,10 @@
                   "actor": 2,
                   "target": 3,
                   "pai": "W",
-                  "consumed": ["W", "W"]
+                  "consumed": [
+                    "W",
+                    "W"
+                  ]
                 },
                 "q_value": -0.8090223,
                 "prob": 0.00066471664,
@@ -15457,7 +15858,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "2m",
-                  "consumed": ["3m", "4m"]
+                  "consumed": [
+                    "3m",
+                    "4m"
+                  ]
                 },
                 "q_value": -0.578956,
                 "prob": 0.00687599,
@@ -15924,11 +16328,23 @@
             "type": "hora",
             "actor": 0,
             "target": 0,
-            "deltas": [4700, -1300, -700, -700],
-            "uraMarkers": ["6p"]
+            "deltas": [
+              4700,
+              -1300,
+              -700,
+              -700
+            ],
+            "uraMarkers": [
+              "6p"
+            ]
           }
         ],
-        "relativeScores": [32100, 33600, 10300, 24000]
+        "relativeScores": [
+          32100,
+          33600,
+          10300,
+          24000
+        ]
       },
       {
         "kyoku": 6,
@@ -15938,11 +16354,23 @@
             "type": "hora",
             "actor": 1,
             "target": 0,
-            "deltas": [-7700, 8700, 0, 0],
-            "uraMarkers": ["S"]
+            "deltas": [
+              -7700,
+              8700,
+              0,
+              0
+            ],
+            "uraMarkers": [
+              "S"
+            ]
           }
         ],
-        "relative_scores": [30400, 32900, 14000, 22700],
+        "relative_scores": [
+          30400,
+          32900,
+          14000,
+          22700
+        ],
         "entries": [
           {
             "junme": 1,
@@ -16872,14 +17300,20 @@
               "actor": 2,
               "target": 1,
               "pai": "8p",
-              "consumed": ["8p", "8p"]
+              "consumed": [
+                "8p",
+                "8p"
+              ]
             },
             "actual": {
               "type": "pon",
               "actor": 2,
               "target": 1,
               "pai": "8p",
-              "consumed": ["8p", "8p"]
+              "consumed": [
+                "8p",
+                "8p"
+              ]
             },
             "is_equal": true,
             "details": [
@@ -16889,7 +17323,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "8p",
-                  "consumed": ["8p", "8p"]
+                  "consumed": [
+                    "8p",
+                    "8p"
+                  ]
                 },
                 "q_value": 0.08838245,
                 "prob": 0.84583354,
@@ -16940,7 +17377,10 @@
                   "type": "pon",
                   "target": 1,
                   "pai": "8p",
-                  "consumed": ["8p", "8p"]
+                  "consumed": [
+                    "8p",
+                    "8p"
+                  ]
                 }
               ]
             },
@@ -17097,7 +17537,10 @@
                   "type": "pon",
                   "target": 1,
                   "pai": "8p",
-                  "consumed": ["8p", "8p"]
+                  "consumed": [
+                    "8p",
+                    "8p"
+                  ]
                 }
               ]
             },
@@ -17254,7 +17697,10 @@
                   "type": "pon",
                   "target": 1,
                   "pai": "8p",
-                  "consumed": ["8p", "8p"]
+                  "consumed": [
+                    "8p",
+                    "8p"
+                  ]
                 }
               ]
             },
@@ -17411,7 +17857,10 @@
                   "type": "pon",
                   "target": 1,
                   "pai": "8p",
-                  "consumed": ["8p", "8p"]
+                  "consumed": [
+                    "8p",
+                    "8p"
+                  ]
                 }
               ]
             },
@@ -17579,7 +18028,10 @@
                   "type": "pon",
                   "target": 1,
                   "pai": "8p",
-                  "consumed": ["8p", "8p"]
+                  "consumed": [
+                    "8p",
+                    "8p"
+                  ]
                 }
               ]
             },
@@ -17746,7 +18198,10 @@
                   "type": "pon",
                   "target": 1,
                   "pai": "8p",
-                  "consumed": ["8p", "8p"]
+                  "consumed": [
+                    "8p",
+                    "8p"
+                  ]
                 }
               ]
             },
@@ -17758,14 +18213,20 @@
               "actor": 2,
               "target": 1,
               "pai": "E",
-              "consumed": ["E", "E"]
+              "consumed": [
+                "E",
+                "E"
+              ]
             },
             "actual": {
               "type": "pon",
               "actor": 2,
               "target": 1,
               "pai": "E",
-              "consumed": ["E", "E"]
+              "consumed": [
+                "E",
+                "E"
+              ]
             },
             "is_equal": true,
             "details": [
@@ -17775,7 +18236,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "E",
-                  "consumed": ["E", "E"]
+                  "consumed": [
+                    "E",
+                    "E"
+                  ]
                 },
                 "q_value": 0.38294938,
                 "prob": 0.9999931,
@@ -17808,19 +18272,34 @@
             "last_actor": 2,
             "tile": "E",
             "state": {
-              "tehai": ["4m", "5mr", "6m", "5pr", "7p", "9p", "5sr", "5s"],
+              "tehai": [
+                "4m",
+                "5mr",
+                "6m",
+                "5pr",
+                "7p",
+                "9p",
+                "5sr",
+                "5s"
+              ],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 1,
                   "pai": "8p",
-                  "consumed": ["8p", "8p"]
+                  "consumed": [
+                    "8p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 1,
                   "pai": "E",
-                  "consumed": ["E", "E"]
+                  "consumed": [
+                    "E",
+                    "E"
+                  ]
                 }
               ]
             },
@@ -17948,19 +18427,34 @@
             "last_actor": 2,
             "tile": "4p",
             "state": {
-              "tehai": ["4m", "5mr", "6m", "5pr", "7p", "5sr", "5s", "4p"],
+              "tehai": [
+                "4m",
+                "5mr",
+                "6m",
+                "5pr",
+                "7p",
+                "5sr",
+                "5s",
+                "4p"
+              ],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 1,
                   "pai": "8p",
-                  "consumed": ["8p", "8p"]
+                  "consumed": [
+                    "8p",
+                    "8p"
+                  ]
                 },
                 {
                   "type": "pon",
                   "target": 1,
                   "pai": "E",
-                  "consumed": ["E", "E"]
+                  "consumed": [
+                    "E",
+                    "E"
+                  ]
                 }
               ]
             },
@@ -18088,11 +18582,23 @@
             "type": "hora",
             "actor": 1,
             "target": 0,
-            "deltas": [-7700, 8700, 0, 0],
-            "uraMarkers": ["S"]
+            "deltas": [
+              -7700,
+              8700,
+              0,
+              0
+            ],
+            "uraMarkers": [
+              "S"
+            ]
           }
         ],
-        "relativeScores": [30400, 32900, 14000, 22700]
+        "relativeScores": [
+          30400,
+          32900,
+          14000,
+          22700
+        ]
       },
       {
         "kyoku": 7,
@@ -18102,11 +18608,21 @@
             "type": "hora",
             "actor": 3,
             "target": 1,
-            "deltas": [0, -2900, 0, 2900],
+            "deltas": [
+              0,
+              -2900,
+              0,
+              2900
+            ],
             "uraMarkers": []
           }
         ],
-        "relative_scores": [30400, 32900, 6300, 30400],
+        "relative_scores": [
+          30400,
+          32900,
+          6300,
+          30400
+        ],
         "entries": [
           {
             "junme": 1,
@@ -18572,7 +19088,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "5s",
-                  "consumed": ["6s", "7s"]
+                  "consumed": [
+                    "6s",
+                    "7s"
+                  ]
                 },
                 "q_value": -0.30941957,
                 "prob": 0.37732327,
@@ -18847,7 +19366,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "5m",
-                  "consumed": ["3m", "4m"]
+                  "consumed": [
+                    "3m",
+                    "4m"
+                  ]
                 },
                 "q_value": -0.77710724,
                 "prob": 0.003403685,
@@ -19122,7 +19644,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "6p",
-                  "consumed": ["4p", "5p"]
+                  "consumed": [
+                    "4p",
+                    "5p"
+                  ]
                 },
                 "q_value": -0.5320904,
                 "prob": 0.03613548,
@@ -19134,7 +19659,10 @@
                   "actor": 2,
                   "target": 1,
                   "pai": "6p",
-                  "consumed": ["5p", "7p"]
+                  "consumed": [
+                    "5p",
+                    "7p"
+                  ]
                 },
                 "q_value": -0.59544754,
                 "prob": 0.019176854,
@@ -19356,173 +19884,255 @@
             "type": "hora",
             "actor": 3,
             "target": 1,
-            "deltas": [0, -2900, 0, 2900],
+            "deltas": [
+              0,
+              -2900,
+              0,
+              2900
+            ],
             "uraMarkers": []
           }
         ],
-        "relativeScores": [30400, 32900, 6300, 30400]
+        "relativeScores": [
+          30400,
+          32900,
+          6300,
+          30400
+        ]
       }
     ],
     "relative_phi_matrix": [
       [
         [
-          0.24264439698504972, 0.2565333046923029, 0.25080728606970804,
+          0.24264439698504972,
+          0.2565333046923029,
+          0.25080728606970804,
           0.25001501225293943
         ],
         [
-          0.2638631300909104, 0.23397720123126273, 0.24804169867802292,
+          0.2638631300909104,
+          0.23397720123126273,
+          0.24804169867802292,
           0.25411796999980396
         ],
         [
-          0.24788733263595136, 0.253774300067752, 0.25080743162556834,
+          0.24788733263595136,
+          0.253774300067752,
+          0.25080743162556834,
           0.2475309356707283
         ],
         [
-          0.24560514028808855, 0.2557151940086824, 0.2503435836267008,
+          0.24560514028808855,
+          0.2557151940086824,
+          0.2503435836267008,
           0.2483360820765283
         ]
       ],
       [
         [
-          0.23384443104407543, 0.24887817711953947, 0.2510955147521943,
+          0.23384443104407543,
+          0.24887817711953947,
+          0.2510955147521943,
           0.26618187708419083
         ],
         [
-          0.26809598844338994, 0.22813199323113317, 0.2440340161025149,
+          0.26809598844338994,
+          0.22813199323113317,
+          0.2440340161025149,
           0.259738002222962
         ],
         [
-          0.20758135526563035, 0.2499219907435371, 0.2687249429309991,
+          0.20758135526563035,
+          0.2499219907435371,
+          0.2687249429309991,
           0.2737717110598335
         ],
         [
-          0.29047822524690425, 0.2730678389057903, 0.23614552621429177,
+          0.29047822524690425,
+          0.2730678389057903,
+          0.23614552621429177,
           0.20030840963301377
         ]
       ],
       [
         [
-          0.23391767086537893, 0.24970604350200817, 0.25731015275744235,
+          0.23391767086537893,
+          0.24970604350200817,
+          0.25731015275744235,
           0.25906613287517066
         ],
         [
-          0.23131498072194012, 0.20742641166048364, 0.24628887614835707,
+          0.23131498072194012,
+          0.20742641166048364,
+          0.24628887614835707,
           0.3149697314692193
         ],
         [
-          0.20673121967429117, 0.25203905765565987, 0.27425947818185364,
+          0.20673121967429117,
+          0.25203905765565987,
+          0.27425947818185364,
           0.2669702444881954
         ],
         [
-          0.3280361287383899, 0.2908284871818484, 0.22214149291234708,
+          0.3280361287383899,
+          0.2908284871818484,
+          0.22214149291234708,
           0.15899389116741475
         ]
       ],
       [
         [
-          0.26271589372514503, 0.2666474963883737, 0.24947724657139173,
+          0.26271589372514503,
+          0.2666474963883737,
+          0.24947724657139173,
           0.2211593633150895
         ],
         [
-          0.2556602551888059, 0.21700853161073827, 0.2462443073427968,
+          0.2556602551888059,
+          0.21700853161073827,
+          0.2462443073427968,
           0.28108690585765894
         ],
         [
-          0.18474530164354677, 0.2309602979907276, 0.2670344161766084,
+          0.18474530164354677,
+          0.2309602979907276,
+          0.2670344161766084,
           0.31725998418911716
         ],
         [
-          0.29687854944250225, 0.2853836740101603, 0.23724402990920304,
+          0.29687854944250225,
+          0.2853836740101603,
+          0.23724402990920304,
           0.18049374663813433
         ]
       ],
       [
         [
-          0.1919492751756328, 0.2317582835719363, 0.27460370639253096,
+          0.1919492751756328,
+          0.2317582835719363,
+          0.27460370639253096,
           0.3016887348598999
         ],
         [
-          0.4123539643434051, 0.27181193466190956, 0.19318816228869612,
+          0.4123539643434051,
+          0.27181193466190956,
+          0.19318816228869612,
           0.12264593870598912
         ],
         [
-          0.15850535289886336, 0.20540237551673457, 0.26321678025426587,
+          0.15850535289886336,
+          0.20540237551673457,
+          0.26321678025426587,
           0.3728754913301362
         ],
         [
-          0.2371914075820986, 0.29102740624941964, 0.268991351064507,
+          0.2371914075820986,
+          0.29102740624941964,
+          0.268991351064507,
           0.20278983510397475
         ]
       ],
       [
         [
-          0.4343137441868382, 0.33648787033417704, 0.16124247318902357,
+          0.4343137441868382,
+          0.33648787033417704,
+          0.16124247318902357,
           0.06795591228996116
         ],
         [
-          0.27398198525056294, 0.26133015491720624, 0.2772200596877529,
+          0.27398198525056294,
+          0.26133015491720624,
+          0.2772200596877529,
           0.18746780014447795
         ],
         [
-          0.1087689554714914, 0.1509650890759549, 0.2461845555099738,
+          0.1087689554714914,
+          0.1509650890759549,
+          0.2461845555099738,
           0.4940813999425801
         ],
         [
-          0.1829353150911075, 0.25121688567266187, 0.31535291161324974,
+          0.1829353150911075,
+          0.25121688567266187,
+          0.31535291161324974,
           0.25049488762298094
         ]
       ],
       [
         [
-          0.3381491192457338, 0.4501614146149476, 0.18560697488242572,
+          0.3381491192457338,
+          0.4501614146149476,
+          0.18560697488242572,
           0.02608249125689297
         ],
         [
-          0.5159878016356199, 0.33527704344289455, 0.1267787311468056,
+          0.5159878016356199,
+          0.33527704344289455,
+          0.1267787311468056,
           0.021956423774679896
         ],
         [
-          0.01831700934898521, 0.03155869894284251, 0.1269750518653075,
+          0.01831700934898521,
+          0.03155869894284251,
+          0.1269750518653075,
           0.8231492398428649
         ],
         [
-          0.1275460697696611, 0.18300284299931535, 0.5606392421054612,
+          0.1275460697696611,
+          0.18300284299931535,
+          0.5606392421054612,
           0.12881184512556232
         ]
       ],
       [
         [
-          0.320335768593795, 0.5060344710525898, 0.1477596215994201,
+          0.320335768593795,
+          0.5060344710525898,
+          0.1477596215994201,
           0.025870138754194985
         ],
         [
-          0.5762314441611791, 0.32428585694089895, 0.08363268212237925,
+          0.5762314441611791,
+          0.32428585694089895,
+          0.08363268212237925,
           0.015850016775542503
         ],
         [
-          0.023964529107240434, 0.038011169082025925, 0.1612836324480986,
+          0.023964529107240434,
+          0.038011169082025925,
+          0.1612836324480986,
           0.7767406693626349
         ],
         [
-          0.07946825813778531, 0.13166850292448515, 0.6073240638301018,
+          0.07946825813778531,
+          0.13166850292448515,
+          0.6073240638301018,
           0.1815391751076275
         ]
       ],
       [
         [
-          0.22682131510610545, 0.3366367457154406, 0.427760113802671,
+          0.22682131510610545,
+          0.3366367457154406,
+          0.427760113802671,
           0.008781825375782986
         ],
         [
-          0.512708464423931, 0.3177389890872217, 0.1633624456709218,
+          0.512708464423931,
+          0.3177389890872217,
+          0.1633624456709218,
           0.006190100817925465
         ],
         [
-          0.008219343708010871, 0.003308598162928436, 0.011012604098737912,
+          0.008219343708010871,
+          0.003308598162928436,
+          0.011012604098737912,
           0.9774594540303227
         ],
         [
-          0.2522508767619526, 0.34231566703440924, 0.39786483642766934,
+          0.2522508767619526,
+          0.34231566703440924,
+          0.39786483642766934,
           0.007568619775968767
         ]
       ]
@@ -19533,163 +20143,235 @@
     "relativePhiMatrix": [
       [
         [
-          0.24264439698504972, 0.2565333046923029, 0.25080728606970804,
+          0.24264439698504972,
+          0.2565333046923029,
+          0.25080728606970804,
           0.25001501225293943
         ],
         [
-          0.2638631300909104, 0.23397720123126273, 0.24804169867802292,
+          0.2638631300909104,
+          0.23397720123126273,
+          0.24804169867802292,
           0.25411796999980396
         ],
         [
-          0.24788733263595136, 0.253774300067752, 0.25080743162556834,
+          0.24788733263595136,
+          0.253774300067752,
+          0.25080743162556834,
           0.2475309356707283
         ],
         [
-          0.24560514028808855, 0.2557151940086824, 0.2503435836267008,
+          0.24560514028808855,
+          0.2557151940086824,
+          0.2503435836267008,
           0.2483360820765283
         ]
       ],
       [
         [
-          0.23384443104407543, 0.24887817711953947, 0.2510955147521943,
+          0.23384443104407543,
+          0.24887817711953947,
+          0.2510955147521943,
           0.26618187708419083
         ],
         [
-          0.26809598844338994, 0.22813199323113317, 0.2440340161025149,
+          0.26809598844338994,
+          0.22813199323113317,
+          0.2440340161025149,
           0.259738002222962
         ],
         [
-          0.20758135526563035, 0.2499219907435371, 0.2687249429309991,
+          0.20758135526563035,
+          0.2499219907435371,
+          0.2687249429309991,
           0.2737717110598335
         ],
         [
-          0.29047822524690425, 0.2730678389057903, 0.23614552621429177,
+          0.29047822524690425,
+          0.2730678389057903,
+          0.23614552621429177,
           0.20030840963301377
         ]
       ],
       [
         [
-          0.23391767086537893, 0.24970604350200817, 0.25731015275744235,
+          0.23391767086537893,
+          0.24970604350200817,
+          0.25731015275744235,
           0.25906613287517066
         ],
         [
-          0.23131498072194012, 0.20742641166048364, 0.24628887614835707,
+          0.23131498072194012,
+          0.20742641166048364,
+          0.24628887614835707,
           0.3149697314692193
         ],
         [
-          0.20673121967429117, 0.25203905765565987, 0.27425947818185364,
+          0.20673121967429117,
+          0.25203905765565987,
+          0.27425947818185364,
           0.2669702444881954
         ],
         [
-          0.3280361287383899, 0.2908284871818484, 0.22214149291234708,
+          0.3280361287383899,
+          0.2908284871818484,
+          0.22214149291234708,
           0.15899389116741475
         ]
       ],
       [
         [
-          0.26271589372514503, 0.2666474963883737, 0.24947724657139173,
+          0.26271589372514503,
+          0.2666474963883737,
+          0.24947724657139173,
           0.2211593633150895
         ],
         [
-          0.2556602551888059, 0.21700853161073827, 0.2462443073427968,
+          0.2556602551888059,
+          0.21700853161073827,
+          0.2462443073427968,
           0.28108690585765894
         ],
         [
-          0.18474530164354677, 0.2309602979907276, 0.2670344161766084,
+          0.18474530164354677,
+          0.2309602979907276,
+          0.2670344161766084,
           0.31725998418911716
         ],
         [
-          0.29687854944250225, 0.2853836740101603, 0.23724402990920304,
+          0.29687854944250225,
+          0.2853836740101603,
+          0.23724402990920304,
           0.18049374663813433
         ]
       ],
       [
         [
-          0.1919492751756328, 0.2317582835719363, 0.27460370639253096,
+          0.1919492751756328,
+          0.2317582835719363,
+          0.27460370639253096,
           0.3016887348598999
         ],
         [
-          0.4123539643434051, 0.27181193466190956, 0.19318816228869612,
+          0.4123539643434051,
+          0.27181193466190956,
+          0.19318816228869612,
           0.12264593870598912
         ],
         [
-          0.15850535289886336, 0.20540237551673457, 0.26321678025426587,
+          0.15850535289886336,
+          0.20540237551673457,
+          0.26321678025426587,
           0.3728754913301362
         ],
         [
-          0.2371914075820986, 0.29102740624941964, 0.268991351064507,
+          0.2371914075820986,
+          0.29102740624941964,
+          0.268991351064507,
           0.20278983510397475
         ]
       ],
       [
         [
-          0.4343137441868382, 0.33648787033417704, 0.16124247318902357,
+          0.4343137441868382,
+          0.33648787033417704,
+          0.16124247318902357,
           0.06795591228996116
         ],
         [
-          0.27398198525056294, 0.26133015491720624, 0.2772200596877529,
+          0.27398198525056294,
+          0.26133015491720624,
+          0.2772200596877529,
           0.18746780014447795
         ],
         [
-          0.1087689554714914, 0.1509650890759549, 0.2461845555099738,
+          0.1087689554714914,
+          0.1509650890759549,
+          0.2461845555099738,
           0.4940813999425801
         ],
         [
-          0.1829353150911075, 0.25121688567266187, 0.31535291161324974,
+          0.1829353150911075,
+          0.25121688567266187,
+          0.31535291161324974,
           0.25049488762298094
         ]
       ],
       [
         [
-          0.3381491192457338, 0.4501614146149476, 0.18560697488242572,
+          0.3381491192457338,
+          0.4501614146149476,
+          0.18560697488242572,
           0.02608249125689297
         ],
         [
-          0.5159878016356199, 0.33527704344289455, 0.1267787311468056,
+          0.5159878016356199,
+          0.33527704344289455,
+          0.1267787311468056,
           0.021956423774679896
         ],
         [
-          0.01831700934898521, 0.03155869894284251, 0.1269750518653075,
+          0.01831700934898521,
+          0.03155869894284251,
+          0.1269750518653075,
           0.8231492398428649
         ],
         [
-          0.1275460697696611, 0.18300284299931535, 0.5606392421054612,
+          0.1275460697696611,
+          0.18300284299931535,
+          0.5606392421054612,
           0.12881184512556232
         ]
       ],
       [
         [
-          0.320335768593795, 0.5060344710525898, 0.1477596215994201,
+          0.320335768593795,
+          0.5060344710525898,
+          0.1477596215994201,
           0.025870138754194985
         ],
         [
-          0.5762314441611791, 0.32428585694089895, 0.08363268212237925,
+          0.5762314441611791,
+          0.32428585694089895,
+          0.08363268212237925,
           0.015850016775542503
         ],
         [
-          0.023964529107240434, 0.038011169082025925, 0.1612836324480986,
+          0.023964529107240434,
+          0.038011169082025925,
+          0.1612836324480986,
           0.7767406693626349
         ],
         [
-          0.07946825813778531, 0.13166850292448515, 0.6073240638301018,
+          0.07946825813778531,
+          0.13166850292448515,
+          0.6073240638301018,
           0.1815391751076275
         ]
       ],
       [
         [
-          0.22682131510610545, 0.3366367457154406, 0.427760113802671,
+          0.22682131510610545,
+          0.3366367457154406,
+          0.427760113802671,
           0.008781825375782986
         ],
         [
-          0.512708464423931, 0.3177389890872217, 0.1633624456709218,
+          0.512708464423931,
+          0.3177389890872217,
+          0.1633624456709218,
           0.006190100817925465
         ],
         [
-          0.008219343708010871, 0.003308598162928436, 0.011012604098737912,
+          0.008219343708010871,
+          0.003308598162928436,
+          0.011012604098737912,
           0.9774594540303227
         ],
         [
-          0.2522508767619526, 0.34231566703440924, 0.39786483642766934,
+          0.2522508767619526,
+          0.34231566703440924,
+          0.39786483642766934,
           0.007568619775968767
         ]
       ]
@@ -19700,7 +20382,12 @@
   "mjai_log": [
     {
       "type": "start_game",
-      "names": ["Aさん", "Bさん", "Cさん", "Dさん"],
+      "names": [
+        "Aさん",
+        "Bさん",
+        "Cさん",
+        "Dさん"
+      ],
       "kyokuFirst": 0,
       "akaFlag": true
     },
@@ -19712,7 +20399,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 0,
-      "scores": [25000, 25000, 25000, 25000],
+      "scores": [
+        25000,
+        25000,
+        25000,
+        25000
+      ],
       "tehais": [
         [
           "8m",
@@ -20148,7 +20840,12 @@
       "type": "hora",
       "actor": 1,
       "target": 1,
-      "deltas": [-1000, 2000, -500, -500],
+      "deltas": [
+        -1000,
+        2000,
+        -500,
+        -500
+      ],
       "uraMarkers": []
     },
     {
@@ -20162,7 +20859,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 1,
-      "scores": [24000, 27000, 24500, 24500],
+      "scores": [
+        24000,
+        27000,
+        24500,
+        24500
+      ],
       "tehais": [
         [
           "3p",
@@ -20528,7 +21230,10 @@
       "actor": 1,
       "target": 3,
       "pai": "7s",
-      "consumed": ["7s", "7s"]
+      "consumed": [
+        "7s",
+        "7s"
+      ]
     },
     {
       "type": "dahai",
@@ -20562,7 +21267,12 @@
       "type": "hora",
       "actor": 1,
       "target": 3,
-      "deltas": [0, 2000, 0, -2000],
+      "deltas": [
+        0,
+        2000,
+        0,
+        -2000
+      ],
       "uraMarkers": []
     },
     {
@@ -20576,7 +21286,12 @@
       "honba": 1,
       "kyotaku": 0,
       "oya": 1,
-      "scores": [24000, 29000, 24500, 22500],
+      "scores": [
+        24000,
+        29000,
+        24500,
+        22500
+      ],
       "tehais": [
         [
           "F",
@@ -20876,7 +21591,10 @@
       "actor": 2,
       "target": 1,
       "pai": "7p",
-      "consumed": ["6p", "8p"]
+      "consumed": [
+        "6p",
+        "8p"
+      ]
     },
     {
       "type": "dahai",
@@ -20988,7 +21706,10 @@
       "actor": 2,
       "target": 3,
       "pai": "C",
-      "consumed": ["C", "C"]
+      "consumed": [
+        "C",
+        "C"
+      ]
     },
     {
       "type": "dahai",
@@ -21012,7 +21733,10 @@
       "actor": 0,
       "target": 3,
       "pai": "8m",
-      "consumed": ["6m", "7m"]
+      "consumed": [
+        "6m",
+        "7m"
+      ]
     },
     {
       "type": "dahai",
@@ -21322,7 +22046,10 @@
       "actor": 0,
       "target": 3,
       "pai": "8p",
-      "consumed": ["6p", "7p"]
+      "consumed": [
+        "6p",
+        "7p"
+      ]
     },
     {
       "type": "dahai",
@@ -21445,7 +22172,10 @@
       "actor": 3,
       "target": 2,
       "pai": "9s",
-      "consumed": ["7s", "8s"]
+      "consumed": [
+        "7s",
+        "8s"
+      ]
     },
     {
       "type": "dahai",
@@ -21477,7 +22207,12 @@
     },
     {
       "type": "ryukyoku",
-      "deltas": [-1500, -1500, 1500, 1500]
+      "deltas": [
+        -1500,
+        -1500,
+        1500,
+        1500
+      ]
     },
     {
       "type": "end_kyoku"
@@ -21490,7 +22225,12 @@
       "honba": 2,
       "kyotaku": 0,
       "oya": 2,
-      "scores": [22500, 27500, 26000, 24000],
+      "scores": [
+        22500,
+        27500,
+        26000,
+        24000
+      ],
       "tehais": [
         [
           "7p",
@@ -22062,7 +22802,10 @@
       "actor": 0,
       "target": 2,
       "pai": "2p",
-      "consumed": ["2p", "2p"]
+      "consumed": [
+        "2p",
+        "2p"
+      ]
     },
     {
       "type": "dahai",
@@ -22321,8 +23064,15 @@
       "type": "hora",
       "actor": 3,
       "target": 3,
-      "deltas": [-1500, -1500, -2800, 6800],
-      "uraMarkers": ["C"]
+      "deltas": [
+        -1500,
+        -1500,
+        -2800,
+        6800
+      ],
+      "uraMarkers": [
+        "C"
+      ]
     },
     {
       "type": "end_kyoku"
@@ -22335,7 +23085,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 3,
-      "scores": [21000, 26000, 23200, 29800],
+      "scores": [
+        21000,
+        26000,
+        23200,
+        29800
+      ],
       "tehais": [
         [
           "F",
@@ -22382,7 +23137,21 @@
           "1m",
           "9s"
         ],
-        ["2m", "1m", "W", "E", "4s", "4s", "N", "W", "2p", "8s", "E", "C", "1s"]
+        [
+          "2m",
+          "1m",
+          "W",
+          "E",
+          "4s",
+          "4s",
+          "N",
+          "W",
+          "2p",
+          "8s",
+          "E",
+          "C",
+          "1s"
+        ]
       ]
     },
     {
@@ -22522,7 +23291,10 @@
       "actor": 3,
       "target": 2,
       "pai": "E",
-      "consumed": ["E", "E"]
+      "consumed": [
+        "E",
+        "E"
+      ]
     },
     {
       "type": "dahai",
@@ -22601,7 +23373,10 @@
       "actor": 3,
       "target": 1,
       "pai": "W",
-      "consumed": ["W", "W"]
+      "consumed": [
+        "W",
+        "W"
+      ]
     },
     {
       "type": "dahai",
@@ -23008,8 +23783,15 @@
       "type": "hora",
       "actor": 2,
       "target": 2,
-      "deltas": [-2000, -2000, 9900, -3900],
-      "uraMarkers": ["8p"]
+      "deltas": [
+        -2000,
+        -2000,
+        9900,
+        -3900
+      ],
+      "uraMarkers": [
+        "8p"
+      ]
     },
     {
       "type": "end_kyoku"
@@ -23022,7 +23804,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 0,
-      "scores": [18000, 24000, 32100, 25900],
+      "scores": [
+        18000,
+        24000,
+        32100,
+        25900
+      ],
       "tehais": [
         [
           "8m",
@@ -23443,7 +24230,10 @@
       "actor": 0,
       "target": 3,
       "pai": "8m",
-      "consumed": ["8m", "8m"]
+      "consumed": [
+        "8m",
+        "8m"
+      ]
     },
     {
       "type": "dahai",
@@ -23507,8 +24297,15 @@
       "type": "hora",
       "actor": 3,
       "target": 0,
-      "deltas": [-7700, 0, 0, 8700],
-      "uraMarkers": ["3m"]
+      "deltas": [
+        -7700,
+        0,
+        0,
+        8700
+      ],
+      "uraMarkers": [
+        "3m"
+      ]
     },
     {
       "type": "end_kyoku"
@@ -23521,7 +24318,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 1,
-      "scores": [10300, 24000, 32100, 33600],
+      "scores": [
+        10300,
+        24000,
+        32100,
+        33600
+      ],
       "tehais": [
         [
           "1s",
@@ -24038,7 +24840,10 @@
       "actor": 1,
       "target": 0,
       "pai": "7s",
-      "consumed": ["5sr", "6s"]
+      "consumed": [
+        "5sr",
+        "6s"
+      ]
     },
     {
       "type": "dahai",
@@ -24305,8 +25110,15 @@
       "type": "hora",
       "actor": 0,
       "target": 0,
-      "deltas": [4700, -1300, -700, -700],
-      "uraMarkers": ["6p"]
+      "deltas": [
+        4700,
+        -1300,
+        -700,
+        -700
+      ],
+      "uraMarkers": [
+        "6p"
+      ]
     },
     {
       "type": "end_kyoku"
@@ -24319,7 +25131,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 2,
-      "scores": [14000, 22700, 30400, 32900],
+      "scores": [
+        14000,
+        22700,
+        30400,
+        32900
+      ],
       "tehais": [
         [
           "4m",
@@ -24421,7 +25238,10 @@
       "actor": 3,
       "target": 0,
       "pai": "P",
-      "consumed": ["P", "P"]
+      "consumed": [
+        "P",
+        "P"
+      ]
     },
     {
       "type": "dahai",
@@ -24467,7 +25287,10 @@
       "actor": 3,
       "target": 2,
       "pai": "9m",
-      "consumed": ["7m", "8m"]
+      "consumed": [
+        "7m",
+        "8m"
+      ]
     },
     {
       "type": "dahai",
@@ -24634,7 +25457,10 @@
       "actor": 2,
       "target": 1,
       "pai": "8p",
-      "consumed": ["8p", "8p"]
+      "consumed": [
+        "8p",
+        "8p"
+      ]
     },
     {
       "type": "dahai",
@@ -24856,7 +25682,10 @@
       "actor": 2,
       "target": 1,
       "pai": "E",
-      "consumed": ["E", "E"]
+      "consumed": [
+        "E",
+        "E"
+      ]
     },
     {
       "type": "dahai",
@@ -24942,8 +25771,15 @@
       "type": "hora",
       "actor": 1,
       "target": 0,
-      "deltas": [-7700, 8700, 0, 0],
-      "uraMarkers": ["S"]
+      "deltas": [
+        -7700,
+        8700,
+        0,
+        0
+      ],
+      "uraMarkers": [
+        "S"
+      ]
     },
     {
       "type": "end_kyoku"
@@ -24956,7 +25792,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 3,
-      "scores": [6300, 30400, 30400, 32900],
+      "scores": [
+        6300,
+        30400,
+        30400,
+        32900
+      ],
       "tehais": [
         [
           "4s",
@@ -25102,7 +25943,10 @@
       "actor": 0,
       "target": 1,
       "pai": "P",
-      "consumed": ["P", "P"]
+      "consumed": [
+        "P",
+        "P"
+      ]
     },
     {
       "type": "dahai",
@@ -25181,7 +26025,10 @@
       "actor": 3,
       "target": 2,
       "pai": "S",
-      "consumed": ["S", "S"]
+      "consumed": [
+        "S",
+        "S"
+      ]
     },
     {
       "type": "dahai",
@@ -25238,7 +26085,10 @@
       "actor": 0,
       "target": 3,
       "pai": "6p",
-      "consumed": ["5pr", "7p"]
+      "consumed": [
+        "5pr",
+        "7p"
+      ]
     },
     {
       "type": "dahai",
@@ -25305,7 +26155,12 @@
       "type": "hora",
       "actor": 3,
       "target": 1,
-      "deltas": [0, -2900, 0, 2900],
+      "deltas": [
+        0,
+        -2900,
+        0,
+        2900
+      ],
       "uraMarkers": []
     },
     {
@@ -25324,7 +26179,12 @@
   "mjaiLog": [
     {
       "type": "start_game",
-      "names": ["Aさん", "Bさん", "Cさん", "Dさん"],
+      "names": [
+        "Aさん",
+        "Bさん",
+        "Cさん",
+        "Dさん"
+      ],
       "kyokuFirst": 0,
       "akaFlag": true
     },
@@ -25336,7 +26196,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 0,
-      "scores": [25000, 25000, 25000, 25000],
+      "scores": [
+        25000,
+        25000,
+        25000,
+        25000
+      ],
       "tehais": [
         [
           "8m",
@@ -25772,7 +26637,12 @@
       "type": "hora",
       "actor": 1,
       "target": 1,
-      "deltas": [-1000, 2000, -500, -500],
+      "deltas": [
+        -1000,
+        2000,
+        -500,
+        -500
+      ],
       "uraMarkers": []
     },
     {
@@ -25786,7 +26656,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 1,
-      "scores": [24000, 27000, 24500, 24500],
+      "scores": [
+        24000,
+        27000,
+        24500,
+        24500
+      ],
       "tehais": [
         [
           "3p",
@@ -26152,7 +27027,10 @@
       "actor": 1,
       "target": 3,
       "pai": "7s",
-      "consumed": ["7s", "7s"]
+      "consumed": [
+        "7s",
+        "7s"
+      ]
     },
     {
       "type": "dahai",
@@ -26186,7 +27064,12 @@
       "type": "hora",
       "actor": 1,
       "target": 3,
-      "deltas": [0, 2000, 0, -2000],
+      "deltas": [
+        0,
+        2000,
+        0,
+        -2000
+      ],
       "uraMarkers": []
     },
     {
@@ -26200,7 +27083,12 @@
       "honba": 1,
       "kyotaku": 0,
       "oya": 1,
-      "scores": [24000, 29000, 24500, 22500],
+      "scores": [
+        24000,
+        29000,
+        24500,
+        22500
+      ],
       "tehais": [
         [
           "F",
@@ -26500,7 +27388,10 @@
       "actor": 2,
       "target": 1,
       "pai": "7p",
-      "consumed": ["6p", "8p"]
+      "consumed": [
+        "6p",
+        "8p"
+      ]
     },
     {
       "type": "dahai",
@@ -26612,7 +27503,10 @@
       "actor": 2,
       "target": 3,
       "pai": "C",
-      "consumed": ["C", "C"]
+      "consumed": [
+        "C",
+        "C"
+      ]
     },
     {
       "type": "dahai",
@@ -26636,7 +27530,10 @@
       "actor": 0,
       "target": 3,
       "pai": "8m",
-      "consumed": ["6m", "7m"]
+      "consumed": [
+        "6m",
+        "7m"
+      ]
     },
     {
       "type": "dahai",
@@ -26946,7 +27843,10 @@
       "actor": 0,
       "target": 3,
       "pai": "8p",
-      "consumed": ["6p", "7p"]
+      "consumed": [
+        "6p",
+        "7p"
+      ]
     },
     {
       "type": "dahai",
@@ -27069,7 +27969,10 @@
       "actor": 3,
       "target": 2,
       "pai": "9s",
-      "consumed": ["7s", "8s"]
+      "consumed": [
+        "7s",
+        "8s"
+      ]
     },
     {
       "type": "dahai",
@@ -27101,7 +28004,12 @@
     },
     {
       "type": "ryukyoku",
-      "deltas": [-1500, -1500, 1500, 1500]
+      "deltas": [
+        -1500,
+        -1500,
+        1500,
+        1500
+      ]
     },
     {
       "type": "end_kyoku"
@@ -27114,7 +28022,12 @@
       "honba": 2,
       "kyotaku": 0,
       "oya": 2,
-      "scores": [22500, 27500, 26000, 24000],
+      "scores": [
+        22500,
+        27500,
+        26000,
+        24000
+      ],
       "tehais": [
         [
           "7p",
@@ -27686,7 +28599,10 @@
       "actor": 0,
       "target": 2,
       "pai": "2p",
-      "consumed": ["2p", "2p"]
+      "consumed": [
+        "2p",
+        "2p"
+      ]
     },
     {
       "type": "dahai",
@@ -27945,8 +28861,15 @@
       "type": "hora",
       "actor": 3,
       "target": 3,
-      "deltas": [-1500, -1500, -2800, 6800],
-      "uraMarkers": ["C"]
+      "deltas": [
+        -1500,
+        -1500,
+        -2800,
+        6800
+      ],
+      "uraMarkers": [
+        "C"
+      ]
     },
     {
       "type": "end_kyoku"
@@ -27959,7 +28882,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 3,
-      "scores": [21000, 26000, 23200, 29800],
+      "scores": [
+        21000,
+        26000,
+        23200,
+        29800
+      ],
       "tehais": [
         [
           "F",
@@ -28006,7 +28934,21 @@
           "1m",
           "9s"
         ],
-        ["2m", "1m", "W", "E", "4s", "4s", "N", "W", "2p", "8s", "E", "C", "1s"]
+        [
+          "2m",
+          "1m",
+          "W",
+          "E",
+          "4s",
+          "4s",
+          "N",
+          "W",
+          "2p",
+          "8s",
+          "E",
+          "C",
+          "1s"
+        ]
       ]
     },
     {
@@ -28146,7 +29088,10 @@
       "actor": 3,
       "target": 2,
       "pai": "E",
-      "consumed": ["E", "E"]
+      "consumed": [
+        "E",
+        "E"
+      ]
     },
     {
       "type": "dahai",
@@ -28225,7 +29170,10 @@
       "actor": 3,
       "target": 1,
       "pai": "W",
-      "consumed": ["W", "W"]
+      "consumed": [
+        "W",
+        "W"
+      ]
     },
     {
       "type": "dahai",
@@ -28632,8 +29580,15 @@
       "type": "hora",
       "actor": 2,
       "target": 2,
-      "deltas": [-2000, -2000, 9900, -3900],
-      "uraMarkers": ["8p"]
+      "deltas": [
+        -2000,
+        -2000,
+        9900,
+        -3900
+      ],
+      "uraMarkers": [
+        "8p"
+      ]
     },
     {
       "type": "end_kyoku"
@@ -28646,7 +29601,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 0,
-      "scores": [18000, 24000, 32100, 25900],
+      "scores": [
+        18000,
+        24000,
+        32100,
+        25900
+      ],
       "tehais": [
         [
           "8m",
@@ -29067,7 +30027,10 @@
       "actor": 0,
       "target": 3,
       "pai": "8m",
-      "consumed": ["8m", "8m"]
+      "consumed": [
+        "8m",
+        "8m"
+      ]
     },
     {
       "type": "dahai",
@@ -29131,8 +30094,15 @@
       "type": "hora",
       "actor": 3,
       "target": 0,
-      "deltas": [-7700, 0, 0, 8700],
-      "uraMarkers": ["3m"]
+      "deltas": [
+        -7700,
+        0,
+        0,
+        8700
+      ],
+      "uraMarkers": [
+        "3m"
+      ]
     },
     {
       "type": "end_kyoku"
@@ -29145,7 +30115,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 1,
-      "scores": [10300, 24000, 32100, 33600],
+      "scores": [
+        10300,
+        24000,
+        32100,
+        33600
+      ],
       "tehais": [
         [
           "1s",
@@ -29662,7 +30637,10 @@
       "actor": 1,
       "target": 0,
       "pai": "7s",
-      "consumed": ["5sr", "6s"]
+      "consumed": [
+        "5sr",
+        "6s"
+      ]
     },
     {
       "type": "dahai",
@@ -29929,8 +30907,15 @@
       "type": "hora",
       "actor": 0,
       "target": 0,
-      "deltas": [4700, -1300, -700, -700],
-      "uraMarkers": ["6p"]
+      "deltas": [
+        4700,
+        -1300,
+        -700,
+        -700
+      ],
+      "uraMarkers": [
+        "6p"
+      ]
     },
     {
       "type": "end_kyoku"
@@ -29943,7 +30928,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 2,
-      "scores": [14000, 22700, 30400, 32900],
+      "scores": [
+        14000,
+        22700,
+        30400,
+        32900
+      ],
       "tehais": [
         [
           "4m",
@@ -30045,7 +31035,10 @@
       "actor": 3,
       "target": 0,
       "pai": "P",
-      "consumed": ["P", "P"]
+      "consumed": [
+        "P",
+        "P"
+      ]
     },
     {
       "type": "dahai",
@@ -30091,7 +31084,10 @@
       "actor": 3,
       "target": 2,
       "pai": "9m",
-      "consumed": ["7m", "8m"]
+      "consumed": [
+        "7m",
+        "8m"
+      ]
     },
     {
       "type": "dahai",
@@ -30258,7 +31254,10 @@
       "actor": 2,
       "target": 1,
       "pai": "8p",
-      "consumed": ["8p", "8p"]
+      "consumed": [
+        "8p",
+        "8p"
+      ]
     },
     {
       "type": "dahai",
@@ -30480,7 +31479,10 @@
       "actor": 2,
       "target": 1,
       "pai": "E",
-      "consumed": ["E", "E"]
+      "consumed": [
+        "E",
+        "E"
+      ]
     },
     {
       "type": "dahai",
@@ -30566,8 +31568,15 @@
       "type": "hora",
       "actor": 1,
       "target": 0,
-      "deltas": [-7700, 8700, 0, 0],
-      "uraMarkers": ["S"]
+      "deltas": [
+        -7700,
+        8700,
+        0,
+        0
+      ],
+      "uraMarkers": [
+        "S"
+      ]
     },
     {
       "type": "end_kyoku"
@@ -30580,7 +31589,12 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 3,
-      "scores": [6300, 30400, 30400, 32900],
+      "scores": [
+        6300,
+        30400,
+        30400,
+        32900
+      ],
       "tehais": [
         [
           "4s",
@@ -30726,7 +31740,10 @@
       "actor": 0,
       "target": 1,
       "pai": "P",
-      "consumed": ["P", "P"]
+      "consumed": [
+        "P",
+        "P"
+      ]
     },
     {
       "type": "dahai",
@@ -30805,7 +31822,10 @@
       "actor": 3,
       "target": 2,
       "pai": "S",
-      "consumed": ["S", "S"]
+      "consumed": [
+        "S",
+        "S"
+      ]
     },
     {
       "type": "dahai",
@@ -30862,7 +31882,10 @@
       "actor": 0,
       "target": 3,
       "pai": "6p",
-      "consumed": ["5pr", "7p"]
+      "consumed": [
+        "5pr",
+        "7p"
+      ]
     },
     {
       "type": "dahai",
@@ -30929,7 +31952,12 @@
       "type": "hora",
       "actor": 3,
       "target": 1,
-      "deltas": [0, -2900, 0, 2900],
+      "deltas": [
+        0,
+        -2900,
+        0,
+        2900
+      ],
       "uraMarkers": []
     },
     {

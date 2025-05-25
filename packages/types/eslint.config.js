@@ -1,7 +1,7 @@
-import config from '@mortal-lens/eslint-config';
+import { lib } from '@mortal-lens/eslint-config/lib';
 
 export default [
-  ...config,
+  ...lib,
   {
     ignores: ['dist/**', '**/*.config.*'],
   },
