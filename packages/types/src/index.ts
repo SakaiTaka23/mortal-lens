@@ -7,7 +7,7 @@ import {
   Review,
 } from './Input';
 import {
-  KyokuState,
+  KyokuUnit,
   MetaState,
   Output,
   ReviewMetaState,
@@ -17,7 +17,7 @@ import {
 
 export type { Entry, EvaluationDetail, EvaluationResult, Input, Kyoku, Review };
 export type {
-  KyokuState,
+  KyokuUnit,
   MetaState,
   Output,
   ReviewMetaState,

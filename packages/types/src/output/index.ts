@@ -1,22 +1,30 @@
 import { HandState, Kawa } from '@mjai/core';
-import { PlayerID } from '@mjai/types';
+import { Hora, PlayerID, Ryukyoku, Tile } from '@mjai/types';
 
-import { KyokuState } from './KyokuState';
 import { MetaState } from './MetaState';
 import { ReviewMetaState, ReviewState } from './ReviewState';
 
-export type { KyokuState, MetaState, ReviewMetaState, ReviewState };
+export type { MetaState, ReviewMetaState, ReviewState };
 
 export interface Output {
   meta: MetaState;
   playerID: PlayerID;
   reviewMeta: ReviewMetaState;
-  step: StepState[];
+  kyokus: KyokuUnit[];
+}
+
+export interface KyokuUnit {
+  kyoku: number;
+  honba: number;
+  endStatus: (Hora | Ryukyoku)[];
+  relativeScores: [number, number, number, number];
+  steps: StepState[];
 }
 
 export interface StepState {
+  dora: Tile[];
   hand: [HandState, HandState, HandState, HandState];
   kawa: [Kawa, Kawa, Kawa, Kawa];
-  kyoku: KyokuState;
   review?: ReviewState;
+  tilesLeft: number;
 }
