@@ -12,7 +12,7 @@ import { describe, expect, it } from 'vitest';
 
 import { ProcessInput } from '../ProcessInput';
 
-const loadTestJson = (fileName: string) => {
+const loadTestJson = (fileName: string): unknown => {
   const filePath = join(__dirname, './fixtures', fileName);
   const jsonData = readFileSync(filePath, 'utf-8');
   return JSON.parse(jsonData);

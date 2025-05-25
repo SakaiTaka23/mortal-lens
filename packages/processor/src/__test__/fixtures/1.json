@@ -17,20 +17,10 @@
         "end_status": [
           {
             "type": "ryukyoku",
-            "deltas": [
-              -1500,
-              1500,
-              -1500,
-              1500
-            ]
+            "deltas": [-1500, 1500, -1500, 1500]
           }
         ],
-        "relative_scores": [
-          25000,
-          25000,
-          25000,
-          25000
-        ],
+        "relative_scores": [25000, 25000, 25000, 25000],
         "entries": [
           {
             "junme": 1,
@@ -1417,10 +1407,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "9m",
-                  "consumed": [
-                    "7m",
-                    "8m"
-                  ]
+                  "consumed": ["7m", "8m"]
                 },
                 "q_value": -1.0223328,
                 "prob": 0.00008404925
@@ -2506,21 +2493,11 @@
             "type": "hora",
             "actor": 0,
             "target": 2,
-            "deltas": [
-              4300,
-              0,
-              -2300,
-              0
-            ],
+            "deltas": [4300, 0, -2300, 0],
             "ura_markers": []
           }
         ],
-        "relative_scores": [
-          25500,
-          23500,
-          25500,
-          23500
-        ],
+        "relative_scores": [25500, 23500, 25500, 23500],
         "entries": [
           {
             "junme": 1,
@@ -3187,20 +3164,14 @@
               "actor": 1,
               "target": 2,
               "pai": "F",
-              "consumed": [
-                "F",
-                "F"
-              ]
+              "consumed": ["F", "F"]
             },
             "actual": {
               "type": "pon",
               "actor": 1,
               "target": 2,
               "pai": "F",
-              "consumed": [
-                "F",
-                "F"
-              ]
+              "consumed": ["F", "F"]
             },
             "is_equal": true,
             "details": [
@@ -3210,10 +3181,7 @@
                   "actor": 1,
                   "target": 2,
                   "pai": "F",
-                  "consumed": [
-                    "F",
-                    "F"
-                  ]
+                  "consumed": ["F", "F"]
                 },
                 "q_value": 0.12613162,
                 "prob": 0.99978495
@@ -3254,10 +3222,7 @@
                   "type": "pon",
                   "target": 2,
                   "pai": "F",
-                  "consumed": [
-                    "F",
-                    "F"
-                  ]
+                  "consumed": ["F", "F"]
                 }
               ]
             },
@@ -3397,10 +3362,7 @@
                   "type": "pon",
                   "target": 2,
                   "pai": "F",
-                  "consumed": [
-                    "F",
-                    "F"
-                  ]
+                  "consumed": ["F", "F"]
                 }
               ]
             },
@@ -3540,10 +3502,7 @@
                   "type": "pon",
                   "target": 2,
                   "pai": "F",
-                  "consumed": [
-                    "F",
-                    "F"
-                  ]
+                  "consumed": ["F", "F"]
                 }
               ]
             },
@@ -3683,10 +3642,7 @@
                   "type": "pon",
                   "target": 2,
                   "pai": "F",
-                  "consumed": [
-                    "F",
-                    "F"
-                  ]
+                  "consumed": ["F", "F"]
                 }
               ]
             },
@@ -3825,10 +3781,7 @@
                   "type": "pon",
                   "target": 2,
                   "pai": "F",
-                  "consumed": [
-                    "F",
-                    "F"
-                  ]
+                  "consumed": ["F", "F"]
                 }
               ]
             },
@@ -3840,20 +3793,14 @@
               "actor": 1,
               "target": 3,
               "pai": "1m",
-              "consumed": [
-                "1m",
-                "1m"
-              ]
+              "consumed": ["1m", "1m"]
             },
             "actual": {
               "type": "pon",
               "actor": 1,
               "target": 3,
               "pai": "1m",
-              "consumed": [
-                "1m",
-                "1m"
-              ]
+              "consumed": ["1m", "1m"]
             },
             "is_equal": true,
             "details": [
@@ -3863,10 +3810,7 @@
                   "actor": 1,
                   "target": 3,
                   "pai": "1m",
-                  "consumed": [
-                    "1m",
-                    "1m"
-                  ]
+                  "consumed": ["1m", "1m"]
                 },
                 "q_value": 0.17106825,
                 "prob": 0.99996495
@@ -3889,34 +3833,19 @@
             "last_actor": 1,
             "tile": "1m",
             "state": {
-              "tehai": [
-                "2m",
-                "6m",
-                "8m",
-                "8m",
-                "4p",
-                "5pr",
-                "2s",
-                "3s"
-              ],
+              "tehai": ["2m", "6m", "8m", "8m", "4p", "5pr", "2s", "3s"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 2,
                   "pai": "F",
-                  "consumed": [
-                    "F",
-                    "F"
-                  ]
+                  "consumed": ["F", "F"]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "1m",
-                  "consumed": [
-                    "1m",
-                    "1m"
-                  ]
+                  "consumed": ["1m", "1m"]
                 }
               ]
             },
@@ -4018,34 +3947,19 @@
             "last_actor": 1,
             "tile": "S",
             "state": {
-              "tehai": [
-                "6m",
-                "8m",
-                "8m",
-                "4p",
-                "5pr",
-                "2s",
-                "3s",
-                "S"
-              ],
+              "tehai": ["6m", "8m", "8m", "4p", "5pr", "2s", "3s", "S"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 2,
                   "pai": "F",
-                  "consumed": [
-                    "F",
-                    "F"
-                  ]
+                  "consumed": ["F", "F"]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "1m",
-                  "consumed": [
-                    "1m",
-                    "1m"
-                  ]
+                  "consumed": ["1m", "1m"]
                 }
               ]
             },
@@ -4147,34 +4061,19 @@
             "last_actor": 1,
             "tile": "5s",
             "state": {
-              "tehai": [
-                "8m",
-                "8m",
-                "4p",
-                "5pr",
-                "2s",
-                "3s",
-                "S",
-                "5s"
-              ],
+              "tehai": ["8m", "8m", "4p", "5pr", "2s", "3s", "S", "5s"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 2,
                   "pai": "F",
-                  "consumed": [
-                    "F",
-                    "F"
-                  ]
+                  "consumed": ["F", "F"]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "1m",
-                  "consumed": [
-                    "1m",
-                    "1m"
-                  ]
+                  "consumed": ["1m", "1m"]
                 }
               ]
             },
@@ -4280,21 +4179,11 @@
             "type": "hora",
             "actor": 3,
             "target": 1,
-            "deltas": [
-              0,
-              -5200,
-              0,
-              5200
-            ],
+            "deltas": [0, -5200, 0, 5200],
             "ura_markers": []
           }
         ],
-        "relative_scores": [
-          25500,
-          21200,
-          25500,
-          27800
-        ],
+        "relative_scores": [25500, 21200, 25500, 27800],
         "entries": [
           {
             "junme": 1,
@@ -4801,10 +4690,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "9p",
-                  "consumed": [
-                    "7p",
-                    "8p"
-                  ]
+                  "consumed": ["7p", "8p"]
                 },
                 "q_value": -0.094112575,
                 "prob": 0.2577108
@@ -5153,10 +5039,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "5p",
-                  "consumed": [
-                    "6p",
-                    "7p"
-                  ]
+                  "consumed": ["6p", "7p"]
                 },
                 "q_value": -0.29179382,
                 "prob": 0.109215476
@@ -5167,10 +5050,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "5p",
-                  "consumed": [
-                    "4p",
-                    "6p"
-                  ]
+                  "consumed": ["4p", "6p"]
                 },
                 "q_value": -0.2944145,
                 "prob": 0.106390476
@@ -5373,10 +5253,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "6p",
-                    "7p"
-                  ]
+                  "consumed": ["6p", "7p"]
                 },
                 "q_value": -0.548671,
                 "prob": 0.013190763
@@ -5885,20 +5762,14 @@
               "actor": 1,
               "target": 0,
               "pai": "P",
-              "consumed": [
-                "P",
-                "P"
-              ]
+              "consumed": ["P", "P"]
             },
             "actual": {
               "type": "pon",
               "actor": 1,
               "target": 0,
               "pai": "P",
-              "consumed": [
-                "P",
-                "P"
-              ]
+              "consumed": ["P", "P"]
             },
             "is_equal": true,
             "details": [
@@ -5908,10 +5779,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "P",
-                  "consumed": [
-                    "P",
-                    "P"
-                  ]
+                  "consumed": ["P", "P"]
                 },
                 "q_value": -0.024601787,
                 "prob": 0.843869
@@ -5952,10 +5820,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "P",
-                  "consumed": [
-                    "P",
-                    "P"
-                  ]
+                  "consumed": ["P", "P"]
                 }
               ]
             },
@@ -6094,10 +5959,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "P",
-                  "consumed": [
-                    "P",
-                    "P"
-                  ]
+                  "consumed": ["P", "P"]
                 }
               ]
             },
@@ -6125,10 +5987,7 @@
                   "actor": 1,
                   "target": 2,
                   "pai": "7p",
-                  "consumed": [
-                    "7p",
-                    "7p"
-                  ]
+                  "consumed": ["7p", "7p"]
                 },
                 "q_value": -0.18020783,
                 "prob": 0.22906712
@@ -6161,10 +6020,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "P",
-                  "consumed": [
-                    "P",
-                    "P"
-                  ]
+                  "consumed": ["P", "P"]
                 }
               ]
             },
@@ -6192,10 +6048,7 @@
                   "actor": 1,
                   "target": 3,
                   "pai": "7p",
-                  "consumed": [
-                    "7p",
-                    "7p"
-                  ]
+                  "consumed": ["7p", "7p"]
                 },
                 "q_value": -0.24227463,
                 "prob": 0.1383608
@@ -6229,10 +6082,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "P",
-                  "consumed": [
-                    "P",
-                    "P"
-                  ]
+                  "consumed": ["P", "P"]
                 }
               ]
             },
@@ -6372,10 +6222,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "P",
-                  "consumed": [
-                    "P",
-                    "P"
-                  ]
+                  "consumed": ["P", "P"]
                 }
               ]
             },
@@ -6410,12 +6257,7 @@
                 "action": {
                   "type": "ankan",
                   "actor": 1,
-                  "consumed": [
-                    "P",
-                    "P",
-                    "P",
-                    "P"
-                  ]
+                  "consumed": ["P", "P", "P", "P"]
                 },
                 "q_value": -0.16005433,
                 "prob": 0.30642167
@@ -6529,10 +6371,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "P",
-                  "consumed": [
-                    "P",
-                    "P"
-                  ]
+                  "consumed": ["P", "P"]
                 }
               ]
             },
@@ -6543,21 +6382,13 @@
               "type": "kakan",
               "actor": 1,
               "pai": "P",
-              "consumed": [
-                "P",
-                "P",
-                "P"
-              ]
+              "consumed": ["P", "P", "P"]
             },
             "actual": {
               "type": "kakan",
               "actor": 1,
               "pai": "P",
-              "consumed": [
-                "P",
-                "P",
-                "P"
-              ]
+              "consumed": ["P", "P", "P"]
             },
             "is_equal": true,
             "details": [
@@ -6565,12 +6396,7 @@
                 "action": {
                   "type": "ankan",
                   "actor": 1,
-                  "consumed": [
-                    "P",
-                    "P",
-                    "P",
-                    "P"
-                  ]
+                  "consumed": ["P", "P", "P", "P"]
                 },
                 "q_value": 0.3836668,
                 "prob": 0.9661753
@@ -6695,10 +6521,7 @@
                   "pai": "P",
                   "previous_pon_target": 0,
                   "previous_pon_pai": "P",
-                  "consumed": [
-                    "P",
-                    "P"
-                  ]
+                  "consumed": ["P", "P"]
                 }
               ]
             },
@@ -6824,21 +6647,11 @@
             "type": "hora",
             "actor": 1,
             "target": 1,
-            "deltas": [
-              -2000,
-              8000,
-              -2000,
-              -4000
-            ],
+            "deltas": [-2000, 8000, -2000, -4000],
             "ura_markers": []
           }
         ],
-        "relative_scores": [
-          20300,
-          21200,
-          30700,
-          27800
-        ],
+        "relative_scores": [20300, 21200, 30700, 27800],
         "entries": [
           {
             "junme": 1,
@@ -7797,20 +7610,14 @@
               "actor": 1,
               "target": 0,
               "pai": "8p",
-              "consumed": [
-                "8p",
-                "8p"
-              ]
+              "consumed": ["8p", "8p"]
             },
             "actual": {
               "type": "pon",
               "actor": 1,
               "target": 0,
               "pai": "8p",
-              "consumed": [
-                "8p",
-                "8p"
-              ]
+              "consumed": ["8p", "8p"]
             },
             "is_equal": true,
             "details": [
@@ -7820,10 +7627,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
+                  "consumed": ["8p", "8p"]
                 },
                 "q_value": 0.17431366,
                 "prob": 0.9967632
@@ -7864,10 +7668,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
+                  "consumed": ["8p", "8p"]
                 }
               ]
             },
@@ -7979,27 +7780,13 @@
             "last_actor": 3,
             "tile": "E",
             "state": {
-              "tehai": [
-                "5m",
-                "6m",
-                "6s",
-                "8s",
-                "E",
-                "E",
-                "N",
-                "N",
-                "P",
-                "P"
-              ],
+              "tehai": ["5m", "6m", "6s", "8s", "E", "E", "N", "N", "P", "P"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
+                  "consumed": ["8p", "8p"]
                 }
               ]
             },
@@ -8011,20 +7798,14 @@
               "actor": 1,
               "target": 3,
               "pai": "E",
-              "consumed": [
-                "E",
-                "E"
-              ]
+              "consumed": ["E", "E"]
             },
             "actual": {
               "type": "pon",
               "actor": 1,
               "target": 3,
               "pai": "E",
-              "consumed": [
-                "E",
-                "E"
-              ]
+              "consumed": ["E", "E"]
             },
             "is_equal": true,
             "details": [
@@ -8034,10 +7815,7 @@
                   "actor": 1,
                   "target": 3,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 },
                 "q_value": 0.42077217,
                 "prob": 0.99999
@@ -8060,34 +7838,19 @@
             "last_actor": 1,
             "tile": "E",
             "state": {
-              "tehai": [
-                "5m",
-                "6m",
-                "6s",
-                "8s",
-                "N",
-                "N",
-                "P",
-                "P"
-              ],
+              "tehai": ["5m", "6m", "6s", "8s", "N", "N", "P", "P"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
+                  "consumed": ["8p", "8p"]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -8179,33 +7942,19 @@
             "last_actor": 2,
             "tile": "N",
             "state": {
-              "tehai": [
-                "5m",
-                "6m",
-                "8s",
-                "N",
-                "N",
-                "P",
-                "P"
-              ],
+              "tehai": ["5m", "6m", "8s", "N", "N", "P", "P"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
+                  "consumed": ["8p", "8p"]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -8217,20 +7966,14 @@
               "actor": 1,
               "target": 2,
               "pai": "N",
-              "consumed": [
-                "N",
-                "N"
-              ]
+              "consumed": ["N", "N"]
             },
             "actual": {
               "type": "pon",
               "actor": 1,
               "target": 2,
               "pai": "N",
-              "consumed": [
-                "N",
-                "N"
-              ]
+              "consumed": ["N", "N"]
             },
             "is_equal": true,
             "details": [
@@ -8240,10 +7983,7 @@
                   "actor": 1,
                   "target": 2,
                   "pai": "N",
-                  "consumed": [
-                    "N",
-                    "N"
-                  ]
+                  "consumed": ["N", "N"]
                 },
                 "q_value": 0.94349396,
                 "prob": 1
@@ -8266,40 +8006,25 @@
             "last_actor": 1,
             "tile": "N",
             "state": {
-              "tehai": [
-                "5m",
-                "6m",
-                "8s",
-                "P",
-                "P"
-              ],
+              "tehai": ["5m", "6m", "8s", "P", "P"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
+                  "consumed": ["8p", "8p"]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 },
                 {
                   "type": "pon",
                   "target": 2,
                   "pai": "N",
-                  "consumed": [
-                    "N",
-                    "N"
-                  ]
+                  "consumed": ["N", "N"]
                 }
               ]
             },
@@ -8371,39 +8096,25 @@
             "last_actor": 3,
             "tile": "P",
             "state": {
-              "tehai": [
-                "5m",
-                "6m",
-                "P",
-                "P"
-              ],
+              "tehai": ["5m", "6m", "P", "P"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
+                  "consumed": ["8p", "8p"]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 },
                 {
                   "type": "pon",
                   "target": 2,
                   "pai": "N",
-                  "consumed": [
-                    "N",
-                    "N"
-                  ]
+                  "consumed": ["N", "N"]
                 }
               ]
             },
@@ -8431,10 +8142,7 @@
                   "actor": 1,
                   "target": 3,
                   "pai": "P",
-                  "consumed": [
-                    "P",
-                    "P"
-                  ]
+                  "consumed": ["P", "P"]
                 },
                 "q_value": 0.16708642,
                 "prob": 0.0009739248
@@ -8450,40 +8158,25 @@
             "last_actor": 1,
             "tile": "F",
             "state": {
-              "tehai": [
-                "5m",
-                "6m",
-                "P",
-                "P",
-                "F"
-              ],
+              "tehai": ["5m", "6m", "P", "P", "F"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
+                  "consumed": ["8p", "8p"]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 },
                 {
                   "type": "pon",
                   "target": 2,
                   "pai": "N",
-                  "consumed": [
-                    "N",
-                    "N"
-                  ]
+                  "consumed": ["N", "N"]
                 }
               ]
             },
@@ -8555,40 +8248,25 @@
             "last_actor": 1,
             "tile": "3s",
             "state": {
-              "tehai": [
-                "5m",
-                "6m",
-                "P",
-                "P",
-                "3s"
-              ],
+              "tehai": ["5m", "6m", "P", "P", "3s"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
+                  "consumed": ["8p", "8p"]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 },
                 {
                   "type": "pon",
                   "target": 2,
                   "pai": "N",
-                  "consumed": [
-                    "N",
-                    "N"
-                  ]
+                  "consumed": ["N", "N"]
                 }
               ]
             },
@@ -8660,40 +8338,25 @@
             "last_actor": 1,
             "tile": "1p",
             "state": {
-              "tehai": [
-                "5m",
-                "6m",
-                "P",
-                "P",
-                "1p"
-              ],
+              "tehai": ["5m", "6m", "P", "P", "1p"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
+                  "consumed": ["8p", "8p"]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 },
                 {
                   "type": "pon",
                   "target": 2,
                   "pai": "N",
-                  "consumed": [
-                    "N",
-                    "N"
-                  ]
+                  "consumed": ["N", "N"]
                 }
               ]
             },
@@ -8765,40 +8428,25 @@
             "last_actor": 1,
             "tile": "4m",
             "state": {
-              "tehai": [
-                "5m",
-                "6m",
-                "P",
-                "P",
-                "4m"
-              ],
+              "tehai": ["5m", "6m", "P", "P", "4m"],
               "fuuros": [
                 {
                   "type": "pon",
                   "target": 0,
                   "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
+                  "consumed": ["8p", "8p"]
                 },
                 {
                   "type": "pon",
                   "target": 3,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 },
                 {
                   "type": "pon",
                   "target": 2,
                   "pai": "N",
-                  "consumed": [
-                    "N",
-                    "N"
-                  ]
+                  "consumed": ["N", "N"]
                 }
               ]
             },
@@ -8814,12 +8462,7 @@
               "type": "hora",
               "actor": 1,
               "target": 1,
-              "deltas": [
-                -2000,
-                8000,
-                -2000,
-                -4000
-              ],
+              "deltas": [-2000, 8000, -2000, -4000],
               "ura_markers": []
             },
             "is_equal": true,
@@ -8888,23 +8531,11 @@
             "type": "hora",
             "actor": 2,
             "target": 0,
-            "deltas": [
-              -8000,
-              0,
-              10000,
-              0
-            ],
-            "ura_markers": [
-              "9p"
-            ]
+            "deltas": [-8000, 0, 10000, 0],
+            "ura_markers": ["9p"]
           }
         ],
-        "relative_scores": [
-          28300,
-          19200,
-          26700,
-          25800
-        ],
+        "relative_scores": [28300, 19200, 26700, 25800],
         "entries": [
           {
             "junme": 1,
@@ -9767,10 +9398,7 @@
               "actor": 1,
               "target": 0,
               "pai": "5p",
-              "consumed": [
-                "4p",
-                "6p"
-              ]
+              "consumed": ["4p", "6p"]
             },
             "actual": {
               "type": "none"
@@ -9783,10 +9411,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "5p",
-                  "consumed": [
-                    "4p",
-                    "6p"
-                  ]
+                  "consumed": ["4p", "6p"]
                 },
                 "q_value": -0.15402725,
                 "prob": 0.63983834
@@ -10348,10 +9973,7 @@
                   "actor": 1,
                   "target": 3,
                   "pai": "2s",
-                  "consumed": [
-                    "2s",
-                    "2s"
-                  ]
+                  "consumed": ["2s", "2s"]
                 },
                 "q_value": -0.61925024,
                 "prob": 0.006692044
@@ -10713,21 +10335,11 @@
             "type": "hora",
             "actor": 2,
             "target": 1,
-            "deltas": [
-              0,
-              -5200,
-              5200,
-              0
-            ],
+            "deltas": [0, -5200, 5200, 0],
             "ura_markers": []
           }
         ],
-        "relative_scores": [
-          28300,
-          28200,
-          25700,
-          17800
-        ],
+        "relative_scores": [28300, 28200, 25700, 17800],
         "entries": [
           {
             "junme": 1,
@@ -10936,20 +10548,14 @@
               "actor": 1,
               "target": 0,
               "pai": "E",
-              "consumed": [
-                "E",
-                "E"
-              ]
+              "consumed": ["E", "E"]
             },
             "actual": {
               "type": "pon",
               "actor": 1,
               "target": 0,
               "pai": "E",
-              "consumed": [
-                "E",
-                "E"
-              ]
+              "consumed": ["E", "E"]
             },
             "is_equal": true,
             "details": [
@@ -10959,10 +10565,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 },
                 "q_value": -0.012381673,
                 "prob": 0.88706845
@@ -11003,10 +10606,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -11166,10 +10766,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -11329,10 +10926,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -11482,10 +11076,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -11635,10 +11226,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -11788,10 +11376,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -11941,10 +11526,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -12093,10 +11675,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -12124,10 +11703,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "2m",
-                  "consumed": [
-                    "2m",
-                    "2m"
-                  ]
+                  "consumed": ["2m", "2m"]
                 },
                 "q_value": -0.60758567,
                 "prob": 0.0032481488
@@ -12161,10 +11737,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -12313,10 +11886,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -12344,10 +11914,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "8m",
-                  "consumed": [
-                    "6m",
-                    "7m"
-                  ]
+                  "consumed": ["6m", "7m"]
                 },
                 "q_value": -0.60401845,
                 "prob": 0.0038121117
@@ -12381,10 +11948,7 @@
                   "type": "pon",
                   "target": 0,
                   "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
+                  "consumed": ["E", "E"]
                 }
               ]
             },
@@ -12520,23 +12084,11 @@
             "type": "hora",
             "actor": 3,
             "target": 2,
-            "deltas": [
-              0,
-              0,
-              -3900,
-              4900
-            ],
-            "ura_markers": [
-              "1s"
-            ]
+            "deltas": [0, 0, -3900, 4900],
+            "ura_markers": ["1s"]
           }
         ],
-        "relative_scores": [
-          23100,
-          33400,
-          25700,
-          17800
-        ],
+        "relative_scores": [23100, 33400, 25700, 17800],
         "entries": [
           {
             "junme": 1,
@@ -13249,10 +12801,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "2s",
-                  "consumed": [
-                    "1s",
-                    "3s"
-                  ]
+                  "consumed": ["1s", "3s"]
                 },
                 "q_value": -0.7052013,
                 "prob": 0.002602518
@@ -13475,10 +13024,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "2s",
-                  "consumed": [
-                    "1s",
-                    "3s"
-                  ]
+                  "consumed": ["1s", "3s"]
                 },
                 "q_value": -0.87823105,
                 "prob": 0.0003475404
@@ -13857,10 +13403,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "1m",
-                  "consumed": [
-                    "2m",
-                    "3m"
-                  ]
+                  "consumed": ["2m", "3m"]
                 },
                 "q_value": -0.7935393,
                 "prob": 0.0019458259
@@ -14073,10 +13616,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "1m",
-                  "consumed": [
-                    "2m",
-                    "3m"
-                  ]
+                  "consumed": ["2m", "3m"]
                 },
                 "q_value": -1.0496346,
                 "prob": 0.00011181432
@@ -14289,10 +13829,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "7m",
-                  "consumed": [
-                    "6m",
-                    "8m"
-                  ]
+                  "consumed": ["6m", "8m"]
                 },
                 "q_value": -1.1656014,
                 "prob": 0.000038578844
@@ -14896,21 +14433,11 @@
             "type": "hora",
             "actor": 3,
             "target": 3,
-            "deltas": [
-              -700,
-              -700,
-              -700,
-              3100
-            ],
+            "deltas": [-700, -700, -700, 3100],
             "ura_markers": []
           }
         ],
-        "relative_scores": [
-          23100,
-          29500,
-          29600,
-          17800
-        ],
+        "relative_scores": [23100, 29500, 29600, 17800],
         "entries": [
           {
             "junme": 1,
@@ -15291,10 +14818,7 @@
                   "actor": 1,
                   "target": 2,
                   "pai": "1s",
-                  "consumed": [
-                    "1s",
-                    "1s"
-                  ]
+                  "consumed": ["1s", "1s"]
                 },
                 "q_value": -0.7951344,
                 "prob": 0.000013208328
@@ -15849,10 +15373,7 @@
                   "actor": 1,
                   "target": 0,
                   "pai": "2m",
-                  "consumed": [
-                    "1m",
-                    "3m"
-                  ]
+                  "consumed": ["1m", "3m"]
                 },
                 "q_value": -1.1963843,
                 "prob": 0.0000023281912
@@ -16407,10 +15928,7 @@
                   "actor": 1,
                   "target": 3,
                   "pai": "5p",
-                  "consumed": [
-                    "5pr",
-                    "5p"
-                  ]
+                  "consumed": ["5pr", "5p"]
                 },
                 "q_value": -0.26077136,
                 "prob": 0.024873909
@@ -16828,209 +16346,145 @@
     "relative_phi_matrix": [
       [
         [
-          0.24560514028808855,
-          0.2557151940086824,
-          0.2503435836267008,
+          0.24560514028808855, 0.2557151940086824, 0.2503435836267008,
           0.2483360820765283
         ],
         [
-          0.24264439698504972,
-          0.2565333046923029,
-          0.25080728606970804,
+          0.24264439698504972, 0.2565333046923029, 0.25080728606970804,
           0.25001501225293943
         ],
         [
-          0.2638631300909104,
-          0.23397720123126273,
-          0.24804169867802292,
+          0.2638631300909104, 0.23397720123126273, 0.24804169867802292,
           0.25411796999980396
         ],
         [
-          0.24788733263595136,
-          0.253774300067752,
-          0.25080743162556834,
+          0.24788733263595136, 0.253774300067752, 0.25080743162556834,
           0.2475309356707283
         ]
       ],
       [
         [
-          0.2640045403722874,
-          0.26398989902414965,
-          0.24607310315253125,
+          0.2640045403722874, 0.26398989902414965, 0.24607310315253125,
           0.22593245745103177
         ],
         [
-          0.22833201173737824,
-          0.24560851118035404,
-          0.2502190904882494,
+          0.22833201173737824, 0.24560851118035404, 0.2502190904882494,
           0.2758403865940182
         ],
         [
-          0.2949864907225176,
-          0.23996251173715144,
-          0.23723561558202483,
+          0.2949864907225176, 0.23996251173715144, 0.23723561558202483,
           0.22781538195830608
         ],
         [
-          0.21267695716781676,
-          0.25043907805834487,
-          0.26647219077719453,
+          0.21267695716781676, 0.25043907805834487, 0.26647219077719453,
           0.27041177399664384
         ]
       ],
       [
         [
-          0.2408144371254884,
-          0.2645056175790975,
-          0.2628220637981745,
+          0.2408144371254884, 0.2645056175790975, 0.2628220637981745,
           0.2318578814972396
         ],
         [
-          0.18054765322227057,
-          0.21053745957026684,
-          0.24834366546682532,
+          0.18054765322227057, 0.21053745957026684, 0.24834366546682532,
           0.3605712217406374
         ],
         [
-          0.2869568045161526,
-          0.23393087424191253,
-          0.2467845417335581,
+          0.2869568045161526, 0.23393087424191253, 0.2467845417335581,
           0.2323277795083768
         ],
         [
-          0.2916811051360885,
-          0.29102604860872316,
-          0.24204972900144212,
+          0.2916811051360885, 0.29102604860872316, 0.24204972900144212,
           0.17524311725374625
         ]
       ],
       [
         [
-          0.1371637253634067,
-          0.1985194556710178,
-          0.28469097924369224,
+          0.1371637253634067, 0.1985194556710178, 0.28469097924369224,
           0.3796258397218832
         ],
         [
-          0.15175573300554457,
-          0.20083084449661,
-          0.28418962375770923,
+          0.15175573300554457, 0.20083084449661, 0.28418962375770923,
           0.3632237987401362
         ],
         [
-          0.4250340950793767,
-          0.279479285621083,
-          0.1893508205757362,
+          0.4250340950793767, 0.279479285621083, 0.1893508205757362,
           0.1061357987238042
         ],
         [
-          0.2860464465516721,
-          0.3211704142112893,
-          0.2417685764228623,
+          0.2860464465516721, 0.3211704142112893, 0.2417685764228623,
           0.15101456281417636
         ]
       ],
       [
         [
-          0.3196106758963731,
-          0.31675014747219615,
-          0.2341947711816604,
+          0.3196106758963731, 0.31675014747219615, 0.2341947711816604,
           0.12944440544977043
         ],
         [
-          0.12565040880439413,
-          0.16452610909730295,
-          0.23570361287758915,
+          0.12565040880439413, 0.16452610909730295, 0.23570361287758915,
           0.4741198692207137
         ],
         [
-          0.31576375955117386,
-          0.24913690264376093,
-          0.24962339848094983,
+          0.31576375955117386, 0.24913690264376093, 0.24962339848094983,
           0.18547593932411535
         ],
         [
-          0.23897515574805897,
-          0.26958684078673995,
-          0.2804782174598006,
+          0.23897515574805897, 0.26958684078673995, 0.2804782174598006,
           0.2109597860054005
         ]
       ],
       [
         [
-          0.32932108178869396,
-          0.3332733241226986,
-          0.24053942923476415,
+          0.32932108178869396, 0.3332733241226986, 0.24053942923476415,
           0.09686616485384322
         ],
         [
-          0.3200655044199129,
-          0.3234812720309798,
-          0.2500162501482784,
+          0.3200655044199129, 0.3234812720309798, 0.2500162501482784,
           0.10643697340082894
         ],
         [
-          0.2664740570688831,
-          0.2267811000918784,
-          0.31573841667859254,
+          0.2664740570688831, 0.2267811000918784, 0.31573841667859254,
           0.191006426160646
         ],
         [
-          0.08413935672250997,
-          0.11646430375444324,
-          0.19370590393836495,
+          0.08413935672250997, 0.11646430375444324, 0.19370590393836495,
           0.6056904355846818
         ]
       ],
       [
         [
-          0.08671675190622284,
-          0.23909358956160087,
-          0.4525091900620247,
+          0.08671675190622284, 0.23909358956160087, 0.4525091900620247,
           0.22168046847015155
         ],
         [
-          0.641571785922627,
-          0.3044671929064005,
-          0.04047421729751317,
+          0.641571785922627, 0.3044671929064005, 0.04047421729751317,
           0.013486803873459423
         ],
         [
-          0.22861329819065043,
-          0.33960185405684573,
-          0.3095505952872202,
+          0.22861329819065043, 0.33960185405684573, 0.3095505952872202,
           0.12223425246528376
         ],
         [
-          0.04309816398049981,
-          0.116837363475153,
-          0.1974659973532419,
+          0.04309816398049981, 0.116837363475153, 0.1974659973532419,
           0.6425984751911054
         ]
       ],
       [
         [
-          0.10149898172466044,
-          0.07843140870550593,
-          0.6718955427491686,
+          0.10149898172466044, 0.07843140870550593, 0.6718955427491686,
           0.14817406682066492
         ],
         [
-          0.42577130366030774,
-          0.4698051577145522,
-          0.08422436656046114,
+          0.42577130366030774, 0.4698051577145522, 0.08422436656046114,
           0.02019917206467874
         ],
         [
-          0.4276432982078095,
-          0.4264757811452208,
-          0.1236667277972634,
+          0.4276432982078095, 0.4264757811452208, 0.1236667277972634,
           0.022214192849706223
         ],
         [
-          0.04508641640722217,
-          0.025287652434720996,
-          0.1202133628931067,
+          0.04508641640722217, 0.025287652434720996, 0.1202133628931067,
           0.8094125682649499
         ]
       ]
@@ -17042,36 +16496,11 @@
     {
       "log": [
         [
-          [
-            0,
-            0,
-            0
-          ],
-          [
-            25000,
-            25000,
-            25000,
-            25000
-          ],
-          [
-            45
-          ],
+          [0, 0, 0],
+          [25000, 25000, 25000, 25000],
+          [45],
           [],
-          [
-            26,
-            33,
-            44,
-            16,
-            39,
-            21,
-            15,
-            45,
-            17,
-            33,
-            23,
-            15,
-            14
-          ],
+          [26, 33, 44, 16, 39, 21, 15, 45, 17, 33, 23, 15, 14],
           [
             44,
             42,
@@ -17094,59 +16523,12 @@
             46
           ],
           [
-            45,
-            39,
-            42,
-            60,
-            21,
-            60,
-            33,
-            60,
-            60,
-            60,
-            60,
-            60,
-            44,
-            60,
-            44,
-            17,
-            18,
-            60,
-            14
+            45, 39, 42, 60, 21, 60, 33, 60, 60, 60, 60, 60, 44, 60, 44, 17, 18,
+            60, 14
           ],
+          [41, 18, 52, 35, 21, 31, 29, 46, 31, 44, 24, 45, 33],
           [
-            41,
-            18,
-            52,
-            35,
-            21,
-            31,
-            29,
-            46,
-            31,
-            44,
-            24,
-            45,
-            33
-          ],
-          [
-            38,
-            31,
-            17,
-            22,
-            11,
-            13,
-            19,
-            39,
-            47,
-            34,
-            12,
-            42,
-            15,
-            23,
-            17,
-            28,
-            36,
+            38, 31, 17, 22, 11, 13, 19, 39, 47, 34, 12, 42, 15, 23, 17, 28, 36,
             36
           ],
           [
@@ -17169,93 +16551,11 @@
             60,
             60
           ],
-          [
-            16,
-            44,
-            32,
-            35,
-            32,
-            14,
-            47,
-            22,
-            25,
-            28,
-            12,
-            13,
-            43
-          ],
-          [
-            25,
-            37,
-            16,
-            21,
-            27,
-            29,
-            42,
-            43,
-            42,
-            22,
-            41,
-            37,
-            29,
-            35,
-            13,
-            46,
-            18
-          ],
-          [
-            44,
-            47,
-            22,
-            60,
-            43,
-            16,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            13,
-            29,
-            28,
-            27
-          ],
-          [
-            38,
-            16,
-            11,
-            18,
-            12,
-            34,
-            53,
-            23,
-            26,
-            36,
-            19,
-            13,
-            32
-          ],
-          [
-            25,
-            39,
-            38,
-            12,
-            34,
-            28,
-            37,
-            36,
-            29,
-            28,
-            17,
-            39,
-            22,
-            27,
-            19,
-            27,
-            14
-          ],
+          [16, 44, 32, 35, 32, 14, 47, 22, 25, 28, 12, 13, 43],
+          [25, 37, 16, 21, 27, 29, 42, 43, 42, 22, 41, 37, 29, 35, 13, 46, 18],
+          [44, 47, 22, 60, 43, 16, 60, 60, 60, 60, 60, 60, 60, 13, 29, 28, 27],
+          [38, 16, 11, 18, 12, 34, 53, 23, 26, 36, 19, 13, 32],
+          [25, 39, 38, 12, 34, 28, 37, 36, 29, 28, 17, 39, 22, 27, 19, 27, 14],
           [
             23,
             19,
@@ -17275,23 +16575,10 @@
             60,
             60
           ],
-          [
-            "流局",
-            [
-              -1500,
-              1500,
-              -1500,
-              1500
-            ]
-          ]
+          ["流局", [-1500, 1500, -1500, 1500]]
         ]
       ],
-      "name": [
-        "Aさん",
-        "Bさん",
-        "Cさん",
-        "Dさん"
-      ],
+      "name": ["Aさん", "Bさん", "Cさん", "Dさん"],
       "rule": {
         "disp": "玉の間南喰赤",
         "aka": 0,
@@ -17301,218 +16588,37 @@
       },
       "ratingc": "PF4",
       "lobby": 0,
-      "dan": [
-        "雀豪★1",
-        "雀豪★2",
-        "雀豪★2",
-        "雀豪★1"
-      ],
-      "rate": [
-        1693,
-        2528,
-        850,
-        1329
-      ],
-      "sx": [
-        "C",
-        "C",
-        "C",
-        "C"
-      ]
+      "dan": ["雀豪★1", "雀豪★2", "雀豪★2", "雀豪★1"],
+      "rate": [1693, 2528, 850, 1329],
+      "sx": ["C", "C", "C", "C"]
     },
     {
       "log": [
         [
-          [
-            1,
-            1,
-            2
-          ],
-          [
-            23500,
-            25500,
-            23500,
-            25500
-          ],
-          [
-            38
-          ],
+          [1, 1, 2],
+          [23500, 25500, 23500, 25500],
+          [38],
           [],
-          [
-            39,
-            22,
-            26,
-            34,
-            26,
-            47,
-            14,
-            41,
-            41,
-            14,
-            35,
-            16,
-            13
-          ],
-          [
-            "41p4141",
-            22,
-            22,
-            51,
-            13,
-            19,
-            37,
-            12
-          ],
-          [
-            22,
-            60,
-            60,
-            39,
-            47,
-            60,
-            60,
-            16
-          ],
-          [
-            44,
-            18,
-            43,
-            46,
-            12,
-            18,
-            46,
-            41,
-            29,
-            32,
-            14,
-            36,
-            11
-          ],
-          [
-            52,
-            11,
-            24,
-            33,
-            "4646p46",
-            43,
-            47,
-            16,
-            "11p1111",
-            42,
-            35
-          ],
-          [
-            43,
-            41,
-            44,
-            29,
-            36,
-            60,
-            60,
-            14,
-            12,
-            16,
-            42
-          ],
-          [
-            17,
-            25,
-            13,
-            39,
-            23,
-            47,
-            37,
-            17,
-            46,
-            44,
-            26,
-            33,
-            41
-          ],
-          [
-            27,
-            35,
-            29,
-            26,
-            15,
-            17,
-            19,
-            42,
-            31,
-            27
-          ],
-          [
-            41,
-            44,
-            47,
-            46,
-            23,
-            29,
-            60,
-            60,
-            60,
-            33
-          ],
-          [
-            45,
-            31,
-            24,
-            34,
-            25,
-            43,
-            15,
-            31,
-            42,
-            25,
-            15,
-            36,
-            37
-          ],
-          [
-            38,
-            16,
-            16,
-            32,
-            45,
-            11,
-            43,
-            "16p1616"
-          ],
-          [
-            42,
-            43,
-            45,
-            31,
-            60,
-            60,
-            60,
-            31
-          ],
+          [39, 22, 26, 34, 26, 47, 14, 41, 41, 14, 35, 16, 13],
+          ["41p4141", 22, 22, 51, 13, 19, 37, 12],
+          [22, 60, 60, 39, 47, 60, 60, 16],
+          [44, 18, 43, 46, 12, 18, 46, 41, 29, 32, 14, 36, 11],
+          [52, 11, 24, 33, "4646p46", 43, 47, 16, "11p1111", 42, 35],
+          [43, 41, 44, 29, 36, 60, 60, 14, 12, 16, 42],
+          [17, 25, 13, 39, 23, 47, 37, 17, 46, 44, 26, 33, 41],
+          [27, 35, 29, 26, 15, 17, 19, 42, 31, 27],
+          [41, 44, 47, 46, 23, 29, 60, 60, 60, 33],
+          [45, 31, 24, 34, 25, 43, 15, 31, 42, 25, 15, 36, 37],
+          [38, 16, 16, 32, 45, 11, 43, "16p1616"],
+          [42, 43, 45, 31, 60, 60, 60, 31],
           [
             "和了",
-            [
-              4300,
-              0,
-              -2300,
-              0
-            ],
-            [
-              0,
-              2,
-              0,
-              "30符2飜2000点",
-              "役牌:場風牌(1飜)",
-              "赤ドラ(1飜)"
-            ]
+            [4300, 0, -2300, 0],
+            [0, 2, 0, "30符2飜2000点", "役牌:場風牌(1飜)", "赤ドラ(1飜)"]
           ]
         ]
       ],
-      "name": [
-        "Aさん",
-        "Bさん",
-        "Cさん",
-        "Dさん"
-      ],
+      "name": ["Aさん", "Bさん", "Cさん", "Dさん"],
       "rule": {
         "disp": "玉の間南喰赤",
         "aka": 0,
@@ -17522,234 +16628,32 @@
       },
       "ratingc": "PF4",
       "lobby": 0,
-      "dan": [
-        "雀豪★1",
-        "雀豪★2",
-        "雀豪★2",
-        "雀豪★1"
-      ],
-      "rate": [
-        1693,
-        2528,
-        850,
-        1329
-      ],
-      "sx": [
-        "C",
-        "C",
-        "C",
-        "C"
-      ]
+      "dan": ["雀豪★1", "雀豪★2", "雀豪★2", "雀豪★1"],
+      "rate": [1693, 2528, 850, 1329],
+      "sx": ["C", "C", "C", "C"]
     },
     {
       "log": [
         [
-          [
-            2,
-            0,
-            0
-          ],
-          [
-            27800,
-            25500,
-            21200,
-            25500
-          ],
-          [
-            17,
-            13
-          ],
+          [2, 0, 0],
+          [27800, 25500, 21200, 25500],
+          [17, 13],
           [],
-          [
-            37,
-            25,
-            38,
-            36,
-            45,
-            19,
-            29,
-            46,
-            44,
-            32,
-            15,
-            32,
-            22
-          ],
-          [
-            15,
-            13,
-            23,
-            31,
-            12,
-            21,
-            28,
-            37,
-            12,
-            44,
-            12,
-            19,
-            41
-          ],
-          [
-            44,
-            19,
-            46,
-            29,
-            31,
-            25,
-            60,
-            60,
-            60,
-            45,
-            60,
-            60,
-            60
-          ],
-          [
-            42,
-            46,
-            22,
-            44,
-            14,
-            24,
-            24,
-            16,
-            26,
-            16,
-            45,
-            39,
-            45
-          ],
-          [
-            27,
-            28,
-            27,
-            11,
-            39,
-            18,
-            25,
-            51,
-            47,
-            "p454545",
-            31,
-            45,
-            14,
-            38
-          ],
-          [
-            39,
-            44,
-            14,
-            60,
-            60,
-            16,
-            46,
-            42,
-            60,
-            18,
-            60,
-            22,
-            "k45454545",
-            60
-          ],
-          [
-            11,
-            14,
-            29,
-            21,
-            25,
-            43,
-            37,
-            13,
-            27,
-            18,
-            39,
-            15,
-            34
-          ],
-          [
-            32,
-            52,
-            46,
-            32,
-            24,
-            43,
-            35,
-            39,
-            41,
-            36,
-            16,
-            23,
-            22
-          ],
-          [
-            43,
-            21,
-            60,
-            11,
-            34,
-            60,
-            39,
-            60,
-            60,
-            29,
-            27,
-            25,
-            60
-          ],
-          [
-            36,
-            26,
-            38,
-            31,
-            11,
-            22,
-            21,
-            47,
-            23,
-            43,
-            14,
-            34,
-            13
-          ],
-          [
-            53,
-            33,
-            29,
-            33,
-            47,
-            41,
-            38,
-            16,
-            24,
-            11,
-            27,
-            42,
-            12
-          ],
-          [
-            43,
-            47,
-            60,
-            11,
-            60,
-            60,
-            26,
-            60,
-            21,
-            60,
-            60,
-            60,
-            31
-          ],
+          [37, 25, 38, 36, 45, 19, 29, 46, 44, 32, 15, 32, 22],
+          [15, 13, 23, 31, 12, 21, 28, 37, 12, 44, 12, 19, 41],
+          [44, 19, 46, 29, 31, 25, 60, 60, 60, 45, 60, 60, 60],
+          [42, 46, 22, 44, 14, 24, 24, 16, 26, 16, 45, 39, 45],
+          [27, 28, 27, 11, 39, 18, 25, 51, 47, "p454545", 31, 45, 14, 38],
+          [39, 44, 14, 60, 60, 16, 46, 42, 60, 18, 60, 22, "k45454545", 60],
+          [11, 14, 29, 21, 25, 43, 37, 13, 27, 18, 39, 15, 34],
+          [32, 52, 46, 32, 24, 43, 35, 39, 41, 36, 16, 23, 22],
+          [43, 21, 60, 11, 34, 60, 39, 60, 60, 29, 27, 25, 60],
+          [36, 26, 38, 31, 11, 22, 21, 47, 23, 43, 14, 34, 13],
+          [53, 33, 29, 33, 47, 41, 38, 16, 24, 11, 27, 42, 12],
+          [43, 47, 60, 11, 60, 60, 26, 60, 21, 60, 60, 60, 31],
           [
             "和了",
-            [
-              0,
-              -5200,
-              0,
-              5200
-            ],
+            [0, -5200, 0, 5200],
             [
               3,
               1,
@@ -17762,12 +16666,7 @@
           ]
         ]
       ],
-      "name": [
-        "Aさん",
-        "Bさん",
-        "Cさん",
-        "Dさん"
-      ],
+      "name": ["Aさん", "Bさん", "Cさん", "Dさん"],
       "rule": {
         "disp": "玉の間南喰赤",
         "aka": 0,
@@ -17777,99 +16676,21 @@
       },
       "ratingc": "PF4",
       "lobby": 0,
-      "dan": [
-        "雀豪★1",
-        "雀豪★2",
-        "雀豪★2",
-        "雀豪★1"
-      ],
-      "rate": [
-        1693,
-        2528,
-        850,
-        1329
-      ],
-      "sx": [
-        "C",
-        "C",
-        "C",
-        "C"
-      ]
+      "dan": ["雀豪★1", "雀豪★2", "雀豪★2", "雀豪★1"],
+      "rate": [1693, 2528, 850, 1329],
+      "sx": ["C", "C", "C", "C"]
     },
     {
       "log": [
         [
-          [
-            3,
-            0,
-            0
-          ],
-          [
-            27800,
-            20300,
-            21200,
-            30700
-          ],
-          [
-            27
-          ],
+          [3, 0, 0],
+          [27800, 20300, 21200, 30700],
+          [27],
           [],
-          [
-            38,
-            42,
-            39,
-            42,
-            37,
-            11,
-            46,
-            29,
-            23,
-            19,
-            21,
-            22,
-            13
-          ],
-          [
-            24,
-            25,
-            18,
-            18,
-            "p424242",
-            14,
-            28,
-            47,
-            37,
-            35,
-            51
-          ],
-          [
-            29,
-            19,
-            60,
-            60,
-            46,
-            11,
-            60,
-            60,
-            60,
-            60,
-            21
-          ],
-          [
-            43,
-            44,
-            45,
-            28,
-            45,
-            44,
-            15,
-            36,
-            41,
-            24,
-            11,
-            38,
-            21
-          ],
+          [38, 42, 39, 42, 37, 11, 46, 29, 23, 19, 21, 22, 13],
+          [24, 25, 18, 18, "p424242", 14, 28, 47, 37, 35, 51],
+          [29, 19, 60, 60, 46, 11, 60, 60, 60, 60, 21],
+          [43, 44, 45, 28, 45, 44, 15, 36, 41, 24, 11, 38, 21],
           [
             16,
             31,
@@ -17885,131 +16706,21 @@
             21,
             14
           ],
-          [
-            21,
-            11,
-            31,
-            43,
-            60,
-            24,
-            22,
-            36,
-            38,
-            60,
-            60,
-            60
-          ],
-          [
-            11,
-            34,
-            25,
-            33,
-            19,
-            43,
-            36,
-            32,
-            46,
-            31,
-            17,
-            29,
-            19
-          ],
-          [
-            23,
-            29,
-            26,
-            12,
-            14,
-            23,
-            24,
-            44,
-            31,
-            16,
-            12,
-            37
-          ],
-          [
-            11,
-            43,
-            46,
-            60,
-            60,
-            29,
-            29,
-            60,
-            60,
-            36,
-            31,
-            60
-          ],
-          [
-            28,
-            25,
-            22,
-            16,
-            47,
-            53,
-            17,
-            38,
-            13,
-            37,
-            43,
-            36,
-            32
-          ],
-          [
-            32,
-            41,
-            17,
-            47,
-            42,
-            27,
-            14,
-            29,
-            45,
-            52,
-            34,
-            17
-          ],
-          [
-            43,
-            47,
-            13,
-            60,
-            60,
-            22,
-            25,
-            41,
-            60,
-            60,
-            32,
-            32
-          ],
+          [21, 11, 31, 43, 60, 24, 22, 36, 38, 60, 60, 60],
+          [11, 34, 25, 33, 19, 43, 36, 32, 46, 31, 17, 29, 19],
+          [23, 29, 26, 12, 14, 23, 24, 44, 31, 16, 12, 37],
+          [11, 43, 46, 60, 60, 29, 29, 60, 60, 36, 31, 60],
+          [28, 25, 22, 16, 47, 53, 17, 38, 13, 37, 43, 36, 32],
+          [32, 41, 17, 47, 42, 27, 14, 29, 45, 52, 34, 17],
+          [43, 47, 13, 60, 60, 22, 25, 41, 60, 60, 32, 32],
           [
             "和了",
-            [
-              -2000,
-              8000,
-              -2000,
-              -4000
-            ],
-            [
-              1,
-              1,
-              1,
-              "満貫2000-4000点",
-              "役牌:場風牌(1飜)",
-              "ドラ(3飜)"
-            ]
+            [-2000, 8000, -2000, -4000],
+            [1, 1, 1, "満貫2000-4000点", "役牌:場風牌(1飜)", "ドラ(3飜)"]
           ]
         ]
       ],
-      "name": [
-        "Aさん",
-        "Bさん",
-        "Cさん",
-        "Dさん"
-      ],
+      "name": ["Aさん", "Bさん", "Cさん", "Dさん"],
       "rule": {
         "disp": "玉の間南喰赤",
         "aka": 0,
@@ -18019,211 +16730,32 @@
       },
       "ratingc": "PF4",
       "lobby": 0,
-      "dan": [
-        "雀豪★1",
-        "雀豪★2",
-        "雀豪★2",
-        "雀豪★1"
-      ],
-      "rate": [
-        1693,
-        2528,
-        850,
-        1329
-      ],
-      "sx": [
-        "C",
-        "C",
-        "C",
-        "C"
-      ]
+      "dan": ["雀豪★1", "雀豪★2", "雀豪★2", "雀豪★1"],
+      "rate": [1693, 2528, 850, 1329],
+      "sx": ["C", "C", "C", "C"]
     },
     {
       "log": [
         [
-          [
-            4,
-            0,
-            0
-          ],
-          [
-            25800,
-            28300,
-            19200,
-            26700
-          ],
-          [
-            12
-          ],
-          [
-            29
-          ],
-          [
-            44,
-            46,
-            18,
-            36,
-            36,
-            51,
-            21,
-            33,
-            36,
-            18,
-            25,
-            26,
-            34
-          ],
-          [
-            52,
-            13,
-            47,
-            23,
-            17,
-            34,
-            32,
-            22,
-            31,
-            43,
-            24
-          ],
-          [
-            44,
-            21,
-            46,
-            47,
-            60,
-            25,
-            34,
-            60,
-            60,
-            60,
-            23
-          ],
-          [
-            43,
-            32,
-            26,
-            19,
-            47,
-            35,
-            41,
-            24,
-            17,
-            32,
-            16,
-            16,
-            46
-          ],
-          [
-            34,
-            11,
-            38,
-            41,
-            43,
-            14,
-            15,
-            22,
-            44,
-            41
-          ],
-          [
-            41,
-            43,
-            11,
-            60,
-            60,
-            46,
-            38,
-            35,
-            32,
-            19
-          ],
-          [
-            46,
-            22,
-            12,
-            22,
-            19,
-            44,
-            29,
-            53,
-            15,
-            21,
-            38,
-            17,
-            33
-          ],
-          [
-            31,
-            34,
-            25,
-            14,
-            13,
-            28,
-            16,
-            28,
-            24,
-            31
-          ],
-          [
-            29,
-            44,
-            46,
-            21,
-            38,
-            60,
-            31,
-            60,
-            "r19",
-            60
-          ],
-          [
-            15,
-            23,
-            35,
-            19,
-            23,
-            43,
-            11,
-            39,
-            42,
-            38,
-            45,
-            14,
-            23
-          ],
-          [
-            42,
-            16,
-            11,
-            47,
-            42,
-            13,
-            37,
-            32,
-            37,
-            19
-          ],
-          [
-            11,
-            19,
-            60,
-            43,
-            47,
-            45,
-            "r35",
-            60,
-            60,
-            60
-          ],
+          [4, 0, 0],
+          [25800, 28300, 19200, 26700],
+          [12],
+          [29],
+          [44, 46, 18, 36, 36, 51, 21, 33, 36, 18, 25, 26, 34],
+          [52, 13, 47, 23, 17, 34, 32, 22, 31, 43, 24],
+          [44, 21, 46, 47, 60, 25, 34, 60, 60, 60, 23],
+          [43, 32, 26, 19, 47, 35, 41, 24, 17, 32, 16, 16, 46],
+          [34, 11, 38, 41, 43, 14, 15, 22, 44, 41],
+          [41, 43, 11, 60, 60, 46, 38, 35, 32, 19],
+          [46, 22, 12, 22, 19, 44, 29, 53, 15, 21, 38, 17, 33],
+          [31, 34, 25, 14, 13, 28, 16, 28, 24, 31],
+          [29, 44, 46, 21, 38, 60, 31, 60, "r19", 60],
+          [15, 23, 35, 19, 23, 43, 11, 39, 42, 38, 45, 14, 23],
+          [42, 16, 11, 47, 42, 13, 37, 32, 37, 19],
+          [11, 19, 60, 43, 47, 45, "r35", 60, 60, 60],
           [
             "和了",
-            [
-              -8000,
-              0,
-              10000,
-              0
-            ],
+            [-8000, 0, 10000, 0],
             [
               2,
               0,
@@ -18239,12 +16771,7 @@
           ]
         ]
       ],
-      "name": [
-        "Aさん",
-        "Bさん",
-        "Cさん",
-        "Dさん"
-      ],
+      "name": ["Aさん", "Bさん", "Cさん", "Dさん"],
       "rule": {
         "disp": "玉の間南喰赤",
         "aka": 0,
@@ -18254,222 +16781,37 @@
       },
       "ratingc": "PF4",
       "lobby": 0,
-      "dan": [
-        "雀豪★1",
-        "雀豪★2",
-        "雀豪★2",
-        "雀豪★1"
-      ],
-      "rate": [
-        1693,
-        2528,
-        850,
-        1329
-      ],
-      "sx": [
-        "C",
-        "C",
-        "C",
-        "C"
-      ]
+      "dan": ["雀豪★1", "雀豪★2", "雀豪★2", "雀豪★1"],
+      "rate": [1693, 2528, 850, 1329],
+      "sx": ["C", "C", "C", "C"]
     },
     {
       "log": [
         [
-          [
-            5,
-            0,
-            0
-          ],
-          [
-            17800,
-            28300,
-            28200,
-            25700
-          ],
-          [
-            31
-          ],
+          [5, 0, 0],
+          [17800, 28300, 28200, 25700],
+          [31],
           [],
-          [
-            25,
-            34,
-            36,
-            41,
-            26,
-            42,
-            47,
-            32,
-            23,
-            29,
-            18,
-            39,
-            36
-          ],
-          [
-            12,
-            44,
-            14,
-            45,
-            42,
-            15,
-            "c272526",
-            29,
-            29
-          ],
-          [
-            41,
-            60,
-            47,
-            60,
-            39,
-            29,
-            23,
-            12,
-            18
-          ],
-          [
-            51,
-            33,
-            25,
-            38,
-            16,
-            41,
-            28,
-            36,
-            43,
-            12,
-            41,
-            34,
-            23
-          ],
-          [
-            19,
-            "p414141",
-            39,
-            12,
-            19,
-            28,
-            26,
-            17,
-            15,
-            43
-          ],
-          [
-            43,
-            19,
-            60,
-            28,
-            60,
-            60,
-            23,
-            36,
-            60,
-            38
-          ],
-          [
-            14,
-            11,
-            11,
-            28,
-            24,
-            36,
-            31,
-            37,
-            46,
-            38,
-            24,
-            47,
-            24
-          ],
-          [
-            22,
-            46,
-            38,
-            32,
-            16,
-            37,
-            "1111p11",
-            28,
-            18,
-            46
-          ],
-          [
-            31,
-            28,
-            22,
-            47,
-            60,
-            14,
-            32,
-            60,
-            60,
-            36
-          ],
-          [
-            19,
-            17,
-            24,
-            29,
-            21,
-            22,
-            52,
-            46,
-            17,
-            18,
-            44,
-            17,
-            11
-          ],
-          [
-            27,
-            13,
-            19,
-            38,
-            11,
-            32,
-            12,
-            43,
-            33,
-            33
-          ],
-          [
-            44,
-            46,
-            18,
-            60,
-            60,
-            11,
-            29,
-            27,
-            43,
-            22
-          ],
+          [25, 34, 36, 41, 26, 42, 47, 32, 23, 29, 18, 39, 36],
+          [12, 44, 14, 45, 42, 15, "c272526", 29, 29],
+          [41, 60, 47, 60, 39, 29, 23, 12, 18],
+          [51, 33, 25, 38, 16, 41, 28, 36, 43, 12, 41, 34, 23],
+          [19, "p414141", 39, 12, 19, 28, 26, 17, 15, 43],
+          [43, 19, 60, 28, 60, 60, 23, 36, 60, 38],
+          [14, 11, 11, 28, 24, 36, 31, 37, 46, 38, 24, 47, 24],
+          [22, 46, 38, 32, 16, 37, "1111p11", 28, 18, 46],
+          [31, 28, 22, 47, 60, 14, 32, 60, 60, 36],
+          [19, 17, 24, 29, 21, 22, 52, 46, 17, 18, 44, 17, 11],
+          [27, 13, 19, 38, 11, 32, 12, 43, 33, 33],
+          [44, 46, 18, 60, 60, 11, 29, 27, 43, 22],
           [
             "和了",
-            [
-              0,
-              -5200,
-              5200,
-              0
-            ],
-            [
-              2,
-              1,
-              2,
-              "40符3飜5200点",
-              "対々和(2飜)",
-              "役牌 發(1飜)"
-            ]
+            [0, -5200, 5200, 0],
+            [2, 1, 2, "40符3飜5200点", "対々和(2飜)", "役牌 發(1飜)"]
           ]
         ]
       ],
-      "name": [
-        "Aさん",
-        "Bさん",
-        "Cさん",
-        "Dさん"
-      ],
+      "name": ["Aさん", "Bさん", "Cさん", "Dさん"],
       "rule": {
         "disp": "玉の間南喰赤",
         "aka": 0,
@@ -18479,253 +16821,37 @@
       },
       "ratingc": "PF4",
       "lobby": 0,
-      "dan": [
-        "雀豪★1",
-        "雀豪★2",
-        "雀豪★2",
-        "雀豪★1"
-      ],
-      "rate": [
-        1693,
-        2528,
-        850,
-        1329
-      ],
-      "sx": [
-        "C",
-        "C",
-        "C",
-        "C"
-      ]
+      "dan": ["雀豪★1", "雀豪★2", "雀豪★2", "雀豪★1"],
+      "rate": [1693, 2528, 850, 1329],
+      "sx": ["C", "C", "C", "C"]
     },
     {
       "log": [
         [
-          [
-            6,
-            0,
-            0
-          ],
-          [
-            17800,
-            23100,
-            33400,
-            25700
-          ],
-          [
-            22
-          ],
-          [
-            31
-          ],
-          [
-            44,
-            17,
-            34,
-            32,
-            53,
-            15,
-            17,
-            37,
-            23,
-            11,
-            32,
-            46,
-            11
-          ],
-          [
-            31,
-            37,
-            17,
-            46,
-            31,
-            41,
-            28,
-            19,
-            18,
-            24,
-            13,
-            19,
-            14
-          ],
-          [
-            44,
-            46,
-            15,
-            60,
-            32,
-            32,
-            41,
-            11,
-            11,
-            17,
-            17,
-            60,
-            60
-          ],
-          [
-            22,
-            18,
-            12,
-            33,
-            11,
-            36,
-            16,
-            18,
-            24,
-            13,
-            41,
-            31,
-            38
-          ],
-          [
-            46,
-            33,
-            19,
-            12,
-            44,
-            27,
-            38,
-            35,
-            16,
-            29,
-            27,
-            29,
-            42
-          ],
-          [
-            41,
-            46,
-            60,
-            60,
-            60,
-            22,
-            11,
-            18,
-            12,
-            18,
-            36,
-            60,
-            29
-          ],
-          [
-            45,
-            21,
-            11,
-            21,
-            35,
-            42,
-            41,
-            29,
-            34,
-            13,
-            41,
-            28,
-            38
-          ],
-          [
-            27,
-            42,
-            26,
-            16,
-            24,
-            42,
-            34,
-            24,
-            23,
-            29,
-            12,
-            39,
-            51,
-            47
-          ],
-          [
-            42,
-            60,
-            45,
-            38,
-            16,
-            60,
-            41,
-            11,
-            41,
-            60,
-            29,
-            60,
-            12,
-            13
-          ],
-          [
-            38,
-            33,
-            32,
-            14,
-            32,
-            34,
-            28,
-            44,
-            22,
-            14,
-            15,
-            37,
-            39
-          ],
-          [
-            25,
-            27,
-            28,
-            17,
-            26,
-            45,
-            43,
-            19,
-            12,
-            39,
-            36,
-            43,
-            14
-          ],
-          [
-            44,
-            22,
-            14,
-            60,
-            "r32",
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60,
-            60
-          ],
+          [6, 0, 0],
+          [17800, 23100, 33400, 25700],
+          [22],
+          [31],
+          [44, 17, 34, 32, 53, 15, 17, 37, 23, 11, 32, 46, 11],
+          [31, 37, 17, 46, 31, 41, 28, 19, 18, 24, 13, 19, 14],
+          [44, 46, 15, 60, 32, 32, 41, 11, 11, 17, 17, 60, 60],
+          [22, 18, 12, 33, 11, 36, 16, 18, 24, 13, 41, 31, 38],
+          [46, 33, 19, 12, 44, 27, 38, 35, 16, 29, 27, 29, 42],
+          [41, 46, 60, 60, 60, 22, 11, 18, 12, 18, 36, 60, 29],
+          [45, 21, 11, 21, 35, 42, 41, 29, 34, 13, 41, 28, 38],
+          [27, 42, 26, 16, 24, 42, 34, 24, 23, 29, 12, 39, 51, 47],
+          [42, 60, 45, 38, 16, 60, 41, 11, 41, 60, 29, 60, 12, 13],
+          [38, 33, 32, 14, 32, 34, 28, 44, 22, 14, 15, 37, 39],
+          [25, 27, 28, 17, 26, 45, 43, 19, 12, 39, 36, 43, 14],
+          [44, 22, 14, 60, "r32", 60, 60, 60, 60, 60, 60, 60, 60],
           [
             "和了",
-            [
-              0,
-              0,
-              -3900,
-              4900
-            ],
-            [
-              3,
-              2,
-              3,
-              "30符3飜3900点",
-              "平和(1飜)",
-              "立直(1飜)",
-              "裏ドラ(1飜)"
-            ]
+            [0, 0, -3900, 4900],
+            [3, 2, 3, "30符3飜3900点", "平和(1飜)", "立直(1飜)", "裏ドラ(1飜)"]
           ]
         ]
       ],
-      "name": [
-        "Aさん",
-        "Bさん",
-        "Cさん",
-        "Dさん"
-      ],
+      "name": ["Aさん", "Bさん", "Cさん", "Dさん"],
       "rule": {
         "disp": "玉の間南喰赤",
         "aka": 0,
@@ -18735,187 +16861,27 @@
       },
       "ratingc": "PF4",
       "lobby": 0,
-      "dan": [
-        "雀豪★1",
-        "雀豪★2",
-        "雀豪★2",
-        "雀豪★1"
-      ],
-      "rate": [
-        1693,
-        2528,
-        850,
-        1329
-      ],
-      "sx": [
-        "C",
-        "C",
-        "C",
-        "C"
-      ]
+      "dan": ["雀豪★1", "雀豪★2", "雀豪★2", "雀豪★1"],
+      "rate": [1693, 2528, 850, 1329],
+      "sx": ["C", "C", "C", "C"]
     },
     {
       "log": [
         [
-          [
-            7,
-            0,
-            0
-          ],
-          [
-            17800,
-            23100,
-            29500,
-            29600
-          ],
-          [
-            42
-          ],
+          [7, 0, 0],
+          [17800, 23100, 29500, 29600],
+          [42],
           [],
-          [
-            26,
-            29,
-            27,
-            19,
-            45,
-            38,
-            34,
-            19,
-            32,
-            17,
-            33,
-            24,
-            21
-          ],
-          [
-            44,
-            17,
-            36,
-            24,
-            53,
-            12,
-            37,
-            47,
-            26,
-            18,
-            46,
-            "c252627",
-            13
-          ],
-          [
-            21,
-            45,
-            29,
-            44,
-            38,
-            60,
-            19,
-            19,
-            60,
-            60,
-            60,
-            47,
-            60
-          ],
-          [
-            25,
-            44,
-            33,
-            37,
-            52,
-            43,
-            32,
-            31,
-            11,
-            12,
-            13,
-            31,
-            23
-          ],
-          [
-            23,
-            34,
-            47,
-            43,
-            19,
-            41,
-            39,
-            14,
-            16,
-            51,
-            44,
-            27
-          ],
-          [
-            44,
-            43,
-            60,
-            60,
-            60,
-            60,
-            60,
-            37,
-            25,
-            "r23",
-            60,
-            60
-          ],
-          [
-            23,
-            31,
-            17,
-            36,
-            42,
-            38,
-            35,
-            24,
-            27,
-            14,
-            28,
-            47,
-            11
-          ],
-          [
-            36,
-            29,
-            38,
-            17,
-            11,
-            12,
-            21,
-            18,
-            34,
-            13,
-            45
-          ],
-          [
-            11,
-            31,
-            42,
-            47,
-            60,
-            38,
-            60,
-            38,
-            23,
-            28,
-            27
-          ],
-          [
-            25,
-            27,
-            29,
-            18,
-            15,
-            46,
-            29,
-            41,
-            45,
-            47,
-            41,
-            43,
-            42
-          ],
+          [26, 29, 27, 19, 45, 38, 34, 19, 32, 17, 33, 24, 21],
+          [44, 17, 36, 24, 53, 12, 37, 47, 26, 18, 46, "c252627", 13],
+          [21, 45, 29, 44, 38, 60, 19, 19, 60, 60, 60, 47, 60],
+          [25, 44, 33, 37, 52, 43, 32, 31, 11, 12, 13, 31, 23],
+          [23, 34, 47, 43, 19, 41, 39, 14, 16, 51, 44, 27],
+          [44, 43, 60, 60, 60, 60, 60, 37, 25, "r23", 60, 60],
+          [23, 31, 17, 36, 42, 38, 35, 24, 27, 14, 28, 47, 11],
+          [36, 29, 38, 17, 11, 12, 21, 18, 34, 13, 45],
+          [11, 31, 42, 47, 60, 38, 60, 38, 23, 28, 27],
+          [25, 27, 29, 18, 15, 46, 29, 41, 45, 47, 41, 43, 42],
           [
             22,
             15,
@@ -18932,45 +16898,15 @@
             44,
             22
           ],
-          [
-            18,
-            43,
-            42,
-            45,
-            47,
-            60,
-            46,
-            60,
-            29,
-            25,
-            60,
-            60,
-            60
-          ],
+          [18, 43, 42, 45, 47, 60, 46, 60, 29, 25, 60, 60, 60],
           [
             "和了",
-            [
-              -700,
-              -700,
-              -700,
-              3100
-            ],
-            [
-              3,
-              3,
-              3,
-              "40符1飜700点∀",
-              "役牌:自風牌(1飜)"
-            ]
+            [-700, -700, -700, 3100],
+            [3, 3, 3, "40符1飜700点∀", "役牌:自風牌(1飜)"]
           ]
         ]
       ],
-      "name": [
-        "Aさん",
-        "Bさん",
-        "Cさん",
-        "Dさん"
-      ],
+      "name": ["Aさん", "Bさん", "Cさん", "Dさん"],
       "rule": {
         "disp": "玉の間南喰赤",
         "aka": 0,
@@ -18980,35 +16916,15 @@
       },
       "ratingc": "PF4",
       "lobby": 0,
-      "dan": [
-        "雀豪★1",
-        "雀豪★2",
-        "雀豪★2",
-        "雀豪★1"
-      ],
-      "rate": [
-        1693,
-        2528,
-        850,
-        1329
-      ],
-      "sx": [
-        "C",
-        "C",
-        "C",
-        "C"
-      ]
+      "dan": ["雀豪★1", "雀豪★2", "雀豪★2", "雀豪★1"],
+      "rate": [1693, 2528, 850, 1329],
+      "sx": ["C", "C", "C", "C"]
     }
   ],
   "mjai_log": [
     {
       "type": "start_game",
-      "names": [
-        "Aさん",
-        "Bさん",
-        "Cさん",
-        "Dさん"
-      ],
+      "names": ["Aさん", "Bさん", "Cさん", "Dさん"],
       "kyoku_first": 0,
       "aka_flag": true
     },
@@ -19020,12 +16936,7 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 0,
-      "scores": [
-        25000,
-        25000,
-        25000,
-        25000
-      ],
+      "scores": [25000, 25000, 25000, 25000],
       "tehais": [
         [
           "6p",
@@ -19696,10 +17607,7 @@
       "actor": 0,
       "target": 1,
       "pai": "5m",
-      "consumed": [
-        "5mr",
-        "5m"
-      ]
+      "consumed": ["5mr", "5m"]
     },
     {
       "type": "dahai",
@@ -19893,12 +17801,7 @@
     },
     {
       "type": "ryukyoku",
-      "deltas": [
-        -1500,
-        1500,
-        -1500,
-        1500
-      ]
+      "deltas": [-1500, 1500, -1500, 1500]
     },
     {
       "type": "end_kyoku"
@@ -19911,12 +17814,7 @@
       "honba": 1,
       "kyotaku": 2,
       "oya": 1,
-      "scores": [
-        23500,
-        25500,
-        23500,
-        25500
-      ],
+      "scores": [23500, 25500, 23500, 25500],
       "tehais": [
         [
           "9s",
@@ -20007,10 +17905,7 @@
       "actor": 0,
       "target": 2,
       "pai": "E",
-      "consumed": [
-        "E",
-        "E"
-      ]
+      "consumed": ["E", "E"]
     },
     {
       "type": "dahai",
@@ -20133,10 +18028,7 @@
       "actor": 1,
       "target": 2,
       "pai": "F",
-      "consumed": [
-        "F",
-        "F"
-      ]
+      "consumed": ["F", "F"]
     },
     {
       "type": "dahai",
@@ -20303,10 +18195,7 @@
       "actor": 1,
       "target": 3,
       "pai": "1m",
-      "consumed": [
-        "1m",
-        "1m"
-      ]
+      "consumed": ["1m", "1m"]
     },
     {
       "type": "dahai",
@@ -20363,10 +18252,7 @@
       "actor": 3,
       "target": 1,
       "pai": "6m",
-      "consumed": [
-        "6m",
-        "6m"
-      ]
+      "consumed": ["6m", "6m"]
     },
     {
       "type": "dahai",
@@ -20411,12 +18297,7 @@
       "type": "hora",
       "actor": 0,
       "target": 2,
-      "deltas": [
-        4300,
-        0,
-        -2300,
-        0
-      ],
+      "deltas": [4300, 0, -2300, 0],
       "ura_markers": []
     },
     {
@@ -20430,12 +18311,7 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 2,
-      "scores": [
-        27800,
-        25500,
-        21200,
-        25500
-      ],
+      "scores": [27800, 25500, 21200, 25500],
       "tehais": [
         [
           "7s",
@@ -20933,10 +18809,7 @@
       "actor": 1,
       "target": 0,
       "pai": "P",
-      "consumed": [
-        "P",
-        "P"
-      ]
+      "consumed": ["P", "P"]
     },
     {
       "type": "dahai",
@@ -21074,11 +18947,7 @@
       "type": "kakan",
       "actor": 1,
       "pai": "P",
-      "consumed": [
-        "P",
-        "P",
-        "P"
-      ]
+      "consumed": ["P", "P", "P"]
     },
     {
       "type": "tsumo",
@@ -21099,12 +18968,7 @@
       "type": "hora",
       "actor": 3,
       "target": 1,
-      "deltas": [
-        0,
-        -5200,
-        0,
-        5200
-      ],
+      "deltas": [0, -5200, 0, 5200],
       "ura_markers": []
     },
     {
@@ -21118,12 +18982,7 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 3,
-      "scores": [
-        27800,
-        20300,
-        21200,
-        30700
-      ],
+      "scores": [27800, 20300, 21200, 30700],
       "tehais": [
         [
           "8s",
@@ -21379,10 +19238,7 @@
       "actor": 0,
       "target": 3,
       "pai": "S",
-      "consumed": [
-        "S",
-        "S"
-      ]
+      "consumed": ["S", "S"]
     },
     {
       "type": "dahai",
@@ -21483,10 +19339,7 @@
       "actor": 1,
       "target": 0,
       "pai": "8p",
-      "consumed": [
-        "8p",
-        "8p"
-      ]
+      "consumed": ["8p", "8p"]
     },
     {
       "type": "dahai",
@@ -21521,10 +19374,7 @@
       "actor": 1,
       "target": 3,
       "pai": "E",
-      "consumed": [
-        "E",
-        "E"
-      ]
+      "consumed": ["E", "E"]
     },
     {
       "type": "dahai",
@@ -21548,10 +19398,7 @@
       "actor": 1,
       "target": 2,
       "pai": "N",
-      "consumed": [
-        "N",
-        "N"
-      ]
+      "consumed": ["N", "N"]
     },
     {
       "type": "dahai",
@@ -21733,12 +19580,7 @@
       "type": "hora",
       "actor": 1,
       "target": 1,
-      "deltas": [
-        -2000,
-        8000,
-        -2000,
-        -4000
-      ],
+      "deltas": [-2000, 8000, -2000, -4000],
       "ura_markers": []
     },
     {
@@ -21752,12 +19594,7 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 0,
-      "scores": [
-        25800,
-        28300,
-        19200,
-        26700
-      ],
+      "scores": [25800, 28300, 19200, 26700],
       "tehais": [
         [
           "N",
@@ -22292,15 +20129,8 @@
       "type": "hora",
       "actor": 2,
       "target": 0,
-      "deltas": [
-        -8000,
-        0,
-        10000,
-        0
-      ],
-      "ura_markers": [
-        "9p"
-      ]
+      "deltas": [-8000, 0, 10000, 0],
+      "ura_markers": ["9p"]
     },
     {
       "type": "end_kyoku"
@@ -22313,12 +20143,7 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 1,
-      "scores": [
-        17800,
-        28300,
-        28200,
-        25700
-      ],
+      "scores": [17800, 28300, 28200, 25700],
       "tehais": [
         [
           "5p",
@@ -22431,10 +20256,7 @@
       "actor": 1,
       "target": 0,
       "pai": "E",
-      "consumed": [
-        "E",
-        "E"
-      ]
+      "consumed": ["E", "E"]
     },
     {
       "type": "dahai",
@@ -22645,10 +20467,7 @@
       "actor": 2,
       "target": 3,
       "pai": "1m",
-      "consumed": [
-        "1m",
-        "1m"
-      ]
+      "consumed": ["1m", "1m"]
     },
     {
       "type": "dahai",
@@ -22716,10 +20535,7 @@
       "actor": 0,
       "target": 3,
       "pai": "7p",
-      "consumed": [
-        "5p",
-        "6p"
-      ]
+      "consumed": ["5p", "6p"]
     },
     {
       "type": "dahai",
@@ -22830,12 +20646,7 @@
       "type": "hora",
       "actor": 2,
       "target": 1,
-      "deltas": [
-        0,
-        -5200,
-        5200,
-        0
-      ],
+      "deltas": [0, -5200, 5200, 0],
       "ura_markers": []
     },
     {
@@ -22849,12 +20660,7 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 2,
-      "scores": [
-        17800,
-        23100,
-        33400,
-        25700
-      ],
+      "scores": [17800, 23100, 33400, 25700],
       "tehais": [
         [
           "N",
@@ -23513,15 +21319,8 @@
       "type": "hora",
       "actor": 3,
       "target": 2,
-      "deltas": [
-        0,
-        0,
-        -3900,
-        4900
-      ],
-      "ura_markers": [
-        "1s"
-      ]
+      "deltas": [0, 0, -3900, 4900],
+      "ura_markers": ["1s"]
     },
     {
       "type": "end_kyoku"
@@ -23534,12 +21333,7 @@
       "honba": 0,
       "kyotaku": 0,
       "oya": 3,
-      "scores": [
-        17800,
-        23100,
-        29500,
-        29600
-      ],
+      "scores": [17800, 23100, 29500, 29600],
       "tehais": [
         [
           "6p",
@@ -23586,21 +21380,7 @@
           "C",
           "1m"
         ],
-        [
-          "5p",
-          "7p",
-          "9p",
-          "8m",
-          "5m",
-          "F",
-          "9p",
-          "E",
-          "P",
-          "C",
-          "E",
-          "W",
-          "S"
-        ]
+        ["5p", "7p", "9p", "8m", "5m", "F", "9p", "E", "P", "C", "E", "W", "S"]
       ]
     },
     {
@@ -23861,10 +21641,7 @@
       "actor": 3,
       "target": 1,
       "pai": "E",
-      "consumed": [
-        "E",
-        "E"
-      ]
+      "consumed": ["E", "E"]
     },
     {
       "type": "dahai",
@@ -23976,10 +21753,7 @@
       "actor": 3,
       "target": 0,
       "pai": "6p",
-      "consumed": [
-        "6p",
-        "6p"
-      ]
+      "consumed": ["6p", "6p"]
     },
     {
       "type": "dahai",
@@ -24088,10 +21862,7 @@
       "actor": 0,
       "target": 3,
       "pai": "5p",
-      "consumed": [
-        "6p",
-        "7p"
-      ]
+      "consumed": ["6p", "7p"]
     },
     {
       "type": "dahai",
@@ -24174,12 +21945,7 @@
       "type": "hora",
       "actor": 3,
       "target": 3,
-      "deltas": [
-        -700,
-        -700,
-        -700,
-        3100
-      ],
+      "deltas": [-700, -700, -700, 3100],
       "ura_markers": []
     },
     {

@@ -7,12 +7,7 @@ const KyokuSchema = z
   .object({
     kyoku: z.number().min(0).max(11),
     honba: z.number().min(0),
-    end_status: z.array(
-      z.union([
-        RyukyokuSchema,
-        HoraSchema
-      ]),
-    ),
+    end_status: z.array(z.union([RyukyokuSchema, HoraSchema])),
     relative_scores: z.tuple([z.number(), z.number(), z.number(), z.number()]),
     entries: z.array(EntrySchema),
   })
@@ -30,12 +25,12 @@ export const ReviewSchema = z
     temperature: z.number(),
     kyokus: z.array(KyokuSchema),
     relative_phi_matrix: z.array(
-      z.tuple(
-        [z.tuple([z.number(), z.number(), z.number(), z.number()]),
-          z.tuple([z.number(), z.number(), z.number(), z.number()]),
-          z.tuple([z.number(), z.number(), z.number(), z.number()]),
-        z.tuple([z.number(), z.number(), z.number(), z.number()])]
-      )
+      z.tuple([
+        z.tuple([z.number(), z.number(), z.number(), z.number()]),
+        z.tuple([z.number(), z.number(), z.number(), z.number()]),
+        z.tuple([z.number(), z.number(), z.number(), z.number()]),
+        z.tuple([z.number(), z.number(), z.number(), z.number()]),
+      ]),
     ),
     model_tag: z.string(),
   })
