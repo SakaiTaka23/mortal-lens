@@ -10,7 +10,7 @@
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
     "icon": "pnpm svgr -d src/Jantaku/Tiles/icons src/assets/Regular_shortnames"
   },
   "keywords": [],
@@ -18,7 +18,11 @@
   "license": "ISC",
   "packageManager": "pnpm@10.6.4",
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mjai/core": "link:../../../mjai-ts/packages/core",
     "@mjai/types": "link:../../../mjai-ts/packages/types",
+    "@mui/material": "^7.1.0",
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
     "react": "^19.1.0",
