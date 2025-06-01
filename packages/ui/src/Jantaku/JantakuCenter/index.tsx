@@ -30,14 +30,11 @@ export const JantakuCenter = ({
   playerID,
   dora,
 }: Props) => {
-  const allPlayerIDs: PlayerID[] = [0, 1, 2, 3];
-  const selfIndex = allPlayerIDs.indexOf(playerID);
-
-  const orderedPlayerIDs = [
-    allPlayerIDs[selfIndex],
-    allPlayerIDs[(selfIndex + 1) % 4],
-    allPlayerIDs[(selfIndex + 2) % 4],
-    allPlayerIDs[(selfIndex + 3) % 4],
+  const orderedPlayerIDs: PlayerID[] = [
+    playerID,
+    ((playerID + 1) % 4) as PlayerID,
+    ((playerID + 2) % 4) as PlayerID,
+    ((playerID + 3) % 4) as PlayerID,
   ];
 
   return (
