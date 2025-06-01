@@ -14,8 +14,10 @@ export interface Output {
 }
 
 export interface KyokuUnit {
+  bakaze: 'E' | 'S' | 'W';
   kyoku: number;
   honba: number;
+  oya: PlayerID;
   endStatus: (Hora | Ryukyoku)[];
   relativeScores: [number, number, number, number];
   steps: StepState[];
