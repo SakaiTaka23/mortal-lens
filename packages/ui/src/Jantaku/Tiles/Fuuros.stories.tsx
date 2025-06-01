@@ -1,8 +1,8 @@
+import { KakanFuuro } from '@mjai/core';
 import {
   Ankan as MjaiAnkan,
   Chi as MjaiChi,
   Daiminkan as MjaiDaiminkan,
-  Kakan as MjaiKakan,
   Pon as MjaiPon,
 } from '@mjai/types';
 import type { Meta, StoryObj } from '@storybook/react';
@@ -82,7 +82,10 @@ export const SingleKakan: Story = {
         actor: 0,
         pai: '1p',
         consumed: ['1p', '1p', '1p'],
-      } as MjaiKakan,
+        ponTarget: 1,
+        ponPai: '1p',
+        ponConsumed: ['1p', '1p'],
+      } as KakanFuuro,
     ],
   },
 };

@@ -65,7 +65,7 @@ const tileComponentMap: Record<
   blank: TileIcons.Blank,
 };
 
-interface Props {
+export interface Props {
   name: MjaiTile | 'back' | 'blank';
   naki: boolean;
   size?: 'tehai' | 'doraMarker';
