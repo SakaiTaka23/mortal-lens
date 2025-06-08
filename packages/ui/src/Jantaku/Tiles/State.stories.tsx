@@ -5,6 +5,7 @@ import { State } from './State';
 const meta = {
   title: 'State',
   component: State,
+  tags: ['autodocs'],
   parameters: {
     layout: 'centered',
   },

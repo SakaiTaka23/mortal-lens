@@ -12,6 +12,7 @@ import { Fuuros } from './Fuuros';
 const meta = {
   title: 'Fuuros',
   component: Fuuros,
+  tags: ['autodocs'],
   parameters: {
     layout: 'centered',
   },

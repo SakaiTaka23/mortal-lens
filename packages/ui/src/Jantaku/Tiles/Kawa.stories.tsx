@@ -5,6 +5,7 @@ import { Kawa } from './Kawa';
 const meta = {
   title: 'Kawa',
   component: Kawa,
+  tags: ['autodocs'],
   parameters: {
     layout: 'centered',
   },
