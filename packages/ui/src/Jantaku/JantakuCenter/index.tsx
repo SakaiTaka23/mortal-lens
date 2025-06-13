@@ -1,5 +1,5 @@
 import { PlayerID, Tile } from '@mjai/types';
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 import { DoraMarker } from '../Tiles/DoraMarker';
 
@@ -39,7 +39,16 @@ export const JantakuCenter = ({
 
   return (
     <Box
-      sx={{ position: 'relative', width: 200, height: 200, bgcolor: 'green' }}
+      sx={{
+        position: 'relative',
+        width: 240,
+        height: 240,
+        backgroundColor: 'background.paper',
+        border: 2,
+        borderColor: 'primary.main',
+        borderRadius: 2,
+        margin: '40px auto',
+      }}
     >
       <Box
         sx={{
@@ -47,7 +56,14 @@ export const JantakuCenter = ({
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
-          textAlign: 'center',
+          fontSize: 20,
+          fontWeight: 'bold',
+          color: '#2196f3',
+          background: 'rgba(255,255,255,0.8)',
+          px: 2,
+          py: 1,
+          borderRadius: 2,
+          boxShadow: 1,
         }}
       >
         <div>
@@ -58,60 +74,96 @@ export const JantakuCenter = ({
         <div>x{tilesLeft}</div>
         <DoraMarker {...dora} />
       </Box>
-
-      <Box
+      {/* Kamicha */}
+      <Typography
         sx={{
           position: 'absolute',
-          bottom: 0,
-          left: '50%',
-          transform: 'translateX(-50%)',
-          textAlign: 'center',
-        }}
-      >
-        {getWind(orderedPlayerIDs[0], oya)}{' '}
-        {relativeScores[orderedPlayerIDs[0]]}点
-      </Box>
-
-      <Box
-        sx={{
-          position: 'absolute',
-          top: '50%',
-          right: 0,
-          transform: 'translateY(-50%) rotate(90deg)',
-          transformOrigin: 'center center',
-          textAlign: 'center',
-        }}
-      >
-        {getWind(orderedPlayerIDs[1], oya)}{' '}
-        {relativeScores[orderedPlayerIDs[1]]}点
-      </Box>
-
-      <Box
-        sx={{
-          position: 'absolute',
+          width: 100,
+          height: 40,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: 'common.white',
+          backgroundColor: 'primary.main',
+          borderRadius: '6px',
+          fontWeight: 'bold',
+          fontSize: '1rem',
           top: 0,
-          left: '50%',
-          transform: 'translateX(-50%)',
-          textAlign: 'center',
-        }}
-      >
-        {getWind(orderedPlayerIDs[2], oya)}{' '}
-        {relativeScores[orderedPlayerIDs[2]]}点
-      </Box>
-
-      <Box
-        sx={{
-          position: 'absolute',
-          top: '50%',
           left: 0,
-          transform: 'translateY(-50%) rotate(-90deg)',
-          transformOrigin: 'center center',
-          textAlign: 'center',
+          transform: 'rotate(90deg) translateY(-100%)',
+          transformOrigin: 'top left',
         }}
       >
         {getWind(orderedPlayerIDs[3], oya)}{' '}
         {relativeScores[orderedPlayerIDs[3]]}点
-      </Box>
+      </Typography>
+      {/* Toimen */}
+      <Typography
+        sx={{
+          position: 'absolute',
+          width: 100,
+          height: 40,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: 'common.white',
+          backgroundColor: 'primary.main',
+          borderRadius: '6px',
+          fontWeight: 'bold',
+          fontSize: '1rem',
+          top: 0,
+          right: 0,
+          transform: 'rotate(180deg) translateX(100%) translateY(-100%)',
+          transformOrigin: 'top right',
+        }}
+      >
+        {getWind(orderedPlayerIDs[2], oya)}{' '}
+        {relativeScores[orderedPlayerIDs[2]]}点
+      </Typography>
+      {/* Player */}
+      <Typography
+        sx={{
+          position: 'absolute',
+          width: 100,
+          height: 40,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: 'common.white',
+          backgroundColor: 'primary.main',
+          borderRadius: '6px',
+          fontWeight: 'bold',
+          fontSize: '1rem',
+          bottom: 0,
+          left: 0,
+        }}
+      >
+        {getWind(orderedPlayerIDs[0], oya)}{' '}
+        {relativeScores[orderedPlayerIDs[0]]}点
+      </Typography>
+      {/* Shimocha */}
+      <Typography
+        sx={{
+          position: 'absolute',
+          width: 100,
+          height: 40,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: 'common.white',
+          backgroundColor: 'primary.main',
+          borderRadius: '6px',
+          fontWeight: 'bold',
+          fontSize: '1rem',
+          bottom: 0,
+          right: 0,
+          transform: 'rotate(-90deg) translateX(100%)',
+          transformOrigin: 'bottom right',
+        }}
+      >
+        {getWind(orderedPlayerIDs[1], oya)}{' '}
+        {relativeScores[orderedPlayerIDs[1]]}点
+      </Typography>
     </Box>
   );
 };
