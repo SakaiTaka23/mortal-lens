@@ -12,7 +12,12 @@ export const Kawa: React.FC<MjaiKawa> = ({
 }) => {
   const rows: MjaiTile[][] = [];
   for (let i = 0; i < sutehai.length; i += 6) {
-    rows.push(sutehai.slice(i, i + 6));
+    if (i < 12) {
+      rows.push(sutehai.slice(i, i + 6));
+    } else {
+      rows.push(sutehai.slice(i, sutehai.length));
+      break;
+    }
   }
 
   return (
