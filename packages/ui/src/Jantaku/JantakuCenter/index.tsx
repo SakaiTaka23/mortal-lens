@@ -47,7 +47,7 @@ export const JantakuCenter = ({
         border: 2,
         borderColor: 'primary.main',
         borderRadius: 2,
-        margin: '40px auto',
+        margin: '5px 5px',
       }}
     >
       <Box
