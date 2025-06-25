@@ -38,96 +38,88 @@ export const Jantaku = ({
   ];
 
   return (
-    <Box>
+    <Box
+      sx={{
+        width: 510,
+        height: 510,
+        border: '1px solid black',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
+      {/* Toimen */}
       <Box
         sx={{
-          display: 'grid',
-          gridTemplateRows: '1fr auto 1fr',
-          gridTemplateColumns: '1fr auto 1fr',
-          alignItems: 'center',
-          justifyContent: 'center',
-          height: '700px',
-          width: '700px',
-          margin: '0 auto',
-          border: '1px solid #000',
+          width: 220,
+          height: 132,
+          display: 'flex',
+          alignItems: 'end',
+          justifyContent: 'end',
         }}
       >
-        {/* Toimen */}
-        <Box
-          gridColumn='2'
-          gridRow='1'
-          display='flex'
-          justifyContent='start'
-          sx={{
-            width: 220,
-            height: 185,
-            transform: 'rotate(180deg) translateX(90%) translateY(-110%)',
-            transformOrigin: 'top right',
-          }}
-        >
-          <Kawa {...kawa[orderedPlayerIDs[2]]} />
-        </Box>
+        <Kawa {...kawa[orderedPlayerIDs[2]]} position='toimen' />
+      </Box>
 
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
         {/* Kamicha */}
         <Box
-          gridColumn='1'
-          gridRow='2'
-          display='flex'
-          justifyContent='start'
           sx={{
-            width: 185,
+            width: 132,
             height: 220,
-            transform: 'rotate(90deg) translateX(-120%) translateY(-1%)',
-            transformOrigin: 'bottom left',
+            display: 'flex',
+            alignItems: 'start',
+            justifyContent: 'end',
           }}
         >
-          <Kawa {...kawa[orderedPlayerIDs[3]]} />
+          <Kawa {...kawa[orderedPlayerIDs[3]]} position='kamicha' />
         </Box>
 
         {/* Center */}
-        <Box gridColumn='2' gridRow='2'>
-          <JantakuCenter
-            playerID={playerID}
-            bakaze={bakaze}
-            kyoku={kyoku}
-            honba={honba}
-            oya={oya}
-            relativeScores={relativeScores}
-            tilesLeft={tilesLeft}
-            dora={dora}
-          />
-        </Box>
+        <JantakuCenter
+          playerID={playerID}
+          bakaze={bakaze}
+          kyoku={kyoku}
+          honba={honba}
+          oya={oya}
+          relativeScores={relativeScores}
+          tilesLeft={tilesLeft}
+          dora={dora}
+        />
 
         {/* Shimocha */}
         <Box
-          gridColumn='3'
-          gridRow='2'
-          display='flex'
-          justifyContent='start'
           sx={{
-            width: 185,
+            width: 132,
             height: 220,
-            transform: 'rotate(-90deg) translateX(95%) translateY(19%)',
-            transformOrigin: 'bottom right',
+            display: 'flex',
+            alignItems: 'end',
+            justifyContent: 'start',
           }}
         >
-          <Kawa {...kawa[orderedPlayerIDs[1]]} />
+          <Kawa {...kawa[orderedPlayerIDs[1]]} position='shimocha' />
         </Box>
+      </Box>
 
-        {/* Player */}
-        <Box
-          gridColumn='2'
-          gridRow='3'
-          display='flex'
-          justifyContent='start'
-          sx={{
-            width: 220,
-            height: 185,
-            // transform: 'translateY(-10%)',
-          }}
-        >
-          <Kawa {...kawa[orderedPlayerIDs[0]]} />
-        </Box>
+      {/* Player */}
+      <Box
+        sx={{
+          width: 220,
+          height: 132,
+          display: 'flex',
+          alignItems: 'start',
+          justifyContent: 'start',
+        }}
+      >
+        <Kawa {...kawa[orderedPlayerIDs[0]]} position='self' />
       </Box>
     </Box>
   );

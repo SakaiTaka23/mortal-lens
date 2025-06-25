@@ -40,6 +40,7 @@ export const JantakuCenter = ({
   return (
     <Box
       sx={{
+        boxSizing: 'border-box',
         position: 'relative',
         width: 240,
         height: 240,
@@ -47,7 +48,7 @@ export const JantakuCenter = ({
         border: 2,
         borderColor: 'primary.main',
         borderRadius: 2,
-        margin: '5px 5px',
+        margin: '2px 2px',
       }}
     >
       <Box
