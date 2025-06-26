@@ -10,48 +10,28 @@ export interface KawaProps extends MjaiKawa {
   position: Position;
 }
 
-export const Kawa: React.FC<KawaProps> = ({
-  sutehai,
-  nakiIndex,
-  reachIndex,
-  position,
-}) => {
-  const rows: MjaiTile[][] = [];
-  for (let i = 0; i < sutehai.length; i += 6) {
-    if (i < 12) {
-      rows.push(sutehai.slice(i, i + 6));
-    } else {
-      rows.push(sutehai.slice(i, sutehai.length));
-      break;
-    }
-  }
-
-  if (position === 'toimen') {
-    rows.reverse();
-  }
-
-  let direction: 'row' | 'row-reverse' | 'column' | 'column-reverse' = 'column';
-  if (position === 'kamicha') {
-    direction = 'row-reverse';
-  } else if (position === 'shimocha') {
-    direction = 'row';
-  }
-
-  return (
-    <Stack spacing={0} direction={direction}>
-      {rows.map((row, rowIndex) => (
-        <KawaRow
-          key={rowIndex}
-          tiles={row}
-          riichi={reachIndex}
-          naki={nakiIndex}
-          startIndex={rowIndex * 6}
-          position={position}
-        />
-      ))}
-    </Stack>
-  );
-};
+const KAWA_POSITION_CONFIG = {
+  self: {
+    stackDirection: 'column' as const,
+    rowDirection: 'row' as const,
+    shouldReverseRows: false,
+  },
+  toimen: {
+    stackDirection: 'column' as const,
+    rowDirection: 'row-reverse' as const,
+    shouldReverseRows: true,
+  },
+  kamicha: {
+    stackDirection: 'row-reverse' as const,
+    rowDirection: 'column' as const,
+    shouldReverseRows: false,
+  },
+  shimocha: {
+    stackDirection: 'row' as const,
+    rowDirection: 'column-reverse' as const,
+    shouldReverseRows: false,
+  },
+} as const;
 
 interface KawaRowProps {
   tiles: MjaiTile[];
@@ -61,26 +41,17 @@ interface KawaRowProps {
   position: Position;
 }
 
-const KawaRow = ({
+const KawaRow: React.FC<KawaRowProps> = ({
   tiles,
   riichi,
   startIndex,
   naki,
   position,
-}: KawaRowProps) => {
-  let direction: 'row' | 'row-reverse' | 'column' | 'column-reverse' = 'row';
-  if (position === 'self') {
-    direction = 'row';
-  } else if (position === 'toimen') {
-    direction = 'row-reverse';
-  } else if (position === 'kamicha') {
-    direction = 'column';
-  } else if (position === 'shimocha') {
-    direction = 'column-reverse';
-  }
+}) => {
+  const config = KAWA_POSITION_CONFIG[position];
 
   return (
-    <Stack spacing={0} direction={direction}>
+    <Stack spacing={0} direction={config.rowDirection}>
       {tiles.map((tile, index) => {
         const absoluteIndex = startIndex + index;
         return (
@@ -93,6 +64,44 @@ const KawaRow = ({
           />
         );
       })}
+    </Stack>
+  );
+};
+
+export const Kawa: React.FC<KawaProps> = ({
+  sutehai,
+  nakiIndex,
+  reachIndex,
+  position,
+}) => {
+  const config = KAWA_POSITION_CONFIG[position];
+
+  const rows: MjaiTile[][] = [];
+  for (let i = 0; i < sutehai.length; i += 6) {
+    if (i < 12) {
+      rows.push(sutehai.slice(i, i + 6));
+    } else {
+      rows.push(sutehai.slice(i, sutehai.length));
+      break;
+    }
+  }
+
+  if (config.shouldReverseRows) {
+    rows.reverse();
+  }
+
+  return (
+    <Stack spacing={0} direction={config.stackDirection}>
+      {rows.map((row, rowIndex) => (
+        <KawaRow
+          key={rowIndex}
+          tiles={row}
+          riichi={reachIndex}
+          naki={nakiIndex}
+          startIndex={rowIndex * 6}
+          position={position}
+        />
+      ))}
     </Stack>
   );
 };
