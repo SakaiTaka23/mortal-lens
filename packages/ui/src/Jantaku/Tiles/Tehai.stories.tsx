@@ -11,46 +11,112 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
+export const SelfDefault: Story = {
   args: {
     tehai: [
-      '8m',
-      '1p',
-      '4p',
-      '5pr',
-      '9p',
-      '1s',
-      '1s',
-      '1s',
-      '3s',
-      '5s',
-      '8s',
-      'E',
-      'F',
+      '1m',
+      '2m',
+      '3m',
+      '4m',
+      '5m',
+      '6m',
       '7m',
+      '8m',
+      '9m',
+      '1p',
+      '2p',
+      '3p',
+      '4p',
     ],
     tsumo: null,
+    position: 'self',
   },
 };
 
-export const WithTsumo: Story = {
+export const SelfWithTsumo: Story = {
   args: {
     tehai: [
-      '8m',
-      '1p',
-      '4p',
-      '5pr',
-      '9p',
-      '1s',
-      '1s',
-      '1s',
-      '3s',
-      '5s',
-      '8s',
-      'E',
-      'F',
+      '1m',
+      '2m',
+      '3m',
+      '4m',
+      '5m',
+      '6m',
       '7m',
+      '8m',
+      '9m',
+      '1p',
+      '2p',
+      '3p',
+      '4p',
     ],
-    tsumo: '1m',
+    tsumo: '5p',
+    position: 'self',
+  },
+};
+
+export const ShimochaDefault: Story = {
+  args: {
+    tehai: [
+      '1m',
+      '2m',
+      '3m',
+      '4m',
+      '5m',
+      '6m',
+      '7m',
+      '8m',
+      '9m',
+      '1p',
+      '2p',
+      '3p',
+      '4p',
+    ],
+    tsumo: '5p',
+    position: 'shimocha',
+  },
+};
+
+export const ToimenDefault: Story = {
+  args: {
+    tehai: [
+      '1m',
+      '2m',
+      '3m',
+      '4m',
+      '5m',
+      '6m',
+      '7m',
+      '8m',
+      '9m',
+      '1p',
+      '2p',
+      '3p',
+      '4p',
+    ],
+    tsumo: '5p',
+    position: 'toimen',
+  },
+};
+
+export const KamichaDefault: Story = {
+  args: {
+    tehai: [
+      '1m',
+      '2m',
+      '3m',
+      '4m',
+      '5m',
+      '6m',
+      '7m',
+      '8m',
+      '9m',
+      '1p',
+      '2p',
+      '3p',
+      '4p',
+    ],
+    tsumo: '5p',
+    position: 'kamicha',
   },
 };
