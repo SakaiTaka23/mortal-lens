@@ -22,20 +22,40 @@ const defaultArgs = {
   ponConsumed: ['1m', '1m'],
 } as KakanFuuro;
 
+export const FromShimocha: Story = {
+  args: { ...defaultArgs, position: 'self' },
+};
+
+export const FromToimen: Story = {
+  args: {
+    ...defaultArgs,
+    ponTarget: 2,
+    position: 'self',
+  },
+};
+
+export const FromKamicha: Story = {
+  args: {
+    ...defaultArgs,
+    ponTarget: 3,
+    position: 'self',
+  },
+};
+
 export const Shimocha: Story = {
-  args: defaultArgs,
+  args: { ...defaultArgs, position: 'shimocha' },
 };
 
 export const Toimen: Story = {
   args: {
     ...defaultArgs,
-    ponTarget: 2,
+    position: 'toimen',
   },
 };
 
 export const Kamicha: Story = {
   args: {
     ...defaultArgs,
-    ponTarget: 3,
+    position: 'kamicha',
   },
 };

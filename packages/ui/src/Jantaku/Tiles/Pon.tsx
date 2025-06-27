@@ -4,14 +4,45 @@ import React from 'react';
 
 import { Tile } from './Tile';
 import { CallPosition } from './utils';
+import { Position } from '../types';
 
-export const Pon: React.FC<MjaiPon> = ({ actor, pai, target, consumed }) => {
-  const position = CallPosition(actor, target);
+export interface Props extends MjaiPon {
+  position: Position;
+}
+
+const POSITION_CONFIG = {
+  self: {
+    direction: 'row' as const,
+  },
+  toimen: {
+    direction: 'row' as const,
+  },
+  kamicha: {
+    direction: 'column' as const,
+  },
+  shimocha: {
+    direction: 'column' as const,
+  },
+};
+
+export const Pon: React.FC<Props> = ({
+  actor,
+  pai,
+  target,
+  consumed,
+  position,
+}) => {
+  const config = POSITION_CONFIG[position];
+  const callPosition = CallPosition(actor, target);
   return (
-    <Stack direction='row' spacing={0} sx={{ alignItems: 'flex-end' }}>
-      <Tile name={pai} naki={position === 0} />
-      <Tile name={consumed[0]} naki={position === 1} />
-      <Tile name={consumed[1]} naki={position === 2} />
+    <Stack
+      direction={config.direction}
+      spacing={0}
+      sx={{ alignItems: 'flex-end' }}
+    >
+      <Tile name={pai} naki={callPosition === 0} position={position} />
+      <Tile name={consumed[0]} naki={callPosition === 1} position={position} />
+      <Tile name={consumed[1]} naki={callPosition === 2} position={position} />
     </Stack>
   );
 };

@@ -18,6 +18,18 @@ const defaultArgs = {
   consumed: ['1m', '1m', '1m', '1m'],
 } as MjaiAnkan;
 
-export const Default: Story = {
-  args: defaultArgs,
+export const Self: Story = {
+  args: { ...defaultArgs, position: 'self' },
+};
+
+export const Shimocha: Story = {
+  args: { ...defaultArgs, position: 'shimocha' },
+};
+
+export const Toimen: Story = {
+  args: { ...defaultArgs, position: 'toimen' },
+};
+
+export const Kamicha: Story = {
+  args: { ...defaultArgs, position: 'kamicha' },
 };

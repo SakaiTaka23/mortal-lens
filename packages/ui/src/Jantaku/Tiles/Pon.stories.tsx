@@ -20,21 +20,23 @@ const defaultArgs = {
   consumed: ['1m', '1m'],
 } as MjaiPon;
 
-export const Kamicha: Story = {
-  args: defaultArgs,
+export const FromKamicha: Story = {
+  args: { ...defaultArgs, position: 'self' },
 };
 
-export const Toimen: Story = {
+export const FromToimen: Story = {
   args: {
     ...defaultArgs,
     actor: 2,
+    position: 'self',
   },
 };
 
-export const Shimocha: Story = {
+export const FromShimocha: Story = {
   args: {
     ...defaultArgs,
     actor: 3,
+    position: 'self',
   },
 };
 
@@ -43,5 +45,24 @@ export const WithRed: Story = {
     ...defaultArgs,
     pai: '5m',
     consumed: ['5mr', '5m'],
+    position: 'self',
+  },
+};
+
+export const Kamicha: Story = {
+  args: { ...defaultArgs, position: 'kamicha' },
+};
+
+export const Toimen: Story = {
+  args: {
+    ...defaultArgs,
+    position: 'toimen',
+  },
+};
+
+export const Shimocha: Story = {
+  args: {
+    ...defaultArgs,
+    position: 'shimocha',
   },
 };
