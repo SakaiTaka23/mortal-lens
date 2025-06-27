@@ -1,6 +1,6 @@
 import { PlayerID } from '@mjai/types';
 
-export type Position = 0 | 1 | 2;
+type Position = 0 | 1 | 2;
 
 // only returns number 0~2
 export const CallPosition = (actor: PlayerID, target: PlayerID): Position => {
