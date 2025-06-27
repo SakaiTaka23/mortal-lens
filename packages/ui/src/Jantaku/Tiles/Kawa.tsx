@@ -10,7 +10,7 @@ export interface KawaProps extends MjaiKawa {
   position: Position;
 }
 
-const KAWA_POSITION_CONFIG = {
+const POSITION_CONFIG = {
   self: {
     stackDirection: 'column' as const,
     rowDirection: 'row' as const,
@@ -48,7 +48,7 @@ const KawaRow: React.FC<KawaRowProps> = ({
   naki,
   position,
 }) => {
-  const config = KAWA_POSITION_CONFIG[position];
+  const config = POSITION_CONFIG[position];
 
   return (
     <Stack spacing={0} direction={config.rowDirection}>
@@ -74,7 +74,7 @@ export const Kawa: React.FC<KawaProps> = ({
   reachIndex,
   position,
 }) => {
-  const config = KAWA_POSITION_CONFIG[position];
+  const config = POSITION_CONFIG[position];
 
   const rows: MjaiTile[][] = [];
   for (let i = 0; i < sutehai.length; i += 6) {
