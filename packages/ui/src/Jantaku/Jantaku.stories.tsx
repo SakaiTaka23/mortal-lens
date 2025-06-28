@@ -1,3 +1,4 @@
+import { HandState } from '@mjai/core';
 import { Meta, StoryObj } from '@storybook/react';
 
 import { Jantaku, Props } from '.';
@@ -106,8 +107,29 @@ const defaultArgs = {
   ],
 } as Props;
 
+const fuuroAndTsumo = {
+  tehai: ['1m', '2m', '3m', '4m', '5m', '6m', '7m', '8m', '9m', '1p'],
+  tsumo: '1p',
+  fuuros: [
+    {
+      type: 'pon',
+      actor: 0,
+      pai: '5mr',
+      consumed: ['5m', '5m'],
+      target: 1,
+    },
+  ],
+} as HandState;
+
 export const Default: Story = {
   args: defaultArgs,
+};
+
+export const WithFuuro: Story = {
+  args: {
+    ...defaultArgs,
+    hand: [fuuroAndTsumo, fuuroAndTsumo, fuuroAndTsumo, fuuroAndTsumo],
+  },
 };
 
 export const MaxSize: Story = {

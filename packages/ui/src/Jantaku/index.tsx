@@ -145,18 +145,21 @@ export const Jantaku = ({
   return (
     <Box
       sx={{
-        width: 770,
-        height: 770,
+        width: 620,
+        height: 620,
         display: 'flex',
         flexDirection: 'column',
+        border: '1px solid black',
       }}
     >
+      {/* Toimen */}
       <Box
         sx={{
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'flex-end',
           flex: 1,
+          marginBottom: 1,
         }}
       >
         <State
@@ -166,19 +169,19 @@ export const Jantaku = ({
           position='toimen'
         />
       </Box>
+
       <Box
         sx={{
           display: 'flex',
           alignItems: 'center',
+          justifyContent: 'center',
           height: 510,
         }}
       >
+        {/* Kamicha */}
         <Box
           sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'flex-end',
-            flex: 1,
+            marginRight: 1,
           }}
         >
           <State
@@ -188,6 +191,7 @@ export const Jantaku = ({
             position='kamicha'
           />
         </Box>
+
         <JantakuCenterWithKawa
           playerID={playerID}
           bakaze={bakaze}
@@ -200,12 +204,11 @@ export const Jantaku = ({
           tilesLeft={tilesLeft}
           orderedPlayerIDs={orderedPlayerIDs}
         />
+
+        {/* Shimocha */}
         <Box
           sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'flex-start',
-            flex: 1,
+            marginLeft: 1,
           }}
         >
           <State
@@ -217,12 +220,14 @@ export const Jantaku = ({
         </Box>
       </Box>
 
+      {/* Self */}
       <Box
         sx={{
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'flex-start',
           flex: 1,
+          marginTop: 1,
         }}
       >
         <State
