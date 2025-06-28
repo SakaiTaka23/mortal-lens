@@ -2,6 +2,8 @@ import { Tile as MjaiTile } from '@mjai/types';
 import React from 'react';
 import * as T from 'riichi-mahjong-tiles';
 
+import { Position } from '../types';
+
 const tileComponentMap: Record<
   MjaiTile | 'back' | 'blank',
   React.FC<React.SVGProps<SVGSVGElement>>
@@ -129,6 +131,7 @@ export interface Props {
   naki: boolean;
   size?: 'tehai' | 'doraMarker';
   dimmed?: boolean;
+  position?: Position;
 }
 
 export const Tile: React.FC<Props> = ({
@@ -136,27 +139,145 @@ export const Tile: React.FC<Props> = ({
   naki,
   size = 'tehai',
   dimmed = false,
+  position = 'self',
+}) => {
+  switch (position) {
+    case 'self':
+      return (
+        <SelfPositionTile name={name} naki={naki} size={size} dimmed={dimmed} />
+      );
+    case 'shimocha':
+      return (
+        <ShimochaPositionTile
+          name={name}
+          naki={naki}
+          size={size}
+          dimmed={dimmed}
+        />
+      );
+    case 'toimen':
+      return (
+        <ToimenPositionTile
+          name={name}
+          naki={naki}
+          size={size}
+          dimmed={dimmed}
+        />
+      );
+    case 'kamicha':
+      return (
+        <KamichaPositionTile
+          name={name}
+          naki={naki}
+          size={size}
+          dimmed={dimmed}
+        />
+      );
+  }
+};
+
+interface PositionProps {
+  name: MjaiTile | 'back' | 'blank';
+  naki: boolean;
+  size?: 'tehai' | 'doraMarker';
+  dimmed?: boolean;
+}
+
+const SelfPositionTile: React.FC<PositionProps> = ({
+  name,
+  naki,
+  size,
+  dimmed,
 }) => {
   const IconComponent = naki
     ? rotatedTileComponent[name]
     : tileComponentMap[name];
-
-  const tileSize =
-    size === 'tehai' ? { width: 34, height: 44 } : { width: 17, height: 23 };
-  const tileSizeRotate =
-    size === 'tehai' ? { width: 44, height: 34 } : { width: 23, height: 17 };
+  const baseSize =
+    size === 'tehai' ? { width: 34, height: 44 } : { width: 22, height: 28 };
+  const tileSize = naki
+    ? { width: baseSize.height, height: baseSize.width }
+    : baseSize;
 
   return (
-    <div style={{ opacity: dimmed ? 0.5 : 1 }}>
-      {naki ? (
-        <div style={{ ...tileSizeRotate }}>
-          <IconComponent />
-        </div>
-      ) : (
-        <div style={{ ...tileSize }}>
-          <IconComponent />
-        </div>
-      )}
-    </div>
+    <IconComponent
+      width={tileSize.width}
+      height={tileSize.height}
+      opacity={dimmed ? 0.5 : 1}
+    />
+  );
+};
+
+const ShimochaPositionTile: React.FC<PositionProps> = ({
+  name,
+  naki,
+  size,
+  dimmed,
+}) => {
+  const IconComponent = naki
+    ? tileComponentMap[name]
+    : rotatedTileComponent[name];
+  const baseSize =
+    size === 'tehai' ? { width: 44, height: 34 } : { width: 28, height: 22 };
+  const tileSize = naki
+    ? { width: baseSize.height, height: baseSize.width }
+    : baseSize;
+
+  return (
+    <IconComponent
+      width={tileSize.width}
+      height={tileSize.height}
+      opacity={dimmed ? 0.5 : 1}
+      style={{ transform: `rotate(${naki ? 0 : 180}deg)` }}
+    />
+  );
+};
+
+const ToimenPositionTile: React.FC<PositionProps> = ({
+  name,
+  naki,
+  size,
+  dimmed,
+}) => {
+  const IconComponent = naki
+    ? rotatedTileComponent[name]
+    : tileComponentMap[name];
+  const baseSize =
+    size === 'tehai' ? { width: 34, height: 44 } : { width: 22, height: 28 };
+  const tileSize = naki
+    ? { width: baseSize.height, height: baseSize.width }
+    : baseSize;
+
+  return (
+    <IconComponent
+      width={tileSize.width}
+      height={tileSize.height}
+      opacity={dimmed ? 0.5 : 1}
+      style={{ transform: `rotate(${naki ? 180 : 180}deg)` }}
+    />
+  );
+};
+
+const KamichaPositionTile: React.FC<PositionProps> = ({
+  name,
+  naki,
+  size,
+  dimmed,
+}) => {
+  const IconComponent = naki
+    ? tileComponentMap[name]
+    : rotatedTileComponent[name];
+  const baseSize =
+    size === 'tehai' ? { width: 44, height: 34 } : { width: 28, height: 22 };
+  const tileSize = naki
+    ? { width: baseSize.height, height: baseSize.width }
+    : baseSize;
+
+  return (
+    <IconComponent
+      width={tileSize.width}
+      height={tileSize.height}
+      opacity={dimmed ? 0.5 : 1}
+      style={{ transform: `rotate(${naki ? 180 : 0}deg)` }}
+    />
   );
 };
