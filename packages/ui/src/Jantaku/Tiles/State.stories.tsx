@@ -86,6 +86,51 @@ export const WithMultipleFuuros: Story = {
   },
 };
 
+export const MaxSize: Story = {
+  args: {
+    tehai: ['7m'],
+    tsumo: '7m',
+    fuuros: [
+      {
+        type: 'chi',
+        target: 1,
+        actor: 0,
+        pai: '7p',
+        consumed: ['5p', '6p'],
+      },
+      {
+        type: 'pon',
+        target: 1,
+        actor: 0,
+        pai: '9s',
+        consumed: ['9s', '9s'],
+      },
+      {
+        type: 'daiminkan',
+        actor: 0,
+        target: 3,
+        pai: 'P',
+        consumed: ['P', 'P', 'P'],
+      },
+      {
+        type: 'chi',
+        target: 1,
+        actor: 0,
+        pai: '2m',
+        consumed: ['1m', '3m'],
+      },
+      {
+        type: 'chi',
+        target: 1,
+        actor: 0,
+        pai: '4m',
+        consumed: ['5m', '6m'],
+      },
+    ],
+    position: 'self',
+  },
+};
+
 export const ComplexHand: Story = {
   args: {
     tehai: ['1m', '2m', '3m', '1p', '2p', '3p', '1s'],
