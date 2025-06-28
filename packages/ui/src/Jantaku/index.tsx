@@ -4,6 +4,7 @@ import { Box } from '@mui/material';
 
 import { JantakuCenter } from './JantakuCenter';
 import { Kawa } from './Tiles/Kawa';
+import { State } from './Tiles/State';
 
 export interface Props {
   playerID: PlayerID;
@@ -18,7 +19,7 @@ export interface Props {
   tilesLeft: number;
 }
 
-export const Jantaku = ({
+const JantakuCenterWithKawa = ({
   playerID,
   bakaze,
   kyoku,
@@ -26,17 +27,10 @@ export const Jantaku = ({
   oya,
   relativeScores,
   dora,
-  hand,
   kawa,
   tilesLeft,
-}: Props) => {
-  const orderedPlayerIDs: PlayerID[] = [
-    playerID,
-    ((playerID + 1) % 4) as PlayerID,
-    ((playerID + 2) % 4) as PlayerID,
-    ((playerID + 3) % 4) as PlayerID,
-  ];
-
+  orderedPlayerIDs,
+}: Omit<Props, 'hand'> & { orderedPlayerIDs: PlayerID[] }) => {
   return (
     <Box
       sx={{
@@ -120,6 +114,123 @@ export const Jantaku = ({
         }}
       >
         <Kawa {...kawa[orderedPlayerIDs[0]]} position='self' />
+      </Box>
+    </Box>
+  );
+};
+
+export const Jantaku = ({
+  playerID,
+  bakaze,
+  kyoku,
+  honba,
+  oya,
+  relativeScores,
+  dora,
+  hand,
+  kawa,
+  tilesLeft,
+}: Props) => {
+  const orderedPlayerIDs: PlayerID[] = [
+    playerID,
+    ((playerID + 1) % 4) as PlayerID,
+    ((playerID + 2) % 4) as PlayerID,
+    ((playerID + 3) % 4) as PlayerID,
+  ];
+  const self = hand[orderedPlayerIDs[0]];
+  const shimocha = hand[orderedPlayerIDs[1]];
+  const toimen = hand[orderedPlayerIDs[2]];
+  const kamicha = hand[orderedPlayerIDs[3]];
+
+  return (
+    <Box
+      sx={{
+        width: 770,
+        height: 770,
+        display: 'flex',
+        flexDirection: 'column',
+      }}
+    >
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'flex-end',
+          flex: 1,
+        }}
+      >
+        <State
+          tehai={toimen.tehai}
+          tsumo={toimen.tsumo}
+          fuuros={toimen.fuuros}
+          position='toimen'
+        />
+      </Box>
+      <Box
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          height: 510,
+        }}
+      >
+        <Box
+          sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'flex-end',
+            flex: 1,
+          }}
+        >
+          <State
+            tehai={kamicha.tehai}
+            tsumo={kamicha.tsumo}
+            fuuros={kamicha.fuuros}
+            position='kamicha'
+          />
+        </Box>
+        <JantakuCenterWithKawa
+          playerID={playerID}
+          bakaze={bakaze}
+          kyoku={kyoku}
+          honba={honba}
+          oya={oya}
+          relativeScores={relativeScores}
+          dora={dora}
+          kawa={kawa}
+          tilesLeft={tilesLeft}
+          orderedPlayerIDs={orderedPlayerIDs}
+        />
+        <Box
+          sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'flex-start',
+            flex: 1,
+          }}
+        >
+          <State
+            tehai={shimocha.tehai}
+            tsumo={shimocha.tsumo}
+            fuuros={shimocha.fuuros}
+            position='shimocha'
+          />
+        </Box>
+      </Box>
+
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'flex-start',
+          flex: 1,
+        }}
+      >
+        <State
+          tehai={self.tehai}
+          tsumo={self.tsumo}
+          fuuros={self.fuuros}
+          position='self'
+        />
       </Box>
     </Box>
   );
