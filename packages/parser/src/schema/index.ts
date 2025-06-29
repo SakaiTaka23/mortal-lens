@@ -1,5 +1,5 @@
 import { MjaiLogSchema, PlayerIDInput } from '@mjai/parser';
-import { z } from 'zod';
+import z from 'zod/v4';
 
 import { ReviewSchema } from './Review';
 

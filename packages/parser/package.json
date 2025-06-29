@@ -17,7 +17,7 @@
     "@mjai/parser": "link:../../../mjai-ts/packages/parser",
     "@mjai/types": "link:../../../mjai-ts/packages/types",
     "@mortal-lens/types": "workspace:^",
-    "zod": "^3.24.4"
+    "zod": "^3.25.67"
   },
   "devDependencies": {
     "@types/node": "^22.15.18"

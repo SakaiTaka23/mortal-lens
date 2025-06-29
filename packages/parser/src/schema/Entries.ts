@@ -10,7 +10,7 @@ import {
   RyukyokuSchema,
   TileInput,
 } from '@mjai/parser';
-import { z } from 'zod';
+import z from 'zod/v4';
 
 // Type is different from the original mjai schema
 // The actor is missing since it is always the player who is evaluated
