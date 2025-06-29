@@ -1,5 +1,3 @@
-import React from 'react';
+import { Jantaku } from './Jantaku';
 
-export const Button: React.FC<{ label: string }> = ({ label }) => {
-  return <button>{label}</button>;
-};
+export { Jantaku };
