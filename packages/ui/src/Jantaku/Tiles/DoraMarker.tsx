@@ -2,7 +2,7 @@ import { Tile as MjaiTile } from '@mjai/types';
 import { Stack } from '@mui/material';
 import React from 'react';
 
-import { Tile } from './Tile';
+import { Tile } from '@/common/Tile';
 
 export const DoraMarker: React.FC<MjaiTile[]> = (tiles) => {
   const displayMarkers = Array(5)

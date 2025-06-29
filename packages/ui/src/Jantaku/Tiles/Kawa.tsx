@@ -3,7 +3,8 @@ import { Tile as MjaiTile } from '@mjai/types';
 import { Stack } from '@mui/material';
 import React from 'react';
 
-import { Tile } from './Tile';
+import { Tile } from '@/common/Tile';
+
 import { Position } from '../types';
 
 export interface KawaProps extends MjaiKawa {

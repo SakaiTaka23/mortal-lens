@@ -2,7 +2,8 @@ import { Pon as MjaiPon } from '@mjai/types';
 import { Stack } from '@mui/material';
 import React from 'react';
 
-import { Tile } from './Tile';
+import { Tile } from '@/common/Tile';
+
 import { CallPosition } from './utils';
 import { Position } from '../types';
 

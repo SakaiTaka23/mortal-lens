@@ -1,8 +1,8 @@
-import { Tile as MjaiTile } from '@mjai/types';
 import React from 'react';
-import * as T from 'riichi-mahjong-tiles';
 
-import { Position } from '../types';
+import { Tile as MjaiTile } from '../../../../../mjai-ts/packages/types/src';
+import * as T from '../../../../../riichi-mahjong-tiles';
+import { Position } from '../Jantaku/types';
 
 const tileComponentMap: Record<
   MjaiTile | 'back' | 'blank',
