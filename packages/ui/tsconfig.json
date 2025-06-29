@@ -4,8 +4,8 @@
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "paths": {
-      "@": ["../src"],
-      "@/*": ["../src/*"]
+      "@": ["./src"],
+      "@/*": ["./src/*"]
     },
     "outDir": "dist",
     "rootDir": "./"
