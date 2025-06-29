@@ -21,6 +21,7 @@
     "@emotion/styled": "^11.14.0",
     "@mjai/core": "link:../../../mjai-ts/packages/core",
     "@mjai/types": "link:../../../mjai-ts/packages/types",
+    "@mortal-lens/types": "workspace:^",
     "@mui/material": "^7.1.0",
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
