@@ -107,6 +107,7 @@ export const Dimmed: Story = {
     naki: false,
     size: 'tehai',
     dimmed: true,
+    position: 'self',
   },
 };
 
@@ -115,6 +116,7 @@ export const Back: Story = {
     name: 'back',
     naki: false,
     size: 'tehai',
+    position: 'self',
   },
 };
 
@@ -123,5 +125,6 @@ export const Error: Story = {
     name: 'blank',
     naki: false,
     size: 'tehai',
+    position: 'self',
   },
 };

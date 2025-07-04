@@ -1,7 +1,7 @@
+import { Tile as MjaiTile } from '@mjai/types';
 import React from 'react';
+import * as T from 'riichi-mahjong-tiles';
 
-import { Tile as MjaiTile } from '../../../../../mjai-ts/packages/types/src';
-import * as T from '../../../../../riichi-mahjong-tiles';
 import { Position } from '../Jantaku/types';
 
 const tileComponentMap: Record<
@@ -65,7 +65,7 @@ const tileComponentMap: Record<
   blank: T.RegularBlankM as React.FC<React.SVGProps<SVGSVGElement>>,
 };
 
-const rotatedTileComponent: Record<
+const rotatedTileComponentMap: Record<
   MjaiTile | 'back' | 'blank',
   React.FC<React.SVGProps<SVGSVGElement>>
 > = {
@@ -126,12 +126,87 @@ const rotatedTileComponent: Record<
   blank: T.RegularBlankRm as React.FC<React.SVGProps<SVGSVGElement>>,
 };
 
+const POSITION_CONFIG = {
+  self: {
+    naki: {
+      componentMap: rotatedTileComponentMap,
+      transform: 0,
+      size: {
+        tehai: { width: 44, height: 34 },
+        doraMarker: { width: 28, height: 22 },
+      },
+    },
+    normal: {
+      componentMap: tileComponentMap,
+      transform: 0,
+      size: {
+        tehai: { width: 34, height: 44 },
+        doraMarker: { width: 22, height: 28 },
+      },
+    },
+  },
+  shimocha: {
+    naki: {
+      componentMap: tileComponentMap,
+      transform: 0,
+      size: {
+        tehai: { width: 34, height: 44 },
+        doraMarker: { width: 22, height: 28 },
+      },
+    },
+    normal: {
+      componentMap: rotatedTileComponentMap,
+      transform: 180,
+      size: {
+        tehai: { width: 44, height: 34 },
+        doraMarker: { width: 28, height: 22 },
+      },
+    },
+  },
+  toimen: {
+    naki: {
+      componentMap: rotatedTileComponentMap,
+      transform: 180,
+      size: {
+        tehai: { width: 44, height: 34 },
+        doraMarker: { width: 28, height: 22 },
+      },
+    },
+    normal: {
+      componentMap: tileComponentMap,
+      transform: 180,
+      size: {
+        tehai: { width: 34, height: 44 },
+        doraMarker: { width: 22, height: 28 },
+      },
+    },
+  },
+  kamicha: {
+    naki: {
+      componentMap: tileComponentMap,
+      transform: 180,
+      size: {
+        tehai: { width: 34, height: 44 },
+        doraMarker: { width: 22, height: 28 },
+      },
+    },
+    normal: {
+      componentMap: rotatedTileComponentMap,
+      transform: 0,
+      size: {
+        tehai: { width: 44, height: 34 },
+        doraMarker: { width: 28, height: 22 },
+      },
+    },
+  },
+} as const;
+
 export interface Props {
   name: MjaiTile | 'back' | 'blank';
   naki: boolean;
+  position: Position;
   size?: 'tehai' | 'doraMarker';
   dimmed?: boolean;
-  position?: Position;
 }
 
 export const Tile: React.FC<Props> = ({
@@ -141,143 +216,16 @@ export const Tile: React.FC<Props> = ({
   dimmed = false,
   position = 'self',
 }) => {
-  switch (position) {
-    case 'self':
-      return (
-        <SelfPositionTile name={name} naki={naki} size={size} dimmed={dimmed} />
-      );
-    case 'shimocha':
-      return (
-        <ShimochaPositionTile
-          name={name}
-          naki={naki}
-          size={size}
-          dimmed={dimmed}
-        />
-      );
-    case 'toimen':
-      return (
-        <ToimenPositionTile
-          name={name}
-          naki={naki}
-          size={size}
-          dimmed={dimmed}
-        />
-      );
-    case 'kamicha':
-      return (
-        <KamichaPositionTile
-          name={name}
-          naki={naki}
-          size={size}
-          dimmed={dimmed}
-        />
-      );
-  }
-};
-
-interface PositionProps {
-  name: MjaiTile | 'back' | 'blank';
-  naki: boolean;
-  size?: 'tehai' | 'doraMarker';
-  dimmed?: boolean;
-}
-
-const SelfPositionTile: React.FC<PositionProps> = ({
-  name,
-  naki,
-  size,
-  dimmed,
-}) => {
-  const IconComponent = naki
-    ? rotatedTileComponent[name]
-    : tileComponentMap[name];
-  const baseSize =
-    size === 'tehai' ? { width: 34, height: 44 } : { width: 22, height: 28 };
-  const tileSize = naki
-    ? { width: baseSize.height, height: baseSize.width }
-    : baseSize;
+  const config = POSITION_CONFIG[position][naki ? 'naki' : 'normal'];
+  const IconComponent = config.componentMap[name];
+  const tileSize = config.size[size];
 
   return (
     <IconComponent
       width={tileSize.width}
       height={tileSize.height}
       opacity={dimmed ? 0.5 : 1}
-    />
-  );
-};
-
-const ShimochaPositionTile: React.FC<PositionProps> = ({
-  name,
-  naki,
-  size,
-  dimmed,
-}) => {
-  const IconComponent = naki
-    ? tileComponentMap[name]
-    : rotatedTileComponent[name];
-  const baseSize =
-    size === 'tehai' ? { width: 44, height: 34 } : { width: 28, height: 22 };
-  const tileSize = naki
-    ? { width: baseSize.height, height: baseSize.width }
-    : baseSize;
-
-  return (
-    <IconComponent
-      width={tileSize.width}
-      height={tileSize.height}
-      opacity={dimmed ? 0.5 : 1}
-      style={{ transform: `rotate(${naki ? 0 : 180}deg)` }}
-    />
-  );
-};
-
-const ToimenPositionTile: React.FC<PositionProps> = ({
-  name,
-  naki,
-  size,
-  dimmed,
-}) => {
-  const IconComponent = naki
-    ? rotatedTileComponent[name]
-    : tileComponentMap[name];
-  const baseSize =
-    size === 'tehai' ? { width: 34, height: 44 } : { width: 22, height: 28 };
-  const tileSize = naki
-    ? { width: baseSize.height, height: baseSize.width }
-    : baseSize;
-
-  return (
-    <IconComponent
-      width={tileSize.width}
-      height={tileSize.height}
-      opacity={dimmed ? 0.5 : 1}
-      style={{ transform: `rotate(${naki ? 180 : 180}deg)` }}
-    />
-  );
-};
-
-const KamichaPositionTile: React.FC<PositionProps> = ({
-  name,
-  naki,
-  size,
-  dimmed,
-}) => {
-  const IconComponent = naki
-    ? tileComponentMap[name]
-    : rotatedTileComponent[name];
-  const baseSize =
-    size === 'tehai' ? { width: 44, height: 34 } : { width: 28, height: 22 };
-  const tileSize = naki
-    ? { width: baseSize.height, height: baseSize.width }
-    : baseSize;
-
-  return (
-    <IconComponent
-      width={tileSize.width}
-      height={tileSize.height}
-      opacity={dimmed ? 0.5 : 1}
-      style={{ transform: `rotate(${naki ? 180 : 0}deg)` }}
+      style={{ transform: `rotate(${config.transform}deg)` }}
     />
   );
 };

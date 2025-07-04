@@ -12,7 +12,13 @@ export const DoraMarker: React.FC<MjaiTile[]> = (tiles) => {
   return (
     <Stack direction='row' spacing={0}>
       {displayMarkers.map((marker, index) => (
-        <Tile key={index} name={marker} naki={false} size='doraMarker' />
+        <Tile
+          key={index}
+          name={marker}
+          naki={false}
+          size='doraMarker'
+          position='self'
+        />
       ))}
     </Stack>
   );

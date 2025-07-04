@@ -36,7 +36,13 @@ const TileView: React.FC<ViewProps> = ({ tiles }) => {
   return (
     <Stack direction='row' spacing={0}>
       {tiles.map((marker, index) => (
-        <Tile key={index} name={marker} naki={false} size='doraMarker' />
+        <Tile
+          key={index}
+          name={marker}
+          naki={false}
+          size='doraMarker'
+          position='self'
+        />
       ))}
     </Stack>
   );
