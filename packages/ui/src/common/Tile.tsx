@@ -2,7 +2,7 @@ import { Tile as MjaiTile } from '@mjai/types';
 import React from 'react';
 import * as T from 'riichi-mahjong-tiles';
 
-import { Position } from '../Jantaku/types';
+import { Position } from '@/Jantaku/types';
 
 const tileComponentMap: Record<
   MjaiTile | 'back' | 'blank',
@@ -207,6 +207,7 @@ export interface Props {
   position: Position;
   size?: 'tehai' | 'doraMarker';
   dimmed?: boolean;
+  highlight?: boolean;
 }
 
 export const Tile: React.FC<Props> = ({
@@ -215,6 +216,7 @@ export const Tile: React.FC<Props> = ({
   size = 'tehai',
   dimmed = false,
   position = 'self',
+  highlight = false,
 }) => {
   const config = POSITION_CONFIG[position][naki ? 'naki' : 'normal'];
   const IconComponent = config.componentMap[name];
@@ -225,7 +227,10 @@ export const Tile: React.FC<Props> = ({
       width={tileSize.width}
       height={tileSize.height}
       opacity={dimmed ? 0.5 : 1}
-      style={{ transform: `rotate(${config.transform}deg)` }}
+      style={{
+        transform: `rotate(${config.transform}deg)`,
+        border: highlight ? '2px solid red' : 'none',
+      }}
     />
   );
 };

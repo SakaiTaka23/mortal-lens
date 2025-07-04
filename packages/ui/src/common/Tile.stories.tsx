@@ -128,3 +128,23 @@ export const Error: Story = {
     position: 'self',
   },
 };
+
+export const Highlight: Story = {
+  args: {
+    name: '1m',
+    naki: false,
+    size: 'tehai',
+    highlight: true,
+    position: 'self',
+  },
+};
+
+export const HighlightDora: Story = {
+  args: {
+    name: '1m',
+    naki: false,
+    size: 'doraMarker',
+    highlight: true,
+    position: 'self',
+  },
+};
