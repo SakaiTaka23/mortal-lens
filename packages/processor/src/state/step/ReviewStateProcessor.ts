@@ -1,9 +1,13 @@
 import { GameState } from '@mjai/core';
 import { Event, PlayerID } from '@mjai/types';
-import { Entry } from '@mortal-lens/types';
+import {
+  DiffLevel,
+  Entry,
+  ReviewState as ReviewOutputState,
+} from '@mortal-lens/types';
 
 export interface ReviewState {
-  checkMapping(state: GameState): Entry | undefined;
+  checkMapping(state: GameState): ReviewOutputState | undefined;
 
   handle(event: Event): void;
 }
@@ -16,8 +20,10 @@ export const createReviewState = (
   let eventType = '';
   let actor: PlayerID | undefined = undefined;
 
-  const checkMapping = (state: GameState): Entry | undefined => {
+  const checkMapping = (state: GameState): ReviewOutputState | undefined => {
     let entry: Entry | undefined;
+    let diffLevel: DiffLevel = 'None';
+
     if (entries[index] === undefined) {
       return undefined;
     }
@@ -30,10 +36,28 @@ export const createReviewState = (
     ) {
       entry = entries[index];
       index++;
+
+      const rawActualProb = entry.details[entry.actualIndex].prob;
+      const actualProb = (Math.round(rawActualProb * 100000) / 100000) * 100;
+      if (actualProb < 1) {
+        diffLevel = 'Critical';
+      } else if (actualProb < 5) {
+        diffLevel = 'Significant';
+      } else if (actualProb < 25) {
+        diffLevel = 'Moderate';
+      } else {
+        diffLevel = 'None';
+      }
     } else {
       entry = undefined;
     }
-    return entry;
+
+    return entry === undefined
+      ? undefined
+      : ({
+          ...entry,
+          diffLevel,
+        } satisfies ReviewOutputState);
   };
 
   const handle = (event: Event): void => {

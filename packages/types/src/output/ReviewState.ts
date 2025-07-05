@@ -34,11 +34,19 @@ interface EvaluationDetail {
   prob: number;
 }
 
+export type DiffLevel =
+  | 'Critical'
+  | 'Significant'
+  | 'Moderate'
+  | 'Optimal'
+  | 'None';
+
 export interface ReviewState {
   expected: EvaluationResult;
   actual: EvaluationResult;
   details: EvaluationDetail[];
   isEqual: boolean;
+  diffLevel: DiffLevel;
 }
 
 export interface ReviewMetaState {

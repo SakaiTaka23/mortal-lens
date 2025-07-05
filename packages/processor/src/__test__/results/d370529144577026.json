@@ -547,7 +547,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 68
         },
@@ -841,7 +842,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 67
         },
@@ -1929,7 +1931,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 63
         },
@@ -3055,7 +3058,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 59
         },
@@ -4213,7 +4217,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 55
         },
@@ -5403,7 +5408,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 51
         },
@@ -6509,7 +6515,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 47
         },
@@ -7617,7 +7624,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 44
         },
@@ -7936,7 +7944,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 43
         },
@@ -9106,7 +9115,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 39
         },
@@ -10270,7 +10280,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 36
         },
@@ -10483,7 +10494,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 35
         },
@@ -11675,7 +11687,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 32
         },
@@ -12002,7 +12015,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 31
         },
@@ -21344,7 +21358,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 2
+            "actualIndex": 2,
+            "diffLevel": "Critical"
           },
           "tilesLeft": 68
         },
@@ -21649,7 +21664,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 67
         },
@@ -22748,7 +22764,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "Critical"
           },
           "tilesLeft": 63
         },
@@ -23874,7 +23891,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 59
         },
@@ -25021,7 +25039,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 55
         },
@@ -26095,7 +26114,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 51
         },
@@ -27755,7 +27775,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 47
         },
@@ -28076,7 +28097,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 2
+            "actualIndex": 2,
+            "diffLevel": "Critical"
           },
           "tilesLeft": 46
         },
@@ -29439,7 +29461,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 42
         },
@@ -30834,7 +30857,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 38
         },
@@ -32561,7 +32585,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 34
         },
@@ -33998,7 +34023,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 30
         },
@@ -35478,7 +35504,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 26
         },
@@ -36910,7 +36937,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 22
         },
@@ -37230,7 +37258,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 22
         },
@@ -39218,7 +39247,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 18
         },
@@ -39484,7 +39514,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 17
         },
@@ -40972,7 +41003,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 14
         },
@@ -41314,7 +41346,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 13
         },
@@ -43898,7 +43931,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 68
         },
@@ -44847,7 +44881,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 65
         },
@@ -45136,7 +45171,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 64
         },
@@ -46145,7 +46181,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "None"
           },
           "tilesLeft": 60
         },
@@ -46828,7 +46865,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 58
         },
@@ -48448,7 +48486,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 53
         },
@@ -49735,7 +49774,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 49
         },
@@ -51644,7 +51684,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 45
         },
@@ -53077,7 +53118,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 41
         },
@@ -55258,7 +55300,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "None"
           },
           "tilesLeft": 66
         },
@@ -55440,7 +55483,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 65
         },
@@ -55733,7 +55777,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 65
         },
@@ -56180,7 +56225,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 64
         },
@@ -56998,7 +57044,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "Critical"
           },
           "tilesLeft": 62
         },
@@ -57599,7 +57646,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 61
         },
@@ -58915,7 +58963,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 57
         },
@@ -60283,7 +60332,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 53
         },
@@ -61674,7 +61724,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 49
         },
@@ -63097,7 +63148,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 45
         },
@@ -64552,7 +64604,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 41
         },
@@ -66048,7 +66101,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 37
         },
@@ -67567,7 +67621,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 33
         },
@@ -69118,7 +69173,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 29
         },
@@ -70728,7 +70784,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 26
         },
@@ -72409,7 +72466,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 22
         },
@@ -73831,7 +73889,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 19
         },
@@ -74098,7 +74157,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 18
         },
@@ -77218,7 +77278,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 67
         },
@@ -77514,7 +77575,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 66
         },
@@ -78614,7 +78676,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 3
+            "actualIndex": 3,
+            "diffLevel": "Critical"
           },
           "tilesLeft": 62
         },
@@ -79748,7 +79811,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "Moderate"
           },
           "tilesLeft": 58
         },
@@ -80812,7 +80876,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 54
         },
@@ -81108,7 +81173,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 54
         },
@@ -81987,7 +82053,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 52
         },
@@ -83074,7 +83141,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 67
         },
@@ -84162,7 +84230,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "None"
           },
           "tilesLeft": 63
         },
@@ -85288,7 +85357,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 59
         },
@@ -86446,7 +86516,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 55
         },
@@ -87636,7 +87707,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 51
         },
@@ -88742,7 +88814,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 47
         },
@@ -89996,7 +90069,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 43
         },
@@ -91282,7 +91356,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 39
         },
@@ -92589,7 +92664,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 35
         },
@@ -93823,7 +93899,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 31
         },
@@ -95502,7 +95579,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 2
+            "actualIndex": 2,
+            "diffLevel": "Critical"
           },
           "tilesLeft": 27
         },
@@ -96916,7 +96994,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 23
         },
@@ -98398,7 +98477,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "Critical"
           },
           "tilesLeft": 20
         },
@@ -99972,7 +100052,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 16
         },
@@ -101578,7 +101659,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 12
         },
@@ -103100,7 +103182,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 8
         },
@@ -104284,7 +104367,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 68
         },
@@ -105266,7 +105350,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 65
         },
@@ -105588,7 +105673,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "None"
           },
           "tilesLeft": 64
         },
@@ -106728,7 +106814,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 60
         },
@@ -107900,7 +107987,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 56
         },
@@ -109093,7 +109181,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 52
         },
@@ -110307,7 +110396,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "Moderate"
           },
           "tilesLeft": 48
         },
@@ -111553,7 +111643,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 44
         },
@@ -112831,7 +112922,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 40
         },
@@ -115658,7 +115750,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 66
         },
@@ -115956,7 +116049,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 65
         },
@@ -117066,7 +117160,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 61
         },
@@ -118208,7 +118303,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 57
         },
@@ -119371,7 +119467,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 53
         },
@@ -120723,7 +120820,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "Moderate"
           },
           "tilesLeft": 49
         },
@@ -121013,7 +121111,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 49
         },
@@ -122586,7 +122685,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 2
+            "actualIndex": 2,
+            "diffLevel": "Significant"
           },
           "tilesLeft": 45
         },
@@ -122881,7 +122981,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 44
         },
@@ -124190,7 +124291,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "None"
           },
           "tilesLeft": 40
         },
@@ -125071,7 +125173,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 38
         },
@@ -125613,7 +125716,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 37
         },
@@ -127517,7 +127621,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "Critical"
           },
           "tilesLeft": 67
         },
@@ -127813,7 +127918,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "None"
           },
           "tilesLeft": 66
         },
@@ -128913,7 +129019,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 3
+            "actualIndex": 3,
+            "diffLevel": "Critical"
           },
           "tilesLeft": 62
         },
@@ -130047,7 +130154,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 58
         },
@@ -131097,7 +131205,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 54
         },
@@ -131960,7 +132069,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 53
         },
@@ -132285,7 +132395,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 52
         },
@@ -133603,7 +133714,8 @@
             "atOpponentKakan": false,
             "isEqual": true,
             "atFuriten": false,
-            "actualIndex": 0
+            "actualIndex": 0,
+            "diffLevel": "None"
           },
           "tilesLeft": 48
         },
@@ -134953,7 +135065,8 @@
             "atOpponentKakan": false,
             "isEqual": false,
             "atFuriten": false,
-            "actualIndex": 1
+            "actualIndex": 1,
+            "diffLevel": "Moderate"
           },
           "tilesLeft": 44
         },

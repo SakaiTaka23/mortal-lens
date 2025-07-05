@@ -7,6 +7,7 @@ import {
   Review,
 } from './Input';
 import {
+  DiffLevel,
   KyokuUnit,
   MetaState,
   Output,
@@ -23,4 +24,5 @@ export type {
   ReviewMetaState,
   ReviewState,
   StepState,
+  DiffLevel,
 };

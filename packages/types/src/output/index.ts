@@ -2,9 +2,9 @@ import { HandState, Kawa } from '@mjai/core';
 import { Hora, PlayerID, Ryukyoku, Tile } from '@mjai/types';
 
 import { MetaState } from './MetaState';
-import { ReviewMetaState, ReviewState } from './ReviewState';
+import { DiffLevel, ReviewMetaState, ReviewState } from './ReviewState';
 
-export type { MetaState, ReviewMetaState, ReviewState };
+export type { MetaState, ReviewMetaState, ReviewState, DiffLevel };
 
 export interface Output {
   meta: MetaState;
