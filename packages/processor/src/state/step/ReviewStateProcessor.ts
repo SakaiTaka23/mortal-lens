@@ -12,6 +12,9 @@ export interface ReviewState {
   handle(event: Event): void;
 }
 
+/**
+ * Create a review state and return the checkMapping and handle functions
+ */
 export const createReviewState = (
   entries: Entry[],
   evaluatee: PlayerID,
@@ -20,13 +23,24 @@ export const createReviewState = (
   let eventType = '';
   let actor: PlayerID | undefined = undefined;
 
+  /*
+   * Check that in the current game state if the review exist or not
+   */
   const checkMapping = (state: GameState): ReviewOutputState | undefined => {
     let entry: Entry | undefined;
     let diffLevel: DiffLevel = 'None';
 
+    /**
+     * This can happen when it is the end of the kyoku and there is no more reviews
+     */
     if (entries[index] === undefined) {
       return undefined;
     }
+    /**
+     * Check if the current event type is tsumo or reach and the actor is the evaluatee
+     * There can be review as well when other player dahai or kakan since player can fuuro
+     * This is checked by the remaining tiles since not all dahai or kakan can fuuro
+     */
     if (
       ((eventType === 'tsumo' || eventType === 'reach') &&
         actor === evaluatee) ||
@@ -34,9 +48,15 @@ export const createReviewState = (
         state.KawaState.remaining() === entries[index].tilesLeft &&
         actor !== evaluatee)
     ) {
+      /**
+       * If there is any match map the entry and add the entry index
+       */
       entry = entries[index];
       index++;
 
+      /**
+       * Get the current enty and get the pro, calculate the diff level
+       */
       const rawActualProb = entry.details[entry.actualIndex].prob;
       const actualProb = (Math.round(rawActualProb * 100000) / 100000) * 100;
       if (actualProb < 1) {
@@ -55,11 +75,18 @@ export const createReviewState = (
     return entry === undefined
       ? undefined
       : ({
-          ...entry,
+          expected: entry.expected,
+          actual: entry.actual,
+          details: entry.details,
+          isEqual: entry.isEqual,
           diffLevel,
         } satisfies ReviewOutputState);
   };
 
+  /** Update the current event type
+   * Set the actor if it is tsumo or reach event
+   * This is because these events are the ones that can be evaluated by type
+   */
   const handle = (event: Event): void => {
     eventType = event.type;
     if (event.type === 'tsumo' || event.type === 'reach') {

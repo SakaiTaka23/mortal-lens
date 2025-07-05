@@ -12,6 +12,9 @@ import { MetaStateProcessor } from './state/MetaStateProcessor';
 import { ReviewMetaStateProcessor } from './state/ReviewMetaStateProcessor';
 import { createReviewState } from './state/step/ReviewStateProcessor';
 
+/**
+ * Main function to convert the input to the output
+ */
 export const ProcessInput = (input: Input): Output => {
   const metaState: MetaState = MetaStateProcessor(input);
   const reviewMetaState = ReviewMetaStateProcessor(input);
@@ -24,6 +27,12 @@ export const ProcessInput = (input: Input): Output => {
     const reviewState = createReviewState(reviewKyoku.entries, input.playerID);
     const steps: StepState[] = [];
 
+    /**
+     * Iterate through the events in the kyoku
+     * It first updates the game state and review state
+     * Then it creates a snapshot of the current state and pushes it to the steps array as a snapshot
+     * This snapshot contains all the information needed to render the step in the review
+     */
     log.forEach((event) => {
       gameState.handle(event);
       reviewState.handle(event);
@@ -38,6 +47,9 @@ export const ProcessInput = (input: Input): Output => {
       steps.push(snapShot);
     });
 
+    /**
+     * Static information about the kyoku
+     */
     const kyoku: KyokuUnit = {
       bakaze: gameState.KyokuState.bakaze(),
       kyoku: reviewKyoku.kyoku,
@@ -58,6 +70,11 @@ export const ProcessInput = (input: Input): Output => {
   };
 };
 
+/**
+ * Event is merged to one array regardless of the kyoku
+ * It ignores start_game and end_game and splits by start_kyoku
+ * Pushes as new array when start_kyoku is found
+ */
 const splitKyoku = (event: Event[]): Event[][] => {
   checkEvent(event);
   const groupedKyoku: Event[][] = [];

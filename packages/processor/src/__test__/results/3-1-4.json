@@ -580,32 +580,6 @@
             }
           ],
           "review": {
-            "junme": 1,
-            "tiles_left": 67,
-            "last_actor": 2,
-            "tile": "5sr",
-            "state": {
-              "tehai": [
-                "2m",
-                "3m",
-                "6m",
-                "2p",
-                "3p",
-                "5p",
-                "9p",
-                "2s",
-                "9s",
-                "N",
-                "N",
-                "P",
-                "F",
-                "5sr"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -618,7 +592,6 @@
               "pai": "9s",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -764,17 +737,7 @@
                 "QValue": -1.6090574
               }
             ],
-            "shanten": 5,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 67,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 67
@@ -888,32 +851,6 @@
             }
           ],
           "review": {
-            "junme": 2,
-            "tiles_left": 63,
-            "last_actor": 2,
-            "tile": "1m",
-            "state": {
-              "tehai": [
-                "2m",
-                "3m",
-                "6m",
-                "2p",
-                "3p",
-                "5p",
-                "9p",
-                "2s",
-                "5sr",
-                "N",
-                "N",
-                "P",
-                "F",
-                "1m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -926,7 +863,6 @@
               "pai": "F",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -1072,17 +1008,7 @@
                 "QValue": -1.5915478
               }
             ],
-            "shanten": 5,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 63,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "Moderate"
           },
           "tilesLeft": 66
@@ -2000,32 +1926,6 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 59,
-            "last_actor": 2,
-            "tile": "1p",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "3m",
-                "6m",
-                "2p",
-                "3p",
-                "5p",
-                "9p",
-                "2s",
-                "5sr",
-                "N",
-                "N",
-                "P",
-                "1p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -2038,7 +1938,6 @@
               "pai": "P",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -2184,17 +2083,7 @@
                 "QValue": -1.6668354
               }
             ],
-            "shanten": 4,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 59,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "None"
           },
           "tilesLeft": 62
@@ -3146,38 +3035,12 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 56,
-            "last_actor": 1,
-            "tile": "4m",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "3m",
-                "6m",
-                "1p",
-                "2p",
-                "3p",
-                "5p",
-                "9p",
-                "2s",
-                "5sr",
-                "N",
-                "N"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -3203,17 +3066,7 @@
                 "QValue": -1.2731874
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 56,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 58
@@ -4073,32 +3926,6 @@
             }
           ],
           "review": {
-            "junme": 4,
-            "tiles_left": 55,
-            "last_actor": 2,
-            "tile": "C",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "3m",
-                "6m",
-                "1p",
-                "2p",
-                "3p",
-                "5p",
-                "9p",
-                "2s",
-                "5sr",
-                "N",
-                "N",
-                "C"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -4111,7 +3938,6 @@
               "pai": "C",
               "tsumogiri": true
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -4257,17 +4083,7 @@
                 "QValue": -1.687111
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 55,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "None"
           },
           "tilesLeft": 55
@@ -4395,32 +4211,6 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 51,
-            "last_actor": 2,
-            "tile": "6s",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "3m",
-                "6m",
-                "1p",
-                "2p",
-                "3p",
-                "5p",
-                "9p",
-                "2s",
-                "5sr",
-                "N",
-                "N",
-                "6s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -4433,7 +4223,6 @@
               "pai": "9p",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -4579,17 +4368,7 @@
                 "QValue": -1.6932633
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 51,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 54
@@ -5605,32 +5384,6 @@
             }
           ],
           "review": {
-            "junme": 6,
-            "tiles_left": 47,
-            "last_actor": 2,
-            "tile": "C",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "3m",
-                "6m",
-                "1p",
-                "2p",
-                "3p",
-                "5p",
-                "2s",
-                "5sr",
-                "6s",
-                "N",
-                "N",
-                "C"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -5643,7 +5396,6 @@
               "pai": "C",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -5789,17 +5541,7 @@
                 "QValue": -1.7098504
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 47,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 50
@@ -6847,32 +6589,6 @@
             }
           ],
           "review": {
-            "junme": 7,
-            "tiles_left": 43,
-            "last_actor": 2,
-            "tile": "5p",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "3m",
-                "6m",
-                "1p",
-                "2p",
-                "3p",
-                "5p",
-                "2s",
-                "5sr",
-                "6s",
-                "N",
-                "N",
-                "5p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -6885,7 +6601,6 @@
               "pai": "6m",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -7020,17 +6735,7 @@
                 "QValue": -1.4999596
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 43,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "Significant"
           },
           "tilesLeft": 46
@@ -8110,32 +7815,6 @@
             }
           ],
           "review": {
-            "junme": 8,
-            "tiles_left": 39,
-            "last_actor": 2,
-            "tile": "8p",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "3m",
-                "1p",
-                "2p",
-                "3p",
-                "5p",
-                "5p",
-                "2s",
-                "5sr",
-                "6s",
-                "N",
-                "N",
-                "8p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -8148,7 +7827,6 @@
               "pai": "8p",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -8283,17 +7961,7 @@
                 "QValue": -1.6748936
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 39,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 42
@@ -9405,38 +9073,12 @@
             }
           ],
           "review": {
-            "junme": 8,
-            "tiles_left": 38,
-            "last_actor": 3,
-            "tile": "N",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "3m",
-                "1p",
-                "2p",
-                "3p",
-                "5p",
-                "5p",
-                "2s",
-                "5sr",
-                "6s",
-                "N",
-                "N"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -9462,17 +9104,7 @@
                 "QValue": -1.1637744
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 38,
-            "lastActor": 3,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 38
@@ -11070,38 +10702,12 @@
             }
           ],
           "review": {
-            "junme": 0,
-            "tiles_left": 69,
-            "last_actor": 1,
-            "tile": "9s",
-            "state": {
-              "tehai": [
-                "2m",
-                "4m",
-                "5m",
-                "7m",
-                "3p",
-                "9p",
-                "3s",
-                "6s",
-                "8s",
-                "9s",
-                "9s",
-                "S",
-                "C"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -11127,17 +10733,7 @@
                 "QValue": -1.0534167
               }
             ],
-            "shanten": 4,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 69,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 67
@@ -12043,32 +11639,6 @@
             }
           ],
           "review": {
-            "junme": 1,
-            "tiles_left": 68,
-            "last_actor": 2,
-            "tile": "6m",
-            "state": {
-              "tehai": [
-                "2m",
-                "4m",
-                "5m",
-                "7m",
-                "3p",
-                "9p",
-                "3s",
-                "6s",
-                "8s",
-                "9s",
-                "9s",
-                "S",
-                "C",
-                "6m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -12081,7 +11651,6 @@
               "pai": "9p",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -12227,17 +11796,7 @@
                 "QValue": -1.9596794
               }
             ],
-            "shanten": 4,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 68,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 63
@@ -13181,32 +12740,6 @@
             }
           ],
           "review": {
-            "junme": 2,
-            "tiles_left": 64,
-            "last_actor": 2,
-            "tile": "5pr",
-            "state": {
-              "tehai": [
-                "2m",
-                "4m",
-                "5m",
-                "6m",
-                "7m",
-                "3p",
-                "3s",
-                "6s",
-                "8s",
-                "9s",
-                "9s",
-                "S",
-                "C",
-                "5pr"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -13219,7 +12752,6 @@
               "pai": "S",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -13365,17 +12897,7 @@
                 "QValue": -1.8630087
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 64,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 59
@@ -14351,32 +13873,6 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 60,
-            "last_actor": 2,
-            "tile": "2p",
-            "state": {
-              "tehai": [
-                "2m",
-                "4m",
-                "5m",
-                "6m",
-                "7m",
-                "3p",
-                "5pr",
-                "3s",
-                "6s",
-                "8s",
-                "9s",
-                "9s",
-                "C",
-                "2p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -14389,7 +13885,6 @@
               "pai": "C",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -14535,17 +14030,7 @@
                 "QValue": -1.9016094
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 60,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 55
@@ -15553,32 +15038,6 @@
             }
           ],
           "review": {
-            "junme": 4,
-            "tiles_left": 56,
-            "last_actor": 2,
-            "tile": "1m",
-            "state": {
-              "tehai": [
-                "2m",
-                "4m",
-                "5m",
-                "6m",
-                "7m",
-                "2p",
-                "3p",
-                "5pr",
-                "3s",
-                "6s",
-                "8s",
-                "9s",
-                "9s",
-                "1m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -15591,7 +15050,6 @@
               "pai": "1m",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -15737,17 +15195,7 @@
                 "QValue": -1.877907
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 56,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 51
@@ -16787,32 +16235,6 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 52,
-            "last_actor": 2,
-            "tile": "9p",
-            "state": {
-              "tehai": [
-                "2m",
-                "4m",
-                "5m",
-                "6m",
-                "7m",
-                "2p",
-                "3p",
-                "5pr",
-                "3s",
-                "6s",
-                "8s",
-                "9s",
-                "9s",
-                "9p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -16825,7 +16247,6 @@
               "pai": "9p",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -16971,17 +16392,7 @@
                 "QValue": -1.9615012
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 52,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 47
@@ -18053,38 +17464,12 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 49,
-            "last_actor": 1,
-            "tile": "7m",
-            "state": {
-              "tehai": [
-                "2m",
-                "4m",
-                "5m",
-                "6m",
-                "7m",
-                "2p",
-                "3p",
-                "5pr",
-                "3s",
-                "6s",
-                "8s",
-                "9s",
-                "9s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -18110,17 +17495,7 @@
                 "QValue": -1.1333828
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 49,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 43
@@ -18985,32 +18360,6 @@
             }
           ],
           "review": {
-            "junme": 6,
-            "tiles_left": 48,
-            "last_actor": 2,
-            "tile": "8s",
-            "state": {
-              "tehai": [
-                "2m",
-                "4m",
-                "5m",
-                "6m",
-                "7m",
-                "2p",
-                "3p",
-                "5pr",
-                "3s",
-                "6s",
-                "8s",
-                "9s",
-                "9s",
-                "8s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -19023,7 +18372,6 @@
               "pai": "9s",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -19158,17 +18506,7 @@
                 "QValue": -1.5965277
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 48,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "Significant"
           },
           "tilesLeft": 41
@@ -20280,32 +19618,6 @@
             }
           ],
           "review": {
-            "junme": 1,
-            "tiles_left": 68,
-            "last_actor": 2,
-            "tile": "8p",
-            "state": {
-              "tehai": [
-                "2m",
-                "5m",
-                "7m",
-                "7m",
-                "4p",
-                "6p",
-                "6p",
-                "7p",
-                "8p",
-                "1s",
-                "5sr",
-                "6s",
-                "C",
-                "8p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -20318,7 +19630,6 @@
               "pai": "1s",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -20442,17 +19753,7 @@
                 "QValue": -1.7169393
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 68,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 68
@@ -20564,32 +19865,6 @@
             }
           ],
           "review": {
-            "junme": 2,
-            "tiles_left": 64,
-            "last_actor": 2,
-            "tile": "2m",
-            "state": {
-              "tehai": [
-                "2m",
-                "5m",
-                "7m",
-                "7m",
-                "4p",
-                "6p",
-                "6p",
-                "7p",
-                "8p",
-                "8p",
-                "5sr",
-                "6s",
-                "C",
-                "2m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -20602,7 +19877,6 @@
               "pai": "4p",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -20715,17 +19989,7 @@
                 "QValue": -1.5804365
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 64,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "Critical"
           },
           "tilesLeft": 67
@@ -21631,32 +20895,6 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 60,
-            "last_actor": 2,
-            "tile": "S",
-            "state": {
-              "tehai": [
-                "2m",
-                "2m",
-                "5m",
-                "7m",
-                "7m",
-                "6p",
-                "6p",
-                "7p",
-                "8p",
-                "8p",
-                "5sr",
-                "6s",
-                "C",
-                "S"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -21669,7 +20907,6 @@
               "pai": "S",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -21782,17 +21019,7 @@
                 "QValue": -1.5156474
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 60,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 63
@@ -22736,32 +21963,6 @@
             }
           ],
           "review": {
-            "junme": 4,
-            "tiles_left": 56,
-            "last_actor": 2,
-            "tile": "C",
-            "state": {
-              "tehai": [
-                "2m",
-                "2m",
-                "5m",
-                "7m",
-                "7m",
-                "6p",
-                "6p",
-                "7p",
-                "8p",
-                "8p",
-                "5sr",
-                "6s",
-                "C",
-                "C"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -22774,7 +21975,6 @@
               "pai": "2m",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -22876,17 +22076,7 @@
                 "QValue": -1.2488565
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 3,
-            "tilesLeft": 56,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 3,
             "diffLevel": "Critical"
           },
           "tilesLeft": 59
@@ -23862,32 +23052,6 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 52,
-            "last_actor": 2,
-            "tile": "3p",
-            "state": {
-              "tehai": [
-                "2m",
-                "5m",
-                "7m",
-                "7m",
-                "6p",
-                "6p",
-                "7p",
-                "8p",
-                "8p",
-                "5sr",
-                "6s",
-                "C",
-                "C",
-                "3p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -23900,7 +23064,6 @@
               "pai": "3p",
               "tsumogiri": true
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -24013,17 +23176,7 @@
                 "QValue": -1.5257238
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 52,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "None"
           },
           "tilesLeft": 55
@@ -25031,31 +24184,6 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 49,
-            "last_actor": 1,
-            "tile": "7p",
-            "state": {
-              "tehai": [
-                "2m",
-                "5m",
-                "7m",
-                "7m",
-                "6p",
-                "6p",
-                "7p",
-                "8p",
-                "8p",
-                "5sr",
-                "6s",
-                "C",
-                "C"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
@@ -25069,7 +24197,6 @@
                 "8p"
               ]
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -25095,17 +24222,7 @@
                 "QValue": 0.19753301
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 49,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "None"
           },
           "tilesLeft": 51
@@ -25753,39 +24870,6 @@
             }
           ],
           "review": {
-            "junme": 6,
-            "tiles_left": 49,
-            "last_actor": 2,
-            "tile": "7p",
-            "state": {
-              "tehai": [
-                "2m",
-                "5m",
-                "7m",
-                "7m",
-                "6p",
-                "7p",
-                "8p",
-                "5sr",
-                "6s",
-                "C",
-                "C"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": true,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -25798,7 +24882,6 @@
               "pai": "5m",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -25889,17 +24972,7 @@
                 "QValue": -1.2632502
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 49,
-            "lastActor": 2,
-            "atSelfChiPon": true,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "Significant"
           },
           "tilesLeft": 49
@@ -27316,39 +26389,6 @@
             }
           ],
           "review": {
-            "junme": 7,
-            "tiles_left": 45,
-            "last_actor": 2,
-            "tile": "8m",
-            "state": {
-              "tehai": [
-                "2m",
-                "7m",
-                "7m",
-                "6p",
-                "7p",
-                "8p",
-                "5sr",
-                "6s",
-                "C",
-                "C",
-                "8m"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -27361,7 +26401,6 @@
               "pai": "2m",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -27463,17 +26502,7 @@
                 "QValue": -1.3817112
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 45,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 45
@@ -27623,39 +26652,6 @@
             }
           ],
           "review": {
-            "junme": 8,
-            "tiles_left": 41,
-            "last_actor": 2,
-            "tile": "9m",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "8m",
-                "6p",
-                "7p",
-                "8p",
-                "5sr",
-                "6s",
-                "C",
-                "C",
-                "9m"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -27668,7 +26664,6 @@
               "pai": "8m",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -27770,17 +26765,7 @@
                 "QValue": -1.2903427
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 41,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 44
@@ -28972,38 +27957,6 @@
             }
           ],
           "review": {
-            "junme": 8,
-            "tiles_left": 40,
-            "last_actor": 3,
-            "tile": "C",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "9m",
-                "6p",
-                "7p",
-                "8p",
-                "5sr",
-                "6s",
-                "C",
-                "C"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "pon",
               "actor": 2,
@@ -29024,7 +27977,6 @@
                 "C"
               ]
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -29050,17 +28002,7 @@
                 "QValue": -0.93567985
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 40,
-            "lastActor": 3,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 40
@@ -29215,45 +28157,6 @@
             }
           ],
           "review": {
-            "junme": 9,
-            "tiles_left": 40,
-            "last_actor": 2,
-            "tile": "C",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "9m",
-                "6p",
-                "7p",
-                "8p",
-                "5sr",
-                "6s"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": true,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -29266,7 +28169,6 @@
               "pai": "9m",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -29346,17 +28248,7 @@
                 "QValue": -0.9735751
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 40,
-            "lastActor": 2,
-            "atSelfChiPon": true,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 40
@@ -31031,45 +29923,6 @@
             }
           ],
           "review": {
-            "junme": 10,
-            "tiles_left": 37,
-            "last_actor": 2,
-            "tile": "9p",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "6p",
-                "7p",
-                "8p",
-                "5sr",
-                "6s",
-                "9p"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -31082,7 +29935,6 @@
               "pai": "9p",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -31162,17 +30014,7 @@
                 "QValue": -0.9753343
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 37,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 37
@@ -31355,45 +30197,6 @@
             }
           ],
           "review": {
-            "junme": 11,
-            "tiles_left": 33,
-            "last_actor": 2,
-            "tile": "8s",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "6p",
-                "7p",
-                "8p",
-                "5sr",
-                "6s",
-                "8s"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -31406,7 +30209,6 @@
               "pai": "8s",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -31486,17 +30288,7 @@
                 "QValue": -1.0628734
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 33,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 36
@@ -32952,45 +31744,6 @@
             }
           ],
           "review": {
-            "junme": 12,
-            "tiles_left": 29,
-            "last_actor": 2,
-            "tile": "3p",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "6p",
-                "7p",
-                "8p",
-                "5sr",
-                "6s",
-                "3p"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -33003,7 +31756,6 @@
               "pai": "3p",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -33083,17 +31835,7 @@
                 "QValue": -1.0355531
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 29,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 32
@@ -34581,45 +33323,6 @@
             }
           ],
           "review": {
-            "junme": 13,
-            "tiles_left": 25,
-            "last_actor": 2,
-            "tile": "P",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "6p",
-                "7p",
-                "8p",
-                "5sr",
-                "6s",
-                "P"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -34632,7 +33335,6 @@
               "pai": "P",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -34712,17 +33414,7 @@
                 "QValue": -0.9912493
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 25,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 28
@@ -36242,45 +34934,6 @@
             }
           ],
           "review": {
-            "junme": 14,
-            "tiles_left": 21,
-            "last_actor": 2,
-            "tile": "5p",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "6p",
-                "7p",
-                "8p",
-                "5sr",
-                "6s",
-                "5p"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -36293,7 +34946,6 @@
               "pai": "8p",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -36373,17 +35025,7 @@
                 "QValue": -0.62616396
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 21,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 24
@@ -37935,51 +36577,12 @@
             }
           ],
           "review": {
-            "junme": 14,
-            "tiles_left": 18,
-            "last_actor": 1,
-            "tile": "8p",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "5p",
-                "6p",
-                "7p",
-                "5sr",
-                "6s"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -38005,17 +36608,7 @@
                 "QValue": -0.29422468
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 18,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 20
@@ -39400,45 +37993,6 @@
             }
           ],
           "review": {
-            "junme": 15,
-            "tiles_left": 17,
-            "last_actor": 2,
-            "tile": "2p",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "5p",
-                "6p",
-                "7p",
-                "5sr",
-                "6s",
-                "2p"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -39451,7 +38005,6 @@
               "pai": "2p",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -39531,17 +38084,7 @@
                 "QValue": -0.73815346
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 17,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 17
@@ -39744,45 +38287,6 @@
             }
           ],
           "review": {
-            "junme": 16,
-            "tiles_left": 13,
-            "last_actor": 2,
-            "tile": "5m",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "5p",
-                "6p",
-                "7p",
-                "5sr",
-                "6s",
-                "5m"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -39795,7 +38299,6 @@
               "pai": "5m",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -39875,17 +38378,7 @@
                 "QValue": -0.6314578
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 13,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 16
@@ -41501,45 +39994,6 @@
             }
           ],
           "review": {
-            "junme": 17,
-            "tiles_left": 10,
-            "last_actor": 2,
-            "tile": "W",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "5p",
-                "6p",
-                "7p",
-                "5sr",
-                "6s",
-                "W"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -41552,7 +40006,6 @@
               "pai": "W",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -41632,17 +40085,7 @@
                 "QValue": -1.0597049
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 10,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 12
@@ -43345,45 +41788,6 @@
             }
           ],
           "review": {
-            "junme": 18,
-            "tiles_left": 6,
-            "last_actor": 2,
-            "tile": "4m",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "5p",
-                "6p",
-                "7p",
-                "5sr",
-                "6s",
-                "4m"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -43396,7 +41800,6 @@
               "pai": "4m",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -43476,17 +41879,7 @@
                 "QValue": -0.8944191
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 6,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 9
@@ -45254,45 +43647,6 @@
             }
           ],
           "review": {
-            "junme": 19,
-            "tiles_left": 2,
-            "last_actor": 2,
-            "tile": "9s",
-            "state": {
-              "tehai": [
-                "7m",
-                "7m",
-                "5p",
-                "6p",
-                "7p",
-                "5sr",
-                "6s",
-                "9s"
-              ],
-              "fuuros": [
-                {
-                  "type": "chi",
-                  "target": 1,
-                  "pai": "7p",
-                  "consumed": [
-                    "6p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 3,
-                  "pai": "C",
-                  "consumed": [
-                    "C",
-                    "C"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -45305,7 +43659,6 @@
               "pai": "9s",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -45385,17 +43738,7 @@
                 "QValue": -1.1966053
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 2,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 5
@@ -49583,32 +47926,6 @@
             }
           ],
           "review": {
-            "junme": 1,
-            "tiles_left": 69,
-            "last_actor": 2,
-            "tile": "3s",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "1p",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "3s",
-                "6s",
-                "8s",
-                "E",
-                "W",
-                "F",
-                "3s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -49621,7 +47938,6 @@
               "pai": "W",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -49767,17 +48083,7 @@
                 "QValue": -2.0553205
               }
             ],
-            "shanten": 4,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 69,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 68
@@ -50555,32 +48861,6 @@
             }
           ],
           "review": {
-            "junme": 2,
-            "tiles_left": 65,
-            "last_actor": 2,
-            "tile": "E",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "1p",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "3s",
-                "3s",
-                "6s",
-                "8s",
-                "E",
-                "F",
-                "E"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -50593,7 +48873,6 @@
               "pai": "1p",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -50728,17 +49007,7 @@
                 "QValue": -1.8258755
               }
             ],
-            "shanten": 4,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 65,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 65
@@ -50856,32 +49125,6 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 61,
-            "last_actor": 2,
-            "tile": "S",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "3s",
-                "3s",
-                "6s",
-                "8s",
-                "E",
-                "E",
-                "F",
-                "S"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -50894,7 +49137,6 @@
               "pai": "S",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -51029,17 +49271,7 @@
                 "QValue": -1.8762012
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 61,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 64
@@ -51975,32 +50207,6 @@
             }
           ],
           "review": {
-            "junme": 4,
-            "tiles_left": 57,
-            "last_actor": 2,
-            "tile": "2p",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "3s",
-                "3s",
-                "6s",
-                "8s",
-                "E",
-                "E",
-                "F",
-                "2p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -52013,7 +50219,6 @@
               "pai": "F",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -52148,17 +50353,7 @@
                 "QValue": -1.6186293
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 57,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 60
@@ -53126,32 +51321,6 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 53,
-            "last_actor": 2,
-            "tile": "4m",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "2p",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "3s",
-                "3s",
-                "6s",
-                "8s",
-                "E",
-                "E",
-                "4m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -53164,7 +51333,6 @@
               "pai": "3s",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -53288,17 +51456,7 @@
                 "QValue": -1.6404334
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 53,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 56
@@ -54298,32 +52456,6 @@
             }
           ],
           "review": {
-            "junme": 6,
-            "tiles_left": 49,
-            "last_actor": 2,
-            "tile": "3p",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "4m",
-                "2p",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "3s",
-                "6s",
-                "8s",
-                "E",
-                "E",
-                "3p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -54336,7 +52468,6 @@
               "pai": "3m",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -54471,17 +52602,7 @@
                 "QValue": -1.3302609
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 4,
-            "tilesLeft": 49,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 4,
             "diffLevel": "Critical"
           },
           "tilesLeft": 52
@@ -55513,38 +53634,12 @@
             }
           ],
           "review": {
-            "junme": 6,
-            "tiles_left": 46,
-            "last_actor": 1,
-            "tile": "1p",
-            "state": {
-              "tehai": [
-                "4m",
-                "4m",
-                "2p",
-                "3p",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "3s",
-                "6s",
-                "8s",
-                "E",
-                "E"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -55570,17 +53665,7 @@
                 "QValue": -1.1131003
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 46,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 48
@@ -56510,32 +54595,6 @@
             }
           ],
           "review": {
-            "junme": 7,
-            "tiles_left": 45,
-            "last_actor": 2,
-            "tile": "8m",
-            "state": {
-              "tehai": [
-                "4m",
-                "4m",
-                "2p",
-                "3p",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "3s",
-                "6s",
-                "8s",
-                "E",
-                "E",
-                "8m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -56548,7 +54607,6 @@
               "pai": "8m",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -56683,17 +54741,7 @@
                 "QValue": -1.8887722
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 45,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 45
@@ -56831,38 +54879,12 @@
             }
           ],
           "review": {
-            "junme": 7,
-            "tiles_left": 42,
-            "last_actor": 1,
-            "tile": "1s",
-            "state": {
-              "tehai": [
-                "4m",
-                "4m",
-                "2p",
-                "3p",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "3s",
-                "6s",
-                "8s",
-                "E",
-                "E"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -56888,17 +54910,7 @@
                 "QValue": -0.85196424
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 42,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 44
@@ -58127,32 +56139,6 @@
             }
           ],
           "review": {
-            "junme": 8,
-            "tiles_left": 41,
-            "last_actor": 2,
-            "tile": "1m",
-            "state": {
-              "tehai": [
-                "4m",
-                "4m",
-                "2p",
-                "3p",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "3s",
-                "6s",
-                "8s",
-                "E",
-                "E",
-                "1m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -58165,7 +56151,6 @@
               "pai": "E",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -58300,17 +56285,7 @@
                 "QValue": -1.719109
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 4,
-            "tilesLeft": 41,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 4,
             "diffLevel": "Critical"
           },
           "tilesLeft": 41
@@ -58452,32 +56427,6 @@
             }
           ],
           "review": {
-            "junme": 9,
-            "tiles_left": 37,
-            "last_actor": 2,
-            "tile": "2s",
-            "state": {
-              "tehai": [
-                "1m",
-                "4m",
-                "4m",
-                "2p",
-                "3p",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "3s",
-                "6s",
-                "8s",
-                "E",
-                "2s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -58490,7 +56439,6 @@
               "pai": "E",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -58625,17 +56573,7 @@
                 "QValue": -1.9139092
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 37,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 40
@@ -59763,32 +57701,6 @@
             }
           ],
           "review": {
-            "junme": 10,
-            "tiles_left": 33,
-            "last_actor": 2,
-            "tile": "1p",
-            "state": {
-              "tehai": [
-                "1m",
-                "4m",
-                "4m",
-                "2p",
-                "3p",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "2s",
-                "3s",
-                "6s",
-                "8s",
-                "1p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -59801,7 +57713,6 @@
               "pai": "1p",
               "tsumogiri": true
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -59936,17 +57847,7 @@
                 "QValue": -1.7343148
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 33,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "None"
           },
           "tilesLeft": 36
@@ -61106,32 +59007,6 @@
             }
           ],
           "review": {
-            "junme": 11,
-            "tiles_left": 29,
-            "last_actor": 2,
-            "tile": "6s",
-            "state": {
-              "tehai": [
-                "1m",
-                "4m",
-                "4m",
-                "2p",
-                "3p",
-                "4p",
-                "7p",
-                "1s",
-                "2s",
-                "2s",
-                "3s",
-                "6s",
-                "8s",
-                "6s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -61144,7 +59019,6 @@
               "pai": "1s",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -61268,17 +59142,7 @@
                 "QValue": -1.6330259
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 29,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 32
@@ -62470,32 +60334,6 @@
             }
           ],
           "review": {
-            "junme": 12,
-            "tiles_left": 25,
-            "last_actor": 2,
-            "tile": "8p",
-            "state": {
-              "tehai": [
-                "1m",
-                "4m",
-                "4m",
-                "2p",
-                "3p",
-                "4p",
-                "7p",
-                "2s",
-                "2s",
-                "3s",
-                "6s",
-                "6s",
-                "8s",
-                "8p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -62508,7 +60346,6 @@
               "pai": "2p",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -62632,17 +60469,7 @@
                 "QValue": -1.755507
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 25,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "Significant"
           },
           "tilesLeft": 28
@@ -63866,32 +61693,6 @@
             }
           ],
           "review": {
-            "junme": 13,
-            "tiles_left": 23,
-            "last_actor": 2,
-            "tile": "8m",
-            "state": {
-              "tehai": [
-                "1m",
-                "4m",
-                "4m",
-                "3p",
-                "4p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "3s",
-                "6s",
-                "6s",
-                "8s",
-                "8m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -63904,7 +61705,6 @@
               "pai": "4p",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -64028,17 +61828,7 @@
                 "QValue": -1.8432138
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 23,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 24
@@ -65033,32 +62823,6 @@
             }
           ],
           "review": {
-            "junme": 14,
-            "tiles_left": 19,
-            "last_actor": 2,
-            "tile": "5sr",
-            "state": {
-              "tehai": [
-                "1m",
-                "4m",
-                "4m",
-                "8m",
-                "3p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "3s",
-                "6s",
-                "6s",
-                "8s",
-                "5sr"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -65071,7 +62835,6 @@
               "pai": "8m",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -65195,17 +62958,7 @@
                 "QValue": -1.8607297
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 19,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 22
@@ -66573,32 +64326,6 @@
             }
           ],
           "review": {
-            "junme": 15,
-            "tiles_left": 15,
-            "last_actor": 2,
-            "tile": "3p",
-            "state": {
-              "tehai": [
-                "1m",
-                "4m",
-                "4m",
-                "3p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "3s",
-                "5sr",
-                "6s",
-                "6s",
-                "8s",
-                "3p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -66611,7 +64338,6 @@
               "pai": "8s",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -66724,17 +64450,7 @@
                 "QValue": -1.8476564
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 15,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 18
@@ -68134,32 +65850,6 @@
             }
           ],
           "review": {
-            "junme": 16,
-            "tiles_left": 11,
-            "last_actor": 2,
-            "tile": "6m",
-            "state": {
-              "tehai": [
-                "1m",
-                "4m",
-                "4m",
-                "3p",
-                "3p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "3s",
-                "5sr",
-                "6s",
-                "6s",
-                "6m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -68172,7 +65862,6 @@
               "pai": "1m",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -68285,17 +65974,7 @@
                 "QValue": -1.989904
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 11,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 14
@@ -69727,32 +67406,6 @@
             }
           ],
           "review": {
-            "junme": 17,
-            "tiles_left": 7,
-            "last_actor": 2,
-            "tile": "F",
-            "state": {
-              "tehai": [
-                "4m",
-                "4m",
-                "6m",
-                "3p",
-                "3p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "3s",
-                "5sr",
-                "6s",
-                "6s",
-                "F"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -69765,7 +67418,6 @@
               "pai": "5sr",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -69878,17 +67530,7 @@
                 "QValue": -1.7074457
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 7,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "Critical"
           },
           "tilesLeft": 10
@@ -71352,32 +68994,6 @@
             }
           ],
           "review": {
-            "junme": 18,
-            "tiles_left": 3,
-            "last_actor": 2,
-            "tile": "6p",
-            "state": {
-              "tehai": [
-                "4m",
-                "4m",
-                "6m",
-                "3p",
-                "3p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "3s",
-                "6s",
-                "6s",
-                "F",
-                "6p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -71390,7 +69006,6 @@
               "pai": "F",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -71503,17 +69118,7 @@
                 "QValue": -1.7288693
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 3,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 6
@@ -74333,38 +71938,12 @@
             }
           ],
           "review": {
-            "junme": 0,
-            "tiles_left": 67,
-            "last_actor": 1,
-            "tile": "9p",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "3p",
-                "7p",
-                "8p",
-                "2s",
-                "9s",
-                "9s",
-                "E",
-                "S",
-                "N",
-                "P",
-                "C"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -74390,17 +71969,7 @@
                 "QValue": -0.48746324
               }
             ],
-            "shanten": 5,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 67,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 67
@@ -74626,32 +72195,6 @@
             }
           ],
           "review": {
-            "junme": 1,
-            "tiles_left": 66,
-            "last_actor": 2,
-            "tile": "2p",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "3p",
-                "7p",
-                "8p",
-                "2s",
-                "9s",
-                "9s",
-                "E",
-                "S",
-                "N",
-                "P",
-                "C",
-                "2p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -74664,7 +72207,6 @@
               "pai": "S",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -74810,17 +72352,7 @@
                 "QValue": -1.6770577
               }
             ],
-            "shanten": 5,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 66,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 66
@@ -74936,32 +72468,6 @@
             }
           ],
           "review": {
-            "junme": 2,
-            "tiles_left": 62,
-            "last_actor": 2,
-            "tile": "4p",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "2p",
-                "3p",
-                "7p",
-                "8p",
-                "2s",
-                "9s",
-                "9s",
-                "E",
-                "N",
-                "P",
-                "C",
-                "4p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -74974,7 +72480,6 @@
               "pai": "P",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -75120,17 +72625,7 @@
                 "QValue": -1.8734689
               }
             ],
-            "shanten": 4,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 62,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 65
@@ -76058,38 +73553,12 @@
             }
           ],
           "review": {
-            "junme": 2,
-            "tiles_left": 59,
-            "last_actor": 1,
-            "tile": "1p",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "2p",
-                "3p",
-                "4p",
-                "7p",
-                "8p",
-                "2s",
-                "9s",
-                "9s",
-                "E",
-                "N",
-                "C"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -76115,17 +73584,7 @@
                 "QValue": -0.9851624
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 59,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 61
@@ -76964,32 +74423,6 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 58,
-            "last_actor": 2,
-            "tile": "3p",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "2p",
-                "3p",
-                "4p",
-                "7p",
-                "8p",
-                "2s",
-                "9s",
-                "9s",
-                "E",
-                "N",
-                "C",
-                "3p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -77002,7 +74435,6 @@
               "pai": "E",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -77137,17 +74569,7 @@
                 "QValue": -1.6982787
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 58,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 58
@@ -77272,38 +74694,12 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 56,
-            "last_actor": 1,
-            "tile": "9s",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "2p",
-                "3p",
-                "3p",
-                "4p",
-                "7p",
-                "8p",
-                "2s",
-                "9s",
-                "9s",
-                "N",
-                "C"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -77329,17 +74725,7 @@
                 "QValue": -1.3665508
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 56,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 57
@@ -78272,32 +75658,6 @@
             }
           ],
           "review": {
-            "junme": 4,
-            "tiles_left": 55,
-            "last_actor": 2,
-            "tile": "6p",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "2p",
-                "3p",
-                "3p",
-                "4p",
-                "7p",
-                "8p",
-                "2s",
-                "9s",
-                "9s",
-                "N",
-                "C",
-                "6p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -78310,7 +75670,6 @@
               "pai": "C",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -78445,17 +75804,7 @@
                 "QValue": -1.5974685
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 55,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 55
@@ -78595,32 +75944,6 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 49,
-            "last_actor": 2,
-            "tile": "2s",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "2p",
-                "3p",
-                "3p",
-                "4p",
-                "6p",
-                "7p",
-                "8p",
-                "2s",
-                "9s",
-                "9s",
-                "N",
-                "2s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -78633,7 +75956,6 @@
               "pai": "N",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -78757,17 +76079,7 @@
                 "QValue": -1.4920523
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 49,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 54
@@ -80801,38 +78113,12 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 46,
-            "last_actor": 1,
-            "tile": "4p",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "2p",
-                "3p",
-                "3p",
-                "4p",
-                "6p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "9s",
-                "9s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -80858,17 +78144,7 @@
                 "QValue": -1.0085038
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 46,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 48
@@ -81959,32 +79235,6 @@
             }
           ],
           "review": {
-            "junme": 6,
-            "tiles_left": 45,
-            "last_actor": 2,
-            "tile": "4p",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "2p",
-                "3p",
-                "3p",
-                "4p",
-                "6p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "9s",
-                "9s",
-                "4p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -81997,7 +79247,6 @@
               "pai": "1m",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -82110,17 +79359,7 @@
                 "QValue": -1.4953675
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 45,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 45
@@ -82281,38 +79520,12 @@
             }
           ],
           "review": {
-            "junme": 6,
-            "tiles_left": 42,
-            "last_actor": 1,
-            "tile": "4p",
-            "state": {
-              "tehai": [
-                "3m",
-                "2p",
-                "3p",
-                "3p",
-                "4p",
-                "4p",
-                "6p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "9s",
-                "9s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -82353,17 +79566,7 @@
                 "QValue": -0.85592175
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 42,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 44
@@ -83482,32 +80685,6 @@
             }
           ],
           "review": {
-            "junme": 7,
-            "tiles_left": 41,
-            "last_actor": 2,
-            "tile": "7m",
-            "state": {
-              "tehai": [
-                "3m",
-                "2p",
-                "3p",
-                "3p",
-                "4p",
-                "4p",
-                "6p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "9s",
-                "9s",
-                "7m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -83520,7 +80697,6 @@
               "pai": "7m",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -83633,17 +80809,7 @@
                 "QValue": -1.3981845
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 41,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 41
@@ -83808,32 +80974,6 @@
             }
           ],
           "review": {
-            "junme": 8,
-            "tiles_left": 37,
-            "last_actor": 2,
-            "tile": "F",
-            "state": {
-              "tehai": [
-                "3m",
-                "2p",
-                "3p",
-                "3p",
-                "4p",
-                "4p",
-                "6p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "9s",
-                "9s",
-                "F"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -83846,7 +80986,6 @@
               "pai": "3m",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -83959,17 +81098,7 @@
                 "QValue": -1.3588977
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 37,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 40
@@ -85281,32 +82410,6 @@
             }
           ],
           "review": {
-            "junme": 9,
-            "tiles_left": 33,
-            "last_actor": 2,
-            "tile": "5pr",
-            "state": {
-              "tehai": [
-                "2p",
-                "3p",
-                "3p",
-                "4p",
-                "4p",
-                "6p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "9s",
-                "9s",
-                "F",
-                "5pr"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -85319,7 +82422,6 @@
               "pai": "2p",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -85441,17 +82543,7 @@
                 "QValue": -1.3531365
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 3,
-            "tilesLeft": 33,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 3,
             "diffLevel": "Critical"
           },
           "tilesLeft": 36
@@ -86795,32 +83887,6 @@
             }
           ],
           "review": {
-            "junme": 10,
-            "tiles_left": 29,
-            "last_actor": 2,
-            "tile": "5p",
-            "state": {
-              "tehai": [
-                "3p",
-                "3p",
-                "4p",
-                "4p",
-                "5pr",
-                "6p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "9s",
-                "9s",
-                "F",
-                "5p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "reach",
               "actor": 2
@@ -86829,7 +83895,6 @@
               "type": "reach",
               "actor": 2
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -86951,17 +84016,7 @@
                 "QValue": -1.1861179
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 29,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 32
@@ -88337,32 +85392,6 @@
             }
           ],
           "review": {
-            "junme": 13,
-            "tiles_left": 17,
-            "last_actor": 2,
-            "tile": "2s",
-            "state": {
-              "tehai": [
-                "3p",
-                "3p",
-                "4p",
-                "4p",
-                "5pr",
-                "5p",
-                "6p",
-                "7p",
-                "8p",
-                "2s",
-                "2s",
-                "9s",
-                "9s",
-                "2s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "hora",
               "actor": 2,
@@ -88373,7 +85402,6 @@
               "actor": 2,
               "target": 2
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -88397,17 +85425,7 @@
                 "QValue": -1.5168678
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 17,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 28
@@ -94355,32 +91373,6 @@
             }
           ],
           "review": {
-            "junme": 1,
-            "tiles_left": 67,
-            "last_actor": 2,
-            "tile": "E",
-            "state": {
-              "tehai": [
-                "3m",
-                "7m",
-                "1p",
-                "5pr",
-                "6p",
-                "7p",
-                "1s",
-                "2s",
-                "6s",
-                "S",
-                "W",
-                "N",
-                "P",
-                "E"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -94393,7 +91385,6 @@
               "pai": "N",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -94550,17 +91541,7 @@
                 "QValue": -1.6269329
               }
             ],
-            "shanten": 5,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 67,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "None"
           },
           "tilesLeft": 67
@@ -94674,32 +91655,6 @@
             }
           ],
           "review": {
-            "junme": 2,
-            "tiles_left": 63,
-            "last_actor": 2,
-            "tile": "C",
-            "state": {
-              "tehai": [
-                "3m",
-                "7m",
-                "1p",
-                "5pr",
-                "6p",
-                "7p",
-                "1s",
-                "2s",
-                "6s",
-                "E",
-                "S",
-                "W",
-                "P",
-                "C"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -94712,7 +91667,6 @@
               "pai": "E",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -94869,17 +91823,7 @@
                 "QValue": -1.7312695
               }
             ],
-            "shanten": 5,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 63,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 66
@@ -95797,32 +92741,6 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 59,
-            "last_actor": 2,
-            "tile": "4p",
-            "state": {
-              "tehai": [
-                "3m",
-                "7m",
-                "1p",
-                "5pr",
-                "6p",
-                "7p",
-                "1s",
-                "2s",
-                "6s",
-                "S",
-                "W",
-                "P",
-                "C",
-                "4p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -95835,7 +92753,6 @@
               "pai": "1p",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -95992,17 +92909,7 @@
                 "QValue": -1.7729614
               }
             ],
-            "shanten": 5,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 59,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 62
@@ -96954,32 +93861,6 @@
             }
           ],
           "review": {
-            "junme": 4,
-            "tiles_left": 55,
-            "last_actor": 2,
-            "tile": "9m",
-            "state": {
-              "tehai": [
-                "3m",
-                "7m",
-                "4p",
-                "5pr",
-                "6p",
-                "7p",
-                "1s",
-                "2s",
-                "6s",
-                "S",
-                "W",
-                "P",
-                "C",
-                "9m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -96992,7 +93873,6 @@
               "pai": "C",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -97149,17 +94029,7 @@
                 "QValue": -1.6249146
               }
             ],
-            "shanten": 5,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 55,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 58
@@ -98143,32 +95013,6 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 51,
-            "last_actor": 2,
-            "tile": "N",
-            "state": {
-              "tehai": [
-                "3m",
-                "7m",
-                "9m",
-                "4p",
-                "5pr",
-                "6p",
-                "7p",
-                "1s",
-                "2s",
-                "6s",
-                "S",
-                "W",
-                "P",
-                "N"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -98181,7 +95025,6 @@
               "pai": "N",
               "tsumogiri": true
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -98338,17 +95181,7 @@
                 "QValue": -1.4553225
               }
             ],
-            "shanten": 4,
-            "at_furiten": false,
-            "actual_index": 2,
-            "tilesLeft": 51,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 2,
             "diffLevel": "Moderate"
           },
           "tilesLeft": 54
@@ -99364,32 +96197,6 @@
             }
           ],
           "review": {
-            "junme": 6,
-            "tiles_left": 47,
-            "last_actor": 2,
-            "tile": "4m",
-            "state": {
-              "tehai": [
-                "3m",
-                "7m",
-                "9m",
-                "4p",
-                "5pr",
-                "6p",
-                "7p",
-                "1s",
-                "2s",
-                "6s",
-                "S",
-                "W",
-                "P",
-                "4m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -99402,7 +96209,6 @@
               "pai": "W",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -99559,17 +96365,7 @@
                 "QValue": -1.5239927
               }
             ],
-            "shanten": 4,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 47,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "None"
           },
           "tilesLeft": 50
@@ -100617,32 +97413,6 @@
             }
           ],
           "review": {
-            "junme": 7,
-            "tiles_left": 43,
-            "last_actor": 2,
-            "tile": "4s",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "7m",
-                "9m",
-                "4p",
-                "5pr",
-                "6p",
-                "7p",
-                "1s",
-                "2s",
-                "6s",
-                "S",
-                "P",
-                "4s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -100655,7 +97425,6 @@
               "pai": "P",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -100812,17 +97581,7 @@
                 "QValue": -1.6752602
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 43,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 46
@@ -101902,32 +98661,6 @@
             }
           ],
           "review": {
-            "junme": 8,
-            "tiles_left": 39,
-            "last_actor": 2,
-            "tile": "S",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "7m",
-                "9m",
-                "4p",
-                "5pr",
-                "6p",
-                "7p",
-                "1s",
-                "2s",
-                "4s",
-                "6s",
-                "S",
-                "S"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -101940,7 +98673,6 @@
               "pai": "1s",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -102086,17 +98818,7 @@
                 "QValue": -1.6787632
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 39,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 42
@@ -103208,32 +99930,6 @@
             }
           ],
           "review": {
-            "junme": 9,
-            "tiles_left": 36,
-            "last_actor": 2,
-            "tile": "C",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "7m",
-                "9m",
-                "4p",
-                "5pr",
-                "6p",
-                "7p",
-                "2s",
-                "4s",
-                "6s",
-                "S",
-                "S",
-                "C"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -103246,7 +99942,6 @@
               "pai": "C",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -103392,17 +100087,7 @@
                 "QValue": -1.7598094
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 36,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 38
@@ -106378,32 +103063,6 @@
             }
           ],
           "review": {
-            "junme": 1,
-            "tiles_left": 68,
-            "last_actor": 2,
-            "tile": "8m",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "6m",
-                "8m",
-                "2p",
-                "5pr",
-                "1s",
-                "2s",
-                "3s",
-                "E",
-                "W",
-                "W",
-                "F",
-                "8m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -106416,7 +103075,6 @@
               "pai": "E",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -106551,17 +103209,7 @@
                 "QValue": -1.5732379
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 68,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 68
@@ -106673,32 +103321,6 @@
             }
           ],
           "review": {
-            "junme": 2,
-            "tiles_left": 64,
-            "last_actor": 2,
-            "tile": "4m",
-            "state": {
-              "tehai": [
-                "1m",
-                "3m",
-                "6m",
-                "8m",
-                "8m",
-                "2p",
-                "5pr",
-                "1s",
-                "2s",
-                "3s",
-                "W",
-                "W",
-                "F",
-                "4m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -106711,7 +103333,6 @@
               "pai": "1m",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -106846,17 +103467,7 @@
                 "QValue": -1.4985335
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 2,
-            "tilesLeft": 64,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 2,
             "diffLevel": "Significant"
           },
           "tilesLeft": 67
@@ -107762,32 +104373,6 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 60,
-            "last_actor": 2,
-            "tile": "2s",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "2p",
-                "5pr",
-                "1s",
-                "2s",
-                "3s",
-                "W",
-                "W",
-                "F",
-                "2s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -107800,7 +104385,6 @@
               "pai": "F",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -107924,17 +104508,7 @@
                 "QValue": -1.4855312
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 60,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 63
@@ -108878,38 +105452,12 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 58,
-            "last_actor": 0,
-            "tile": "2s",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "2p",
-                "5pr",
-                "1s",
-                "2s",
-                "2s",
-                "3s",
-                "W",
-                "W"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -108935,17 +105483,7 @@
                 "QValue": -0.8393371
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 58,
-            "lastActor": 0,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 59
@@ -109553,38 +106091,12 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 57,
-            "last_actor": 1,
-            "tile": "2m",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "2p",
-                "5pr",
-                "1s",
-                "2s",
-                "2s",
-                "3s",
-                "W",
-                "W"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -109610,17 +106122,7 @@
                 "QValue": -0.83003163
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 57,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 57
@@ -109869,32 +106371,6 @@
             }
           ],
           "review": {
-            "junme": 4,
-            "tiles_left": 56,
-            "last_actor": 2,
-            "tile": "7s",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "2p",
-                "5pr",
-                "1s",
-                "2s",
-                "2s",
-                "3s",
-                "W",
-                "W",
-                "7s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -109907,7 +106383,6 @@
               "pai": "2p",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -110031,17 +106506,7 @@
                 "QValue": -1.5391909
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 56,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 56
@@ -110168,32 +106633,6 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 52,
-            "last_actor": 2,
-            "tile": "3p",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "5pr",
-                "1s",
-                "2s",
-                "2s",
-                "3s",
-                "7s",
-                "W",
-                "W",
-                "3p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -110206,7 +106645,6 @@
               "pai": "2s",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -110330,17 +106768,7 @@
                 "QValue": -1.4952071
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 52,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 55
@@ -111348,32 +107776,6 @@
             }
           ],
           "review": {
-            "junme": 6,
-            "tiles_left": 48,
-            "last_actor": 2,
-            "tile": "9p",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "3p",
-                "5pr",
-                "1s",
-                "2s",
-                "3s",
-                "7s",
-                "W",
-                "W",
-                "9p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -111386,7 +107788,6 @@
               "pai": "7s",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -111521,17 +107922,7 @@
                 "QValue": -1.4581281
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 48,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "Moderate"
           },
           "tilesLeft": 51
@@ -112571,38 +108962,12 @@
             }
           ],
           "review": {
-            "junme": 6,
-            "tiles_left": 47,
-            "last_actor": 3,
-            "tile": "W",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "3p",
-                "5pr",
-                "9p",
-                "1s",
-                "2s",
-                "3s",
-                "W",
-                "W"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -112628,17 +108993,7 @@
                 "QValue": -0.8090223
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 47,
-            "lastActor": 3,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 47
@@ -113575,32 +109930,6 @@
             }
           ],
           "review": {
-            "junme": 7,
-            "tiles_left": 44,
-            "last_actor": 2,
-            "tile": "9m",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "3p",
-                "5pr",
-                "9p",
-                "1s",
-                "2s",
-                "3s",
-                "W",
-                "W",
-                "9m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -113613,7 +109942,6 @@
               "pai": "9m",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -113748,17 +110076,7 @@
                 "QValue": -1.3619473
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 44,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 44
@@ -113897,38 +110215,12 @@
             }
           ],
           "review": {
-            "junme": 7,
-            "tiles_left": 41,
-            "last_actor": 1,
-            "tile": "2m",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "3p",
-                "5pr",
-                "9p",
-                "1s",
-                "2s",
-                "3s",
-                "W",
-                "W"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -113954,17 +110246,7 @@
                 "QValue": -0.578956
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 41,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 43
@@ -114929,32 +111211,6 @@
             }
           ],
           "review": {
-            "junme": 8,
-            "tiles_left": 40,
-            "last_actor": 2,
-            "tile": "4p",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "3p",
-                "5pr",
-                "9p",
-                "1s",
-                "2s",
-                "3s",
-                "W",
-                "W",
-                "4p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -114967,7 +111223,6 @@
               "pai": "9p",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -115102,17 +111357,7 @@
                 "QValue": -1.6705928
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 40,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 40
@@ -115255,32 +111500,6 @@
             }
           ],
           "review": {
-            "junme": 9,
-            "tiles_left": 36,
-            "last_actor": 2,
-            "tile": "8m",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "3p",
-                "4p",
-                "5pr",
-                "1s",
-                "2s",
-                "3s",
-                "W",
-                "W",
-                "8m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "reach",
               "actor": 2
@@ -115289,7 +111508,6 @@
               "type": "reach",
               "actor": 2
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -115422,17 +111640,7 @@
                 "QValue": -1.3783281
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 36,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 39
@@ -116425,32 +112633,6 @@
             }
           ],
           "review": {
-            "junme": 9,
-            "tiles_left": 36,
-            "last_actor": 2,
-            "tile": "8m",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "6m",
-                "8m",
-                "8m",
-                "3p",
-                "4p",
-                "5pr",
-                "1s",
-                "2s",
-                "3s",
-                "W",
-                "W",
-                "8m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": true,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -116463,7 +112645,6 @@
               "pai": "6m",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -116488,17 +112669,7 @@
                 "QValue": -0.5247865
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 36,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": true,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 36
@@ -127965,32 +124136,6 @@
             }
           ],
           "review": {
-            "junme": 1,
-            "tiles_left": 69,
-            "last_actor": 2,
-            "tile": "9p",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "4m",
-                "5mr",
-                "6m",
-                "9m",
-                "8p",
-                "8p",
-                "7s",
-                "7s",
-                "9s",
-                "E",
-                "N",
-                "9p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -128003,7 +124148,6 @@
               "pai": "N",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -128138,17 +124282,7 @@
                 "QValue": -1.8886774
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 69,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 68
@@ -129448,32 +125582,6 @@
             }
           ],
           "review": {
-            "junme": 2,
-            "tiles_left": 64,
-            "last_actor": 2,
-            "tile": "5pr",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "4m",
-                "5mr",
-                "6m",
-                "9m",
-                "8p",
-                "8p",
-                "9p",
-                "7s",
-                "7s",
-                "9s",
-                "E",
-                "5pr"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -129486,7 +125594,6 @@
               "pai": "9m",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -129621,17 +125728,7 @@
                 "QValue": -1.6460177
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 64,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 64
@@ -129762,32 +125859,6 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 61,
-            "last_actor": 2,
-            "tile": "E",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "8p",
-                "8p",
-                "9p",
-                "7s",
-                "7s",
-                "9s",
-                "E",
-                "E"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -129800,7 +125871,6 @@
               "pai": "9s",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -129924,17 +125994,7 @@
                 "QValue": -1.2085869
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 61,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 63
@@ -131044,32 +127104,6 @@
             }
           ],
           "review": {
-            "junme": 4,
-            "tiles_left": 57,
-            "last_actor": 2,
-            "tile": "2p",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "8p",
-                "8p",
-                "9p",
-                "7s",
-                "7s",
-                "E",
-                "E",
-                "2p"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -131082,7 +127116,6 @@
               "pai": "2p",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -131206,17 +127239,7 @@
                 "QValue": -1.4941972
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 57,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 60
@@ -132368,32 +128391,6 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 53,
-            "last_actor": 2,
-            "tile": "5sr",
-            "state": {
-              "tehai": [
-                "1m",
-                "2m",
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "8p",
-                "8p",
-                "9p",
-                "7s",
-                "7s",
-                "E",
-                "E",
-                "5sr"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -132406,7 +128403,6 @@
               "pai": "1m",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -132530,17 +128526,7 @@
                 "QValue": -1.350137
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 53,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "Significant"
           },
           "tilesLeft": 56
@@ -133724,31 +129710,6 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 50,
-            "last_actor": 1,
-            "tile": "8p",
-            "state": {
-              "tehai": [
-                "2m",
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "8p",
-                "8p",
-                "9p",
-                "5sr",
-                "7s",
-                "7s",
-                "E",
-                "E"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "pon",
               "actor": 2,
@@ -133769,7 +129730,6 @@
                 "8p"
               ]
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -133795,17 +129755,7 @@
                 "QValue": -0.081846505
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 50,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 52
@@ -134563,39 +130513,6 @@
             }
           ],
           "review": {
-            "junme": 6,
-            "tiles_left": 50,
-            "last_actor": 2,
-            "tile": "8p",
-            "state": {
-              "tehai": [
-                "2m",
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "9p",
-                "5sr",
-                "7s",
-                "7s",
-                "E",
-                "E"
-              ],
-              "fuuros": [
-                {
-                  "type": "pon",
-                  "target": 1,
-                  "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": true,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -134608,7 +130525,6 @@
               "pai": "9p",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -134710,17 +130626,7 @@
                 "QValue": -1.4128041
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 50,
-            "lastActor": 2,
-            "atSelfChiPon": true,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 50
@@ -136357,39 +132263,6 @@
             }
           ],
           "review": {
-            "junme": 7,
-            "tiles_left": 46,
-            "last_actor": 2,
-            "tile": "7p",
-            "state": {
-              "tehai": [
-                "2m",
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "5sr",
-                "7s",
-                "7s",
-                "E",
-                "E",
-                "7p"
-              ],
-              "fuuros": [
-                {
-                  "type": "pon",
-                  "target": 1,
-                  "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -136402,7 +132275,6 @@
               "pai": "2m",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -136504,17 +132376,7 @@
                 "QValue": -1.3983254
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 46,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 46
@@ -136686,39 +132548,6 @@
             }
           ],
           "review": {
-            "junme": 8,
-            "tiles_left": 42,
-            "last_actor": 2,
-            "tile": "5s",
-            "state": {
-              "tehai": [
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "7p",
-                "5sr",
-                "7s",
-                "7s",
-                "E",
-                "E",
-                "5s"
-              ],
-              "fuuros": [
-                {
-                  "type": "pon",
-                  "target": 1,
-                  "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -136731,7 +132560,6 @@
               "pai": "7s",
               "tsumogiri": false
             },
-            "is_equal": false,
             "details": [
               {
                 "action": {
@@ -136833,17 +132661,7 @@
                 "QValue": -1.1703049
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 1,
-            "tilesLeft": 42,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": false,
-            "atFuriten": false,
-            "actualIndex": 1,
             "diffLevel": "Moderate"
           },
           "tilesLeft": 45
@@ -138211,39 +134029,6 @@
             }
           ],
           "review": {
-            "junme": 9,
-            "tiles_left": 38,
-            "last_actor": 2,
-            "tile": "2p",
-            "state": {
-              "tehai": [
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "7p",
-                "5sr",
-                "5s",
-                "7s",
-                "E",
-                "E",
-                "2p"
-              ],
-              "fuuros": [
-                {
-                  "type": "pon",
-                  "target": 1,
-                  "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -138256,7 +134041,6 @@
               "pai": "2p",
               "tsumogiri": true
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -138369,17 +134153,7 @@
                 "QValue": -1.2876732
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 38,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 41
@@ -139779,39 +135553,6 @@
             }
           ],
           "review": {
-            "junme": 10,
-            "tiles_left": 34,
-            "last_actor": 2,
-            "tile": "9p",
-            "state": {
-              "tehai": [
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "7p",
-                "5sr",
-                "5s",
-                "7s",
-                "E",
-                "E",
-                "9p"
-              ],
-              "fuuros": [
-                {
-                  "type": "pon",
-                  "target": 1,
-                  "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -139824,7 +135565,6 @@
               "pai": "7s",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -139937,17 +135677,7 @@
                 "QValue": -1.2163118
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 34,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 37
@@ -141379,38 +137109,6 @@
             }
           ],
           "review": {
-            "junme": 10,
-            "tiles_left": 31,
-            "last_actor": 1,
-            "tile": "E",
-            "state": {
-              "tehai": [
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "7p",
-                "9p",
-                "5sr",
-                "5s",
-                "E",
-                "E"
-              ],
-              "fuuros": [
-                {
-                  "type": "pon",
-                  "target": 1,
-                  "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "pon",
               "actor": 2,
@@ -141431,7 +137129,6 @@
                 "E"
               ]
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -141457,17 +137154,7 @@
                 "QValue": -0.80301726
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 31,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 33
@@ -142380,45 +138067,6 @@
             }
           ],
           "review": {
-            "junme": 11,
-            "tiles_left": 31,
-            "last_actor": 2,
-            "tile": "E",
-            "state": {
-              "tehai": [
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "7p",
-                "9p",
-                "5sr",
-                "5s"
-              ],
-              "fuuros": [
-                {
-                  "type": "pon",
-                  "target": 1,
-                  "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 1,
-                  "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": true,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -142431,7 +138079,6 @@
               "pai": "9p",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -142522,17 +138169,7 @@
                 "QValue": -0.9334058
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 31,
-            "lastActor": 2,
-            "atSelfChiPon": true,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 31
@@ -144668,45 +140305,6 @@
             }
           ],
           "review": {
-            "junme": 12,
-            "tiles_left": 27,
-            "last_actor": 2,
-            "tile": "4p",
-            "state": {
-              "tehai": [
-                "4m",
-                "5mr",
-                "6m",
-                "5pr",
-                "7p",
-                "5sr",
-                "5s",
-                "4p"
-              ],
-              "fuuros": [
-                {
-                  "type": "pon",
-                  "target": 1,
-                  "pai": "8p",
-                  "consumed": [
-                    "8p",
-                    "8p"
-                  ]
-                },
-                {
-                  "type": "pon",
-                  "target": 1,
-                  "pai": "E",
-                  "consumed": [
-                    "E",
-                    "E"
-                  ]
-                }
-              ]
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -144719,7 +140317,6 @@
               "pai": "7p",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -144810,17 +140407,7 @@
                 "QValue": -1.2632352
               }
             ],
-            "shanten": 0,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 27,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 27
@@ -147409,32 +142996,6 @@
             }
           ],
           "review": {
-            "junme": 1,
-            "tiles_left": 66,
-            "last_actor": 2,
-            "tile": "6s",
-            "state": {
-              "tehai": [
-                "3m",
-                "5m",
-                "9m",
-                "1p",
-                "4p",
-                "5p",
-                "6p",
-                "7p",
-                "9p",
-                "2s",
-                "7s",
-                "E",
-                "N",
-                "6s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -147447,7 +143008,6 @@
               "pai": "E",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -147604,17 +143164,7 @@
                 "QValue": -2.2481978
               }
             ],
-            "shanten": 4,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 66,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 66
@@ -147730,32 +143280,6 @@
             }
           ],
           "review": {
-            "junme": 2,
-            "tiles_left": 61,
-            "last_actor": 2,
-            "tile": "S",
-            "state": {
-              "tehai": [
-                "3m",
-                "5m",
-                "9m",
-                "1p",
-                "4p",
-                "5p",
-                "6p",
-                "7p",
-                "9p",
-                "2s",
-                "6s",
-                "7s",
-                "N",
-                "S"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -147768,7 +143292,6 @@
               "pai": "9m",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -147925,17 +143448,7 @@
                 "QValue": -2.2458081
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 61,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 65
@@ -149397,38 +144910,12 @@
             }
           ],
           "review": {
-            "junme": 2,
-            "tiles_left": 58,
-            "last_actor": 1,
-            "tile": "5s",
-            "state": {
-              "tehai": [
-                "3m",
-                "5m",
-                "1p",
-                "4p",
-                "5p",
-                "6p",
-                "7p",
-                "9p",
-                "2s",
-                "6s",
-                "7s",
-                "S",
-                "N"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -149454,17 +144941,7 @@
                 "QValue": -0.30941957
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 58,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 60
@@ -150401,32 +145878,6 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 57,
-            "last_actor": 2,
-            "tile": "4m",
-            "state": {
-              "tehai": [
-                "3m",
-                "5m",
-                "1p",
-                "4p",
-                "5p",
-                "6p",
-                "7p",
-                "9p",
-                "2s",
-                "6s",
-                "7s",
-                "S",
-                "N",
-                "4m"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -150439,7 +145890,6 @@
               "pai": "S",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -150596,17 +146046,7 @@
                 "QValue": -2.0115924
               }
             ],
-            "shanten": 3,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 57,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 57
@@ -150745,38 +146185,12 @@
             }
           ],
           "review": {
-            "junme": 3,
-            "tiles_left": 55,
-            "last_actor": 1,
-            "tile": "5m",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "5m",
-                "1p",
-                "4p",
-                "5p",
-                "6p",
-                "7p",
-                "9p",
-                "2s",
-                "6s",
-                "7s",
-                "N"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -150802,17 +146216,7 @@
                 "QValue": -0.77710724
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 55,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 56
@@ -151843,32 +147247,6 @@
             }
           ],
           "review": {
-            "junme": 4,
-            "tiles_left": 54,
-            "last_actor": 2,
-            "tile": "5s",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "5m",
-                "1p",
-                "4p",
-                "5p",
-                "6p",
-                "7p",
-                "9p",
-                "2s",
-                "6s",
-                "7s",
-                "N",
-                "5s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -151881,7 +147259,6 @@
               "pai": "N",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -152038,17 +147415,7 @@
                 "QValue": -2.0859127
               }
             ],
-            "shanten": 2,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 54,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 54
@@ -152202,38 +147569,12 @@
             }
           ],
           "review": {
-            "junme": 4,
-            "tiles_left": 52,
-            "last_actor": 1,
-            "tile": "6p",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "5m",
-                "1p",
-                "4p",
-                "5p",
-                "6p",
-                "7p",
-                "9p",
-                "2s",
-                "5s",
-                "6s",
-                "7s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "none"
             },
             "actual": {
               "type": "none"
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -152274,17 +147615,7 @@
                 "QValue": -0.59544754
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 52,
-            "lastActor": 1,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 53
@@ -153398,32 +148729,6 @@
             }
           ],
           "review": {
-            "junme": 5,
-            "tiles_left": 51,
-            "last_actor": 2,
-            "tile": "7s",
-            "state": {
-              "tehai": [
-                "3m",
-                "4m",
-                "5m",
-                "1p",
-                "4p",
-                "5p",
-                "6p",
-                "7p",
-                "9p",
-                "2s",
-                "5s",
-                "6s",
-                "7s",
-                "7s"
-              ],
-              "fuuros": []
-            },
-            "at_self_chi_pon": false,
-            "at_self_riichi": false,
-            "at_opponent_kakan": false,
             "expected": {
               "type": "dahai",
               "actor": 2,
@@ -153436,7 +148741,6 @@
               "pai": "2s",
               "tsumogiri": false
             },
-            "is_equal": true,
             "details": [
               {
                 "action": {
@@ -153582,17 +148886,7 @@
                 "QValue": -1.8508725
               }
             ],
-            "shanten": 1,
-            "at_furiten": false,
-            "actual_index": 0,
-            "tilesLeft": 51,
-            "lastActor": 2,
-            "atSelfChiPon": false,
-            "atSelfRiichi": false,
-            "atOpponentKakan": false,
             "isEqual": true,
-            "atFuriten": false,
-            "actualIndex": 0,
             "diffLevel": "None"
           },
           "tilesLeft": 51
