@@ -125,6 +125,67 @@ export const Default: Story = {
   args: defaultArgs,
 };
 
+export const DefaultWithReview: Story = {
+  args: {
+    ...defaultArgs,
+    review: {
+      actualIndex: 0,
+      details: [
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '1s' },
+          prob: 100,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '2s' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '3s' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '4s' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '5s' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '6s' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '7s' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '8s' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '9s' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '1p' },
+          prob: 50,
+          QValue: 0,
+        },
+      ],
+    },
+  },
+};
+
 export const WithFuuro: Story = {
   args: {
     ...defaultArgs,

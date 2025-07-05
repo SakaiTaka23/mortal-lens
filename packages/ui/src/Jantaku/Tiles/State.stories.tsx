@@ -189,3 +189,75 @@ export const Kamicha: Story = {
     position: 'kamicha',
   },
 };
+
+export const WithPonAndReview: Story = {
+  args: {
+    tehai: ['1m', '2m', '3m', '4m', '5m', '6m', '7m', '8m', '9m', '1p'],
+    tsumo: '1p',
+    fuuros: [
+      {
+        type: 'pon',
+        actor: 0,
+        pai: '5mr',
+        consumed: ['5m', '5m'],
+        target: 1,
+      },
+    ],
+    position: 'self',
+    review: {
+      actualIndex: 0,
+      details: [
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '1m' },
+          prob: 100,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '2m' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '3m' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '4m' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '5m' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '6m' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '7m' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '8m' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '9m' },
+          prob: 50,
+          QValue: 0,
+        },
+        {
+          action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '1p' },
+          prob: 50,
+          QValue: 0,
+        },
+      ],
+    },
+  },
+};

@@ -1,5 +1,6 @@
 import { HandState, Kawa as MjaiKawa } from '@mjai/core';
 import { PlayerID, Tile } from '@mjai/types';
+import { EvaluationDetail } from '@mortal-lens/types';
 import { Box } from '@mui/material';
 
 import { JantakuCenter } from './JantakuCenter';
@@ -17,6 +18,10 @@ export interface Props {
   hand: [HandState, HandState, HandState, HandState];
   kawa: [MjaiKawa, MjaiKawa, MjaiKawa, MjaiKawa];
   tilesLeft: number;
+  review?: {
+    actualIndex: number;
+    details: EvaluationDetail[];
+  };
 }
 
 const JantakuCenterWithKawa = ({
@@ -130,6 +135,7 @@ export const Jantaku = ({
   hand,
   kawa,
   tilesLeft,
+  review,
 }: Props) => {
   const orderedPlayerIDs: PlayerID[] = [
     playerID,
@@ -146,7 +152,7 @@ export const Jantaku = ({
     <Box
       sx={{
         width: 620,
-        height: 620,
+        height: 680,
         display: 'flex',
         flexDirection: 'column',
         border: '1px solid black',
@@ -223,11 +229,12 @@ export const Jantaku = ({
       {/* Self */}
       <Box
         sx={{
+          height: 100,
           display: 'flex',
           justifyContent: 'center',
-          alignItems: 'flex-start',
-          flex: 1,
+          alignItems: 'flex-end',
           marginTop: 1,
+          marginBottom: 1,
         }}
       >
         <State
@@ -235,6 +242,7 @@ export const Jantaku = ({
           tsumo={self.tsumo}
           fuuros={self.fuuros}
           position='self'
+          review={review}
         />
       </Box>
     </Box>
