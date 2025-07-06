@@ -6,11 +6,13 @@ import { ReviewMessage } from '@/review/ReviewMessage';
 import { ReviewTile } from '@/review/ReviewTile';
 
 export interface Props {
-  actual: EvaluationResult;
-  expected: EvaluationResult;
+  review: {
+    actual: EvaluationResult;
+    expected: EvaluationResult;
+  } | null;
 }
 
-export const Overview: React.FC<Props> = ({ actual, expected }) => {
+export const Overview: React.FC<Props> = ({ review }) => {
   return (
     <Grid
       container
@@ -24,16 +26,20 @@ export const Overview: React.FC<Props> = ({ actual, expected }) => {
         padding: 2,
       }}
     >
-      <Stack direction='row' spacing={3}>
-        <Typography>Player</Typography>
-        <ReviewMessage result={actual} />
-        <ReviewTile result={actual} />
-      </Stack>
-      <Stack direction='row' spacing={3}>
-        <Typography>Mortal</Typography>
-        <ReviewMessage result={expected} />
-        <ReviewTile result={expected} />
-      </Stack>
+      {review && (
+        <>
+          <Stack direction='row' spacing={3}>
+            <Typography>Player</Typography>
+            <ReviewMessage result={review.actual} />
+            <ReviewTile result={review.actual} />
+          </Stack>
+          <Stack direction='row' spacing={3}>
+            <Typography>Mortal</Typography>
+            <ReviewMessage result={review.expected} />
+            <ReviewTile result={review.expected} />
+          </Stack>
+        </>
+      )}
     </Grid>
   );
 };

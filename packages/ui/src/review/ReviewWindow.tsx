@@ -6,19 +6,19 @@ import { ReviewMessage } from '@/review/ReviewMessage';
 import { ReviewTile } from '@/review/ReviewTile';
 
 export interface Props {
-  actualIndex: number;
-  details: EvaluationDetail[];
-  diffLevel: DiffLevel | undefined;
+  review: {
+    actualIndex: number;
+    details: EvaluationDetail[];
+    diffLevel: DiffLevel | undefined;
+  } | null;
 }
 
 const maxHeight = 50;
 
-export const ReviewWindow: React.FC<Props> = ({
-  actualIndex,
-  details,
-  diffLevel,
-}) => {
-  const showDiff = !(diffLevel === 'None' || diffLevel === undefined);
+export const ReviewWindow: React.FC<Props> = ({ review }) => {
+  const showDiff = !(
+    review?.diffLevel === 'None' || review?.diffLevel === undefined
+  );
   return (
     <Stack
       direction='row'
@@ -26,7 +26,7 @@ export const ReviewWindow: React.FC<Props> = ({
       spacing={2}
       sx={{ width: 'fit-content', backgroundColor: 'deepskyblue', padding: 2 }}
     >
-      {details.map((detail, index) => {
+      {review?.details.map((detail, index) => {
         const scaledHeight = (detail.prob / 100) * maxHeight;
         const height = Math.max(2, Math.round(scaledHeight * 10000) / 10000);
         if (detail.action.type !== 'dahai' || (index === 0 && showDiff)) {
@@ -51,7 +51,8 @@ export const ReviewWindow: React.FC<Props> = ({
                 />
                 <Box
                   sx={{
-                    border: index == actualIndex ? '2px solid red' : 'none',
+                    border:
+                      index == review.actualIndex ? '2px solid red' : 'none',
                   }}
                 >
                   <ReviewMessage result={detail.action} />

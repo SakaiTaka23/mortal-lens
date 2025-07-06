@@ -99,3 +99,9 @@ export const AllDetail: Story = {
     detail: sampleData,
   },
 };
+
+export const NoReview: Story = {
+  args: {
+    detail: null,
+  },
+};

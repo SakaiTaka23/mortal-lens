@@ -23,7 +23,7 @@ import { ReviewTile } from '@/review/ReviewTile';
 import { ReviewMessage } from './ReviewMessage';
 
 export interface Props {
-  detail: EvaluationDetail[];
+  detail: EvaluationDetail[] | null;
 }
 
 const columnHelper = createColumnHelper<EvaluationDetail>();
@@ -62,7 +62,7 @@ const columns = [
 
 export const OverviewDetail: React.FC<Props> = ({ detail }) => {
   const table = useReactTable({
-    data: detail,
+    data: detail ?? [],
     columns,
     getCoreRowModel: getCoreRowModel(),
   });
