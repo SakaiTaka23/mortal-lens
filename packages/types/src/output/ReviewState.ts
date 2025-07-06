@@ -47,6 +47,7 @@ export interface ReviewState {
   details: EvaluationDetail[];
   isEqual: boolean;
   diffLevel: DiffLevel;
+  actualIndex: number;
 }
 
 export interface ReviewMetaState {

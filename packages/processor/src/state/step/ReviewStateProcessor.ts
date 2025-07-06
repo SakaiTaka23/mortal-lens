@@ -80,6 +80,7 @@ export const createReviewState = (
           details: entry.details,
           isEqual: entry.isEqual,
           diffLevel,
+          actualIndex: entry.actualIndex,
         } satisfies ReviewOutputState);
   };
 
