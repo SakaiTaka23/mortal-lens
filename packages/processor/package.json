@@ -2,6 +2,7 @@
   "name": "@mortal-lens/processor",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "build": "tsup src/*",
@@ -22,5 +23,12 @@
   },
   "devDependencies": {
     "@mortal-lens/parser": "workspace:^"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   }
 }

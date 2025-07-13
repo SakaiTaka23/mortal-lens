@@ -738,7 +738,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 67
         },
@@ -1009,7 +1010,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Moderate"
+            "diffLevel": "Moderate",
+            "actualIndex": 1
           },
           "tilesLeft": 66
         },
@@ -2084,7 +2086,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 1
           },
           "tilesLeft": 62
         },
@@ -3067,7 +3070,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 58
         },
@@ -4084,7 +4088,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 1
           },
           "tilesLeft": 55
         },
@@ -4369,7 +4374,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 54
         },
@@ -5542,7 +5548,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 50
         },
@@ -6736,7 +6743,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant"
+            "diffLevel": "Significant",
+            "actualIndex": 1
           },
           "tilesLeft": 46
         },
@@ -7962,7 +7970,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 42
         },
@@ -9105,7 +9114,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 38
         },
@@ -10734,7 +10744,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 67
         },
@@ -11797,7 +11808,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 63
         },
@@ -12898,7 +12910,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 59
         },
@@ -14031,7 +14044,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 55
         },
@@ -15196,7 +15210,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 51
         },
@@ -16393,7 +16408,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 47
         },
@@ -17496,7 +17512,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 43
         },
@@ -18507,7 +18524,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant"
+            "diffLevel": "Significant",
+            "actualIndex": 1
           },
           "tilesLeft": 41
         },
@@ -19754,7 +19772,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 68
         },
@@ -19990,7 +20009,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Critical"
+            "diffLevel": "Critical",
+            "actualIndex": 1
           },
           "tilesLeft": 67
         },
@@ -21020,7 +21040,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 63
         },
@@ -22077,7 +22098,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Critical"
+            "diffLevel": "Critical",
+            "actualIndex": 3
           },
           "tilesLeft": 59
         },
@@ -23177,7 +23199,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 1
           },
           "tilesLeft": 55
         },
@@ -24223,7 +24246,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 1
           },
           "tilesLeft": 51
         },
@@ -24973,7 +24997,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant"
+            "diffLevel": "Significant",
+            "actualIndex": 1
           },
           "tilesLeft": 49
         },
@@ -26503,7 +26528,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 45
         },
@@ -26766,7 +26792,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 44
         },
@@ -28003,7 +28030,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 40
         },
@@ -28249,7 +28277,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 40
         },
@@ -30015,7 +30044,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 37
         },
@@ -30289,7 +30319,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 36
         },
@@ -31836,7 +31867,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 32
         },
@@ -33415,7 +33447,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 28
         },
@@ -35026,7 +35059,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 24
         },
@@ -36609,7 +36643,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 20
         },
@@ -38085,7 +38120,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 17
         },
@@ -38379,7 +38415,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 16
         },
@@ -40086,7 +40123,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 12
         },
@@ -41880,7 +41918,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 9
         },
@@ -43739,7 +43778,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 5
         },
@@ -48084,7 +48124,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 68
         },
@@ -49008,7 +49049,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 65
         },
@@ -49272,7 +49314,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 64
         },
@@ -50354,7 +50397,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 60
         },
@@ -51457,7 +51501,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 56
         },
@@ -52603,7 +52648,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Critical"
+            "diffLevel": "Critical",
+            "actualIndex": 4
           },
           "tilesLeft": 52
         },
@@ -53666,7 +53712,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 48
         },
@@ -54742,7 +54789,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 45
         },
@@ -54911,7 +54959,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 44
         },
@@ -56286,7 +56335,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Critical"
+            "diffLevel": "Critical",
+            "actualIndex": 4
           },
           "tilesLeft": 41
         },
@@ -56574,7 +56624,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 40
         },
@@ -57848,7 +57899,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 1
           },
           "tilesLeft": 36
         },
@@ -59143,7 +59195,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 32
         },
@@ -60470,7 +60523,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant"
+            "diffLevel": "Significant",
+            "actualIndex": 1
           },
           "tilesLeft": 28
         },
@@ -61829,7 +61883,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 24
         },
@@ -62959,7 +63014,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 22
         },
@@ -64451,7 +64507,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 18
         },
@@ -65975,7 +66032,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 14
         },
@@ -67531,7 +67589,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Critical"
+            "diffLevel": "Critical",
+            "actualIndex": 1
           },
           "tilesLeft": 10
         },
@@ -69119,7 +69178,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 6
         },
@@ -71970,7 +72030,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 67
         },
@@ -72353,7 +72414,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 66
         },
@@ -72626,7 +72688,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 65
         },
@@ -73585,7 +73648,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 61
         },
@@ -74570,7 +74634,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 58
         },
@@ -74726,7 +74791,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 57
         },
@@ -75805,7 +75871,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 55
         },
@@ -76080,7 +76147,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 54
         },
@@ -78145,7 +78213,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 48
         },
@@ -79360,7 +79429,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 45
         },
@@ -79567,7 +79637,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 44
         },
@@ -80810,7 +80881,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 41
         },
@@ -81099,7 +81171,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 40
         },
@@ -82544,7 +82617,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Critical"
+            "diffLevel": "Critical",
+            "actualIndex": 3
           },
           "tilesLeft": 36
         },
@@ -84017,7 +84091,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 32
         },
@@ -85426,7 +85501,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 28
         },
@@ -91542,7 +91618,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 1
           },
           "tilesLeft": 67
         },
@@ -91824,7 +91901,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 66
         },
@@ -92910,7 +92988,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 62
         },
@@ -94030,7 +94109,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 58
         },
@@ -95182,7 +95262,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Moderate"
+            "diffLevel": "Moderate",
+            "actualIndex": 2
           },
           "tilesLeft": 54
         },
@@ -96366,7 +96447,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 1
           },
           "tilesLeft": 50
         },
@@ -97582,7 +97664,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 46
         },
@@ -98819,7 +98902,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 42
         },
@@ -100088,7 +100172,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 38
         },
@@ -103210,7 +103295,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 68
         },
@@ -103468,7 +103554,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant"
+            "diffLevel": "Significant",
+            "actualIndex": 2
           },
           "tilesLeft": 67
         },
@@ -104509,7 +104596,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 63
         },
@@ -105484,7 +105572,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 59
         },
@@ -106123,7 +106212,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 57
         },
@@ -106507,7 +106597,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 56
         },
@@ -106769,7 +106860,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 55
         },
@@ -107923,7 +108015,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Moderate"
+            "diffLevel": "Moderate",
+            "actualIndex": 1
           },
           "tilesLeft": 51
         },
@@ -108994,7 +109087,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 47
         },
@@ -110077,7 +110171,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 44
         },
@@ -110247,7 +110342,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 43
         },
@@ -111358,7 +111454,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 40
         },
@@ -111641,7 +111738,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 39
         },
@@ -112670,7 +112768,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 36
         },
@@ -124283,7 +124382,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 68
         },
@@ -125729,7 +125829,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 64
         },
@@ -125995,7 +126096,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 63
         },
@@ -127240,7 +127342,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 60
         },
@@ -128527,7 +128630,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant"
+            "diffLevel": "Significant",
+            "actualIndex": 1
           },
           "tilesLeft": 56
         },
@@ -129756,7 +129860,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 52
         },
@@ -130627,7 +130732,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 50
         },
@@ -132377,7 +132483,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 46
         },
@@ -132662,7 +132769,8 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Moderate"
+            "diffLevel": "Moderate",
+            "actualIndex": 1
           },
           "tilesLeft": 45
         },
@@ -134154,7 +134262,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 41
         },
@@ -135678,7 +135787,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 37
         },
@@ -137155,7 +137265,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 33
         },
@@ -138170,7 +138281,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 31
         },
@@ -140408,7 +140520,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 27
         },
@@ -143165,7 +143278,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 66
         },
@@ -143449,7 +143563,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 65
         },
@@ -144942,7 +145057,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 60
         },
@@ -146047,7 +146163,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 57
         },
@@ -146217,7 +146334,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 56
         },
@@ -147416,7 +147534,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 54
         },
@@ -147616,7 +147735,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 53
         },
@@ -148887,7 +149007,8 @@
               }
             ],
             "isEqual": true,
-            "diffLevel": "None"
+            "diffLevel": "None",
+            "actualIndex": 0
           },
           "tilesLeft": 51
         },
