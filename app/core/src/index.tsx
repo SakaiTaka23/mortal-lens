@@ -7,7 +7,7 @@ import {
   ReviewWindow,
 } from '@mortal-lens/ui';
 import { Stack } from '@mui/material';
-import React, { useEffect, useMemo } from 'react';
+import React, { useEffect } from 'react';
 
 import { useGameState } from './state/useGameState';
 
@@ -16,31 +16,43 @@ export interface Props {
 }
 
 export const LandingPage: React.FC<Props> = ({ input }) => {
-  const gameState = useGameState();
-
-  const output = useMemo(() => ProcessInput(input), [input]);
-  console.log('setting output:', output);
+  const {
+    output,
+    currentKyokuMeta,
+    currentKyokuStep,
+    setOutput,
+    prevKyoku,
+    nextKyoku,
+    prevError,
+    nextError,
+    prevChoice,
+    nextChoice,
+    prev,
+    next,
+  } = useGameState();
 
   useEffect(() => {
-    gameState.setOutput(output);
-  }, [gameState.setOutput, output]);
+    const output = ProcessInput(input);
+    setOutput(output);
+  }, [input, setOutput]);
+
   return (
     <Stack direction='row'>
       <Jantaku
-        playerID={gameState.output.playerID}
-        {...gameState.currentKyokuMeta}
-        {...gameState.currentKyokuStep}
+        playerID={output.playerID}
+        {...currentKyokuMeta}
+        {...currentKyokuStep}
       />
       <Stack direction='column'>
         <Control
-          prevKyokuOnClick={gameState.prevKyoku}
-          nextKyokuOnClick={gameState.nextKyoku}
-          prevErrorOnClick={gameState.prevError}
-          nextErrorOnClick={gameState.nextError}
-          prevChoiceOnClick={gameState.prevChoice}
-          nextChoiceOnClick={gameState.nextChoice}
-          prevOnClick={gameState.prev}
-          nextOnClick={gameState.next}
+          prevKyokuOnClick={prevKyoku}
+          nextKyokuOnClick={nextKyoku}
+          prevErrorOnClick={prevError}
+          nextErrorOnClick={nextError}
+          prevChoiceOnClick={prevChoice}
+          nextChoiceOnClick={nextChoice}
+          prevOnClick={prev}
+          nextOnClick={next}
           optionsOnClick={() => {
             // todo: implement options
           }}
@@ -48,11 +60,9 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
             // todo: implement about
           }}
         />
-        <ReviewWindow review={gameState.currentKyokuStep.review ?? null} />
+        <ReviewWindow review={currentKyokuStep.review ?? null} />
       </Stack>
-      <OverviewDetail
-        detail={gameState.currentKyokuStep.review?.details ?? null}
-      />
+      <OverviewDetail detail={currentKyokuStep.review?.details ?? null} />
     </Stack>
   );
 };
