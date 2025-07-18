@@ -114,40 +114,50 @@ export const useGameState = create<GameState & GameActions>((set, get) => ({
   },
   prevError: () => {
     const findPrevReviewStep = () => {
-      const findPrevErrorStep = () => {
-        get().prevChoice();
-        const currentKyokuStep = get().currentKyokuStep;
-        if (
-          currentKyokuStep.review &&
-          currentKyokuStep.review.isEqual === false
-        ) {
-          return;
-        } else {
-          findPrevErrorStep();
-        }
-      };
+      const currentKyokuUnit = get().currentKyokuUnit;
+      const currentStepIndex = get().currentStepIndex;
 
-      findPrevErrorStep();
+      const prevIndex = currentKyokuUnit.steps
+        .slice(0, currentStepIndex)
+        .reverse()
+        .findIndex((step) => step.review !== undefined && !step.review.isEqual);
+
+      if (prevIndex !== -1) {
+        set({
+          currentStepIndex: currentStepIndex - prevIndex - 1,
+          currentKyokuStep:
+            currentKyokuUnit.steps[currentStepIndex - prevIndex - 1],
+          currentKyokuTilesLeft:
+            currentKyokuUnit.steps[currentStepIndex - prevIndex - 1].tilesLeft,
+        });
+      } else {
+        get().prevKyoku();
+      }
     };
 
     findPrevReviewStep();
   },
   nextError: () => {
     const findNextReviewStep = () => {
-      const findNextErrorStep = () => {
-        get().nextChoice();
-        const currentKyokuStep = get().currentKyokuStep;
-        if (
-          currentKyokuStep.review &&
-          currentKyokuStep.review.isEqual === false
-        ) {
-          return;
-        } else {
-          findNextErrorStep();
-        }
-      };
+      const currentKyokuUnit = get().currentKyokuUnit;
+      const currentStepIndex = get().currentStepIndex;
 
-      findNextErrorStep();
+      const nextIndex = currentKyokuUnit.steps.findIndex(
+        (step, index) =>
+          index > currentStepIndex &&
+          step.review !== undefined &&
+          !step.review.isEqual,
+      );
+
+      if (nextIndex !== -1) {
+        set({
+          currentStepIndex: nextIndex,
+          currentKyokuStep: currentKyokuUnit.steps[nextIndex],
+          currentKyokuTilesLeft: currentKyokuUnit.steps[nextIndex].tilesLeft,
+        });
+      } else {
+        get().nextKyoku();
+      }
     };
 
     findNextReviewStep();
