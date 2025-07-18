@@ -160,7 +160,7 @@ export const useGameState = create<GameState & GameActions>((set, get) => ({
       const prevIndex = currentKyokuUnit.steps
         .slice(0, currentStepIndex)
         .reverse()
-        .findIndex((step) => step.review !== null);
+        .findIndex((step) => step.review !== undefined);
 
       if (prevIndex !== -1) {
         set({
@@ -172,7 +172,6 @@ export const useGameState = create<GameState & GameActions>((set, get) => ({
         });
       } else {
         get().prevKyoku();
-        findPrevReviewStep();
       }
     };
 
@@ -184,7 +183,7 @@ export const useGameState = create<GameState & GameActions>((set, get) => ({
       const currentStepIndex = get().currentStepIndex;
 
       const nextIndex = currentKyokuUnit.steps.findIndex(
-        (step, index) => index > currentStepIndex && step.review !== null,
+        (step, index) => index > currentStepIndex && step.review !== undefined,
       );
 
       if (nextIndex !== -1) {
@@ -195,7 +194,6 @@ export const useGameState = create<GameState & GameActions>((set, get) => ({
         });
       } else {
         get().nextKyoku();
-        findNextReviewStep();
       }
     };
 
