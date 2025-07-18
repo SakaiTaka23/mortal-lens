@@ -43,7 +43,7 @@ describe('prev', () => {
     );
   });
 
-  it('sould navigate to prev from review state', () => {
+  it('should navigate to prev from review state', () => {
     const { prev } = useGameState.getState();
     prev();
     prev();

@@ -12,7 +12,7 @@ describe('prevError', () => {
     resetStore();
   });
 
-  it('should navigate to prev choice from non review state', () => {
+  it('should navigate to prev choice from non review error state', () => {
     const { prevError } = useGameState.getState();
     prevError();
 
@@ -43,7 +43,7 @@ describe('prevError', () => {
     );
   });
 
-  it('should navigate to prev prev choice from review state', () => {
+  it('should navigate to prev choice from review error state', () => {
     const { prevError } = useGameState.getState();
     prevError();
     prevError();

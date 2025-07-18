@@ -43,7 +43,7 @@ describe('prevChoice', () => {
     );
   });
 
-  it('sould navigate to prev choice of the review state', () => {
+  it('should navigate to prev choice of the review state', () => {
     const { prevChoice } = useGameState.getState();
     prevChoice();
     prevChoice();

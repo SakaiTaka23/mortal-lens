@@ -43,7 +43,7 @@ describe('nextKyoku', () => {
     );
   });
 
-  it('sould navigate to the next next kyoku', () => {
+  it('should navigate to the next kyoku', () => {
     const { nextKyoku } = useGameState.getState();
     nextKyoku();
     nextKyoku();

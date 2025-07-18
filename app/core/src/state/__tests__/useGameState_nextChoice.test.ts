@@ -40,7 +40,7 @@ describe('nextChoice', () => {
     );
   });
 
-  it('sould navigate to next choice from review state', () => {
+  it('should navigate to next choice from review state', () => {
     const { nextChoice } = useGameState.getState();
     nextChoice();
     nextChoice();

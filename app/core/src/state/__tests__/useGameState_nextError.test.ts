@@ -12,7 +12,7 @@ describe('nextError', () => {
     resetStore();
   });
 
-  it('should navigate to next error choice from non review state', () => {
+  it('should navigate to next error choice from non review error state', () => {
     const { nextError } = useGameState.getState();
     nextError();
 
@@ -40,7 +40,7 @@ describe('nextError', () => {
     );
   });
 
-  it('should navigate to next next error choice from review state', () => {
+  it('should navigate to next error choice from review error state', () => {
     const { nextError } = useGameState.getState();
     nextError();
     nextError();

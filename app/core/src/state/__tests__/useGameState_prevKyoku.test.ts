@@ -43,7 +43,7 @@ describe('prevKyoku', () => {
     );
   });
 
-  it('sould navigate to the last kyoku before the last kyoku', () => {
+  it('should navigate to the last kyoku before the last kyoku', () => {
     const { prevKyoku } = useGameState.getState();
     prevKyoku();
     prevKyoku();
