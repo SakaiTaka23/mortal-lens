@@ -207,8 +207,7 @@ export const useGameState = create<GameState & GameActions>((set, get) => ({
       set({
         currentStepIndex: nextIndex,
         currentKyokuStep: currentKyokuUnit.steps[nextIndex],
-        currentKyokuTilesLeft:
-          currentKyokuUnit.steps[get().currentStepIndex].tilesLeft,
+        currentKyokuTilesLeft: currentKyokuUnit.steps[nextIndex].tilesLeft,
       });
     } else {
       get().nextKyoku();
@@ -222,8 +221,7 @@ export const useGameState = create<GameState & GameActions>((set, get) => ({
       set({
         currentStepIndex: prevIndex,
         currentKyokuStep: currentKyokuUnit.steps[prevIndex],
-        currentKyokuTilesLeft:
-          currentKyokuUnit.steps[get().currentStepIndex].tilesLeft,
+        currentKyokuTilesLeft: currentKyokuUnit.steps[prevIndex].tilesLeft,
       });
     } else {
       get().prevKyoku();
