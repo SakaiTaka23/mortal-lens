@@ -16,7 +16,7 @@ import {
   getCoreRowModel,
   useReactTable,
 } from '@tanstack/react-table';
-import React from 'react';
+import React, { useMemo } from 'react';
 
 import { ReviewTile } from '@/review/ReviewTile';
 
@@ -61,8 +61,9 @@ const columns = [
 ];
 
 export const OverviewDetail: React.FC<Props> = ({ detail }) => {
+  const data = useMemo(() => detail ?? [], [detail]);
   const table = useReactTable({
-    data: detail ?? [],
+    data,
     columns,
     getCoreRowModel: getCoreRowModel(),
   });
