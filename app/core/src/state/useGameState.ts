@@ -99,6 +99,7 @@ export const useGameState = create<GameState & GameActions>((set, get) => ({
     }
     const currentKyokuUnit = get().output.kyokus[get().currentKyokuIndex];
     set({
+      currentStepIndex: 0,
       currentKyokuMeta: {
         bakaze: currentKyokuUnit.bakaze,
         kyoku: currentKyokuUnit.kyoku,
