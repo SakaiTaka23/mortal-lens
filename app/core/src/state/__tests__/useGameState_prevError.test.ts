@@ -36,7 +36,7 @@ describe('prevError', () => {
       ],
       relativeScores: [23100, 29500, 29600, 17800],
     });
-    expect(gameState.currentKyokuTilesLeft).toBe(22);
+    expect(gameState.currentKyokuTilesLeft).toBe(23);
     expect(gameState.currentKyokuUnit).toBe(oneJson.kyokus[7]);
     expect(gameState.currentKyokuStep).toStrictEqual(
       oneJson.kyokus[7].steps[103],
@@ -51,7 +51,7 @@ describe('prevError', () => {
     const gameState = useGameState.getState();
     expect(gameState.output).toBe(output);
     expect(gameState.currentKyokuIndex).toBe(7);
-    expect(gameState.currentStepIndex).toBe(70);
+    expect(gameState.currentStepIndex).toBe(71);
     expect(gameState.currentKyokuMeta).toStrictEqual({
       bakaze: 'S',
       kyoku: 7,
@@ -71,7 +71,7 @@ describe('prevError', () => {
     expect(gameState.currentKyokuTilesLeft).toBe(36);
     expect(gameState.currentKyokuUnit).toBe(oneJson.kyokus[7]);
     expect(gameState.currentKyokuStep).toStrictEqual(
-      oneJson.kyokus[7].steps[70],
+      oneJson.kyokus[7].steps[71],
     );
   });
 });

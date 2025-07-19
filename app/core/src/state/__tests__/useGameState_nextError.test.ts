@@ -19,7 +19,7 @@ describe('nextError', () => {
     const gameState = useGameState.getState();
     expect(gameState.output).toBe(output);
     expect(gameState.currentKyokuIndex).toBe(0);
-    expect(gameState.currentStepIndex).toBe(11);
+    expect(gameState.currentStepIndex).toBe(19);
     expect(gameState.currentKyokuMeta).toStrictEqual({
       bakaze: 'E',
       kyoku: 0,
@@ -33,10 +33,10 @@ describe('nextError', () => {
       ],
       relativeScores: [25000, 25000, 25000, 25000],
     });
-    expect(gameState.currentKyokuTilesLeft).toBe(63);
+    expect(gameState.currentKyokuTilesLeft).toBe(60);
     expect(gameState.currentKyokuUnit).toBe(oneJson.kyokus[0]);
     expect(gameState.currentKyokuStep).toStrictEqual(
-      oneJson.kyokus[0].steps[11],
+      oneJson.kyokus[0].steps[19],
     );
   });
 
@@ -48,7 +48,7 @@ describe('nextError', () => {
     const gameState = useGameState.getState();
     expect(gameState.output).toBe(output);
     expect(gameState.currentKyokuIndex).toBe(0);
-    expect(gameState.currentStepIndex).toBe(27);
+    expect(gameState.currentStepIndex).toBe(35);
     expect(gameState.currentKyokuMeta).toStrictEqual({
       bakaze: 'E',
       kyoku: 0,
@@ -62,10 +62,10 @@ describe('nextError', () => {
       ],
       relativeScores: [25000, 25000, 25000, 25000],
     });
-    expect(gameState.currentKyokuTilesLeft).toBe(55);
+    expect(gameState.currentKyokuTilesLeft).toBe(52);
     expect(gameState.currentKyokuUnit).toBe(oneJson.kyokus[0]);
     expect(gameState.currentKyokuStep).toStrictEqual(
-      oneJson.kyokus[0].steps[27],
+      oneJson.kyokus[0].steps[35],
     );
   });
 });

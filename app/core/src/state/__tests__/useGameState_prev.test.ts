@@ -36,7 +36,7 @@ describe('prev', () => {
       ],
       relativeScores: [23100, 29500, 29600, 17800],
     });
-    expect(gameState.currentKyokuTilesLeft).toBe(22);
+    expect(gameState.currentKyokuTilesLeft).toBe(23);
     expect(gameState.currentKyokuUnit).toBe(oneJson.kyokus[7]);
     expect(gameState.currentKyokuStep).toStrictEqual(
       oneJson.kyokus[7].steps[103],
@@ -68,7 +68,7 @@ describe('prev', () => {
       ],
       relativeScores: [23100, 29500, 29600, 17800],
     });
-    expect(gameState.currentKyokuTilesLeft).toBe(22);
+    expect(gameState.currentKyokuTilesLeft).toBe(23);
     expect(gameState.currentKyokuUnit).toBe(oneJson.kyokus[7]);
     expect(gameState.currentKyokuStep).toStrictEqual(
       oneJson.kyokus[7].steps[102],

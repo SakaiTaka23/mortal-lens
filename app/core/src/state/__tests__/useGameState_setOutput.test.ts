@@ -27,7 +27,7 @@ describe('setOutput', () => {
       ],
       relativeScores: [25000, 25000, 25000, 25000],
     });
-    expect(gameState.currentKyokuTilesLeft).toBe(69);
+    expect(gameState.currentKyokuTilesLeft).toBe(70);
     expect(gameState.currentKyokuUnit).toBe(oneJson.kyokus[0]);
     expect(gameState.currentKyokuStep).toBe(oneJson.kyokus[0].steps[0]);
   });
