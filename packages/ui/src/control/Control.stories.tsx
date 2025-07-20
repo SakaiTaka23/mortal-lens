@@ -17,6 +17,22 @@ const defaultFunrtion = () => {
 
 export const Default: Story = {
   args: {
+    meta: {
+      engine: 'Mortal',
+      gameLength: 'Hanchan',
+      loadingTime: '0s',
+      reviewTime: '2s 204ms',
+      showRating: false,
+      version: '1.5.10',
+      lang: 'ja',
+    },
+    reviewMeta: {
+      totalReviewed: 123,
+      totalMatches: 89,
+      rating: 0.8791772145032938,
+      temperature: 0.1,
+      modelTag: '4.1b',
+    },
     prevKyokuOnClick: defaultFunrtion,
     nextKyokuOnClick: defaultFunrtion,
     prevErrorOnClick: defaultFunrtion,

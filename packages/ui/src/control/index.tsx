@@ -1,7 +1,21 @@
-import { Button as MuiButton, Grid } from '@mui/material';
-import React from 'react';
+import { MetaState, ReviewMetaState } from '@mortal-lens/types';
+import {
+  Box,
+  Button as MuiButton,
+  Grid,
+  Modal,
+  Paper,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableRow,
+} from '@mui/material';
+import React, { useState } from 'react';
 
 export interface Props {
+  meta: MetaState;
+  reviewMeta: ReviewMetaState;
   prevKyokuOnClick: () => void;
   nextKyokuOnClick: () => void;
   prevErrorOnClick: () => void;
@@ -15,6 +29,8 @@ export interface Props {
 }
 
 export const Control: React.FC<Props> = ({
+  meta,
+  reviewMeta,
   prevKyokuOnClick,
   nextKyokuOnClick,
   prevErrorOnClick,
@@ -24,8 +40,11 @@ export const Control: React.FC<Props> = ({
   prevOnClick,
   nextOnClick,
   optionsOnClick,
-  aboutOnClick,
 }) => {
+  const [openAbout, setOpenAbout] = useState(false);
+  const handleOpenAbout = () => setOpenAbout(true);
+  const handleCloseAbout = () => setOpenAbout(false);
+
   return (
     <Grid
       container
@@ -57,7 +76,13 @@ export const Control: React.FC<Props> = ({
       </Grid>
       <Grid>
         <Button message='Options' onClick={optionsOnClick} />
-        <Button message='About' onClick={aboutOnClick} />
+        <Button message='About' onClick={handleOpenAbout} />
+        <AboutInfo
+          open={openAbout}
+          handleClose={handleCloseAbout}
+          meta={meta}
+          reviewMeta={reviewMeta}
+        />
       </Grid>
     </Grid>
   );
@@ -68,7 +93,7 @@ interface ButtonProps {
   onClick: () => void;
 }
 
-export const Button: React.FC<ButtonProps> = ({ message, onClick }) => {
+const Button: React.FC<ButtonProps> = ({ message, onClick }) => {
   return (
     <MuiButton
       variant='contained'
@@ -78,5 +103,75 @@ export const Button: React.FC<ButtonProps> = ({ message, onClick }) => {
     >
       {message}
     </MuiButton>
+  );
+};
+
+interface AboutProps {
+  open: boolean;
+  handleClose: () => void;
+  meta: MetaState;
+  reviewMeta: ReviewMetaState;
+}
+
+const AboutInfo: React.FC<AboutProps> = ({
+  open,
+  handleClose,
+  meta,
+  reviewMeta,
+}) => {
+  return (
+    <Modal open={open} onClose={handleClose}>
+      <Box>
+        <TableContainer component={Paper}>
+          <Table>
+            <TableBody>
+              <TableRow>
+                <TableCell>Engine</TableCell>
+                <TableCell>{meta.engine}</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Model Tag</TableCell>
+                <TableCell>{reviewMeta.modelTag}</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Review Version</TableCell>
+                <TableCell>{meta.version}</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Game Length</TableCell>
+                <TableCell>{meta.gameLength}</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Reading Time</TableCell>
+                <TableCell>{meta.loadingTime}</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Review Time</TableCell>
+                <TableCell>{meta.reviewTime}</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Temperature</TableCell>
+                <TableCell>{reviewMeta.temperature}</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Match Percentage</TableCell>
+                <TableCell>
+                  {reviewMeta.totalMatches}/{reviewMeta.totalReviewed} ={' '}
+                  {(
+                    (reviewMeta.totalMatches / reviewMeta.totalReviewed) *
+                    100
+                  ).toFixed(2)}
+                  %
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Rating</TableCell>
+                <TableCell>{(reviewMeta.rating * 100).toFixed(2)}</TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </Box>
+    </Modal>
   );
 };

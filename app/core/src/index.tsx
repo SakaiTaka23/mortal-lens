@@ -45,6 +45,8 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
       />
       <Stack direction='column'>
         <Control
+          meta={output.meta}
+          reviewMeta={output.reviewMeta}
           prevKyokuOnClick={prevKyoku}
           nextKyokuOnClick={nextKyoku}
           prevErrorOnClick={prevError}
