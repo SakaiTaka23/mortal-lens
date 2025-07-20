@@ -25,6 +25,16 @@ export interface Props {
   hideTiles: boolean;
 }
 
+const glassBoxStyle = {
+  border: '2px solid rgba(255,255,255,0.5)',
+  background:
+    'linear-gradient(135deg, rgba(255,255,255,0.18) 60%, rgba(180,220,255,0.12) 100%)',
+  boxShadow:
+    '0 12px 48px 0 rgba(31, 38, 135, 0.37), 0 1.5px 0 0 rgba(255,255,255,0.3) inset',
+  backdropFilter: 'blur(16px) brightness(1.08)',
+  WebkitBackdropFilter: 'blur(16px) brightness(1.08)',
+};
+
 const JantakuCenterWithKawa = ({
   playerID,
   bakaze,
@@ -42,11 +52,11 @@ const JantakuCenterWithKawa = ({
       sx={{
         width: 510,
         height: 510,
-        border: '1px solid black',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
+        ...glassBoxStyle,
       }}
     >
       {/* Toimen */}
@@ -157,7 +167,7 @@ export const Jantaku = ({
         height: 680,
         display: 'flex',
         flexDirection: 'column',
-        border: '1px solid black',
+        ...glassBoxStyle,
       }}
     >
       {/* Toimen */}

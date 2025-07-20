@@ -1,7 +1,8 @@
-import { theme } from '@mortal-lens/ui';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { withThemeFromJSXProvider } from '@storybook/addon-themes';
 import type { Preview } from '@storybook/react';
+
+import theme from '../src/theme';
 
 const preview: Preview = {
   parameters: {

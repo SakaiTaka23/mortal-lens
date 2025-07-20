@@ -3,10 +3,11 @@ import { Input } from '@mortal-lens/types';
 import {
   Control,
   Jantaku,
+  Overview,
   OverviewDetail,
   ReviewWindow,
 } from '@mortal-lens/ui';
-import { Stack } from '@mui/material';
+import { Box, Stack } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 
 import { useGameState } from './state/useGameState';
@@ -16,8 +17,8 @@ export interface Props {
 }
 
 export const LandingPage: React.FC<Props> = ({ input }) => {
-  const [showTile, setShowTile] = useState(true);
-  const toggleShowTile = () => setShowTile(!showTile);
+  const [hideTile, setHideTile] = useState(false);
+  const toggleHideTile = () => setHideTile(!hideTile);
 
   const {
     output,
@@ -40,30 +41,35 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
   }, [input, setOutput]);
 
   return (
-    <Stack direction='row'>
+    <Stack direction='row' spacing={2}>
       <Jantaku
         playerID={output.playerID}
         {...currentKyokuMeta}
         {...currentKyokuStep}
-        hideTiles={showTile}
+        hideTiles={hideTile}
       />
       <Stack direction='column'>
-        <Control
-          meta={output.meta}
-          reviewMeta={output.reviewMeta}
-          prevKyokuOnClick={prevKyoku}
-          nextKyokuOnClick={nextKyoku}
-          prevErrorOnClick={prevError}
-          nextErrorOnClick={nextError}
-          prevChoiceOnClick={prevChoice}
-          nextChoiceOnClick={nextChoice}
-          prevOnClick={prev}
-          nextOnClick={next}
-          toggleHidden={toggleShowTile}
-        />
+        <Box sx={{ marginBottom: 5 }}>
+          <Control
+            meta={output.meta}
+            reviewMeta={output.reviewMeta}
+            prevKyokuOnClick={prevKyoku}
+            nextKyokuOnClick={nextKyoku}
+            prevErrorOnClick={prevError}
+            nextErrorOnClick={nextError}
+            prevChoiceOnClick={prevChoice}
+            nextChoiceOnClick={nextChoice}
+            prevOnClick={prev}
+            nextOnClick={next}
+            toggleHidden={toggleHideTile}
+          />
+        </Box>
         <ReviewWindow review={currentKyokuStep.review ?? null} />
       </Stack>
-      <OverviewDetail detail={currentKyokuStep.review?.details ?? null} />
+      <Stack direction='column'>
+        <Overview review={currentKyokuStep.review ?? null} />
+        <OverviewDetail detail={currentKyokuStep.review?.details ?? null} />
+      </Stack>
     </Stack>
   );
 };

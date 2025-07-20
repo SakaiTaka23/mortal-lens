@@ -59,12 +59,13 @@ export const JantakuCenter = ({
           transform: 'translate(-50%, -50%)',
           fontSize: 20,
           fontWeight: 'bold',
-          color: '#2196f3',
-          background: 'rgba(255,255,255,0.8)',
+          color: 'primary.main',
           px: 2,
           py: 1,
           borderRadius: 2,
-          boxShadow: 1,
+          backdropFilter: 'blur(8px)',
+          WebkitBackdropFilter: 'blur(8px)',
+          boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
         }}
       >
         <div>

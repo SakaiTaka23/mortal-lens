@@ -68,9 +68,9 @@ export const OverviewDetail: React.FC<Props> = ({ detail }) => {
     getCoreRowModel: getCoreRowModel(),
   });
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: 310 }}>
       <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 650 }} aria-label='overview table'>
+        <Table size='small' aria-label='overview table'>
           <TableHead>
             {table.getHeaderGroups().map((headerGroup) => (
               <TableRow key={headerGroup.id}>

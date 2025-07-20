@@ -1,4 +1,5 @@
 import { Tile as MjaiTile } from '@mjai/types';
+import { useTheme } from '@mui/material';
 import React from 'react';
 import * as T from 'riichi-mahjong-tiles';
 
@@ -59,7 +60,7 @@ const tileComponentMap: Record<
   '?': T.RegularBlankM as React.FC<React.SVGProps<SVGSVGElement>>,
 
   // Back
-  back: T.RegularBackM as React.FC<React.SVGProps<SVGSVGElement>>,
+  back: T.BackBackPurple as React.FC<React.SVGProps<SVGSVGElement>>,
 
   // Error
   blank: T.RegularBlankM as React.FC<React.SVGProps<SVGSVGElement>>,
@@ -120,7 +121,7 @@ const rotatedTileComponentMap: Record<
   '?': T.RegularBlankRm as React.FC<React.SVGProps<SVGSVGElement>>,
 
   // Back
-  back: T.RegularBackRm as React.FC<React.SVGProps<SVGSVGElement>>,
+  back: T.BackBackPurpleR as React.FC<React.SVGProps<SVGSVGElement>>,
 
   // Error
   blank: T.RegularBlankRm as React.FC<React.SVGProps<SVGSVGElement>>,
@@ -220,6 +221,7 @@ export const Tile: React.FC<Props> = ({
   position = 'self',
   highlight = false,
 }) => {
+  const theme = useTheme();
   const config = POSITION_CONFIG[position][naki ? 'naki' : 'normal'];
   const IconComponent = hidden
     ? config.componentMap.back
@@ -233,7 +235,7 @@ export const Tile: React.FC<Props> = ({
       opacity={dimmed ? 0.5 : 1}
       style={{
         transform: `rotate(${config.transform}deg)`,
-        border: highlight ? '2px solid red' : 'none',
+        border: highlight ? `2px solid ${theme.palette.error.main}` : 'none',
       }}
     />
   );

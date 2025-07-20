@@ -21,7 +21,7 @@ export const StatusTile: React.FC<Props> = ({ possibility, tileProps }) => {
           sx={{
             width: 10,
             height,
-            bgcolor: 'green',
+            bgcolor: 'info.main',
             cursor: 'default',
           }}
         />

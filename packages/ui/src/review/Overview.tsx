@@ -1,5 +1,5 @@
 import { EvaluationResult } from '@mortal-lens/types';
-import { Grid, Stack, Typography } from '@mui/material';
+import { Grid, Stack, Typography, useTheme } from '@mui/material';
 import React from 'react';
 
 import { ReviewMessage } from '@/review/ReviewMessage';
@@ -13,6 +13,7 @@ export interface Props {
 }
 
 export const Overview: React.FC<Props> = ({ review }) => {
+  const theme = useTheme();
   return (
     <Grid
       container
@@ -21,25 +22,31 @@ export const Overview: React.FC<Props> = ({ review }) => {
       sx={{
         justifyContent: 'center',
         alignItems: 'start',
-        width: 'fit-content',
-        backgroundColor: 'deepskyblue',
+        width: 310,
+        backgroundColor: theme.palette.primary.main,
         padding: 2,
       }}
     >
-      {review && (
-        <>
-          <Stack direction='row' spacing={3}>
-            <Typography>Player</Typography>
-            <ReviewMessage result={review.actual} />
-            <ReviewTile result={review.actual} />
-          </Stack>
-          <Stack direction='row' spacing={3}>
-            <Typography>Mortal</Typography>
-            <ReviewMessage result={review.expected} />
-            <ReviewTile result={review.expected} />
-          </Stack>
-        </>
-      )}
+      <>
+        <Stack direction='row' spacing={3}>
+          <Typography>Player</Typography>
+          {review && (
+            <>
+              <ReviewMessage result={review.actual} />
+              <ReviewTile result={review.actual} />
+            </>
+          )}
+        </Stack>
+        <Stack direction='row' spacing={3}>
+          <Typography>Mortal</Typography>
+          {review && (
+            <>
+              <ReviewMessage result={review.expected} />
+              <ReviewTile result={review.expected} />
+            </>
+          )}
+        </Stack>
+      </>
     </Grid>
   );
 };

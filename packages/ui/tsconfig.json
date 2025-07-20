@@ -10,6 +10,6 @@
     "outDir": "dist",
     "rootDir": "./"
   },
-  "include": ["src", ".storybook/**/*.ts"],
+  "include": ["src", ".storybook/**/*.ts", ".storybook/**/*.tsx"],
   "exclude": ["../.dist"]
 }

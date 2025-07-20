@@ -1,5 +1,5 @@
 import { DiffLevel, EvaluationDetail } from '@mortal-lens/types';
-import { Box, Stack, Tooltip } from '@mui/material';
+import { Box, Stack, Tooltip, useTheme } from '@mui/material';
 import React from 'react';
 
 import { ReviewMessage } from '@/review/ReviewMessage';
@@ -16,6 +16,7 @@ export interface Props {
 const maxHeight = 50;
 
 export const ReviewWindow: React.FC<Props> = ({ review }) => {
+  const theme = useTheme();
   const showDiff = !(
     review?.diffLevel === 'None' || review?.diffLevel === undefined
   );
@@ -24,7 +25,12 @@ export const ReviewWindow: React.FC<Props> = ({ review }) => {
       direction='row'
       alignItems='end'
       spacing={2}
-      sx={{ width: 'fit-content', backgroundColor: 'deepskyblue', padding: 2 }}
+      sx={{
+        height: 150,
+        width: 200,
+        backgroundColor: theme.palette.primary.main,
+        padding: 2,
+      }}
     >
       {review?.details.map((detail, index) => {
         const scaledHeight = (detail.prob / 100) * maxHeight;

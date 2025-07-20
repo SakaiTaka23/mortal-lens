@@ -55,29 +55,29 @@ export const Control: React.FC<Props> = ({
       sx={{
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'deepskyblue',
-        width: 'fit-content',
+        width: 220,
         padding: 1,
         borderRadius: 2,
       }}
+      component={Paper}
     >
-      <Grid>
+      <Grid direction='row'>
         <Button message='Prev Round' onClick={prevKyokuOnClick} />
         <Button message='Next Round' onClick={nextKyokuOnClick} />
       </Grid>
-      <Grid>
+      <Grid direction='row'>
         <Button message='Prev Error' onClick={prevErrorOnClick} />
         <Button message='Next Error' onClick={nextErrorOnClick} />
       </Grid>
-      <Grid>
+      <Grid direction='row'>
         <Button message='Prev Choice' onClick={prevChoiceOnClick} />
         <Button message='Next Choice' onClick={nextChoiceOnClick} />
       </Grid>
-      <Grid>
+      <Grid direction='row'>
         <Button message='Prev' onClick={prevOnClick} />
         <Button message='Next' onClick={nextOnClick} />
       </Grid>
-      <Grid>
+      <Grid direction='row'>
         <Button message='Setting' onClick={handleOpenSetting} />
         <SettingInfo
           open={openSetting}
@@ -107,7 +107,7 @@ const Button: React.FC<ButtonProps> = ({ message, onClick }) => {
       variant='contained'
       color='primary'
       onClick={onClick}
-      sx={{ width: 150, height: 50, margin: 1 }}
+      sx={{ width: 90, height: 50, margin: 0.5 }}
     >
       {message}
     </MuiButton>

@@ -4,7 +4,9 @@ import { OverviewDetail } from '@/review/OverviewDetail';
 import { ReviewWindow } from '@/review/ReviewWindow';
 
 import { Jantaku } from './Jantaku';
+import theme from './theme';
 
 export { Control };
 export { Jantaku };
 export { Overview, OverviewDetail, ReviewWindow };
+export { theme };
