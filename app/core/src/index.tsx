@@ -7,7 +7,7 @@ import {
   ReviewWindow,
 } from '@mortal-lens/ui';
 import { Stack } from '@mui/material';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { useGameState } from './state/useGameState';
 
@@ -16,6 +16,9 @@ export interface Props {
 }
 
 export const LandingPage: React.FC<Props> = ({ input }) => {
+  const [showTile, setShowTile] = useState(true);
+  const toggleShowTile = () => setShowTile(!showTile);
+
   const {
     output,
     currentKyokuMeta,
@@ -42,6 +45,7 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
         playerID={output.playerID}
         {...currentKyokuMeta}
         {...currentKyokuStep}
+        hideTiles={showTile}
       />
       <Stack direction='column'>
         <Control
@@ -55,12 +59,7 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
           nextChoiceOnClick={nextChoice}
           prevOnClick={prev}
           nextOnClick={next}
-          optionsOnClick={() => {
-            // todo: implement options
-          }}
-          aboutOnClick={() => {
-            // todo: implement about
-          }}
+          toggleHidden={toggleShowTile}
         />
         <ReviewWindow review={currentKyokuStep.review ?? null} />
       </Stack>
