@@ -50,7 +50,7 @@ const checkProp = (tile: MjaiTile, details: EvaluationDetail[]): number => {
     } => detail.action.type === 'dahai' && detail.action.pai === tile,
   );
 
-  return match?.prob ?? 0;
+  return (match?.prob ?? 0) * 100;
 };
 
 export const Tehai: React.FC<Props> = ({
