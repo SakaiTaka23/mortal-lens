@@ -101,6 +101,16 @@ export const ToimenNaki: Story = {
   },
 };
 
+export const Hidden: Story = {
+  args: {
+    name: '1m',
+    naki: false,
+    size: 'tehai',
+    position: 'self',
+    hidden: true,
+  },
+};
+
 export const Dimmed: Story = {
   args: {
     name: '1m',

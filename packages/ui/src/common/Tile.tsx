@@ -205,6 +205,7 @@ export interface Props {
   name: MjaiTile | 'back' | 'blank';
   naki: boolean;
   position: Position;
+  hidden?: boolean;
   size?: 'tehai' | 'doraMarker';
   dimmed?: boolean;
   highlight?: boolean;
@@ -213,13 +214,16 @@ export interface Props {
 export const Tile: React.FC<Props> = ({
   name,
   naki,
+  hidden = false,
   size = 'tehai',
   dimmed = false,
   position = 'self',
   highlight = false,
 }) => {
   const config = POSITION_CONFIG[position][naki ? 'naki' : 'normal'];
-  const IconComponent = config.componentMap[name];
+  const IconComponent = hidden
+    ? config.componentMap.back
+    : config.componentMap[name];
   const tileSize = config.size[size];
 
   return (
