@@ -35,6 +35,7 @@ export const SimpleHand: Story = {
     tsumo: null,
     fuuros: [],
     position: 'self',
+    hidden: false,
   },
 };
 
@@ -52,6 +53,7 @@ export const WithPon: Story = {
       },
     ],
     position: 'self',
+    hidden: false,
   },
 };
 
@@ -83,6 +85,7 @@ export const WithMultipleFuuros: Story = {
       },
     ],
     position: 'self',
+    hidden: false,
   },
 };
 
@@ -128,6 +131,7 @@ export const MaxSize: Story = {
       },
     ],
     position: 'self',
+    hidden: false,
   },
 };
 
@@ -152,6 +156,7 @@ export const ComplexHand: Story = {
       },
     ],
     position: 'self',
+    hidden: false,
   },
 };
 
@@ -173,6 +178,15 @@ export const Shimocha: Story = {
   args: {
     ...defaultArgs,
     position: 'shimocha',
+    hidden: false,
+  },
+};
+
+export const ShimochaHidden: Story = {
+  args: {
+    ...defaultArgs,
+    position: 'shimocha',
+    hidden: true,
   },
 };
 
@@ -180,6 +194,7 @@ export const Toimen: Story = {
   args: {
     ...defaultArgs,
     position: 'toimen',
+    hidden: false,
   },
 };
 
@@ -187,6 +202,7 @@ export const Kamicha: Story = {
   args: {
     ...defaultArgs,
     position: 'kamicha',
+    hidden: false,
   },
 };
 
@@ -209,55 +225,56 @@ export const WithPonAndReview: Story = {
       details: [
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '1m' },
-          prob: 100,
+          prob: 1,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '2m' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '3m' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '4m' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '5m' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '6m' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '7m' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '8m' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '9m' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '1p' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
       ],
     },
+    hidden: false,
   },
 };

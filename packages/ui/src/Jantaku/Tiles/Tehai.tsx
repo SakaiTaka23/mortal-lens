@@ -16,6 +16,7 @@ export interface Props {
     actualIndex: number;
     details: EvaluationDetail[];
   };
+  hidden: boolean;
 }
 
 const POSITION_CONFIG = {
@@ -41,7 +42,10 @@ const POSITION_CONFIG = {
   },
 } as const;
 
-const checkProp = (tile: MjaiTile, details: EvaluationDetail[]): number => {
+const checkProp = (
+  tile: MjaiTile | 'back',
+  details: EvaluationDetail[],
+): number => {
   const match = details.find(
     (
       detail,
@@ -58,6 +62,7 @@ export const Tehai: React.FC<Props> = ({
   tsumo,
   position,
   review = null,
+  hidden,
 }) => {
   const config = POSITION_CONFIG[position];
   const sortedTehai = config.shouldReverse ? tehai.slice().reverse() : tehai;
@@ -77,6 +82,7 @@ export const Tehai: React.FC<Props> = ({
           naki={false}
           position={position}
           highlight={actualTile === tsumo}
+          hidden={hidden}
         />
       );
     } else {
@@ -89,6 +95,7 @@ export const Tehai: React.FC<Props> = ({
             naki: false,
             position: position,
             highlight: actualTile === tsumo,
+            hidden: hidden,
           }}
         />
       );
@@ -118,6 +125,7 @@ export const Tehai: React.FC<Props> = ({
                 naki={false}
                 position={position}
                 highlight={actualTile === tile}
+                hidden={hidden}
               />
             );
           } else {
@@ -131,6 +139,7 @@ export const Tehai: React.FC<Props> = ({
                   naki: false,
                   position: position,
                   highlight: actualTile === tile,
+                  hidden: hidden,
                 }}
               />
             );

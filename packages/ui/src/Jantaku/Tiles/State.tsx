@@ -13,6 +13,7 @@ export interface Props extends HandState {
     actualIndex: number;
     details: EvaluationDetail[];
   };
+  hidden: boolean;
 }
 
 const POSITION_CONFIG = {
@@ -40,6 +41,7 @@ export const State: React.FC<Props> = ({
   fuuros,
   position,
   review,
+  hidden,
 }) => {
   const config = POSITION_CONFIG[position];
   const fuurosComponent = <Fuuros fuuros={fuuros} position={position} />;
@@ -51,7 +53,13 @@ export const State: React.FC<Props> = ({
       sx={{ alignItems: 'flex-end' }}
     >
       {config.fuuroPosition === 'start' && fuurosComponent}
-      <Tehai tehai={tehai} tsumo={tsumo} position={position} review={review} />
+      <Tehai
+        tehai={tehai}
+        tsumo={tsumo}
+        position={position}
+        review={review}
+        hidden={hidden}
+      />
       {config.fuuroPosition === 'end' && fuurosComponent}
     </Stack>
   );

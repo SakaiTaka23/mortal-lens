@@ -105,6 +105,7 @@ const defaultArgs = {
     { sutehai: ['1s', '2s', '3s'], nakiIndex: [], reachIndex: null },
     { sutehai: ['5m', '5p', '5s'], nakiIndex: [], reachIndex: null },
   ],
+  hideTiles: false,
 } as Props;
 
 const fuuroAndTsumo = {
@@ -133,56 +134,63 @@ export const DefaultWithReview: Story = {
       details: [
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '1s' },
-          prob: 100,
+          prob: 1,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '2s' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '3s' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '4s' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '5s' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '6s' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '7s' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '8s' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '9s' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
         {
           action: { type: 'dahai', actor: 0, tsumogiri: true, pai: '1p' },
-          prob: 50,
+          prob: 0.5,
           QValue: 0,
         },
       ],
     },
+  },
+};
+
+export const HideOpponentTiles: Story = {
+  args: {
+    ...defaultArgs,
+    hideTiles: true,
   },
 };
 

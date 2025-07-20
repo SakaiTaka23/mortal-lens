@@ -22,6 +22,7 @@ export interface Props {
     actualIndex: number;
     details: EvaluationDetail[];
   };
+  hideTiles: boolean;
 }
 
 const JantakuCenterWithKawa = ({
@@ -136,6 +137,7 @@ export const Jantaku = ({
   kawa,
   tilesLeft,
   review,
+  hideTiles,
 }: Props) => {
   const orderedPlayerIDs: PlayerID[] = [
     playerID,
@@ -173,6 +175,7 @@ export const Jantaku = ({
           tsumo={toimen.tsumo}
           fuuros={toimen.fuuros}
           position='toimen'
+          hidden={hideTiles}
         />
       </Box>
 
@@ -195,6 +198,7 @@ export const Jantaku = ({
             tsumo={kamicha.tsumo}
             fuuros={kamicha.fuuros}
             position='kamicha'
+            hidden={hideTiles}
           />
         </Box>
 
@@ -209,6 +213,7 @@ export const Jantaku = ({
           kawa={kawa}
           tilesLeft={tilesLeft}
           orderedPlayerIDs={orderedPlayerIDs}
+          hideTiles={false}
         />
 
         {/* Shimocha */}
@@ -222,6 +227,7 @@ export const Jantaku = ({
             tsumo={shimocha.tsumo}
             fuuros={shimocha.fuuros}
             position='shimocha'
+            hidden={hideTiles}
           />
         </Box>
       </Box>
@@ -243,6 +249,7 @@ export const Jantaku = ({
           fuuros={self.fuuros}
           position='self'
           review={review}
+          hidden={false}
         />
       </Box>
     </Box>
