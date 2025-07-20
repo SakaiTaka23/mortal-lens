@@ -24,8 +24,7 @@ export interface Props {
   nextChoiceOnClick: () => void;
   prevOnClick: () => void;
   nextOnClick: () => void;
-  optionsOnClick: () => void;
-  aboutOnClick: () => void;
+  toggleHidden: () => void;
 }
 
 export const Control: React.FC<Props> = ({
@@ -39,11 +38,15 @@ export const Control: React.FC<Props> = ({
   nextChoiceOnClick,
   prevOnClick,
   nextOnClick,
-  optionsOnClick,
+  toggleHidden,
 }) => {
   const [openAbout, setOpenAbout] = useState(false);
   const handleOpenAbout = () => setOpenAbout(true);
   const handleCloseAbout = () => setOpenAbout(false);
+
+  const [openSetting, setOpenSetting] = useState(false);
+  const handleOpenSetting = () => setOpenSetting(true);
+  const handleCloseSetting = () => setOpenSetting(false);
 
   return (
     <Grid
@@ -75,7 +78,12 @@ export const Control: React.FC<Props> = ({
         <Button message='Next' onClick={nextOnClick} />
       </Grid>
       <Grid>
-        <Button message='Options' onClick={optionsOnClick} />
+        <Button message='Setting' onClick={handleOpenSetting} />
+        <SettingInfo
+          open={openSetting}
+          handleClose={handleCloseSetting}
+          toggleHidden={toggleHidden}
+        />
         <Button message='About' onClick={handleOpenAbout} />
         <AboutInfo
           open={openAbout}
@@ -172,6 +180,24 @@ const AboutInfo: React.FC<AboutProps> = ({
           </Table>
         </TableContainer>
       </Box>
+    </Modal>
+  );
+};
+
+interface SettingsProps {
+  open: boolean;
+  handleClose: () => void;
+  toggleHidden: () => void;
+}
+
+const SettingInfo: React.FC<SettingsProps> = ({
+  open,
+  handleClose,
+  toggleHidden,
+}) => {
+  return (
+    <Modal open={open} onClose={handleClose}>
+      <Button message='Hide Tile' onClick={toggleHidden} />
     </Modal>
   );
 };

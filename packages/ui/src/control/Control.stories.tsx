@@ -41,7 +41,6 @@ export const Default: Story = {
     nextChoiceOnClick: defaultFunrtion,
     prevOnClick: defaultFunrtion,
     nextOnClick: defaultFunrtion,
-    optionsOnClick: defaultFunrtion,
-    aboutOnClick: defaultFunrtion,
+    toggleHidden: defaultFunrtion,
   },
 };
