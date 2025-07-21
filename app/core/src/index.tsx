@@ -25,6 +25,7 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
     currentKyokuMeta,
     currentKyokuStep,
     setOutput,
+    setKyoku,
     prevKyoku,
     nextKyoku,
     prevError,
@@ -47,6 +48,7 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
         {...currentKyokuMeta}
         {...currentKyokuStep}
         overview={output.scoreOverview}
+        jumpKyoku={setKyoku}
         hideTiles={hideTile}
       />
       <Stack direction='column'>

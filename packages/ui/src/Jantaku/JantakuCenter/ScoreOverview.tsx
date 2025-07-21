@@ -24,10 +24,15 @@ const getPlayerOrder = (selfIndex: PlayerID): string[] => {
 
 export interface Props {
   overview: ScoreOverviewType[];
+  jumpKyoku: (kyokuIndex: number) => void;
   playerID: PlayerID;
 }
 
-export const ScoreOverview: React.FC<Props> = ({ overview, playerID }) => {
+export const ScoreOverview: React.FC<Props> = ({
+  overview,
+  jumpKyoku,
+  playerID,
+}) => {
   const header = getPlayerOrder(playerID);
   return (
     <TableContainer component={Paper}>
@@ -48,7 +53,7 @@ export const ScoreOverview: React.FC<Props> = ({ overview, playerID }) => {
         </TableHead>
         <TableBody>
           {overview.map((row, i) => (
-            <TableRow key={i} hover>
+            <TableRow key={i} hover onClick={() => jumpKyoku(i)}>
               <TableCell>
                 {row.bakaze}
                 {row.kyoku} {row.honba}

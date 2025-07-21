@@ -23,6 +23,7 @@ export interface GameState {
 
 interface GameActions {
   setOutput: (output: Output) => void;
+  setKyoku: (kyokuIndex: number) => void;
   prevKyoku: () => void;
   nextKyoku: () => void;
   prevError: () => void;
@@ -41,6 +42,28 @@ export const useGameState = create<GameState & GameActions>((set, get) => ({
     set({
       output,
       currentKyokuIndex: 0,
+      currentStepIndex: 0,
+      currentKyokuMeta: {
+        bakaze: currentKyokuUnit.bakaze,
+        kyoku: currentKyokuUnit.kyoku,
+        honba: currentKyokuUnit.honba,
+        oya: currentKyokuUnit.oya,
+        endStatus: currentKyokuUnit.endStatus,
+        relativeScores: currentKyokuUnit.relativeScores,
+      },
+      currentKyokuTilesLeft: currentKyokuUnit.steps[0].tilesLeft,
+      currentKyokuUnit,
+      currentKyokuStep: currentKyokuUnit.steps[0],
+    });
+  },
+  setKyoku: (kyokuIndex: number) => {
+    const maxKyokuIndex = get().output.kyokus.length - 1;
+    if (kyokuIndex > maxKyokuIndex || kyokuIndex < 0) {
+      return;
+    }
+    const currentKyokuUnit = get().output.kyokus[kyokuIndex];
+    set({
+      currentKyokuIndex: kyokuIndex,
       currentStepIndex: 0,
       currentKyokuMeta: {
         bakaze: currentKyokuUnit.bakaze,

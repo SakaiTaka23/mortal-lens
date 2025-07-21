@@ -23,6 +23,7 @@ export interface Props {
     details: EvaluationDetail[];
   };
   overview: ScoreOverview[];
+  jumpKyoku: (kyokuIndex: number) => void;
   hideTiles: boolean;
 }
 
@@ -47,6 +48,7 @@ const JantakuCenterWithKawa = ({
   kawa,
   tilesLeft,
   orderedPlayerIDs,
+  jumpKyoku,
   overview,
 }: Omit<Props, 'hand'> & { orderedPlayerIDs: PlayerID[] }) => {
   return (
@@ -106,6 +108,7 @@ const JantakuCenterWithKawa = ({
           tilesLeft={tilesLeft}
           dora={dora}
           overview={overview}
+          jumpKyoku={jumpKyoku}
         />
 
         {/* Shimocha */}
@@ -152,6 +155,7 @@ export const Jantaku = ({
   review,
   hideTiles,
   overview,
+  jumpKyoku,
 }: Props) => {
   const orderedPlayerIDs: PlayerID[] = [
     playerID,
@@ -229,6 +233,7 @@ export const Jantaku = ({
           orderedPlayerIDs={orderedPlayerIDs}
           hideTiles={false}
           overview={overview}
+          jumpKyoku={jumpKyoku}
         />
 
         {/* Shimocha */}

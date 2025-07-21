@@ -179,6 +179,9 @@ const defaultArgs = {
       kyotaku: 0,
     },
   ],
+  jumpKyoku: (_kyokuIndex: number) => {
+    return;
+  },
   hideTiles: false,
 } as Props;
 

@@ -94,6 +94,9 @@ const defaultArgs = {
       kyotaku: 0,
     },
   ],
+  jumpKyoku: (_kyokuIndex: number) => {
+    return;
+  },
 } as Props;
 
 export const Default: Story = {
@@ -118,5 +121,6 @@ export const LateGame: Story = {
     oya: 3,
     playerID: 2,
     overview: defaultArgs.overview,
+    jumpKyoku: defaultArgs.jumpKyoku,
   },
 };

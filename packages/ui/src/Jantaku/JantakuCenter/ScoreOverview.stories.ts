@@ -87,6 +87,9 @@ export const Default: Story = {
         kyotaku: 0,
       },
     ],
+    jumpKyoku: (_kyokuIndex: number) => {
+      return;
+    },
     playerID: 2,
   },
 };

@@ -17,6 +17,7 @@ export interface Props {
   tilesLeft: number;
   dora: Tile[];
   overview: ScoreOverviewType[];
+  jumpKyoku: (kyokuIndex: number) => void;
 }
 
 const windNames = ['東', '南', '西', '北'];
@@ -35,6 +36,7 @@ export const JantakuCenter = ({
   playerID,
   dora,
   overview,
+  jumpKyoku,
 }: Props) => {
   const [openScores, setOpenScores] = useState(false);
   const handleOpenScores = () => setOpenScores(true);
@@ -86,7 +88,11 @@ export const JantakuCenter = ({
           </Typography>
         </Button>
         <Modal open={openScores} onClose={handleCloseScores}>
-          <ScoreOverview overview={overview} playerID={playerID} />
+          <ScoreOverview
+            overview={overview}
+            jumpKyoku={jumpKyoku}
+            playerID={playerID}
+          />
         </Modal>
         <div>x{tilesLeft}</div>
         <DoraMarker {...dora} />
