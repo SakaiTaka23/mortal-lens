@@ -134,7 +134,7 @@ export const CorrectDahai: Story = {
             pai: 'F',
             tsumogiri: false,
           },
-          prob: 100,
+          prob: 1,
           QValue: 0.0028574169,
         },
         {
@@ -165,7 +165,7 @@ export const CorrectWithNaki: Story = {
             pai: 'F',
             tsumogiri: false,
           },
-          prob: 99,
+          prob: 0.99,
           QValue: 0.0028574169,
         },
         {
@@ -206,7 +206,7 @@ export const IncorrectNaki: Story = {
             pai: 'F',
             consumed: ['F', 'F'],
           },
-          prob: 100,
+          prob: 1,
           QValue: 0.0028574169,
         },
         {

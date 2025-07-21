@@ -34,12 +34,12 @@ export const ReviewWindow: React.FC<Props> = ({ review }) => {
     >
       {review?.details.map((detail, index) => {
         const scaledHeight = (detail.prob / 100) * maxHeight;
-        const height = Math.max(2, Math.round(scaledHeight * 10000) / 10000);
+        const height = Math.max(2, Math.round(scaledHeight * 10000) / 100);
         if (detail.action.type !== 'dahai' || (index === 0 && showDiff)) {
           return (
             <Tooltip
               key={index}
-              title={`${detail.prob.toFixed(2)}%`}
+              title={`${(detail.prob * 100).toFixed(2)}%`}
               placement='top'
             >
               <Stack
@@ -51,14 +51,16 @@ export const ReviewWindow: React.FC<Props> = ({ review }) => {
                   sx={{
                     width: 10,
                     height,
-                    bgcolor: 'green',
+                    bgcolor: theme.palette.info.main,
                     cursor: 'default',
                   }}
                 />
                 <Box
                   sx={{
                     border:
-                      index == review.actualIndex ? '2px solid red' : 'none',
+                      index == review.actualIndex
+                        ? `2px solid ${theme.palette.error.main}`
+                        : 'none',
                   }}
                 >
                   <ReviewMessage result={detail.action} />
