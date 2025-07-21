@@ -20,6 +20,7 @@ export const initialState: GameState = {
       modelTag: '',
     },
     kyokus: [],
+    scoreOverview: [],
   },
   currentKyokuIndex: 0,
   currentStepIndex: 0,

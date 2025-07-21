@@ -46,6 +46,7 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
         playerID={output.playerID}
         {...currentKyokuMeta}
         {...currentKyokuStep}
+        overview={output.scoreOverview}
         hideTiles={hideTile}
       />
       <Stack direction='column'>
