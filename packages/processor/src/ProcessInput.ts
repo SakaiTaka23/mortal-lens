@@ -10,6 +10,7 @@ import {
 
 import { MetaStateProcessor } from './state/MetaStateProcessor';
 import { ReviewMetaStateProcessor } from './state/ReviewMetaStateProcessor';
+import { ScoreOverviewProcessor } from './state/ScoreOverviewProcessor';
 import { createReviewState } from './state/step/ReviewStateProcessor';
 
 /**
@@ -18,6 +19,7 @@ import { createReviewState } from './state/step/ReviewStateProcessor';
 export const ProcessInput = (input: Input): Output => {
   const metaState: MetaState = MetaStateProcessor(input);
   const reviewMetaState = ReviewMetaStateProcessor(input);
+  const scoreOverviewState = ScoreOverviewProcessor();
 
   const kyokuLog = splitKyoku(input.mjaiLog);
   const kyokus: KyokuUnit[] = [];
@@ -34,6 +36,7 @@ export const ProcessInput = (input: Input): Output => {
      * This snapshot contains all the information needed to render the step in the review
      */
     log.forEach((event) => {
+      scoreOverviewState.handle(event);
       gameState.handle(event);
       reviewState.handle(event);
 
@@ -67,6 +70,7 @@ export const ProcessInput = (input: Input): Output => {
     playerID: input.playerID,
     reviewMeta: reviewMetaState,
     kyokus,
+    scoreOverview: scoreOverviewState.currentResult(),
   };
 };
 
