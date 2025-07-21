@@ -1,6 +1,6 @@
 import { HandState, Kawa as MjaiKawa } from '@mjai/core';
 import { PlayerID, Tile } from '@mjai/types';
-import { EvaluationDetail } from '@mortal-lens/types';
+import { EvaluationDetail, ScoreOverview } from '@mortal-lens/types';
 import { Box } from '@mui/material';
 
 import { JantakuCenter } from './JantakuCenter';
@@ -22,6 +22,7 @@ export interface Props {
     actualIndex: number;
     details: EvaluationDetail[];
   };
+  overview: ScoreOverview[];
   hideTiles: boolean;
 }
 
@@ -46,6 +47,7 @@ const JantakuCenterWithKawa = ({
   kawa,
   tilesLeft,
   orderedPlayerIDs,
+  overview,
 }: Omit<Props, 'hand'> & { orderedPlayerIDs: PlayerID[] }) => {
   return (
     <Box
@@ -103,6 +105,7 @@ const JantakuCenterWithKawa = ({
           relativeScores={relativeScores}
           tilesLeft={tilesLeft}
           dora={dora}
+          overview={overview}
         />
 
         {/* Shimocha */}
@@ -148,6 +151,7 @@ export const Jantaku = ({
   tilesLeft,
   review,
   hideTiles,
+  overview,
 }: Props) => {
   const orderedPlayerIDs: PlayerID[] = [
     playerID,
@@ -224,6 +228,7 @@ export const Jantaku = ({
           tilesLeft={tilesLeft}
           orderedPlayerIDs={orderedPlayerIDs}
           hideTiles={false}
+          overview={overview}
         />
 
         {/* Shimocha */}

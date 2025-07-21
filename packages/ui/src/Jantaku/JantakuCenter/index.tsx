@@ -1,5 +1,9 @@
 import { PlayerID, Tile } from '@mjai/types';
-import { Box, Typography } from '@mui/material';
+import { ScoreOverview as ScoreOverviewType } from '@mortal-lens/types';
+import { Box, Button, Modal, Typography } from '@mui/material';
+import { useState } from 'react';
+
+import { ScoreOverview } from '@/Jantaku/JantakuCenter/ScoreOverview';
 
 import { DoraMarker } from '../Tiles/DoraMarker';
 
@@ -12,6 +16,7 @@ export interface Props {
   relativeScores: [number, number, number, number];
   tilesLeft: number;
   dora: Tile[];
+  overview: ScoreOverviewType[];
 }
 
 const windNames = ['東', '南', '西', '北'];
@@ -29,7 +34,12 @@ export const JantakuCenter = ({
   oya,
   playerID,
   dora,
+  overview,
 }: Props) => {
+  const [openScores, setOpenScores] = useState(false);
+  const handleOpenScores = () => setOpenScores(true);
+  const handleCloseScores = () => setOpenScores(false);
+
   const orderedPlayerIDs: PlayerID[] = [
     playerID,
     ((playerID + 1) % 4) as PlayerID,
@@ -68,11 +78,16 @@ export const JantakuCenter = ({
           boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
         }}
       >
-        <div>
-          {bakaze}
-          {kyoku}
-          {honba != 0 ? `-${honba}` : ''}
-        </div>
+        <Button variant='contained' onClick={handleOpenScores} fullWidth>
+          <Typography>
+            {bakaze}
+            {kyoku}
+            {honba != 0 ? `-${honba}` : ''}
+          </Typography>
+        </Button>
+        <Modal open={openScores} onClose={handleCloseScores}>
+          <ScoreOverview overview={overview} playerID={playerID} />
+        </Modal>
         <div>x{tilesLeft}</div>
         <DoraMarker {...dora} />
       </Box>
