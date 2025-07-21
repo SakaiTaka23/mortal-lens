@@ -11,6 +11,16 @@ export interface Output {
   playerID: PlayerID;
   reviewMeta: ReviewMetaState;
   kyokus: KyokuUnit[];
+  scoreOverview: ScoreOverview[];
+}
+
+export interface ScoreOverview {
+  bakaze: 'E' | 'S' | 'W';
+  kyoku: number;
+  honba: number;
+  scores: [number, number, number, number];
+  deltas: [number, number, number, number];
+  kyotaku: number;
 }
 
 export interface KyokuUnit {

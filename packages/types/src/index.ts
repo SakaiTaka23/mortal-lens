@@ -13,6 +13,7 @@ import {
   Output,
   ReviewMetaState,
   ReviewState,
+  ScoreOverview,
   StepState,
 } from './output';
 
@@ -25,4 +26,5 @@ export type {
   ReviewState,
   StepState,
   DiffLevel,
+  ScoreOverview,
 };
