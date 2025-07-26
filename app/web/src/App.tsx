@@ -1,36 +1,57 @@
+import { LandingPage } from '@mortal-lens/core';
+import { ParseInputSafe } from '@mortal-lens/parser';
+import { Input } from '@mortal-lens/types';
+import { Button } from '@mui/material';
 import { useState } from 'react';
+import { ChangeEvent } from 'react';
 
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
+export const App = () => {
+  const [parsedData, setParsedData] = useState<Input | null>(null);
 
-function App() {
-  const [count, setCount] = useState(0);
+  const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (file) {
+      if (!file.name.endsWith('.json')) {
+        alert('Only JSON file is uploadable');
+        return;
+      }
+
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const contents = JSON.parse(reader.result as string) as unknown;
+          const input = ParseInputSafe(contents);
+          if (input.error) {
+            alert('Failed to parse game data. Is this correct file?');
+            return;
+          }
+          setParsedData(input.data);
+        } catch {
+          alert('Invalid JSON file.');
+        }
+      };
+      reader.readAsText(file);
+    }
+  };
+
+  if (parsedData) {
+    return <LandingPage input={parsedData} />;
+  }
 
   return (
     <>
-      <div>
-        <a href='https://vite.dev' target='_blank' rel='noreferrer'>
-          <img src={viteLogo} className='logo' alt='Vite logo' />
-        </a>
-        <a href='https://react.dev' target='_blank' rel='noreferrer'>
-          <img src={reactLogo} className='logo react' alt='React logo' />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className='card'>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className='read-the-docs'>
-        Click on the Vite and React logos to learn more
-      </p>
+      <input
+        type='file'
+        accept='.json'
+        style={{ display: 'none' }}
+        id='json-file-upload'
+        onChange={handleFileChange}
+      />
+      <label htmlFor='json-file-upload'>
+        <Button variant='contained' component='span'>
+          Upload
+        </Button>
+      </label>
     </>
   );
-}
-
-export default App;
+};
