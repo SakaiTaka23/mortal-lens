@@ -1,18 +1,19 @@
 import { LandingPage } from '@mortal-lens/core';
 import { ParseInputSafe } from '@mortal-lens/parser';
 import { Input } from '@mortal-lens/types';
-import { Button } from '@mui/material';
+import { Button, Alert, Snackbar } from '@mui/material';
 import { useState } from 'react';
 import { ChangeEvent } from 'react';
 
 export const App = () => {
   const [parsedData, setParsedData] = useState<Input | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (file) {
       if (!file.name.endsWith('.json')) {
-        alert('Only JSON file is uploadable');
+        setError('Only JSON file is uploadable');
         return;
       }
 
@@ -22,12 +23,12 @@ export const App = () => {
           const contents = JSON.parse(reader.result as string) as unknown;
           const input = ParseInputSafe(contents);
           if (input.error) {
-            alert('Failed to parse game data. Is this correct file?');
+            setError('Failed to parse game data. Is this correct file?');
             return;
           }
           setParsedData(input.data);
         } catch {
-          alert('Invalid JSON file.');
+          setError('Invalid JSON file.');
         }
       };
       reader.readAsText(file);
@@ -52,6 +53,18 @@ export const App = () => {
           Upload
         </Button>
       </label>
+      <Snackbar
+        open={!!error}
+        autoHideDuration={4000}
+        onClose={() => setError(null)}
+        anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+      >
+        {error ? (
+          <Alert severity='error' onClose={() => setError(null)}>
+            {error}
+          </Alert>
+        ) : undefined}
+      </Snackbar>
     </>
   );
 };
