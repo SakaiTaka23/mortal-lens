@@ -20,6 +20,9 @@ importers:
       eslint:
         specifier: ^9.26.0
         version: 9.30.1
+      mjai-ts:
+        specifier: ^0.1.3
+        version: 0.1.3
       prettier:
         specifier: ^3.5.3
         version: 3.6.2
@@ -42,12 +45,6 @@ importers:
       '@emotion/styled':
         specifier: ^11.14.0
         version: 11.14.1(@emotion/react@11.14.0(@types/react@19.1.8)(react@19.1.0))(@types/react@19.1.8)(react@19.1.0)
-      '@mjai/core':
-        specifier: link:../../../mjai-ts/packages/core
-        version: link:../../../mjai-ts/packages/core
-      '@mjai/types':
-        specifier: link:../../../mjai-ts/packages/types
-        version: link:../../../mjai-ts/packages/types
       '@mortal-lens/parser':
         specifier: workspace:*
         version: link:../../packages/parser
@@ -225,18 +222,12 @@ importers:
 
   packages/parser:
     dependencies:
-      '@mjai/parser':
-        specifier: link:../../../mjai-ts/packages/parser
-        version: link:../../../mjai-ts/packages/parser
-      '@mjai/types':
-        specifier: link:../../../mjai-ts/packages/types
-        version: link:../../../mjai-ts/packages/types
       '@mortal-lens/types':
         specifier: workspace:^
         version: link:../types
       zod:
-        specifier: ^3.25.67
-        version: 3.25.75
+        specifier: ^4.1.0
+        version: 4.1.0
     devDependencies:
       '@types/node':
         specifier: ^22.15.18
@@ -244,12 +235,6 @@ importers:
 
   packages/processor:
     dependencies:
-      '@mjai/core':
-        specifier: link:../../../mjai-ts/packages/core
-        version: link:../../../mjai-ts/packages/core
-      '@mjai/types':
-        specifier: link:../../../mjai-ts/packages/types
-        version: link:../../../mjai-ts/packages/types
       '@mortal-lens/types':
         specifier: workspace:^
         version: link:../types
@@ -258,14 +243,7 @@ importers:
         specifier: workspace:^
         version: link:../parser
 
-  packages/types:
-    dependencies:
-      '@mjai/core':
-        specifier: link:../../../mjai-ts/packages/core
-        version: link:../../../mjai-ts/packages/core
-      '@mjai/types':
-        specifier: link:../../../mjai-ts/packages/types
-        version: link:../../../mjai-ts/packages/types
+  packages/types: {}
 
   packages/ui:
     dependencies:
@@ -275,12 +253,6 @@ importers:
       '@emotion/styled':
         specifier: ^11.14.0
         version: 11.14.1(@emotion/react@11.14.0(@types/react@19.1.8)(react@19.1.0))(@types/react@19.1.8)(react@19.1.0)
-      '@mjai/core':
-        specifier: link:../../../mjai-ts/packages/core
-        version: link:../../../mjai-ts/packages/core
-      '@mjai/types':
-        specifier: link:../../../mjai-ts/packages/types
-        version: link:../../../mjai-ts/packages/types
       '@mortal-lens/types':
         specifier: workspace:^
         version: link:../types
@@ -303,8 +275,8 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       riichi-mahjong-tiles:
-        specifier: link:../../../riichi-mahjong-tiles
-        version: link:../../../riichi-mahjong-tiles
+        specifier: ^0.1.0
+        version: 0.1.0
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -2592,6 +2564,9 @@ packages:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
 
+  mjai-ts@0.1.3:
+    resolution: {integrity: sha512-7gcVG7trBjt8GVdqluUMtXBfOixeMjCqwS9lpkCWZqrp99NLZjQw+Y+/2KCMeYcRfgpcI9afGI7piYl6Hc5lTQ==}
+
   mlly@1.7.4:
     resolution: {integrity: sha512-qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==}
 
@@ -2889,6 +2864,9 @@ packages:
   reusify@1.1.0:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
+
+  riichi-mahjong-tiles@0.1.0:
+    resolution: {integrity: sha512-TCN+3ZwfGW2FbN11ltfhoEorGqReSwaJA2E2eKutGCNekMIagyETpLR1duwGVQikICIVhtmzCicG4KwtnBlDgg==}
 
   rollup@4.44.2:
     resolution: {integrity: sha512-PVoapzTwSEcelaWGth3uR66u7ZRo6qhPHc0f2uRO9fX6XDVNrIiGYS0Pj9+R8yIIYSD/mCx2b16Ws9itljKSPg==}
@@ -3467,8 +3445,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.25.75:
-    resolution: {integrity: sha512-OhpzAmVzabPOL6C3A3gpAifqr9MqihV/Msx3gor2b2kviCgcb+HM9SEOpMWwwNp9MRunWnhtAKUoo0AHhjyPPg==}
+  zod@4.1.0:
+    resolution: {integrity: sha512-UWxluYj2IDX9MHRXTMbB/2eeWrAMmmMSESM+MfT9MQw8U1qo9q5ASW08anoJh6AJ7pkt099fLdNFmfI+4aChHg==}
 
   zustand@5.0.6:
     resolution: {integrity: sha512-ihAqNeUVhe0MAD+X8M5UzqyZ9k3FFZLBTtqo6JLPwV53cbRB/mJwBI0PxcIgqhBBHlEs8G45OTDTMq3gNcLq3A==}
@@ -5902,6 +5880,8 @@ snapshots:
 
   minipass@7.1.2: {}
 
+  mjai-ts@0.1.3: {}
+
   mlly@1.7.4:
     dependencies:
       acorn: 8.15.0
@@ -6201,6 +6181,11 @@ snapshots:
       supports-preserve-symlinks-flag: 1.0.0
 
   reusify@1.1.0: {}
+
+  riichi-mahjong-tiles@0.1.0:
+    dependencies:
+      react: 19.1.0
+      typescript: 5.8.3
 
   rollup@4.44.2:
     dependencies:
@@ -6861,7 +6846,7 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.25.75: {}
+  zod@4.1.0: {}
 
   zustand@5.0.6(@types/react@19.1.8)(react@19.1.0):
     optionalDependencies:
