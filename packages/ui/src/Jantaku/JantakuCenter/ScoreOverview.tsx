@@ -1,4 +1,3 @@
-import { PlayerID } from '@mjai/types';
 import { ScoreOverview as ScoreOverviewType } from '@mortal-lens/types';
 import {
   Paper,
@@ -9,6 +8,7 @@ import {
   TableHead,
   TableRow,
 } from '@mui/material';
+import { PlayerID } from 'mjai-ts/types';
 import React from 'react';
 
 const getPlayerOrder = (selfIndex: PlayerID): string[] => {

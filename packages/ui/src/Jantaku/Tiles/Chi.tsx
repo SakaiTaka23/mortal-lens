@@ -1,5 +1,5 @@
-import { Chi as MjaiChi } from '@mjai/types';
 import { Stack } from '@mui/material';
+import { Chi as MjaiChi } from 'mjai-ts/types';
 import React from 'react';
 
 import { Tile } from '@/common/Tile';

@@ -1,5 +1,5 @@
-import { Fuuro } from '@mjai/core';
 import { Stack } from '@mui/material';
+import { Fuuro } from 'mjai-ts/core';
 import React from 'react';
 
 import { Ankan } from './Ankan';

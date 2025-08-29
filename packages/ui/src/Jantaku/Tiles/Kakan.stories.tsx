@@ -1,5 +1,5 @@
-import { KakanFuuro } from '@mjai/core';
 import type { Meta, StoryObj } from '@storybook/react';
+import { KakanFuuro } from 'mjai-ts/core';
 
 import { Kakan } from './Kakan';
 

@@ -1,5 +1,5 @@
-import { Pon as MjaiPon } from '@mjai/types';
 import { Stack } from '@mui/material';
+import { Pon as MjaiPon } from 'mjai-ts/types';
 import React from 'react';
 
 import { Tile } from '@/common/Tile';

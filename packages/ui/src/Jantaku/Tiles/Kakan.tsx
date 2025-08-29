@@ -1,5 +1,5 @@
-import { KakanFuuro } from '@mjai/core';
 import { Stack } from '@mui/material';
+import { KakanFuuro } from 'mjai-ts/core';
 import React from 'react';
 
 import { Tile } from '@/common/Tile';

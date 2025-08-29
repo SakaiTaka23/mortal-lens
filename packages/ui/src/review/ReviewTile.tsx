@@ -1,6 +1,6 @@
-import { Tile as MjaiTile } from '@mjai/types';
 import { EvaluationResult } from '@mortal-lens/types';
 import { Stack } from '@mui/material';
+import { Tile as MjaiTile } from 'mjai-ts/types';
 import React from 'react';
 
 import { Tile } from '@/common/Tile';

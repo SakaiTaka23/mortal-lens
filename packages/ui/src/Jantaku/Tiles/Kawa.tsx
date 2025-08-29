@@ -1,6 +1,6 @@
-import { Kawa as MjaiKawa } from '@mjai/core';
-import { Tile as MjaiTile } from '@mjai/types';
 import { Stack } from '@mui/material';
+import { Kawa as MjaiKawa } from 'mjai-ts/core';
+import { Tile as MjaiTile } from 'mjai-ts/types';
 import React from 'react';
 
 import { Tile } from '@/common/Tile';

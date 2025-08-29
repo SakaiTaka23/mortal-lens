@@ -11,7 +11,7 @@ import {
   Reach,
   Ryukyoku,
   Tile,
-} from '@mjai/types';
+} from 'mjai-ts';
 
 export type EvaluationResult =
   | Ankan

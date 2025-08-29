@@ -1,10 +1,10 @@
-import { GameState } from '@mjai/core';
-import { Event, PlayerID } from '@mjai/types';
 import {
   DiffLevel,
   Entry,
   ReviewState as ReviewOutputState,
 } from '@mortal-lens/types';
+import { GameState } from 'mjai-ts/core';
+import { Event, PlayerID } from 'mjai-ts/types';
 
 export interface ReviewState {
   checkMapping(state: GameState): ReviewOutputState | undefined;

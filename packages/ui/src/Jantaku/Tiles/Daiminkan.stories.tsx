@@ -1,5 +1,5 @@
-import { Daiminkan as MjaiDaiminkan } from '@mjai/types';
 import type { Meta, StoryObj } from '@storybook/react';
+import { Daiminkan as MjaiDaiminkan } from 'mjai-ts/types';
 
 import { Daiminkan } from './Daiminkan';
 

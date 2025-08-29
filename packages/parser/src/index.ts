@@ -1,5 +1,5 @@
 import { Input } from '@mortal-lens/types';
-import { ZodSafeParseResult } from 'zod/v4';
+import { ZodSafeParseResult } from 'zod';
 
 import { InputSchema } from './schema';
 

@@ -1,5 +1,5 @@
-import { Hora, PlayerID, Ryukyoku } from '@mjai/types';
 import { KyokuUnit, Output, StepState } from '@mortal-lens/types';
+import { Hora, PlayerID, Ryukyoku } from 'mjai-ts/types';
 import { create } from 'zustand/react';
 
 import { initialState } from './initialState';
