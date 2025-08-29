@@ -20,11 +20,11 @@
   },
   "packageManager": "pnpm@10.6.4",
   "dependencies": {
-    "mjai-ts": "^0.1.3",
     "@mortal-lens/eslint-config": "workspace:^",
     "@mortal-lens/prettier-config": "workspace:^",
     "@mortal-lens/tsconfig-config": "workspace:^",
     "eslint": "^9.26.0",
+    "mjai-ts": "^0.1.4",
     "prettier": "^3.5.3",
     "tsup": "^8.4.0",
     "vitest": "^3.1.3"
