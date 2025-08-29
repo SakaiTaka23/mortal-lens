@@ -1,5 +1,5 @@
 import { ScoreOverview } from '@mortal-lens/types';
-import { Event } from 'mjai-ts/types';
+import { Event } from 'mjai-ts';
 
 export interface ScoreOverviewState {
   currentResult(): ScoreOverview[];

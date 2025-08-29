@@ -3,8 +3,8 @@ import {
   Entry,
   ReviewState as ReviewOutputState,
 } from '@mortal-lens/types';
-import { GameState } from 'mjai-ts/core';
-import { Event, PlayerID } from 'mjai-ts/types';
+import { Event, PlayerID } from 'mjai-ts';
+import { GameState } from 'mjai-ts';
 
 export interface ReviewState {
   checkMapping(state: GameState): ReviewOutputState | undefined;
