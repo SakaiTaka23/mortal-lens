@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { Ankan as MjaiAnkan } from 'mjai-ts/types';
+import { Ankan as MjaiAnkan } from 'mjai-ts';
 
 import { Ankan } from './Ankan';
 

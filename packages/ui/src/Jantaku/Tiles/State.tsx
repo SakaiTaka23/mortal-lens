@@ -1,6 +1,6 @@
 import { EvaluationDetail } from '@mortal-lens/types';
 import { Stack } from '@mui/material';
-import { HandState } from 'mjai-ts/core';
+import { HandState } from 'mjai-ts';
 import React from 'react';
 
 import { Fuuros } from './Fuuros';

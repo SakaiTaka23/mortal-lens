@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Pon as MjaiPon } from 'mjai-ts/types';
+import { Pon as MjaiPon } from 'mjai-ts';
 
 import { Pon } from './Pon';
 

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Chi as MjaiChi } from 'mjai-ts/types';
+import { Chi as MjaiChi } from 'mjai-ts';
 
 import { Chi } from './Chi';
 

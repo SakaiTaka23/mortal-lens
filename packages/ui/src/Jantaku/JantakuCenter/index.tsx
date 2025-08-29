@@ -1,6 +1,6 @@
 import { ScoreOverview as ScoreOverviewType } from '@mortal-lens/types';
 import { Box, Button, Modal, Typography } from '@mui/material';
-import { PlayerID, Tile } from 'mjai-ts/types';
+import { PlayerID, Tile } from 'mjai-ts';
 import { useState } from 'react';
 
 import { ScoreOverview } from '@/Jantaku/JantakuCenter/ScoreOverview';

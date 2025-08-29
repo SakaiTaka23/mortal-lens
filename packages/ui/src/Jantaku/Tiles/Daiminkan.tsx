@@ -1,5 +1,5 @@
 import { Stack } from '@mui/material';
-import { Daiminkan as MjaiDaiminkan } from 'mjai-ts/types';
+import { Daiminkan as MjaiDaiminkan } from 'mjai-ts';
 import React from 'react';
 
 import { Tile } from '@/common/Tile';

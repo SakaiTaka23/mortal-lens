@@ -1,4 +1,4 @@
-import { PlayerID } from 'mjai-ts/types';
+import { PlayerID } from 'mjai-ts';
 
 type Position = 0 | 1 | 2;
 

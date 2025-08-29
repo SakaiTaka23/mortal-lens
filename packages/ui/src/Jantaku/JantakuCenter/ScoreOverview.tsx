@@ -8,7 +8,7 @@ import {
   TableHead,
   TableRow,
 } from '@mui/material';
-import { PlayerID } from 'mjai-ts/types';
+import { PlayerID } from 'mjai-ts';
 import React from 'react';
 
 const getPlayerOrder = (selfIndex: PlayerID): string[] => {

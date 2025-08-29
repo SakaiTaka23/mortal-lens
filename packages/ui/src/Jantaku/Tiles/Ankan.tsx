@@ -1,5 +1,5 @@
 import { Stack } from '@mui/material';
-import { Ankan as MjaiAnkan } from 'mjai-ts/types';
+import { Ankan as MjaiAnkan } from 'mjai-ts';
 import React from 'react';
 
 import { Tile } from '@/common/Tile';

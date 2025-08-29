@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { HandState } from 'mjai-ts/core';
+import { HandState } from 'mjai-ts';
 
 import { State } from './State';
 
