@@ -9,7 +9,7 @@ import {
   PonSchema,
   ReachSchema,
   RyukyokuSchema,
-} from 'mjai-ts/parser';
+} from 'mjai-ts';
 import z from 'zod';
 
 // Type is different from the original mjai schema

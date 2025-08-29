@@ -1,4 +1,4 @@
-import { MjaiLogSchema, PlayerIDInput } from 'mjai-ts/parser';
+import { MjaiLogSchema, PlayerIDInput } from 'mjai-ts';
 import z from 'zod';
 
 import { ReviewSchema } from './Review';
