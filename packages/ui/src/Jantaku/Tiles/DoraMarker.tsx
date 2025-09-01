@@ -1,5 +1,5 @@
-import { Tile as MjaiTile } from '@mjai/types';
 import { Stack } from '@mui/material';
+import { Tile as MjaiTile } from 'mjai-ts';
 import React from 'react';
 
 import { Tile } from '@/common/Tile';

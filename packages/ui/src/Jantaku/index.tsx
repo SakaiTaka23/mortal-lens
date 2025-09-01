@@ -1,7 +1,7 @@
-import { HandState, Kawa as MjaiKawa } from '@mjai/core';
-import { PlayerID, Tile } from '@mjai/types';
 import { EvaluationDetail, ScoreOverview } from '@mortal-lens/types';
 import { Box } from '@mui/material';
+import { PlayerID, Tile } from 'mjai-ts';
+import { HandState, Kawa as MjaiKawa } from 'mjai-ts';
 
 import { JantakuCenter } from './JantakuCenter';
 import { Kawa } from './Tiles/Kawa';

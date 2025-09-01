@@ -8,7 +8,7 @@ import {
   Pon,
   Reach,
   Ryukyoku,
-} from '@mjai/types';
+} from 'mjai-ts';
 
 type EvaluationResult =
   | Ankan

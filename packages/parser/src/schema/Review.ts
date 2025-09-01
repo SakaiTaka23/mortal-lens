@@ -1,5 +1,5 @@
-import { HoraSchema, RyukyokuSchema } from '@mjai/parser';
-import z from 'zod/v4';
+import { HoraSchema, RyukyokuSchema } from 'mjai-ts';
+import z from 'zod';
 
 import { EntrySchema } from './Entries';
 

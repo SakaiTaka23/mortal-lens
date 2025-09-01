@@ -20,8 +20,6 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@mjai/core": "link:../../../mjai-ts/packages/core",
-    "@mjai/types": "link:../../../mjai-ts/packages/types",
     "@mortal-lens/parser": "workspace:*",
     "@mortal-lens/processor": "workspace:*",
     "@mortal-lens/types": "workspace:*",

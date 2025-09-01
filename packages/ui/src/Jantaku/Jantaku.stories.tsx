@@ -1,5 +1,5 @@
-import { HandState } from '@mjai/core';
 import { Meta, StoryObj } from '@storybook/react';
+import { HandState } from 'mjai-ts';
 
 import { Jantaku, Props } from '.';
 

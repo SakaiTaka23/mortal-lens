@@ -1,5 +1,5 @@
-import { Tile as MjaiTile } from '@mjai/types';
 import { useTheme } from '@mui/material';
+import { Tile as MjaiTile } from 'mjai-ts';
 import React from 'react';
 import * as T from 'riichi-mahjong-tiles';
 

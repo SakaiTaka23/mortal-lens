@@ -1,5 +1,5 @@
-import { HandState, Kawa } from '@mjai/core';
-import { Hora, PlayerID, Ryukyoku, Tile } from '@mjai/types';
+import { Hora, PlayerID, Ryukyoku, Tile } from 'mjai-ts';
+import { HandState, Kawa } from 'mjai-ts';
 
 import { MetaState } from './MetaState';
 import { DiffLevel, ReviewMetaState, ReviewState } from './ReviewState';

@@ -14,10 +14,7 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.6.4",
-  "dependencies": {
-    "@mjai/types": "link:../../../mjai-ts/packages/types",
-    "@mjai/core": "link:../../../mjai-ts/packages/core"
-  },
+  "dependencies": {},
   "exports": {
     ".": {
       "types": "./dist/index.d.ts"

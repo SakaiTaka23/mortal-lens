@@ -17,8 +17,6 @@
   "license": "ISC",
   "packageManager": "pnpm@10.6.4",
   "dependencies": {
-    "@mjai/core": "link:../../../mjai-ts/packages/core",
-    "@mjai/types": "link:../../../mjai-ts/packages/types",
     "@mortal-lens/types": "workspace:^"
   },
   "devDependencies": {

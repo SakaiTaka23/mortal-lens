@@ -1,5 +1,3 @@
-import { createGameState } from '@mjai/core';
-import { Event, StartKyoku } from '@mjai/types';
 import {
   Input,
   KyokuUnit,
@@ -7,6 +5,8 @@ import {
   Output,
   StepState,
 } from '@mortal-lens/types';
+import { Event, StartKyoku } from 'mjai-ts';
+import { createGameState } from 'mjai-ts';
 
 import { MetaStateProcessor } from './state/MetaStateProcessor';
 import { ReviewMetaStateProcessor } from './state/ReviewMetaStateProcessor';

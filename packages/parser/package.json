@@ -14,10 +14,8 @@
   },
   "packageManager": "pnpm@10.6.4",
   "dependencies": {
-    "@mjai/parser": "link:../../../mjai-ts/packages/parser",
-    "@mjai/types": "link:../../../mjai-ts/packages/types",
     "@mortal-lens/types": "workspace:^",
-    "zod": "^3.25.67"
+    "zod": "^4.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.18"

@@ -1,5 +1,5 @@
-import { Fuuro } from '@mjai/core';
 import type { Meta, StoryObj } from '@storybook/react';
+import { Fuuro } from 'mjai-ts';
 
 import { Fuuros } from './Fuuros';
 

@@ -1,4 +1,5 @@
 import {
+  TileInput,
   AnkanSchema,
   ChiSchema,
   DahaiSchema,
@@ -8,9 +9,8 @@ import {
   PonSchema,
   ReachSchema,
   RyukyokuSchema,
-  TileInput,
-} from '@mjai/parser';
-import z from 'zod/v4';
+} from 'mjai-ts';
+import z from 'zod';
 
 // Type is different from the original mjai schema
 // The actor is missing since it is always the player who is evaluated
