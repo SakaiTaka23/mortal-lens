@@ -34,12 +34,12 @@ interface EvaluationDetail {
   prob: number;
 }
 
-export type DiffLevel =
-  | 'Critical'
-  | 'Significant'
-  | 'Moderate'
-  | 'Optimal'
-  | 'None';
+/**
+ * Critical: <=5% difference
+ * Optimal: differences more than 5%
+ * None: no difference (was same action with AI)
+ */
+export type DiffLevel = 'Critical' | 'Optimal' | 'None';
 
 export interface ReviewState {
   expected: EvaluationResult;
