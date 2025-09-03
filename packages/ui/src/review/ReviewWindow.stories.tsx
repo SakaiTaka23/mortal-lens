@@ -117,7 +117,7 @@ export const Default: Story = {
           QValue: -1.5705397,
         },
       ],
-      diffLevel: 'Significant',
+      diffLevel: 'Critical',
     },
   },
 };

@@ -1,5 +1,5 @@
 import { DiffLevel, EvaluationDetail } from '@mortal-lens/types';
-import { Box, Stack, Tooltip, useTheme } from '@mui/material';
+import { Box, Stack, Tooltip, Typography, useTheme } from '@mui/material';
 import React from 'react';
 
 import { ReviewMessage } from '@/review/ReviewMessage';
@@ -9,7 +9,7 @@ export interface Props {
   review: {
     actualIndex: number;
     details: EvaluationDetail[];
-    diffLevel: DiffLevel | undefined;
+    diffLevel: DiffLevel;
   } | null;
 }
 
@@ -17,9 +17,8 @@ const maxHeight = 50;
 
 export const ReviewWindow: React.FC<Props> = ({ review }) => {
   const theme = useTheme();
-  const showDiff = !(
-    review?.diffLevel === 'None' || review?.diffLevel === undefined
-  );
+  const showDiff =
+    review?.diffLevel && review.diffLevel !== 'None' ? true : false;
   return (
     <Stack
       direction='row'
@@ -71,6 +70,7 @@ export const ReviewWindow: React.FC<Props> = ({ review }) => {
           );
         }
       })}
+      <Typography variant='h6'>{showDiff ? review?.diffLevel : ''}</Typography>
     </Stack>
   );
 };
