@@ -55,18 +55,15 @@ export const createReviewState = (
       index++;
 
       /**
-       * Get the current enty and get the pro, calculate the diff level
+       * Get the current entry and get the prod, calculate the diff level
        */
       const rawActualProb = entry.details[entry.actualIndex].prob;
-      const actualProb = (Math.round(rawActualProb * 100000) / 100000) * 100;
-      if (actualProb < 1) {
-        diffLevel = 'Critical';
-      } else if (actualProb < 5) {
-        diffLevel = 'Significant';
-      } else if (actualProb < 25) {
-        diffLevel = 'Moderate';
-      } else {
+      if (entry.isEqual) {
         diffLevel = 'None';
+      } else if (rawActualProb <= 0.05) {
+        diffLevel = 'Critical';
+      } else {
+        diffLevel = 'Optimal';
       }
     } else {
       entry = undefined;

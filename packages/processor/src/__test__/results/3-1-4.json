@@ -1924,7 +1924,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Moderate",
+            "diffLevel": "Optimal",
             "actualIndex": 1
           },
           "tilesLeft": 63
@@ -3034,7 +3034,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None",
+            "diffLevel": "Optimal",
             "actualIndex": 1
           },
           "tilesLeft": 59
@@ -4212,7 +4212,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None",
+            "diffLevel": "Optimal",
             "actualIndex": 1
           },
           "tilesLeft": 55
@@ -7819,7 +7819,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant",
+            "diffLevel": "Critical",
             "actualIndex": 1
           },
           "tilesLeft": 43
@@ -16595,7 +16595,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant",
+            "diffLevel": "Critical",
             "actualIndex": 1
           },
           "tilesLeft": 48
@@ -24540,7 +24540,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None",
+            "diffLevel": "Optimal",
             "actualIndex": 1
           },
           "tilesLeft": 52
@@ -25488,7 +25488,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None",
+            "diffLevel": "Optimal",
             "actualIndex": 1
           },
           "tilesLeft": 49
@@ -25879,7 +25879,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant",
+            "diffLevel": "Critical",
             "actualIndex": 1
           },
           "tilesLeft": 49
@@ -58751,7 +58751,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None",
+            "diffLevel": "Optimal",
             "actualIndex": 1
           },
           "tilesLeft": 33
@@ -61439,7 +61439,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant",
+            "diffLevel": "Critical",
             "actualIndex": 1
           },
           "tilesLeft": 25
@@ -91210,7 +91210,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None",
+            "diffLevel": "Optimal",
             "actualIndex": 1
           },
           "tilesLeft": 67
@@ -95756,7 +95756,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Moderate",
+            "diffLevel": "Optimal",
             "actualIndex": 2
           },
           "tilesLeft": 51
@@ -96973,7 +96973,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "None",
+            "diffLevel": "Optimal",
             "actualIndex": 1
           },
           "tilesLeft": 47
@@ -103911,7 +103911,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant",
+            "diffLevel": "Critical",
             "actualIndex": 2
           },
           "tilesLeft": 64
@@ -108506,7 +108506,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Moderate",
+            "diffLevel": "Optimal",
             "actualIndex": 1
           },
           "tilesLeft": 48
@@ -129112,7 +129112,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Significant",
+            "diffLevel": "Critical",
             "actualIndex": 1
           },
           "tilesLeft": 53
@@ -133371,7 +133371,7 @@
               }
             ],
             "isEqual": false,
-            "diffLevel": "Moderate",
+            "diffLevel": "Optimal",
             "actualIndex": 1
           },
           "tilesLeft": 42
