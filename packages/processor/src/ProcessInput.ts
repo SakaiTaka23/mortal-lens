@@ -1,4 +1,5 @@
 import {
+  DiffOverview,
   Input,
   KyokuUnit,
   MetaState,
@@ -12,6 +13,7 @@ import { MetaStateProcessor } from './state/MetaStateProcessor';
 import { ReviewMetaStateProcessor } from './state/ReviewMetaStateProcessor';
 import { ScoreOverviewProcessor } from './state/ScoreOverviewProcessor';
 import { createReviewState } from './state/step/ReviewStateProcessor';
+import { TagStateProcessor } from './state/TagProcessor';
 
 /**
  * Main function to convert the input to the output
@@ -20,9 +22,11 @@ export const ProcessInput = (input: Input): Output => {
   const metaState: MetaState = MetaStateProcessor(input);
   const reviewMetaState = ReviewMetaStateProcessor(input);
   const scoreOverviewState = ScoreOverviewProcessor();
+  const tagState = TagStateProcessor();
 
   const kyokuLog = splitKyoku(input.mjaiLog);
   const kyokus: KyokuUnit[] = [];
+  const diffs: DiffOverview[] = [];
   kyokuLog.forEach((log, i) => {
     const gameState = createGameState(log[0] as StartKyoku);
     const reviewKyoku = input.review.kyokus[i];
@@ -40,14 +44,20 @@ export const ProcessInput = (input: Input): Output => {
       gameState.handle(event);
       reviewState.handle(event);
 
+      const review = reviewState.checkMapping(gameState);
       const snapShot: StepState = {
         dora: gameState.DoraState.get(),
         hand: gameState.TehaiState.get(),
         kawa: gameState.KawaState.get().kawas,
-        review: reviewState.checkMapping(gameState),
+        review,
         tilesLeft: gameState.KawaState.remaining(),
       };
       steps.push(snapShot);
+
+      const diff = tagState.getTags(gameState, review, input.playerID);
+      if (diff) {
+        diffs.push(diff);
+      }
     });
 
     /**
@@ -70,6 +80,7 @@ export const ProcessInput = (input: Input): Output => {
     playerID: input.playerID,
     reviewMeta: reviewMetaState,
     kyokus,
+    diffs,
     scoreOverview: scoreOverviewState.currentResult(),
   };
 };

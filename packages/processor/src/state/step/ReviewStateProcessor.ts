@@ -78,6 +78,7 @@ export const createReviewState = (
           isEqual: entry.isEqual,
           diffLevel,
           actualIndex: entry.actualIndex,
+          shanten: entry.shanten,
         } satisfies ReviewOutputState);
   };
 
