@@ -24,7 +24,7 @@
     "@mortal-lens/prettier-config": "workspace:^",
     "@mortal-lens/tsconfig-config": "workspace:^",
     "eslint": "^9.26.0",
-    "mjai-ts": "^0.1.4",
+    "mjai-ts": "^0.1.6",
     "prettier": "^3.5.3",
     "tsup": "^8.4.0",
     "vitest": "^3.1.3"

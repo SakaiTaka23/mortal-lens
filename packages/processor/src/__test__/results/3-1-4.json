@@ -849,7 +849,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 5
           },
           "tilesLeft": 67
         },
@@ -1925,7 +1926,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Optimal",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 5
           },
           "tilesLeft": 63
         },
@@ -3035,7 +3037,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Optimal",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 4
           },
           "tilesLeft": 59
         },
@@ -3927,7 +3930,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 56
         },
@@ -4213,7 +4217,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Optimal",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 3
           },
           "tilesLeft": 55
         },
@@ -5387,7 +5392,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 51
         },
@@ -6593,7 +6599,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 47
         },
@@ -7820,7 +7827,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 2
           },
           "tilesLeft": 43
         },
@@ -9079,7 +9087,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 39
         },
@@ -9539,7 +9548,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 38
         },
@@ -10637,7 +10647,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 4
           },
           "tilesLeft": 69
         },
@@ -10907,7 +10918,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 4
           },
           "tilesLeft": 68
         },
@@ -11971,7 +11983,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 64
         },
@@ -13073,7 +13086,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 60
         },
@@ -14207,7 +14221,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 56
         },
@@ -15373,7 +15388,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 52
         },
@@ -16314,7 +16330,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 49
         },
@@ -16596,7 +16613,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 2
           },
           "tilesLeft": 48
         },
@@ -17565,7 +17583,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 45
         },
@@ -17862,7 +17881,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 44
         },
@@ -18877,7 +18897,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 42
         },
@@ -20218,7 +20239,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 68
         },
@@ -21249,7 +21271,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 3
           },
           "tilesLeft": 64
         },
@@ -22318,7 +22341,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 60
         },
@@ -23408,7 +23432,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 3
+            "actualIndex": 3,
+            "shanten": 2
           },
           "tilesLeft": 56
         },
@@ -24541,7 +24566,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Optimal",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 2
           },
           "tilesLeft": 52
         },
@@ -25489,7 +25515,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Optimal",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 2
           },
           "tilesLeft": 49
         },
@@ -25880,7 +25907,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 1
           },
           "tilesLeft": 49
         },
@@ -27004,7 +27032,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 45
         },
@@ -28302,7 +28331,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 41
         },
@@ -28803,7 +28833,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 40
         },
@@ -29221,7 +29252,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 40
         },
@@ -30502,7 +30534,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 37
         },
@@ -32002,7 +32035,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 33
         },
@@ -33534,7 +33568,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 29
         },
@@ -35098,7 +35133,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 25
         },
@@ -36694,7 +36730,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 21
         },
@@ -38069,7 +38106,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 18
         },
@@ -38358,7 +38396,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 17
         },
@@ -40018,7 +40057,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 13
         },
@@ -41751,7 +41791,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 10
         },
@@ -43539,7 +43580,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 6
         },
@@ -45359,7 +45401,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 2
         },
@@ -47821,7 +47864,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 4
           },
           "tilesLeft": 69
         },
@@ -48860,7 +48904,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 4
           },
           "tilesLeft": 65
         },
@@ -49943,7 +49988,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 61
         },
@@ -51058,7 +51104,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 57
         },
@@ -52194,7 +52241,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 53
         },
@@ -53373,7 +53421,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 4
+            "actualIndex": 4,
+            "shanten": 2
           },
           "tilesLeft": 49
         },
@@ -54335,7 +54384,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 46
         },
@@ -54620,7 +54670,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 45
         },
@@ -55881,7 +55932,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 42
         },
@@ -56170,7 +56222,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 4
+            "actualIndex": 4,
+            "shanten": 1
           },
           "tilesLeft": 41
         },
@@ -57445,7 +57498,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 37
         },
@@ -58752,7 +58806,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Optimal",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 2
           },
           "tilesLeft": 33
         },
@@ -60080,7 +60135,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 29
         },
@@ -61440,7 +61496,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 3
           },
           "tilesLeft": 25
         },
@@ -62567,7 +62624,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 23
         },
@@ -64063,7 +64121,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 19
         },
@@ -65580,7 +65639,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 15
         },
@@ -67129,7 +67189,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 11
         },
@@ -68710,7 +68771,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 2
           },
           "tilesLeft": 7
         },
@@ -70323,7 +70385,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 3
         },
@@ -71901,7 +71964,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 5
           },
           "tilesLeft": 67
         },
@@ -72175,7 +72239,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 5
           },
           "tilesLeft": 66
         },
@@ -73261,7 +73326,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 4
           },
           "tilesLeft": 62
         },
@@ -74132,7 +74198,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 59
         },
@@ -74404,7 +74471,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 58
         },
@@ -75364,7 +75432,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 56
         },
@@ -75650,7 +75719,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 55
         },
@@ -77800,7 +77870,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 49
         },
@@ -78909,7 +78980,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 46
         },
@@ -79193,7 +79265,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 45
         },
@@ -80345,7 +80418,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 42
         },
@@ -80633,7 +80707,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 41
         },
@@ -82054,7 +82129,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 37
         },
@@ -83516,7 +83592,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 3
+            "actualIndex": 3,
+            "shanten": 1
           },
           "tilesLeft": 33
         },
@@ -85006,7 +85083,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 29
         },
@@ -85215,7 +85293,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 29
         },
@@ -91211,7 +91290,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Optimal",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 5
           },
           "tilesLeft": 67
         },
@@ -92298,7 +92378,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 5
           },
           "tilesLeft": 63
         },
@@ -93419,7 +93500,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 5
           },
           "tilesLeft": 59
         },
@@ -94572,7 +94654,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 5
           },
           "tilesLeft": 55
         },
@@ -95757,7 +95840,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Optimal",
-            "actualIndex": 2
+            "actualIndex": 2,
+            "shanten": 4
           },
           "tilesLeft": 51
         },
@@ -96974,7 +97058,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Optimal",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 4
           },
           "tilesLeft": 47
         },
@@ -98223,7 +98308,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 43
         },
@@ -99493,7 +99579,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 39
         },
@@ -100846,7 +100933,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 36
         },
@@ -102859,7 +102947,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 68
         },
@@ -103912,7 +104001,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 2
+            "actualIndex": 2,
+            "shanten": 3
           },
           "tilesLeft": 64
         },
@@ -104992,7 +105082,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 60
         },
@@ -105632,7 +105723,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 58
         },
@@ -105913,7 +106005,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 57
         },
@@ -106176,7 +106269,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 56
         },
@@ -107320,7 +107414,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 52
         },
@@ -108507,7 +108602,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Optimal",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 2
           },
           "tilesLeft": 48
         },
@@ -108940,7 +109036,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 47
         },
@@ -109762,7 +109859,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 44
         },
@@ -110759,7 +110857,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 41
         },
@@ -111049,7 +111148,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 40
         },
@@ -112326,7 +112426,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 36
         },
@@ -112510,7 +112611,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 36
         },
@@ -123737,7 +123839,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 69
         },
@@ -125305,7 +125408,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 64
         },
@@ -126537,7 +126641,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 61
         },
@@ -127809,7 +127914,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 57
         },
@@ -129113,7 +129219,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Critical",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 2
           },
           "tilesLeft": 53
         },
@@ -130208,7 +130315,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 50
         },
@@ -130650,7 +130758,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 50
         },
@@ -131914,7 +132023,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 46
         },
@@ -133372,7 +133482,8 @@
             ],
             "isEqual": false,
             "diffLevel": "Optimal",
-            "actualIndex": 1
+            "actualIndex": 1,
+            "shanten": 1
           },
           "tilesLeft": 42
         },
@@ -134873,7 +134984,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 38
         },
@@ -136406,7 +136518,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 34
         },
@@ -137711,7 +137824,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 31
         },
@@ -138198,7 +138312,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 31
         },
@@ -140032,7 +140147,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 0
           },
           "tilesLeft": 27
         },
@@ -142471,7 +142587,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 4
           },
           "tilesLeft": 66
         },
@@ -144093,7 +144210,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 61
         },
@@ -145048,7 +145166,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 58
         },
@@ -145354,7 +145473,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 3
           },
           "tilesLeft": 57
         },
@@ -146398,7 +146518,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 55
         },
@@ -146718,7 +146839,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 2
           },
           "tilesLeft": 54
         },
@@ -147851,7 +147973,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 52
         },
@@ -148173,7 +148296,8 @@
             ],
             "isEqual": true,
             "diffLevel": "None",
-            "actualIndex": 0
+            "actualIndex": 0,
+            "shanten": 1
           },
           "tilesLeft": 51
         },
@@ -149642,6 +149766,270 @@
           "tilesLeft": 48
         }
       ]
+    }
+  ],
+  "diffs": [
+    {
+      "kyoku": 1,
+      "honba": 0,
+      "diffLevel": "Optimal",
+      "junme": 2,
+      "aiProbability": 0.2047928,
+      "tags": [
+        "jihai&suhai"
+      ],
+      "shanten": 5
+    },
+    {
+      "kyoku": 1,
+      "honba": 0,
+      "diffLevel": "Optimal",
+      "junme": 3,
+      "aiProbability": 0.31088492,
+      "tags": [
+        "jihai&suhai"
+      ],
+      "shanten": 4
+    },
+    {
+      "kyoku": 1,
+      "honba": 0,
+      "diffLevel": "Optimal",
+      "junme": 4,
+      "aiProbability": 0.45467183,
+      "tags": [
+        "jihai&suhai"
+      ],
+      "shanten": 3
+    },
+    {
+      "kyoku": 1,
+      "honba": 0,
+      "diffLevel": "Critical",
+      "junme": 7,
+      "aiProbability": 0.02032758,
+      "tags": [
+        "suhai&suhai"
+      ],
+      "shanten": 2
+    },
+    {
+      "kyoku": 2,
+      "honba": 0,
+      "diffLevel": "Critical",
+      "junme": 6,
+      "aiProbability": 0.012029177,
+      "tags": [
+        "suhai&suhai"
+      ],
+      "shanten": 2
+    },
+    {
+      "kyoku": 2,
+      "honba": 1,
+      "diffLevel": "Critical",
+      "junme": 2,
+      "aiProbability": 0.000004551774,
+      "tags": [
+        "jihai&suhai"
+      ],
+      "shanten": 3
+    },
+    {
+      "kyoku": 2,
+      "honba": 1,
+      "diffLevel": "Critical",
+      "junme": 4,
+      "aiProbability": 0.0000014528655,
+      "tags": [
+        "suhai&suhai"
+      ],
+      "shanten": 2
+    },
+    {
+      "kyoku": 2,
+      "honba": 1,
+      "diffLevel": "Optimal",
+      "junme": 5,
+      "aiProbability": 0.3916975,
+      "tags": [
+        "suhai&suhai"
+      ],
+      "shanten": 2
+    },
+    {
+      "kyoku": 2,
+      "honba": 1,
+      "diffLevel": "Optimal",
+      "junme": 6,
+      "aiProbability": 0.49504346,
+      "tags": [
+        "naki"
+      ],
+      "shanten": 2
+    },
+    {
+      "kyoku": 2,
+      "honba": 1,
+      "diffLevel": "Critical",
+      "junme": 6,
+      "aiProbability": 0.030980859,
+      "tags": [
+        "suhai&suhai",
+        "myfuuro"
+      ],
+      "shanten": 1
+    },
+    {
+      "kyoku": 3,
+      "honba": 2,
+      "diffLevel": "Critical",
+      "junme": 5,
+      "aiProbability": 0.000244838,
+      "tags": [
+        "suhai&suhai"
+      ],
+      "shanten": 2
+    },
+    {
+      "kyoku": 3,
+      "honba": 2,
+      "diffLevel": "Critical",
+      "junme": 7,
+      "aiProbability": 0.005605871,
+      "tags": [
+        "jihai&suhai",
+        "riichi_op"
+      ],
+      "shanten": 1
+    },
+    {
+      "kyoku": 3,
+      "honba": 2,
+      "diffLevel": "Optimal",
+      "junme": 9,
+      "aiProbability": 0.45676,
+      "tags": [
+        "suhai&suhai",
+        "riichi_op"
+      ],
+      "shanten": 2
+    },
+    {
+      "kyoku": 3,
+      "honba": 2,
+      "diffLevel": "Critical",
+      "junme": 11,
+      "aiProbability": 0.036327153,
+      "tags": [
+        "suhai&suhai",
+        "riichi_op"
+      ],
+      "shanten": 3
+    },
+    {
+      "kyoku": 3,
+      "honba": 2,
+      "diffLevel": "Critical",
+      "junme": 16,
+      "aiProbability": 0.0022016685,
+      "tags": [
+        "jihai&jihai",
+        "riichi_op"
+      ],
+      "shanten": 2
+    },
+    {
+      "kyoku": 4,
+      "honba": 0,
+      "diffLevel": "Critical",
+      "junme": 10,
+      "aiProbability": 0.005831527,
+      "tags": [
+        "suhai&suhai",
+        "fuuro_op"
+      ],
+      "shanten": 1
+    },
+    {
+      "kyoku": 1,
+      "honba": 0,
+      "diffLevel": "Optimal",
+      "junme": 1,
+      "aiProbability": 0.3646978,
+      "tags": [
+        "jihai&jihai"
+      ],
+      "shanten": 5
+    },
+    {
+      "kyoku": 1,
+      "honba": 0,
+      "diffLevel": "Optimal",
+      "junme": 5,
+      "aiProbability": 0.13901982,
+      "tags": [
+        "jihai&jihai"
+      ],
+      "shanten": 4
+    },
+    {
+      "kyoku": 1,
+      "honba": 0,
+      "diffLevel": "Optimal",
+      "junme": 6,
+      "aiProbability": 0.41228023,
+      "tags": [
+        "jihai&jihai"
+      ],
+      "shanten": 4
+    },
+    {
+      "kyoku": 2,
+      "honba": 0,
+      "diffLevel": "Critical",
+      "junme": 2,
+      "aiProbability": 0.012145256,
+      "tags": [
+        "jihai&suhai"
+      ],
+      "shanten": 3
+    },
+    {
+      "kyoku": 2,
+      "honba": 0,
+      "diffLevel": "Optimal",
+      "junme": 6,
+      "aiProbability": 0.22977817,
+      "tags": [
+        "suhai&suhai"
+      ],
+      "shanten": 2
+    },
+    {
+      "kyoku": 3,
+      "honba": 0,
+      "diffLevel": "Critical",
+      "junme": 4,
+      "aiProbability": 0.018613461,
+      "tags": [
+        "suhai&suhai",
+        "fuuro_op"
+      ],
+      "shanten": 2
+    },
+    {
+      "kyoku": 3,
+      "honba": 0,
+      "diffLevel": "Optimal",
+      "junme": 7,
+      "aiProbability": 0.0637298,
+      "tags": [
+        "jihai&suhai",
+        "myfuuro",
+        "fuuro_op"
+      ],
+      "shanten": 1
     }
   ],
   "scoreOverview": [
