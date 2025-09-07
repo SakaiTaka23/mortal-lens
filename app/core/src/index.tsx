@@ -2,6 +2,7 @@ import { ProcessInput } from '@mortal-lens/processor';
 import { Input } from '@mortal-lens/types';
 import {
   Control,
+  DiffOverviewTable,
   Jantaku,
   Overview,
   OverviewDetail,
@@ -42,37 +43,40 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
   }, [input, setOutput]);
 
   return (
-    <Stack direction='row' spacing={2}>
-      <Jantaku
-        playerID={output.playerID}
-        {...currentKyokuMeta}
-        {...currentKyokuStep}
-        overview={output.scoreOverview}
-        jumpKyoku={setKyoku}
-        hideTiles={hideTile}
-      />
-      <Stack direction='column'>
-        <Box sx={{ marginBottom: 5 }}>
-          <Control
-            meta={output.meta}
-            reviewMeta={output.reviewMeta}
-            prevKyokuOnClick={prevKyoku}
-            nextKyokuOnClick={nextKyoku}
-            prevErrorOnClick={prevError}
-            nextErrorOnClick={nextError}
-            prevChoiceOnClick={prevChoice}
-            nextChoiceOnClick={nextChoice}
-            prevOnClick={prev}
-            nextOnClick={next}
-            toggleHidden={toggleHideTile}
-          />
-        </Box>
-        <ReviewWindow review={currentKyokuStep.review ?? null} />
+    <>
+      <Stack direction='row' spacing={2}>
+        <Jantaku
+          playerID={output.playerID}
+          {...currentKyokuMeta}
+          {...currentKyokuStep}
+          overview={output.scoreOverview}
+          jumpKyoku={setKyoku}
+          hideTiles={hideTile}
+        />
+        <Stack direction='column'>
+          <Box sx={{ marginBottom: 5 }}>
+            <Control
+              meta={output.meta}
+              reviewMeta={output.reviewMeta}
+              prevKyokuOnClick={prevKyoku}
+              nextKyokuOnClick={nextKyoku}
+              prevErrorOnClick={prevError}
+              nextErrorOnClick={nextError}
+              prevChoiceOnClick={prevChoice}
+              nextChoiceOnClick={nextChoice}
+              prevOnClick={prev}
+              nextOnClick={next}
+              toggleHidden={toggleHideTile}
+            />
+          </Box>
+          <ReviewWindow review={currentKyokuStep.review ?? null} />
+        </Stack>
+        <Stack direction='column'>
+          <Overview review={currentKyokuStep.review ?? null} />
+          <OverviewDetail detail={currentKyokuStep.review?.details ?? null} />
+        </Stack>
       </Stack>
-      <Stack direction='column'>
-        <Overview review={currentKyokuStep.review ?? null} />
-        <OverviewDetail detail={currentKyokuStep.review?.details ?? null} />
-      </Stack>
-    </Stack>
+      <DiffOverviewTable diff={output.diffs} />
+    </>
   );
 };
