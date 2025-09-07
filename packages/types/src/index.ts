@@ -8,6 +8,9 @@ import {
 } from './Input';
 import {
   DiffLevel,
+  DiffOverview,
+  DiffTag,
+  DiffTagType,
   KyokuUnit,
   MetaState,
   Output,
@@ -26,5 +29,8 @@ export type {
   ReviewState,
   StepState,
   DiffLevel,
+  DiffTagType,
+  DiffOverview,
   ScoreOverview,
 };
+export { DiffTag };

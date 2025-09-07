@@ -48,6 +48,7 @@ export interface ReviewState {
   isEqual: boolean;
   diffLevel: DiffLevel;
   actualIndex: number;
+  shanten: number;
 }
 
 export interface ReviewMetaState {

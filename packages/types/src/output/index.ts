@@ -11,6 +11,7 @@ export interface Output {
   playerID: PlayerID;
   reviewMeta: ReviewMetaState;
   kyokus: KyokuUnit[];
+  diffs: DiffOverview[];
   scoreOverview: ScoreOverview[];
 }
 
@@ -40,3 +41,36 @@ export interface StepState {
   review?: ReviewState;
   tilesLeft: number;
 }
+
+export interface DiffOverview {
+  kyoku: number;
+  honba: number;
+  diffLevel: DiffLevel;
+  junme: number;
+  aiProbability: number;
+  tags: DiffTagType[];
+  shanten: number;
+}
+
+/**
+ * - suhai&suhai: expected and actual are both suhai
+ * - jihai&jihai: expected and actual are both jihai
+ * - jihai&suhai: expected is jihai, actual is suhai
+ * - naki: naki decision
+ * - riichi: riichi or hora decision
+ * - riichi_op: there is riichi from opponent
+ * - fuuro_op: there is a opponent with more than 2 fuuro
+ * - myfuuro: the player has at least 1 fuuro
+ */
+export const DiffTag = {
+  SuhaiSuhai: 'suhai&suhai',
+  JihaiJihai: 'jihai&jihai',
+  JihaiSuhai: 'jihai&suhai',
+  Naki: 'naki',
+  Riichi: 'riichi',
+  RiichiOp: 'riichi_op',
+  FuuroOp: 'fuuro_op',
+  MyFuuro: 'myfuuro',
+} as const;
+
+export type DiffTagType = (typeof DiffTag)[keyof typeof DiffTag];
