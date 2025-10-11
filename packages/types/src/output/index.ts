@@ -43,6 +43,7 @@ export interface StepState {
 }
 
 export interface DiffOverview {
+  bakaze: 'E' | 'S' | 'W';
   kyoku: number;
   honba: number;
   diffLevel: DiffLevel;

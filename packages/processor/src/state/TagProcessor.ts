@@ -29,6 +29,7 @@ export const TagStateProcessor = (): TagStateProcessorState => {
     tags.push(...statusTags(gameState, playerID));
 
     return {
+      bakaze: gameState.KyokuState.bakaze(),
       kyoku: gameState.KyokuState.kyoku(),
       honba: gameState.KyokuState.honba(),
       diffLevel: reviewState.diffLevel,
