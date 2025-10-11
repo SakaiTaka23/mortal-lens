@@ -19,7 +19,7 @@
   "kyokus": [
     {
       "bakaze": "E",
-      "kyoku": 0,
+      "kyoku": 1,
       "honba": 0,
       "oya": 0,
       "endStatus": [
@@ -13330,7 +13330,7 @@
     },
     {
       "bakaze": "E",
-      "kyoku": 1,
+      "kyoku": 2,
       "honba": 0,
       "oya": 1,
       "endStatus": [
@@ -29128,7 +29128,7 @@
     },
     {
       "bakaze": "E",
-      "kyoku": 1,
+      "kyoku": 2,
       "honba": 1,
       "oya": 1,
       "endStatus": [
@@ -41370,7 +41370,7 @@
     },
     {
       "bakaze": "E",
-      "kyoku": 1,
+      "kyoku": 2,
       "honba": 2,
       "oya": 1,
       "endStatus": [
@@ -61565,7 +61565,7 @@
     },
     {
       "bakaze": "E",
-      "kyoku": 2,
+      "kyoku": 3,
       "honba": 0,
       "oya": 2,
       "endStatus": [
@@ -88119,7 +88119,7 @@
     },
     {
       "bakaze": "E",
-      "kyoku": 2,
+      "kyoku": 3,
       "honba": 1,
       "oya": 2,
       "endStatus": [
@@ -106503,7 +106503,7 @@
     },
     {
       "bakaze": "E",
-      "kyoku": 2,
+      "kyoku": 3,
       "honba": 2,
       "oya": 2,
       "endStatus": [
@@ -124188,7 +124188,7 @@
     },
     {
       "bakaze": "E",
-      "kyoku": 3,
+      "kyoku": 4,
       "honba": 0,
       "oya": 3,
       "endStatus": [
@@ -144133,7 +144133,7 @@
     },
     {
       "bakaze": "S",
-      "kyoku": 4,
+      "kyoku": 5,
       "honba": 0,
       "oya": 0,
       "endStatus": [
@@ -155305,7 +155305,7 @@
     },
     {
       "bakaze": "S",
-      "kyoku": 5,
+      "kyoku": 6,
       "honba": 0,
       "oya": 1,
       "endStatus": [
