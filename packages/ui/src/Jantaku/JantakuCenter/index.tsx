@@ -3,6 +3,7 @@ import { Box, Button, Modal, Typography } from '@mui/material';
 import { PlayerID, Tile } from 'mjai-ts';
 import { useState } from 'react';
 
+import { convertKyokuFormat } from '@/common/kyokuFormat';
 import { ScoreOverview } from '@/Jantaku/JantakuCenter/ScoreOverview';
 
 import { DoraMarker } from '../Tiles/DoraMarker';
@@ -81,11 +82,7 @@ export const JantakuCenter = ({
         }}
       >
         <Button variant='contained' onClick={handleOpenScores} fullWidth>
-          <Typography>
-            {bakaze}
-            {kyoku}
-            {honba != 0 ? `-${honba}` : ''}
-          </Typography>
+          <Typography>{convertKyokuFormat(bakaze, kyoku, honba)}</Typography>
         </Button>
         <Modal open={openScores} onClose={handleCloseScores}>
           <ScoreOverview
