@@ -8,6 +8,8 @@ import {
   MRT_Row,
 } from 'material-react-table';
 
+import { convertKyokuFormat } from '@/common/kyokuFormat';
+
 export const useColumns = (): MRT_ColumnDef<DiffOverview>[] => [
   {
     accessorKey: 'diffLevel',
@@ -51,13 +53,9 @@ export const useColumns = (): MRT_ColumnDef<DiffOverview>[] => [
     size: 0,
   },
   {
-    accessorKey: 'kyoku',
+    accessorFn: (row) => convertKyokuFormat(row.bakaze, row.kyoku, row.honba),
+    id: 'kyoku',
     header: 'Kyoku',
-    size: 0,
-  },
-  {
-    accessorKey: 'honba',
-    header: 'Honba',
     size: 0,
   },
   {

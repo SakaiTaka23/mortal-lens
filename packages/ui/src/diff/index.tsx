@@ -19,7 +19,7 @@ export const DiffOverviewTable: React.FC<Props> = ({ diff }) => {
     enableGrouping: true,
     initialState: {
       density: 'compact',
-      grouping: ['kyoku', 'honba'],
+      grouping: ['kyoku'],
       pagination: {
         pageSize: 50,
         pageIndex: 0,

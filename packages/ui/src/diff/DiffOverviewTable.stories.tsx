@@ -14,6 +14,7 @@ type Story = Meta<typeof DiffOverviewTable>;
 
 const oneJSONDiff = [
   {
+    bakaze: 'E',
     kyoku: 1,
     honba: 0,
     diffLevel: 'Optimal',
@@ -23,6 +24,7 @@ const oneJSONDiff = [
     shanten: 4,
   },
   {
+    bakaze: 'E',
     kyoku: 1,
     honba: 0,
     diffLevel: 'Optimal',
@@ -32,6 +34,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'E',
     kyoku: 1,
     honba: 0,
     diffLevel: 'Critical',
@@ -41,6 +44,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'E',
     kyoku: 1,
     honba: 0,
     diffLevel: 'Optimal',
@@ -50,6 +54,7 @@ const oneJSONDiff = [
     shanten: 1,
   },
   {
+    bakaze: 'E',
     kyoku: 1,
     honba: 0,
     diffLevel: 'Critical',
@@ -59,6 +64,7 @@ const oneJSONDiff = [
     shanten: 1,
   },
   {
+    bakaze: 'E',
     kyoku: 2,
     honba: 1,
     diffLevel: 'Optimal',
@@ -68,6 +74,7 @@ const oneJSONDiff = [
     shanten: 4,
   },
   {
+    bakaze: 'E',
     kyoku: 2,
     honba: 1,
     diffLevel: 'Optimal',
@@ -77,6 +84,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'E',
     kyoku: 2,
     honba: 1,
     diffLevel: 'Optimal',
@@ -86,6 +94,7 @@ const oneJSONDiff = [
     shanten: 2,
   },
   {
+    bakaze: 'E',
     kyoku: 2,
     honba: 1,
     diffLevel: 'Critical',
@@ -95,6 +104,7 @@ const oneJSONDiff = [
     shanten: 2,
   },
   {
+    bakaze: 'E',
     kyoku: 2,
     honba: 1,
     diffLevel: 'Optimal',
@@ -104,6 +114,7 @@ const oneJSONDiff = [
     shanten: 1,
   },
   {
+    bakaze: 'E',
     kyoku: 2,
     honba: 1,
     diffLevel: 'Optimal',
@@ -113,6 +124,7 @@ const oneJSONDiff = [
     shanten: 1,
   },
   {
+    bakaze: 'E',
     kyoku: 3,
     honba: 0,
     diffLevel: 'Critical',
@@ -122,6 +134,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'E',
     kyoku: 3,
     honba: 0,
     diffLevel: 'Critical',
@@ -131,6 +144,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'E',
     kyoku: 3,
     honba: 0,
     diffLevel: 'Critical',
@@ -140,6 +154,7 @@ const oneJSONDiff = [
     shanten: 2,
   },
   {
+    bakaze: 'E',
     kyoku: 3,
     honba: 0,
     diffLevel: 'Optimal',
@@ -149,6 +164,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'E',
     kyoku: 3,
     honba: 0,
     diffLevel: 'Critical',
@@ -158,6 +174,7 @@ const oneJSONDiff = [
     shanten: 1,
   },
   {
+    bakaze: 'E',
     kyoku: 3,
     honba: 0,
     diffLevel: 'Critical',
@@ -167,6 +184,7 @@ const oneJSONDiff = [
     shanten: 1,
   },
   {
+    bakaze: 'E',
     kyoku: 4,
     honba: 0,
     diffLevel: 'Optimal',
@@ -176,6 +194,7 @@ const oneJSONDiff = [
     shanten: 4,
   },
   {
+    bakaze: 'E',
     kyoku: 4,
     honba: 0,
     diffLevel: 'Optimal',
@@ -185,6 +204,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'E',
     kyoku: 4,
     honba: 0,
     diffLevel: 'Critical',
@@ -194,6 +214,7 @@ const oneJSONDiff = [
     shanten: 2,
   },
   {
+    bakaze: 'E',
     kyoku: 4,
     honba: 0,
     diffLevel: 'Critical',
@@ -203,6 +224,7 @@ const oneJSONDiff = [
     shanten: 2,
   },
   {
+    bakaze: 'S',
     kyoku: 1,
     honba: 0,
     diffLevel: 'Optimal',
@@ -212,6 +234,7 @@ const oneJSONDiff = [
     shanten: 4,
   },
   {
+    bakaze: 'S',
     kyoku: 1,
     honba: 0,
     diffLevel: 'Optimal',
@@ -221,6 +244,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'S',
     kyoku: 1,
     honba: 0,
     diffLevel: 'Optimal',
@@ -230,6 +254,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'S',
     kyoku: 1,
     honba: 0,
     diffLevel: 'Critical',
@@ -239,6 +264,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'S',
     kyoku: 1,
     honba: 0,
     diffLevel: 'Critical',
@@ -248,6 +274,7 @@ const oneJSONDiff = [
     shanten: 2,
   },
   {
+    bakaze: 'S',
     kyoku: 2,
     honba: 0,
     diffLevel: 'Optimal',
@@ -257,6 +284,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'S',
     kyoku: 2,
     honba: 0,
     diffLevel: 'Optimal',
@@ -266,6 +294,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'S',
     kyoku: 2,
     honba: 0,
     diffLevel: 'Optimal',
@@ -275,6 +304,7 @@ const oneJSONDiff = [
     shanten: 1,
   },
   {
+    bakaze: 'S',
     kyoku: 3,
     honba: 0,
     diffLevel: 'Optimal',
@@ -284,6 +314,7 @@ const oneJSONDiff = [
     shanten: 2,
   },
   {
+    bakaze: 'S',
     kyoku: 3,
     honba: 0,
     diffLevel: 'Optimal',
@@ -293,6 +324,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'S',
     kyoku: 3,
     honba: 0,
     diffLevel: 'Optimal',
@@ -302,6 +334,7 @@ const oneJSONDiff = [
     shanten: 3,
   },
   {
+    bakaze: 'S',
     kyoku: 4,
     honba: 0,
     diffLevel: 'Optimal',
@@ -311,6 +344,7 @@ const oneJSONDiff = [
     shanten: 1,
   },
   {
+    bakaze: 'S',
     kyoku: 4,
     honba: 0,
     diffLevel: 'Optimal',
