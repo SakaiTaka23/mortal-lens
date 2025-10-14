@@ -11,6 +11,8 @@ import {
 import { PlayerID } from 'mjai-ts';
 import React from 'react';
 
+import { convertKyokuFormat } from '@/common/kyokuFormat';
+
 const getPlayerOrder = (selfIndex: PlayerID): string[] => {
   const positions = ['Self', 'Shimocha', 'Toimen', 'Kamicha'];
   const result: string[] = [];
@@ -55,8 +57,7 @@ export const ScoreOverview: React.FC<Props> = ({
           {overview.map((row, i) => (
             <TableRow key={i} hover onClick={() => jumpKyoku(i)}>
               <TableCell>
-                {row.bakaze}
-                {row.kyoku} {row.honba}
+                {convertKyokuFormat(row.bakaze, row.kyoku, row.honba)}
               </TableCell>
               <TableCell>{row.scores[0]}</TableCell>
               <TableCell>{row.scores[1]}</TableCell>

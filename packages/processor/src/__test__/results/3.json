@@ -19,7 +19,7 @@
   "kyokus": [
     {
       "bakaze": "E",
-      "kyoku": 0,
+      "kyoku": 1,
       "honba": 0,
       "oya": 0,
       "endStatus": [
@@ -10293,7 +10293,7 @@
     },
     {
       "bakaze": "E",
-      "kyoku": 1,
+      "kyoku": 2,
       "honba": 0,
       "oya": 1,
       "endStatus": [
@@ -30880,7 +30880,7 @@
     },
     {
       "bakaze": "E",
-      "kyoku": 2,
+      "kyoku": 3,
       "honba": 0,
       "oya": 2,
       "endStatus": [
@@ -50497,7 +50497,7 @@
     },
     {
       "bakaze": "E",
-      "kyoku": 3,
+      "kyoku": 4,
       "honba": 0,
       "oya": 3,
       "endStatus": [
@@ -69248,7 +69248,7 @@
     },
     {
       "bakaze": "S",
-      "kyoku": 4,
+      "kyoku": 1,
       "honba": 0,
       "oya": 0,
       "endStatus": [
@@ -90079,7 +90079,7 @@
     },
     {
       "bakaze": "S",
-      "kyoku": 5,
+      "kyoku": 2,
       "honba": 0,
       "oya": 1,
       "endStatus": [
@@ -113469,7 +113469,7 @@
     },
     {
       "bakaze": "S",
-      "kyoku": 6,
+      "kyoku": 3,
       "honba": 1,
       "oya": 2,
       "endStatus": [
@@ -123740,7 +123740,7 @@
     },
     {
       "bakaze": "S",
-      "kyoku": 6,
+      "kyoku": 3,
       "honba": 2,
       "oya": 2,
       "endStatus": [
@@ -137122,7 +137122,7 @@
     },
     {
       "bakaze": "S",
-      "kyoku": 7,
+      "kyoku": 4,
       "honba": 0,
       "oya": 3,
       "endStatus": [
@@ -162237,6 +162237,7 @@
   ],
   "diffs": [
     {
+      "bakaze": "E",
       "kyoku": 1,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162248,6 +162249,7 @@
       "shanten": 2
     },
     {
+      "bakaze": "E",
       "kyoku": 1,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162260,6 +162262,7 @@
       "shanten": 2
     },
     {
+      "bakaze": "E",
       "kyoku": 1,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162272,6 +162275,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "E",
       "kyoku": 1,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162285,6 +162289,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "E",
       "kyoku": 1,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162298,6 +162303,7 @@
       "shanten": 0
     },
     {
+      "bakaze": "E",
       "kyoku": 2,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162309,6 +162315,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "E",
       "kyoku": 2,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162320,6 +162327,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "E",
       "kyoku": 2,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162331,6 +162339,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "E",
       "kyoku": 2,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162343,6 +162352,7 @@
       "shanten": 0
     },
     {
+      "bakaze": "E",
       "kyoku": 2,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162355,6 +162365,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "E",
       "kyoku": 2,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162367,6 +162378,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "E",
       "kyoku": 3,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162378,6 +162390,7 @@
       "shanten": 3
     },
     {
+      "bakaze": "E",
       "kyoku": 3,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162389,6 +162402,7 @@
       "shanten": 3
     },
     {
+      "bakaze": "E",
       "kyoku": 3,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162401,6 +162415,7 @@
       "shanten": 3
     },
     {
+      "bakaze": "E",
       "kyoku": 3,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162413,6 +162428,7 @@
       "shanten": 2
     },
     {
+      "bakaze": "E",
       "kyoku": 3,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162426,6 +162442,7 @@
       "shanten": 4
     },
     {
+      "bakaze": "E",
       "kyoku": 3,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162439,6 +162456,7 @@
       "shanten": 4
     },
     {
+      "bakaze": "E",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162450,6 +162468,7 @@
       "shanten": 2
     },
     {
+      "bakaze": "E",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162461,6 +162480,7 @@
       "shanten": 2
     },
     {
+      "bakaze": "E",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162472,6 +162492,7 @@
       "shanten": 2
     },
     {
+      "bakaze": "E",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162483,6 +162504,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "S",
       "kyoku": 1,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162494,6 +162516,7 @@
       "shanten": 2
     },
     {
+      "bakaze": "S",
       "kyoku": 1,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162505,6 +162528,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "S",
       "kyoku": 1,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162518,6 +162542,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "S",
       "kyoku": 1,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162531,6 +162556,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "S",
       "kyoku": 2,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162542,6 +162568,7 @@
       "shanten": 2
     },
     {
+      "bakaze": "S",
       "kyoku": 2,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162553,6 +162580,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "S",
       "kyoku": 3,
       "honba": 1,
       "diffLevel": "Critical",
@@ -162564,6 +162592,7 @@
       "shanten": 4
     },
     {
+      "bakaze": "S",
       "kyoku": 3,
       "honba": 1,
       "diffLevel": "Optimal",
@@ -162576,6 +162605,7 @@
       "shanten": 3
     },
     {
+      "bakaze": "S",
       "kyoku": 3,
       "honba": 1,
       "diffLevel": "Critical",
@@ -162588,6 +162618,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "S",
       "kyoku": 3,
       "honba": 2,
       "diffLevel": "Optimal",
@@ -162599,6 +162630,7 @@
       "shanten": 4
     },
     {
+      "bakaze": "S",
       "kyoku": 3,
       "honba": 2,
       "diffLevel": "Critical",
@@ -162610,6 +162642,7 @@
       "shanten": 4
     },
     {
+      "bakaze": "S",
       "kyoku": 3,
       "honba": 2,
       "diffLevel": "Optimal",
@@ -162621,6 +162654,7 @@
       "shanten": 2
     },
     {
+      "bakaze": "S",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162632,6 +162666,7 @@
       "shanten": 4
     },
     {
+      "bakaze": "S",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162643,6 +162678,7 @@
       "shanten": 2
     },
     {
+      "bakaze": "S",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162654,6 +162690,7 @@
       "shanten": 2
     },
     {
+      "bakaze": "S",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162665,6 +162702,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "S",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162676,6 +162714,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "S",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Critical",
@@ -162687,6 +162726,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "S",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Optimal",
@@ -162699,6 +162739,7 @@
       "shanten": 1
     },
     {
+      "bakaze": "S",
       "kyoku": 4,
       "honba": 0,
       "diffLevel": "Critical",

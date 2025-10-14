@@ -65,8 +65,8 @@ export const ProcessInput = (input: Input): Output => {
      */
     const kyoku: KyokuUnit = {
       bakaze: gameState.KyokuState.bakaze(),
-      kyoku: reviewKyoku.kyoku,
-      honba: reviewKyoku.honba,
+      kyoku: gameState.KyokuState.kyoku(),
+      honba: gameState.KyokuState.honba(),
       oya: gameState.KyokuState.oya(),
       endStatus: reviewKyoku.endStatus,
       relativeScores: reviewKyoku.relativeScores,
