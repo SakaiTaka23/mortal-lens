@@ -10,12 +10,10 @@ const dirname =
 
 export default defineConfig({
   test: {
-    workspace: [
+    projects: [
       {
         test: {
           name: 'unit',
-          include: ['**/*.{test,spec}.{js,ts,jsx,tsx}'],
-          exclude: ['**/*.stories.{js,ts,jsx,tsx}', '**/node_modules/**'],
           environment: 'node',
         },
       },
@@ -29,7 +27,7 @@ export default defineConfig({
           browser: {
             enabled: true,
             headless: true,
-            name: 'chromium',
+            instances: [{ browser: 'chromium' }],
             provider: 'playwright',
           },
           setupFiles: ['.storybook/vitest.setup.ts'],
