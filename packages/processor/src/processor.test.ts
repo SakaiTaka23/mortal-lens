@@ -10,21 +10,21 @@ import { basename, join, resolve } from 'path';
 import { ParseInput } from '@mortal-lens/parser';
 import { describe, expect, it } from 'vitest';
 
-import { ProcessInput } from '../ProcessInput';
+import { ProcessInput } from './ProcessInput';
 
 const loadTestJson = (fileName: string): unknown => {
-  const filePath = join(__dirname, './fixtures', fileName);
+  const filePath = join(__dirname, './__fixtures__', fileName);
   const jsonData = readFileSync(filePath, 'utf-8');
   return JSON.parse(jsonData);
 };
 
 const getFixtureFiles = () => {
-  const fixturesPath = join(__dirname, './fixtures');
+  const fixturesPath = join(__dirname, './__fixtures__');
   return readdirSync(fixturesPath).filter((file) => file.endsWith('.json'));
 };
 
 const saveResult = (fileName: string, obj: unknown) => {
-  const resultsDir = resolve(__dirname, './results');
+  const resultsDir = resolve(__dirname, './__snapshots__');
   if (!existsSync(resultsDir)) {
     mkdirSync(resultsDir);
   }
