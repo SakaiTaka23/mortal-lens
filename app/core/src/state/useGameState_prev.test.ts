@@ -1,20 +1,20 @@
 import { Output } from '@mortal-lens/types';
 import { beforeEach, describe, expect, it } from 'vitest';
 
-import { useGameState } from '../useGameState';
-import oneJson from './1.json';
+import oneJson from './__fixtures__/1.json';
 import { resetStore } from './common';
+import { useGameState } from './useGameState';
 
 const output = oneJson as unknown as Output;
 
-describe('prevError', () => {
+describe('prev', () => {
   beforeEach(() => {
     resetStore();
   });
 
-  it('should navigate to prev choice from non review error state', () => {
-    const { prevError } = useGameState.getState();
-    prevError();
+  it('should navigate to prev from non review state', () => {
+    const { prev } = useGameState.getState();
+    prev();
 
     const gameState = useGameState.getState();
     expect(gameState.output).toBe(output);
@@ -43,15 +43,15 @@ describe('prevError', () => {
     );
   });
 
-  it('should navigate to prev choice from review error state', () => {
-    const { prevError } = useGameState.getState();
-    prevError();
-    prevError();
+  it('should navigate to prev from review state', () => {
+    const { prev } = useGameState.getState();
+    prev();
+    prev();
 
     const gameState = useGameState.getState();
     expect(gameState.output).toBe(output);
     expect(gameState.currentKyokuIndex).toBe(7);
-    expect(gameState.currentStepIndex).toBe(71);
+    expect(gameState.currentStepIndex).toBe(102);
     expect(gameState.currentKyokuMeta).toStrictEqual({
       bakaze: 'S',
       kyoku: 7,
@@ -68,10 +68,10 @@ describe('prevError', () => {
       ],
       relativeScores: [23100, 29500, 29600, 17800],
     });
-    expect(gameState.currentKyokuTilesLeft).toBe(36);
+    expect(gameState.currentKyokuTilesLeft).toBe(23);
     expect(gameState.currentKyokuUnit).toBe(oneJson.kyokus[7]);
     expect(gameState.currentKyokuStep).toStrictEqual(
-      oneJson.kyokus[7].steps[71],
+      oneJson.kyokus[7].steps[102],
     );
   });
 });
