@@ -111,7 +111,7 @@ export const TagStateProcessor = (): TagStateProcessorState => {
     });
 
     gameState.KyokuState.reachPlayers().forEach((id) => {
-      if (id !== playerID) {
+      if (id.playerId !== playerID) {
         tags.push(DiffTag.RiichiOp);
         return;
       }
