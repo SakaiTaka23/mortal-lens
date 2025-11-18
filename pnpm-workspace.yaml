@@ -1,4 +1,7 @@
 packages:
-  - 'app/*'
-  - 'config/*'
-  - 'packages/*'
+  - app/*
+  - config/*
+  - packages/*
+ignoredBuiltDependencies:
+  - esbuild
+  - unrs-resolver
