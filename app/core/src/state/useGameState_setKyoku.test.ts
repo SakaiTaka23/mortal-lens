@@ -1,9 +1,9 @@
 import { Output } from '@mortal-lens/types';
 import { beforeEach, describe, expect, it } from 'vitest';
 
-import { useGameState } from '../useGameState';
-import oneJson from './1.json';
+import oneJson from './__fixtures__/1.json';
 import { resetStore } from './common';
+import { useGameState } from './useGameState';
 
 const output = oneJson as unknown as Output;
 
