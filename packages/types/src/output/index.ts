@@ -1,4 +1,4 @@
-import { Hora, PlayerID, Ryukyoku, Tile } from 'mjai-ts';
+import { AgariResult, Hora, PlayerID, Ryukyoku, Tile } from 'mjai-ts';
 import { HandState, Kawa } from 'mjai-ts';
 
 import { MetaState } from './MetaState';
@@ -24,12 +24,17 @@ export interface ScoreOverview {
   kyotaku: number;
 }
 
+export interface HoraDetail {
+  hora: Hora;
+  agariResult: AgariResult;
+}
+
 export interface KyokuUnit {
   bakaze: 'E' | 'S' | 'W';
   kyoku: number;
   honba: number;
   oya: PlayerID;
-  endStatus: (Hora | Ryukyoku)[];
+  endStatus: (HoraDetail | Ryukyoku)[];
   relativeScores: [number, number, number, number];
   steps: StepState[];
 }
