@@ -60,6 +60,25 @@ export const ProcessInput = (input: Input): Output => {
       }
     });
 
+    const endStatus = reviewKyoku.endStatus.map((status, _) => {
+      if (status.type === 'hora') {
+        const agariResult = createRiichiFromState(
+          gameState,
+          status.actor,
+        ).calc();
+        // TODO: there may be better way. Do the same with parser package?
+        if (agariResult.type !== CalcResultType.AGARI) {
+          throw new Error('Inconsistent state: AgariResult is not AGARI');
+        }
+        return {
+          hora: status,
+          agariResult,
+        };
+      } else {
+        return status;
+      }
+    });
+
     /**
      * Static information about the kyoku
      */
@@ -68,7 +87,7 @@ export const ProcessInput = (input: Input): Output => {
       kyoku: gameState.KyokuState.kyoku(),
       honba: gameState.KyokuState.honba(),
       oya: gameState.KyokuState.oya(),
-      endStatus: reviewKyoku.endStatus,
+      endStatus,
       relativeScores: reviewKyoku.relativeScores,
       steps,
     };

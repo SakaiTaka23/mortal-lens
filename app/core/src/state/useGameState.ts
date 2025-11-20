@@ -1,5 +1,5 @@
-import { KyokuUnit, Output, StepState } from '@mortal-lens/types';
-import { Hora, PlayerID, Ryukyoku } from 'mjai-ts';
+import { HoraDetail, KyokuUnit, Output, StepState } from '@mortal-lens/types';
+import { PlayerID, Ryukyoku } from 'mjai-ts';
 import { create } from 'zustand/react';
 
 import { initialState } from './initialState';
@@ -13,7 +13,7 @@ export interface GameState {
     kyoku: number;
     honba: number;
     oya: PlayerID;
-    endStatus: (Hora | Ryukyoku)[];
+    endStatus: (HoraDetail | Ryukyoku)[];
     relativeScores: [number, number, number, number];
   };
   currentKyokuTilesLeft: number;
