@@ -21,8 +21,8 @@ importers:
         specifier: ^9.26.0
         version: 9.30.1
       mjai-ts:
-        specifier: ^0.1.7
-        version: 0.1.7
+        specifier: ^0.1.8
+        version: 0.1.8
       prettier:
         specifier: ^3.5.3
         version: 3.6.2
@@ -2683,8 +2683,8 @@ packages:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  mjai-ts@0.1.7:
-    resolution: {integrity: sha512-p4RKP/F0aVKR/8zISCCIYbahY0Csvlad/p7F7BVUmpEtz/lu0V6RoPpj2kgGLJ9MPt1u55v6CnE320s22m9A/A==}
+  mjai-ts@0.1.8:
+    resolution: {integrity: sha512-hB47IiSpLfa0A+qf21JXQESAysG4Ov+bNOQsif/X6VO+lhYi6u4PwsuThOn1RMJQ8dGAeMR7G/Nevg3Yq5hieg==}
 
   mlly@1.7.4:
     resolution: {integrity: sha512-qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==}
@@ -6107,7 +6107,7 @@ snapshots:
 
   minipass@7.1.2: {}
 
-  mjai-ts@0.1.7:
+  mjai-ts@0.1.8:
     dependencies:
       zod: 4.1.0
 
