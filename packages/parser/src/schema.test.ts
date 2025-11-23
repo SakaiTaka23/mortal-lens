@@ -5,11 +5,15 @@ import {
   readFileSync,
   writeFileSync,
 } from 'fs';
-import { basename, join, resolve } from 'path';
+import { basename, join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 
 import { describe, expect, it } from 'vitest';
 
 import { ParseInput } from './index';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const loadTestJson = (fileName: string): unknown => {
   const filePath = join(__dirname, './__fixtures__', fileName);
@@ -23,7 +27,7 @@ const getFixtureFiles = () => {
 };
 
 const saveResult = (fileName: string, obj: unknown) => {
-  const resultsDir = resolve(__dirname, './__snapshots__');
+  const resultsDir = join(__dirname, './__snapshots__');
   if (!existsSync(resultsDir)) {
     mkdirSync(resultsDir);
   }
