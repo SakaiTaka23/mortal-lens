@@ -16,11 +16,10 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.6.4",
-  "dependencies": {
-    "@mortal-lens/types": "workspace:^"
-  },
   "devDependencies": {
-    "@mortal-lens/parser": "workspace:^"
+    "@mortal-lens/parser": "workspace:^",
+    "@mortal-lens/types": "workspace:^",
+    "@types/node": "^22.15.18"
   },
   "exports": {
     ".": {
