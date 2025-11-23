@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsup src/*",
+    "build": "tsup",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --check .",
@@ -14,10 +14,10 @@
   },
   "packageManager": "pnpm@10.6.4",
   "dependencies": {
-    "@mortal-lens/types": "workspace:^",
     "zod": "^4.1.0"
   },
   "devDependencies": {
+    "@mortal-lens/types": "workspace:^",
     "@types/node": "^22.15.18"
   },
   "exports": {

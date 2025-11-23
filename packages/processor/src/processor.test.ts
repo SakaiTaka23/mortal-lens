@@ -5,12 +5,16 @@ import {
   readFileSync,
   writeFileSync,
 } from 'fs';
-import { basename, join, resolve } from 'path';
+import { basename, dirname, join, resolve } from 'path';
+import { fileURLToPath } from 'url';
 
 import { ParseInput } from '@mortal-lens/parser';
 import { describe, expect, it } from 'vitest';
 
 import { ProcessInput } from './ProcessInput';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const loadTestJson = (fileName: string): unknown => {
   const filePath = join(__dirname, './__fixtures__', fileName);

@@ -46,10 +46,10 @@ export const ProcessInput = (input: Input): Output => {
 
       const review = reviewState.checkMapping(gameState);
       const snapShot: StepState = {
-        dora: gameState.DoraState.get(),
-        hand: gameState.TehaiState.get(),
-        kawa: gameState.KawaState.get().kawas,
-        review,
+        dora: structuredClone(gameState.DoraState.get()),
+        hand: structuredClone(gameState.TehaiState.get()),
+        kawa: structuredClone(gameState.KawaState.get().kawas),
+        review: review ? structuredClone(review) : undefined,
         tilesLeft: gameState.KawaState.remaining(),
       };
       steps.push(snapShot);
