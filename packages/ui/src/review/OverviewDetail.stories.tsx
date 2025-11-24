@@ -10,7 +10,7 @@ const meta = {
 } satisfies Meta<typeof OverviewDetail>;
 
 export default meta;
-type Story = StoryObj<typeof OverviewDetail>;
+type Story = StoryObj<typeof meta>;
 
 const sampleData: EvaluationDetail[] = [
   {

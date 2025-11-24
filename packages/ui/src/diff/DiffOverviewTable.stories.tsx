@@ -1,5 +1,5 @@
 import { DiffOverview } from '@mortal-lens/types';
-import { Meta } from '@storybook/react';
+import { Meta, StoryObj } from '@storybook/react';
 
 import { DiffOverviewTable } from '.';
 
@@ -10,7 +10,7 @@ const meta = {
 } satisfies Meta<typeof DiffOverviewTable>;
 
 export default meta;
-type Story = Meta<typeof DiffOverviewTable>;
+type Story = StoryObj<typeof meta>;
 
 const oneJSONDiff = [
   {
