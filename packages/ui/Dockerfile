@@ -11,8 +11,8 @@ COPY app ./app
 COPY config ./config
 
 # Install dependencies
-RUN npm install -g pnpm
-RUN pnpm install
+RUN npm install -g pnpm@10.6.4 && \
+    pnpm install
 
 # Set working directory to the UI package where playwright is installed
 WORKDIR /app/packages/ui
