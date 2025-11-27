@@ -9,3 +9,6 @@ dist
 
 *storybook.log
 .vitest-attachments
+
+test-results
+playwright-report/
