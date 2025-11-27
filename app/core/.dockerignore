@@ -1,0 +1,4 @@
+dist
+node_modules
+e2e/*-snapshots
+test-results

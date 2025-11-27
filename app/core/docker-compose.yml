@@ -1,0 +1,16 @@
+services:
+  e2e:
+    build:
+      context: ../../
+      dockerfile: app/core/Dockerfile
+    container_name: playwright-e2e
+    working_dir: /app/app/core
+    volumes:
+      - ../../:/app
+      - /app/node_modules
+      - /app/app/core/node_modules
+    environment:
+      - CI=true
+    ports:
+      - "6006:6006"
+    command: pnpm run test:e2e
