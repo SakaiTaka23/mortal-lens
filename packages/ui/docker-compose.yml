@@ -12,5 +12,5 @@ services:
     environment:
       - CI=true
     ports:
-      - "51204:51204"
+      - '51204:51204'
     command: pnpm run test
