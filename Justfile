@@ -35,27 +35,27 @@ check-full: format lint build
     just core test
 
 # Run command in parser package
-parser CMD:
+parser CMD="":
     cd packages/parser && just {{CMD}}
 
 # Run command in ui package
-ui CMD:
+ui CMD="":
     cd packages/ui && just {{CMD}}
 
 # Run command in types package
-types CMD:
+types CMD="":
     cd packages/types && just {{CMD}}
 
 # Run command in processor package
-processor CMD:
+processor CMD="":
     cd packages/processor && just {{CMD}}
 
 # Run command in core app
-core CMD:
+core CMD="":
     cd app/core && just {{CMD}}
 
 # Run command in web app
-web CMD:
+web CMD="":
     cd app/web && just {{CMD}}
 
 # Clean all build artifacts
