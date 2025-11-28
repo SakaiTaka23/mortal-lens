@@ -11,7 +11,8 @@
     "format:fix": "prettier --write .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "vitest"
+    "test": "vitest",
+    "test:update": "vitest --update"
   },
   "keywords": [],
   "author": "",

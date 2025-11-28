@@ -1,0 +1,44 @@
+default:
+    @just --list --unsorted
+
+# Build the app
+build:
+    pnpm build
+
+# Start dev server
+dev:
+    pnpm dev
+
+# Preview production build
+preview:
+    pnpm preview
+
+# Check linting
+lint:
+    pnpm lint
+
+# Fix linting issues
+lint-fix:
+    pnpm lint:fix
+
+# Check formatting
+format:
+    pnpm format
+
+# Fix formatting issues
+format-fix:
+    pnpm format:fix
+
+# Clean build artifacts
+clean:
+    rm -rf dist
+
+# Clean node_modules
+clean-deps:
+    rm -rf node_modules
+
+# Clean and rebuild
+rebuild: clean build
+
+# Run quality checks (format + lint + build)
+check: format lint build
