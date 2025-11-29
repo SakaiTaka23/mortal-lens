@@ -41,8 +41,10 @@ describe('Input Schema Validation', () => {
   fixtureFiles.forEach((fileName) => {
     it(`should validate ${fileName}`, () => {
       const rawData = loadTestJson(fileName);
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
       const input = ParseInput(rawData);
       saveResult(fileName, input);
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-return
       expect(() => input).not.toThrow();
     });
   });
