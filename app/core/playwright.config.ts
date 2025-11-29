@@ -79,6 +79,6 @@ export default defineConfig({
     toMatchSnapshot: {
       threshold: 0.2,
       maxDiffPixelRatio: 0.02,
-    }
-  }
+    },
+  },
 });
