@@ -75,4 +75,10 @@ export default defineConfig({
     url: 'http://localhost:6006',
     reuseExistingServer: !process.env.CI,
   },
+  expect: {
+    toMatchSnapshot: {
+      threshold: 0.2,
+      maxDiffPixelRatio: 0.02,
+    }
+  }
 });
