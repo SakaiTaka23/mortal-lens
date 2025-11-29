@@ -76,7 +76,7 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI,
   },
   expect: {
-    toMatchSnapshot: {
+    toHaveScreenshot: {
       threshold: 0.2,
       maxDiffPixelRatio: 0.02,
     },
