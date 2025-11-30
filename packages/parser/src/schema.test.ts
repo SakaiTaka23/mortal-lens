@@ -1,13 +1,8 @@
-import {
-  existsSync,
-  mkdirSync,
-  readdirSync,
-  readFileSync,
-  writeFileSync,
-} from 'fs';
-import { basename, join, dirname } from 'path';
+import { readdirSync, readFileSync } from 'fs';
+import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
+import { format } from 'prettier';
 import { describe, expect, it } from 'vitest';
 
 import { ParseInput } from './index';
@@ -26,26 +21,18 @@ const getFixtureFiles = () => {
   return readdirSync(fixturesPath).filter((file) => file.endsWith('.json'));
 };
 
-const saveResult = (fileName: string, obj: unknown) => {
-  const resultsDir = join(__dirname, './__snapshots__');
-  if (!existsSync(resultsDir)) {
-    mkdirSync(resultsDir);
-  }
-  const outPath = join(resultsDir, basename(fileName));
-  writeFileSync(outPath, JSON.stringify(obj, null, 2), 'utf-8');
-};
-
 describe('Input Schema Validation', () => {
   const fixtureFiles = getFixtureFiles();
 
   fixtureFiles.forEach((fileName) => {
-    it(`should validate ${fileName}`, () => {
+    it(`should validate ${fileName}`, async () => {
       const rawData = loadTestJson(fileName);
 
       const input = ParseInput(rawData);
-      saveResult(fileName, input);
-
-      expect(() => input).not.toThrow();
+      const formatted = await format(JSON.stringify(input), {
+        parser: 'json',
+      });
+      await expect(formatted).toMatchFileSnapshot(`__snapshots__/${fileName}`);
     });
   });
 });
