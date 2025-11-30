@@ -1,4 +1,4 @@
-import { Meta } from '@storybook/react';
+import { Meta, StoryObj } from '@storybook/react';
 
 import { ReviewMessage } from '@/review/ReviewMessage';
 
@@ -9,7 +9,7 @@ const meta = {
 } satisfies Meta<typeof ReviewMessage>;
 
 export default meta;
-type Story = Meta<typeof ReviewMessage>;
+type Story = StoryObj<typeof meta>;
 
 export const Ankan: Story = {
   args: {

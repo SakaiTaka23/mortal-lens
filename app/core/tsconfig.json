@@ -11,6 +11,6 @@
     "rootDir": "./",
     "resolveJsonModule": true
   },
-  "include": ["src", ".storybook/**/*.ts"],
+  "include": ["src", ".storybook/**/*.ts", "e2e/**/*.ts"],
   "exclude": ["../.dist"]
 }

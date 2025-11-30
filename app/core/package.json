@@ -11,7 +11,10 @@
     "format:fix": "prettier --write .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "vitest"
+    "test": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:update": "playwright test --update-snapshots"
   },
   "keywords": [],
   "author": "",
@@ -31,6 +34,7 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3",
+    "@playwright/test": "^1.57.0",
     "@storybook/addon-essentials": "^8.6.14",
     "@storybook/addon-onboarding": "^8.6.14",
     "@storybook/addon-themes": "^8.6.14",
@@ -40,11 +44,11 @@
     "@storybook/react-vite": "^8.6.14",
     "@storybook/test": "^8.6.14",
     "@testing-library/react": "^16.3.0",
+    "@types/node": "^22.15.18",
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
     "@vitest/browser": "^3.1.4",
     "@vitest/coverage-v8": "^3.1.4",
-    "playwright": "^1.52.0",
     "storybook": "^8.6.14"
   },
   "exports": {

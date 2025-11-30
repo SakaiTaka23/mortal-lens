@@ -8,3 +8,7 @@ node_modules
 dist
 
 *storybook.log
+.vitest-attachments
+
+test-results
+playwright-report/

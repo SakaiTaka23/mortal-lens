@@ -41,8 +41,10 @@ describe('Input Schema Validation', () => {
   fixtureFiles.forEach((fileName) => {
     it(`should validate ${fileName}`, () => {
       const rawData = loadTestJson(fileName);
+
       const input = ParseInput(rawData);
       saveResult(fileName, input);
+
       expect(() => input).not.toThrow();
     });
   });

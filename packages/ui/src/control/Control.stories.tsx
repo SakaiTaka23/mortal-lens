@@ -1,4 +1,4 @@
-import { Meta } from '@storybook/react';
+import { Meta, StoryObj } from '@storybook/react';
 
 import { Control } from './index';
 
@@ -9,7 +9,7 @@ const meta = {
 } satisfies Meta<typeof Control>;
 
 export default meta;
-type Story = Meta<typeof Control>;
+type Story = StoryObj<typeof meta>;
 
 const defaultFunrtion = () => {
   return;

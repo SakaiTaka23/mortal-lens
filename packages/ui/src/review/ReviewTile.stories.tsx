@@ -1,4 +1,4 @@
-import { Meta } from '@storybook/react';
+import { Meta, StoryObj } from '@storybook/react';
 
 import { ReviewTile } from './ReviewTile';
 
@@ -9,7 +9,7 @@ const meta = {
 } satisfies Meta<typeof ReviewTile>;
 
 export default meta;
-type Story = Meta<typeof ReviewTile>;
+type Story = StoryObj<typeof meta>;
 
 export const Ankan: Story = {
   args: {

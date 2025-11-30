@@ -1,0 +1,16 @@
+services:
+  vrt:
+    build:
+      context: ../../
+      dockerfile: packages/ui/Dockerfile
+    container_name: vitest-vrt
+    working_dir: /app/packages/ui
+    volumes:
+      - ../../:/app
+      - /app/node_modules
+      - /app/packages/ui/node_modules
+    environment:
+      - CI=true
+    ports:
+      - '51204:51204'
+    command: pnpm run test

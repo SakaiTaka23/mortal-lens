@@ -1,4 +1,4 @@
-import { Meta } from '@storybook/react';
+import { Meta, StoryObj } from '@storybook/react';
 
 import { Overview } from '@/review/Overview';
 
@@ -9,7 +9,7 @@ const meta = {
 } satisfies Meta<typeof Overview>;
 
 export default meta;
-type Story = Meta<typeof Overview>;
+type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {

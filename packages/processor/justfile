@@ -1,0 +1,48 @@
+default:
+    @just --list --unsorted
+
+# Build the package
+build:
+    pnpm build
+
+# Check linting
+lint:
+    pnpm lint
+
+# Fix linting issues
+lint-fix:
+    pnpm lint:fix
+
+# Check formatting
+format:
+    pnpm format
+
+# Fix formatting issues
+format-fix:
+    pnpm format:fix
+
+# Run tests (one-time)
+test:
+    pnpm test:run
+
+# Run tests in watch mode
+test-watch:
+    pnpm test
+
+# Run tests and generate coverage
+test-coverage:
+    pnpm test --coverage
+
+# Clean build artifacts
+clean:
+    rm -rf dist
+
+# Clean node_modules
+clean-deps:
+    rm -rf node_modules
+
+# Clean and rebuild
+rebuild: clean build
+
+# Run quality checks (format + lint + build + test)
+check: format lint build test
