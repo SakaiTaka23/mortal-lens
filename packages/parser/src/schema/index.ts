@@ -16,12 +16,23 @@ export const InputSchema = z
     mjai_log: z.array(MjaiLogSchema),
     lang: z.string(),
   })
-  .transform((data) => ({
-    ...data,
-    gameLength: data.game_length,
-    loadingTime: data.loading_time,
-    reviewTime: data.review_time,
-    showRating: data.show_rating,
-    playerID: data.player_id,
-    mjaiLog: data.mjai_log,
-  }));
+  .transform((data) => {
+    const {
+      game_length,
+      loading_time,
+      review_time,
+      show_rating,
+      player_id,
+      mjai_log,
+      ...rest
+    } = data;
+    return {
+      ...rest,
+      gameLength: game_length,
+      loadingTime: loading_time,
+      reviewTime: review_time,
+      showRating: show_rating,
+      playerID: player_id,
+      mjaiLog: mjai_log,
+    };
+  });

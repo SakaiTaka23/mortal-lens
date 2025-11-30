@@ -11,11 +11,14 @@ const KyokuSchema = z
     relative_scores: z.tuple([z.number(), z.number(), z.number(), z.number()]),
     entries: z.array(EntrySchema),
   })
-  .transform((data) => ({
-    ...data,
-    endStatus: data.end_status,
-    relativeScores: data.relative_scores,
-  }));
+  .transform((data) => {
+    const { end_status, relative_scores, ...rest } = data;
+    return {
+      ...rest,
+      endStatus: end_status,
+      relativeScores: relative_scores,
+    };
+  });
 
 export const ReviewSchema = z
   .object({
@@ -34,10 +37,19 @@ export const ReviewSchema = z
     ),
     model_tag: z.string(),
   })
-  .transform((data) => ({
-    ...data,
-    totalReviewed: data.total_reviewed,
-    totalMatches: data.total_matches,
-    relativePhiMatrix: data.relative_phi_matrix,
-    modelTag: data.model_tag,
-  }));
+  .transform((data) => {
+    const {
+      total_reviewed,
+      total_matches,
+      relative_phi_matrix,
+      model_tag,
+      ...rest
+    } = data;
+    return {
+      ...rest,
+      totalReviewed: total_reviewed,
+      totalMatches: total_matches,
+      relativePhiMatrix: relative_phi_matrix,
+      modelTag: model_tag,
+    };
+  });
