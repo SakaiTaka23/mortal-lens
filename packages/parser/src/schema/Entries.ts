@@ -48,10 +48,11 @@ export const FuuroSchema = z
   ])
   .transform((data) => {
     if (data.type === 'kakan') {
+      const { previous_pon_target, previous_pon_pai, ...rest } = data;
       return {
-        ...data,
-        previousPonTarget: data.previous_pon_target,
-        previousPonPai: data.previous_pon_pai,
+        ...rest,
+        previousPonTarget: previous_pon_target,
+        previousPonPai: previous_pon_pai,
       };
     }
     return data;
@@ -84,12 +85,13 @@ export const DetailSchema = z
     q_value: z.number(),
     prob: z.number().max(1).min(0),
   })
-  .transform((data) => ({
-    ...data,
-    action: data.action,
-    QValue: data.q_value,
-    prob: data.prob,
-  }));
+  .transform((data) => {
+    const { q_value, ...rest } = data;
+    return {
+      ...rest,
+      QValue: q_value,
+    };
+  });
 
 export const EntrySchema = z
   .object({
@@ -112,14 +114,27 @@ export const EntrySchema = z
     at_furiten: z.boolean(),
     actual_index: z.number().min(0),
   })
-  .transform((data) => ({
-    ...data,
-    tilesLeft: data.tiles_left,
-    lastActor: data.last_actor,
-    atSelfChiPon: data.at_self_chi_pon,
-    atSelfRiichi: data.at_self_riichi,
-    atOpponentKakan: data.at_opponent_kakan,
-    isEqual: data.is_equal,
-    atFuriten: data.at_furiten,
-    actualIndex: data.actual_index,
-  }));
+  .transform((data) => {
+    const {
+      tiles_left,
+      last_actor,
+      at_self_chi_pon,
+      at_self_riichi,
+      at_opponent_kakan,
+      is_equal,
+      at_furiten,
+      actual_index,
+      ...rest
+    } = data;
+    return {
+      ...rest,
+      tilesLeft: tiles_left,
+      lastActor: last_actor,
+      atSelfChiPon: at_self_chi_pon,
+      atSelfRiichi: at_self_riichi,
+      atOpponentKakan: at_opponent_kakan,
+      isEqual: is_equal,
+      atFuriten: at_furiten,
+      actualIndex: actual_index,
+    };
+  });

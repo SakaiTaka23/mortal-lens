@@ -25,6 +25,10 @@ format-fix:
 test:
     pnpm test:run
 
+# Run tests and update snapshots
+test-update:
+    pnpm test:run -u
+
 # Run tests in watch mode
 test-watch:
     pnpm test
