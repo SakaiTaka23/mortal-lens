@@ -6,7 +6,12 @@ import {
   Output,
   StepState,
 } from '@mortal-lens/types';
-import { Event, StartKyoku } from 'mjai-ts';
+import {
+  CalcResultType,
+  createRiichiFromState,
+  Event,
+  StartKyoku,
+} from 'mjai-ts';
 import { createGameState } from 'mjai-ts';
 
 import { MetaStateProcessor } from './state/MetaStateProcessor';
@@ -60,6 +65,24 @@ export const ProcessInput = (input: Input): Output => {
       }
     });
 
+    const endStatus = reviewKyoku.endStatus.map((status, _) => {
+      if (status.type === 'hora') {
+        const riichi = createRiichiFromState(gameState, status.actor);
+        const agariResult = riichi.calc();
+
+        // TODO: there may be better way. Do the same with parser package?
+        if (agariResult.type !== CalcResultType.AGARI) {
+          throw new Error('Inconsistent state: AgariResult is not AGARI');
+        }
+        return {
+          hora: status,
+          agariResult,
+        };
+      } else {
+        return status;
+      }
+    });
+
     /**
      * Static information about the kyoku
      */
@@ -68,7 +91,7 @@ export const ProcessInput = (input: Input): Output => {
       kyoku: gameState.KyokuState.kyoku(),
       honba: gameState.KyokuState.honba(),
       oya: gameState.KyokuState.oya(),
-      endStatus: reviewKyoku.endStatus,
+      endStatus,
       relativeScores: reviewKyoku.relativeScores,
       steps,
     };
