@@ -24,11 +24,32 @@
       "oya": 0,
       "endStatus": [
         {
-          "type": "hora",
-          "actor": 1,
-          "target": 1,
-          "deltas": [-1000, 2000, -500, -500],
-          "uraMarkers": []
+          "hora": {
+            "type": "hora",
+            "actor": 1,
+            "target": 1,
+            "deltas": [-1000, 2000, -500, -500],
+            "uraMarkers": []
+          },
+          "agariResult": {
+            "type": "agari",
+            "isAgari": true,
+            "error": false,
+            "yakuman": 0,
+            "yaku": [
+              {
+                "name": "門前清自摸和",
+                "value": { "type": "han", "count": 1 }
+              },
+              { "name": "ドラ", "value": { "type": "han", "count": 1 } }
+            ],
+            "han": 2,
+            "fu": 30,
+            "ten": 2000,
+            "name": "",
+            "scoreInfo": { "bakaze": "E", "jikaze": "S", "agariType": "tsumo" },
+            "payment": { "type": "tsumo", "fromOya": 1000, "fromKo": 500 }
+          }
         }
       ],
       "relativeScores": [25000, 25000, 25000, 25000],
@@ -8186,11 +8207,28 @@
       "oya": 1,
       "endStatus": [
         {
-          "type": "hora",
-          "actor": 1,
-          "target": 3,
-          "deltas": [0, 2000, 0, -2000],
-          "uraMarkers": []
+          "hora": {
+            "type": "hora",
+            "actor": 1,
+            "target": 3,
+            "deltas": [0, 2000, 0, -2000],
+            "uraMarkers": []
+          },
+          "agariResult": {
+            "type": "agari",
+            "isAgari": true,
+            "error": false,
+            "yakuman": 0,
+            "yaku": [
+              { "name": "役牌白", "value": { "type": "han", "count": 1 } }
+            ],
+            "han": 1,
+            "fu": 40,
+            "ten": 2000,
+            "name": "",
+            "scoreInfo": { "bakaze": "E", "jikaze": "E", "agariType": "ron" },
+            "payment": { "type": "ron", "amount": 2000 }
+          }
         }
       ],
       "relativeScores": [24500, 24500, 24000, 27000],
@@ -38125,11 +38163,34 @@
       "oya": 2,
       "endStatus": [
         {
-          "type": "hora",
-          "actor": 3,
-          "target": 3,
-          "deltas": [-1500, -1500, -2800, 6800],
-          "uraMarkers": ["C"]
+          "hora": {
+            "type": "hora",
+            "actor": 3,
+            "target": 3,
+            "deltas": [-1500, -1500, -2800, 6800],
+            "uraMarkers": ["C"]
+          },
+          "agariResult": {
+            "type": "agari",
+            "isAgari": true,
+            "error": false,
+            "yakuman": 0,
+            "yaku": [
+              { "name": "平和", "value": { "type": "han", "count": 1 } },
+              {
+                "name": "門前清自摸和",
+                "value": { "type": "han", "count": 1 }
+              },
+              { "name": "立直", "value": { "type": "han", "count": 1 } },
+              { "name": "赤ドラ", "value": { "type": "han", "count": 1 } }
+            ],
+            "han": 4,
+            "fu": 20,
+            "ten": 5200,
+            "name": "",
+            "scoreInfo": { "bakaze": "E", "jikaze": "S", "agariType": "tsumo" },
+            "payment": { "type": "tsumo", "fromOya": 2600, "fromKo": 1300 }
+          }
         }
       ],
       "relativeScores": [26000, 24000, 22500, 27500],
@@ -58881,11 +58942,34 @@
       "oya": 3,
       "endStatus": [
         {
-          "type": "hora",
-          "actor": 2,
-          "target": 2,
-          "deltas": [-2000, -2000, 9900, -3900],
-          "uraMarkers": ["8p"]
+          "hora": {
+            "type": "hora",
+            "actor": 2,
+            "target": 2,
+            "deltas": [-2000, -2000, 9900, -3900],
+            "uraMarkers": ["8p"]
+          },
+          "agariResult": {
+            "type": "agari",
+            "isAgari": true,
+            "error": false,
+            "yakuman": 0,
+            "yaku": [
+              { "name": "一盃口", "value": { "type": "han", "count": 1 } },
+              {
+                "name": "門前清自摸和",
+                "value": { "type": "han", "count": 1 }
+              },
+              { "name": "立直", "value": { "type": "han", "count": 1 } },
+              { "name": "赤ドラ", "value": { "type": "han", "count": 1 } }
+            ],
+            "han": 4,
+            "fu": 30,
+            "ten": 7900,
+            "name": "",
+            "scoreInfo": { "bakaze": "E", "jikaze": "N", "agariType": "tsumo" },
+            "payment": { "type": "tsumo", "fromOya": 3900, "fromKo": 2000 }
+          }
         }
       ],
       "relativeScores": [23200, 29800, 21000, 26000],
@@ -73947,11 +74031,31 @@
       "oya": 0,
       "endStatus": [
         {
-          "type": "hora",
-          "actor": 3,
-          "target": 0,
-          "deltas": [-7700, 0, 0, 8700],
-          "uraMarkers": ["3m"]
+          "hora": {
+            "type": "hora",
+            "actor": 3,
+            "target": 0,
+            "deltas": [-7700, 0, 0, 8700],
+            "uraMarkers": ["3m"]
+          },
+          "agariResult": {
+            "type": "agari",
+            "isAgari": true,
+            "error": false,
+            "yakuman": 0,
+            "yaku": [
+              { "name": "平和", "value": { "type": "han", "count": 1 } },
+              { "name": "立直", "value": { "type": "han", "count": 1 } },
+              { "name": "一発", "value": { "type": "han", "count": 1 } },
+              { "name": "裏ドラ", "value": { "type": "han", "count": 1 } }
+            ],
+            "han": 4,
+            "fu": 30,
+            "ten": 7700,
+            "name": "",
+            "scoreInfo": { "bakaze": "S", "jikaze": "N", "agariType": "ron" },
+            "payment": { "type": "ron", "amount": 7700 }
+          }
         }
       ],
       "relativeScores": [32100, 25900, 18000, 24000],
@@ -83337,11 +83441,33 @@
       "oya": 1,
       "endStatus": [
         {
-          "type": "hora",
-          "actor": 0,
-          "target": 0,
-          "deltas": [4700, -1300, -700, -700],
-          "uraMarkers": ["6p"]
+          "hora": {
+            "type": "hora",
+            "actor": 0,
+            "target": 0,
+            "deltas": [4700, -1300, -700, -700],
+            "uraMarkers": ["6p"]
+          },
+          "agariResult": {
+            "type": "agari",
+            "isAgari": true,
+            "error": false,
+            "yakuman": 0,
+            "yaku": [
+              { "name": "平和", "value": { "type": "han", "count": 1 } },
+              {
+                "name": "門前清自摸和",
+                "value": { "type": "han", "count": 1 }
+              },
+              { "name": "立直", "value": { "type": "han", "count": 1 } }
+            ],
+            "han": 3,
+            "fu": 20,
+            "ten": 2700,
+            "name": "",
+            "scoreInfo": { "bakaze": "S", "jikaze": "N", "agariType": "tsumo" },
+            "payment": { "type": "tsumo", "fromOya": 1300, "fromKo": 700 }
+          }
         }
       ],
       "relativeScores": [32100, 33600, 10300, 24000],
@@ -101491,11 +101617,31 @@
       "oya": 2,
       "endStatus": [
         {
-          "type": "hora",
-          "actor": 1,
-          "target": 0,
-          "deltas": [-7700, 8700, 0, 0],
-          "uraMarkers": ["S"]
+          "hora": {
+            "type": "hora",
+            "actor": 1,
+            "target": 0,
+            "deltas": [-7700, 8700, 0, 0],
+            "uraMarkers": ["S"]
+          },
+          "agariResult": {
+            "type": "agari",
+            "isAgari": true,
+            "error": false,
+            "yakuman": 0,
+            "yaku": [
+              { "name": "断么九", "value": { "type": "han", "count": 1 } },
+              { "name": "平和", "value": { "type": "han", "count": 1 } },
+              { "name": "立直", "value": { "type": "han", "count": 1 } },
+              { "name": "一発", "value": { "type": "han", "count": 1 } }
+            ],
+            "han": 4,
+            "fu": 30,
+            "ten": 7700,
+            "name": "",
+            "scoreInfo": { "bakaze": "S", "jikaze": "N", "agariType": "ron" },
+            "payment": { "type": "ron", "amount": 7700 }
+          }
         }
       ],
       "relativeScores": [30400, 32900, 14000, 22700],
@@ -114908,11 +115054,29 @@
       "oya": 3,
       "endStatus": [
         {
-          "type": "hora",
-          "actor": 3,
-          "target": 1,
-          "deltas": [0, -2900, 0, 2900],
-          "uraMarkers": []
+          "hora": {
+            "type": "hora",
+            "actor": 3,
+            "target": 1,
+            "deltas": [0, -2900, 0, 2900],
+            "uraMarkers": []
+          },
+          "agariResult": {
+            "type": "agari",
+            "isAgari": true,
+            "error": false,
+            "yakuman": 0,
+            "yaku": [
+              { "name": "場風南", "value": { "type": "han", "count": 1 } },
+              { "name": "ドラ", "value": { "type": "han", "count": 1 } }
+            ],
+            "han": 2,
+            "fu": 30,
+            "ten": 2900,
+            "name": "",
+            "scoreInfo": { "bakaze": "S", "jikaze": "E", "agariType": "ron" },
+            "payment": { "type": "ron", "amount": 2900 }
+          }
         }
       ],
       "relativeScores": [30400, 32900, 6300, 30400],
