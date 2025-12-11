@@ -4,6 +4,7 @@ import {
   Control,
   DiffOverviewTable,
   Jantaku,
+  KyokuEndScoreModal,
   Overview,
   OverviewDetail,
   ReviewWindow,
@@ -25,6 +26,8 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
     output,
     currentKyokuMeta,
     currentKyokuStep,
+    currentKyokuUnit,
+    isKyokuEnd,
     setOutput,
     setKyoku,
     prevKyoku,
@@ -35,6 +38,7 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
     nextChoice,
     prev,
     next,
+    closeKyokuEndModal,
   } = useGameState();
 
   useEffect(() => {
@@ -77,6 +81,16 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
         </Stack>
       </Stack>
       <DiffOverviewTable diff={output.diffs} />
+      <KyokuEndScoreModal
+        open={isKyokuEnd}
+        onClose={closeKyokuEndModal}
+        endStatus={currentKyokuUnit.endStatus}
+        playerID={output.playerID}
+        bakaze={currentKyokuMeta.bakaze}
+        kyoku={currentKyokuMeta.kyoku}
+        honba={currentKyokuMeta.honba}
+        oya={currentKyokuMeta.oya}
+      />
     </>
   );
 };
