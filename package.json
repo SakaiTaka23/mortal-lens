@@ -19,9 +19,6 @@
     "preview": "pnpm -F \"web\" preview"
   },
   "packageManager": "pnpm@10.6.4",
-  "dependencies": {
-    "mjai-ts": "^0.1.6"
-  },
   "devDependencies": {
     "@mortal-lens/eslint-config": "workspace:^",
     "@mortal-lens/prettier-config": "workspace:^",
@@ -31,7 +28,10 @@
     "tsup": "^8.4.0",
     "typescript": "^5.8.3",
     "vite": "^7.0.4",
-    "vitest": "^4.0.13",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^4.0.13"
+  },
+  "dependencies": {
+    "mjai-ts": "0.1.9"
   }
 }

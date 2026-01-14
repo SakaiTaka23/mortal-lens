@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       mjai-ts:
-        specifier: ^0.1.6
-        version: 0.1.8
+        specifier: 0.1.9
+        version: 0.1.9
     devDependencies:
       '@mortal-lens/eslint-config':
         specifier: workspace:^
@@ -2821,8 +2821,8 @@ packages:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  mjai-ts@0.1.8:
-    resolution: {integrity: sha512-hB47IiSpLfa0A+qf21JXQESAysG4Ov+bNOQsif/X6VO+lhYi6u4PwsuThOn1RMJQ8dGAeMR7G/Nevg3Yq5hieg==}
+  mjai-ts@0.1.9:
+    resolution: {integrity: sha512-Wyv2F4fBtMi93jXNJH+WXLUhpLu7hBCylDtvVbPFzPmcBZ+BiDR5e5++NMx4hq8FfCv2LLaFOXps7hz5mKj5xA==}
 
   mlly@1.7.4:
     resolution: {integrity: sha512-qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==}
@@ -6505,7 +6505,7 @@ snapshots:
 
   minipass@7.1.2: {}
 
-  mjai-ts@0.1.8:
+  mjai-ts@0.1.9:
     dependencies:
       zod: 4.1.0
 

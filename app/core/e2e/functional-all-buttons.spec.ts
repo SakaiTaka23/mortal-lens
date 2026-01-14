@@ -27,11 +27,6 @@ test.describe('LandingPage - All Buttons Functional Test', () => {
       }
     });
 
-    // Test PREV button
-    const prevButton = page.getByRole('button', { name: 'Prev', exact: true });
-    await prevButton.click();
-    await page.waitForTimeout(300);
-
     // Test PREV ROUND button
     const prevRoundButton = page.getByRole('button', { name: 'Prev Round' });
     await prevRoundButton.click();
@@ -45,6 +40,11 @@ test.describe('LandingPage - All Buttons Functional Test', () => {
     // Test PREV CHOICE button
     const prevChoiceButton = page.getByRole('button', { name: 'Prev Choice' });
     await prevChoiceButton.click();
+    await page.waitForTimeout(300);
+
+    // Test PREV button
+    const prevButton = page.getByRole('button', { name: 'Prev', exact: true });
+    await prevButton.click();
     await page.waitForTimeout(300);
 
     // Verify no console errors occurred
@@ -61,11 +61,6 @@ test.describe('LandingPage - All Buttons Functional Test', () => {
       }
     });
 
-    // Test NEXT button
-    const nextButton = page.getByRole('button', { name: 'Next', exact: true });
-    await nextButton.click();
-    await page.waitForTimeout(300);
-
     // Test NEXT ROUND button
     const nextRoundButton = page.getByRole('button', { name: 'Next Round' });
     await nextRoundButton.click();
@@ -79,6 +74,11 @@ test.describe('LandingPage - All Buttons Functional Test', () => {
     // Test NEXT CHOICE button
     const nextChoiceButton = page.getByRole('button', { name: 'Next Choice' });
     await nextChoiceButton.click();
+    await page.waitForTimeout(300);
+
+    // Test NEXT button
+    const nextButton = page.getByRole('button', { name: 'Next', exact: true });
+    await nextButton.click();
     await page.waitForTimeout(300);
 
     // Verify no console errors occurred

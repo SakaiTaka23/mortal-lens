@@ -11,6 +11,7 @@ import {
   DiffOverview,
   DiffTag,
   DiffTagType,
+  HoraDetail,
   KyokuUnit,
   MetaState,
   Output,
@@ -31,6 +32,7 @@ export type {
   DiffLevel,
   DiffTagType,
   DiffOverview,
+  HoraDetail,
   ScoreOverview,
 };
 export { DiffTag };

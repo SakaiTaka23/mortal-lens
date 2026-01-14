@@ -59,4 +59,5 @@ export const initialState: GameState = {
     ],
     tilesLeft: 0,
   },
+  isKyokuEnd: false,
 };
