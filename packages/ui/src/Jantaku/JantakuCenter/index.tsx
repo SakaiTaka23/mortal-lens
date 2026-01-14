@@ -114,8 +114,7 @@ export const JantakuCenter = ({
           transformOrigin: 'top left',
         }}
       >
-        {getWind(orderedPlayerIDs[3], oya)}{' '}
-        {relativeScores[orderedPlayerIDs[3]]}点
+        {getWind(orderedPlayerIDs[3], oya)} {relativeScores[3]}点
       </Typography>
       {/* Toimen */}
       <Typography
@@ -137,8 +136,7 @@ export const JantakuCenter = ({
           transformOrigin: 'top right',
         }}
       >
-        {getWind(orderedPlayerIDs[2], oya)}{' '}
-        {relativeScores[orderedPlayerIDs[2]]}点
+        {getWind(orderedPlayerIDs[2], oya)} {relativeScores[2]}点
       </Typography>
       {/* Player */}
       <Typography
@@ -158,8 +156,7 @@ export const JantakuCenter = ({
           left: 0,
         }}
       >
-        {getWind(orderedPlayerIDs[0], oya)}{' '}
-        {relativeScores[orderedPlayerIDs[0]]}点
+        {getWind(orderedPlayerIDs[0], oya)} {relativeScores[0]}点
       </Typography>
       {/* Shimocha */}
       <Typography
@@ -181,8 +178,7 @@ export const JantakuCenter = ({
           transformOrigin: 'bottom right',
         }}
       >
-        {getWind(orderedPlayerIDs[1], oya)}{' '}
-        {relativeScores[orderedPlayerIDs[1]]}点
+        {getWind(orderedPlayerIDs[1], oya)} {relativeScores[1]}点
       </Typography>
     </Box>
   );
