@@ -1,5 +1,6 @@
 import { ScoreOverview as ScoreOverviewType } from '@mortal-lens/types';
 import { Box, Button, Modal, Typography } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 import { PlayerID, Tile } from 'mjai-ts';
 import { useState } from 'react';
 
@@ -76,8 +77,10 @@ export const JantakuCenter = ({
           px: 2,
           py: 1,
           borderRadius: 2,
-          backdropFilter: 'blur(8px)',
-          WebkitBackdropFilter: 'blur(8px)',
+          backgroundColor: (theme) =>
+            alpha(theme.palette.background.paper, 0.95),
+          border: '1px solid',
+          borderColor: 'primary.light',
           boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
         }}
       >

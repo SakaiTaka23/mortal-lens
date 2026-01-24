@@ -33,6 +33,7 @@ export const Default: Story = {
       temperature: 0.1,
       modelTag: '4.1b',
     },
+    isDarkMode: false,
     prevKyokuOnClick: defaultFunrtion,
     nextKyokuOnClick: defaultFunrtion,
     prevErrorOnClick: defaultFunrtion,
@@ -42,5 +43,6 @@ export const Default: Story = {
     prevOnClick: defaultFunrtion,
     nextOnClick: defaultFunrtion,
     toggleHidden: defaultFunrtion,
+    toggleDarkMode: defaultFunrtion,
   },
 };

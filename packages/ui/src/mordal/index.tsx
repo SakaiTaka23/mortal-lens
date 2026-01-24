@@ -59,8 +59,6 @@ const HoraScoreDisplay = ({
         p: 2,
         border: '1px solid',
         borderColor: 'primary.main',
-        backdropFilter: 'blur(8px)',
-        WebkitBackdropFilter: 'blur(8px)',
       }}
     >
       <Stack spacing={2}>
@@ -157,8 +155,6 @@ const RyukyokuScoreDisplay = ({
         p: 2,
         border: '1px solid',
         borderColor: 'warning.main',
-        backdropFilter: 'blur(8px)',
-        WebkitBackdropFilter: 'blur(8px)',
       }}
     >
       <Stack spacing={2}>
@@ -243,8 +239,6 @@ export const KyokuEndScoreModal = ({
           borderRadius: 2,
           boxShadow: 24,
           p: 4,
-          backdropFilter: 'blur(16px)',
-          WebkitBackdropFilter: 'blur(16px)',
         }}
       >
         <Typography variant='h5' sx={{ mb: 3 }} color='primary'>
