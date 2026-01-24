@@ -2,7 +2,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import { withThemeFromJSXProvider } from '@storybook/addon-themes';
 import type { Preview } from '@storybook/react';
 
-import theme from '../src/theme';
+import { theme } from '../src/theme';
 
 const preview: Preview = {
   parameters: {
@@ -15,10 +15,10 @@ const preview: Preview = {
   },
 };
 
-export const decorators = [
+export const decorators: Preview['decorators'] = [
   withThemeFromJSXProvider({
     themes: {
-      default: theme,
+      default: theme(),
     },
     defaultTheme: 'default',
     Provider: ThemeProvider,
