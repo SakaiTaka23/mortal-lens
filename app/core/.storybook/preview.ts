@@ -14,10 +14,10 @@ const preview: Preview = {
   },
 };
 
-export const decorators = [
+export const decorators: Preview['decorators'] = [
   withThemeFromJSXProvider({
     themes: {
-      default: theme,
+      default: theme(),
     },
     defaultTheme: 'default',
     Provider: ThemeProvider,
