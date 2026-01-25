@@ -111,13 +111,7 @@ const TagCell = ({ cell }: { cell: MRT_Cell<DiffOverview> }) => {
   return (
     <Stack direction='row' spacing={1}>
       {cell.getValue<string[]>().map((tag) => (
-        <Chip
-          key={tag}
-          label={`#${tag}`}
-          size='small'
-          color='primary'
-          variant='outlined'
-        />
+        <Chip key={tag} label={`#${tag}`} size='small' color='primary' />
       ))}
     </Stack>
   );

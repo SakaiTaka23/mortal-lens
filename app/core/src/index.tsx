@@ -9,7 +9,7 @@ import {
   OverviewDetail,
   ReviewWindow,
 } from '@mortal-lens/ui';
-import { Box, Stack } from '@mui/material';
+import { Box, Stack, useColorScheme } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 
 import { useGameState } from './state/useGameState';
@@ -21,6 +21,8 @@ export interface Props {
 export const LandingPage: React.FC<Props> = ({ input }) => {
   const [hideTile, setHideTile] = useState(false);
   const toggleHideTile = () => setHideTile(!hideTile);
+
+  const { mode, setMode } = useColorScheme();
 
   const {
     output,
@@ -45,6 +47,18 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
     const output = ProcessInput(input);
     setOutput(output);
   }, [input, setOutput]);
+
+  if (!mode) {
+    return null;
+  }
+
+  const toggleMode = () => {
+    if (mode === 'dark') {
+      setMode('light');
+    } else {
+      setMode('dark');
+    }
+  };
 
   return (
     <>
@@ -71,6 +85,8 @@ export const LandingPage: React.FC<Props> = ({ input }) => {
               prevOnClick={prev}
               nextOnClick={next}
               toggleHidden={toggleHideTile}
+              toggleDarkMode={toggleMode}
+              isDarkMode={mode === 'dark'}
             />
           </Box>
           <ReviewWindow review={currentKyokuStep.review ?? null} />

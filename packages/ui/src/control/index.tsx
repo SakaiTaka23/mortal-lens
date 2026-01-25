@@ -5,6 +5,7 @@ import {
   Grid,
   Modal,
   Paper,
+  Stack,
   Table,
   TableBody,
   TableCell,
@@ -16,6 +17,7 @@ import React, { useState } from 'react';
 export interface Props {
   meta: MetaState;
   reviewMeta: ReviewMetaState;
+  isDarkMode: boolean;
   prevKyokuOnClick: () => void;
   nextKyokuOnClick: () => void;
   prevErrorOnClick: () => void;
@@ -25,11 +27,13 @@ export interface Props {
   prevOnClick: () => void;
   nextOnClick: () => void;
   toggleHidden: () => void;
+  toggleDarkMode: () => void;
 }
 
 export const Control: React.FC<Props> = ({
   meta,
   reviewMeta,
+  isDarkMode,
   prevKyokuOnClick,
   nextKyokuOnClick,
   prevErrorOnClick,
@@ -39,6 +43,7 @@ export const Control: React.FC<Props> = ({
   prevOnClick,
   nextOnClick,
   toggleHidden,
+  toggleDarkMode,
 }) => {
   const [openAbout, setOpenAbout] = useState(false);
   const handleOpenAbout = () => setOpenAbout(true);
@@ -83,6 +88,8 @@ export const Control: React.FC<Props> = ({
           open={openSetting}
           handleClose={handleCloseSetting}
           toggleHidden={toggleHidden}
+          toggleDarkMode={toggleDarkMode}
+          isDarkMode={isDarkMode}
         />
         <Button message='About' onClick={handleOpenAbout} />
         <AboutInfo
@@ -188,16 +195,26 @@ interface SettingsProps {
   open: boolean;
   handleClose: () => void;
   toggleHidden: () => void;
+  toggleDarkMode: () => void;
+  isDarkMode: boolean;
 }
 
 const SettingInfo: React.FC<SettingsProps> = ({
   open,
   handleClose,
   toggleHidden,
+  toggleDarkMode,
+  isDarkMode,
 }) => {
   return (
     <Modal open={open} onClose={handleClose}>
-      <Button message='Hide Tile' onClick={toggleHidden} />
+      <Stack spacing={1}>
+        <Button message='Hide Tile' onClick={toggleHidden} />
+        <Button
+          message={isDarkMode ? 'Light Mode' : 'Dark Mode'}
+          onClick={toggleDarkMode}
+        />
+      </Stack>
     </Modal>
   );
 };

@@ -27,14 +27,11 @@ export interface Props {
   hideTiles: boolean;
 }
 
-const glassBoxStyle = {
-  border: '2px solid rgba(255,255,255,0.5)',
-  background:
-    'linear-gradient(135deg, rgba(255,255,255,0.18) 60%, rgba(180,220,255,0.12) 100%)',
-  boxShadow:
-    '0 12px 48px 0 rgba(31, 38, 135, 0.37), 0 1.5px 0 0 rgba(255,255,255,0.3) inset',
-  backdropFilter: 'blur(16px) brightness(1.08)',
-  WebkitBackdropFilter: 'blur(16px) brightness(1.08)',
+const boardBoxStyle = {
+  border: '2px solid',
+  borderColor: 'primary.main',
+  backgroundColor: 'background.paper',
+  boxShadow: '0 4px 12px 0 rgba(0, 0, 0, 0.15)',
 };
 
 const JantakuCenterWithKawa = ({
@@ -60,7 +57,10 @@ const JantakuCenterWithKawa = ({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        ...glassBoxStyle,
+        border: '2px solid',
+        borderColor: 'primary.main',
+        backgroundColor: 'background.paper',
+        boxShadow: '0 4px 12px 0 rgba(0, 0, 0, 0.15)',
       }}
     >
       {/* Toimen */}
@@ -175,7 +175,7 @@ export const Jantaku = ({
         height: 680,
         display: 'flex',
         flexDirection: 'column',
-        ...glassBoxStyle,
+        ...boardBoxStyle,
       }}
     >
       {/* Toimen */}
