@@ -116,7 +116,6 @@ const TagCell = ({ cell }: { cell: MRT_Cell<DiffOverview> }) => {
           label={`#${tag}`}
           size='small'
           color='primary'
-          variant='outlined'
         />
       ))}
     </Stack>
