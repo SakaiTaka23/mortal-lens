@@ -5,6 +5,7 @@ export const theme = (): Theme => {
     palette: {
       primary: {
         main: '#3b82f6',
+        contrastText: '#ffffff',
       },
       secondary: {
         main: '#AB47BC',
@@ -22,6 +23,13 @@ export const theme = (): Theme => {
     colorSchemes: {
       dark: {
         palette: {
+          primary: {
+            main: '#3b82f6',
+            contrastText: '#ffffff',
+          },
+          info: {
+            main: '#34d399',
+          },
           background: {
             default: '#0d1828',
             paper: '#3a4f6f',

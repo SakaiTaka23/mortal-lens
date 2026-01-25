@@ -24,6 +24,7 @@ export const Overview: React.FC<Props> = ({ review }) => {
         alignItems: 'start',
         width: 310,
         backgroundColor: theme.palette.primary.main,
+        color: theme.palette.primary.contrastText,
         padding: 2,
       }}
     >
