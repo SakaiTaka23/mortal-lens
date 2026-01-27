@@ -1,0 +1,56 @@
+default:
+	@just --list --unsorted
+
+# Build the extension
+build:
+	pnpm build
+
+# Build for Firefox
+build-firefox:
+	pnpm build:firefox
+
+# Start dev server (Chrome)
+dev:
+	pnpm dev
+
+# Start dev server (Firefox)
+dev-firefox:
+	pnpm dev:firefox
+
+# Create distribution zips
+zip:
+	pnpm zip
+
+# Create Firefox distribution zip
+zip-firefox:
+	pnpm zip:firefox
+
+# Check linting
+lint:
+	pnpm lint
+
+# Fix linting issues
+lint-fix:
+	pnpm lint:fix
+
+# Check formatting
+format:
+	pnpm format
+
+# Fix formatting issues
+format-fix:
+	pnpm format:fix
+
+# Clean build artifacts
+clean:
+	rm -rf .output .wxt
+
+# Clean node_modules
+clean-deps:
+	rm -rf node_modules
+
+# Clean and rebuild
+rebuild: clean build
+
+# Run quality checks (format + lint + build)
+check: format lint build

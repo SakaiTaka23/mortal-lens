@@ -9,6 +9,7 @@
     "processor": "pnpm -F \"processor\"",
     "ui": "pnpm -F \"ui\"",
     "web": "pnpm -F \"web\"",
+    "extension": "pnpm -F \"extension\"",
     "test": "vitest",
     "build": "pnpm -r build",
     "lint": "pnpm -r lint",

@@ -1,0 +1,8 @@
+node_modules
+.output
+.wxt
+dist
+*.local
+.DS_Store
+web-ext-artifacts
+*.zip
