@@ -8,8 +8,8 @@ export default defineConfig({
     name: 'Mortal Lens',
     description: 'Review Mahjong games with AI analysis',
     version: '1.0.0',
-    permissions: [],
-    host_permissions: [],
+    permissions: ['tabs', 'webNavigation', 'storage'],
+    host_permissions: ['https://mjai.ekyu.moe/*'],
   },
   imports: {
     eslintrc: {
