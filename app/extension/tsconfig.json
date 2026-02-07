@@ -4,19 +4,10 @@
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "paths": {
-      "@": [
-        "."
-      ],
-      "@/*": [
-        "./*"
-      ]
+      "@": ["."],
+      "@/*": ["./*"]
     }
   },
-  "include": [
-    "src",
-    ".wxt/**/*"
-  ],
-  "exclude": [
-    ".dist",
-  ]
+  "include": ["src", ".wxt/**/*"],
+  "exclude": [".dist"]
 }
