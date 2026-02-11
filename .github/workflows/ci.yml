@@ -45,13 +45,13 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Check formatting
-        run: pnpm format
+        run: pnpm install --frozen-lockfile --ignore-scripts
 
       - name: Build all packages
         run: pnpm build
+
+      - name: Check formatting
+        run: pnpm format
 
       - name: Check linting
         run: pnpm lint
@@ -60,8 +60,8 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            packages//dist
-            app//dist
+            packages/**/dist
+            app/**/dist
           key: ${{ runner.os }}-build-${{ github.sha }}
 
   unit-tests:
@@ -97,14 +97,14 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --ignore-scripts
 
       - name: Restore build artifacts
         uses: actions/cache@v4
         with:
           path: |
-            packages//dist
-            app//dist
+            packages/**/dist
+            app/**/dist
           key: ${{ runner.os }}-build-${{ github.sha }}
 
       - name: Build packages (if cache miss)
@@ -152,14 +152,14 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --ignore-scripts
 
       - name: Restore build artifacts
         uses: actions/cache@v4
         with:
           path: |
-            packages//dist
-            app//dist
+            packages/**/dist
+            app/**/dist
           key: ${{ runner.os }}-build-${{ github.sha }}
 
       - name: Build packages (if cache miss)
@@ -215,14 +215,14 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --ignore-scripts
 
       - name: Restore build artifacts
         uses: actions/cache@v4
         with:
           path: |
-            packages//dist
-            app//dist
+            packages/**/dist
+            app/**/dist
           key: ${{ runner.os }}-build-${{ github.sha }}
 
       - name: Build packages (if cache miss)

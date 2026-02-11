@@ -58,6 +58,10 @@ core CMD="":
 web CMD="":
     cd app/web && just {{CMD}}
 
+# Run command in extension app
+extension CMD="":
+    cd app/extension && just {{CMD}}
+
 # Clean all build artifacts
 clean:
     just parser clean
@@ -66,6 +70,7 @@ clean:
     just types clean
     just core clean
     just web clean
+    just extension clean
 
 # Clean all node_modules
 clean-deps:
@@ -76,3 +81,4 @@ clean-deps:
     just types clean-deps
     just core clean-deps
     just web clean-deps
+    just extension clean-deps

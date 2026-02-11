@@ -1,0 +1,13 @@
+{
+  "extends": "@mortal-lens/tsconfig-config/tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@": ["."],
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["src", ".wxt/**/*"],
+  "exclude": [".dist"]
+}

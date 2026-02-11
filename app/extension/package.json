@@ -1,0 +1,40 @@
+{
+  "name": "@mortal-lens/extension",
+  "version": "1.0.0",
+  "description": "Mortal Lens browser extension for Mahjong AI review",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mortal-lens/core": "workspace:*",
+    "@mortal-lens/parser": "workspace:*",
+    "@mortal-lens/types": "workspace:*",
+    "@mortal-lens/ui": "workspace:*",
+    "@mui/material": "^7.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "wxt": "^0.19.0"
+  },
+  "devDependencies": {
+    "@mortal-lens/eslint-config": "workspace:*",
+    "@mortal-lens/prettier-config": "workspace:*",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.2",
+    "@wxt-dev/module-react": "^1.1.0",
+    "typescript": "^5.7.3"
+  }
+}
