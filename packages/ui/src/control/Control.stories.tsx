@@ -29,6 +29,8 @@ export const Default: Story = {
     reviewMeta: {
       totalReviewed: 123,
       totalMatches: 89,
+      totalCritical: 12,
+      totalOptimal: 21,
       rating: 0.8791772145032938,
       temperature: 0.1,
       modelTag: '4.1b',

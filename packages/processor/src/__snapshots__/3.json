@@ -12,6 +12,8 @@
   "reviewMeta": {
     "totalReviewed": 130,
     "totalMatches": 89,
+    "totalCritical": 24,
+    "totalOptimal": 17,
     "rating": 0.7817843312873576,
     "temperature": 0.1,
     "modelTag": "4.1b"

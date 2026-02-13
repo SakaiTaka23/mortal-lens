@@ -169,7 +169,7 @@ const AboutInfo: React.FC<AboutProps> = ({
                 <TableCell>{reviewMeta.temperature}</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Match Percentage</TableCell>
+                <TableCell>Match Rate</TableCell>
                 <TableCell>
                   {reviewMeta.totalMatches}/{reviewMeta.totalReviewed} ={' '}
                   {(
@@ -177,6 +177,28 @@ const AboutInfo: React.FC<AboutProps> = ({
                     100
                   ).toFixed(2)}
                   %
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell sx={{ paddingLeft: 4 }}>Critical</TableCell>
+                <TableCell>
+                  {reviewMeta.totalCritical}/{reviewMeta.totalReviewed} ={' '}
+                  {(
+                    (reviewMeta.totalCritical / reviewMeta.totalReviewed) *
+                    100
+                  ).toFixed(2)}
+                  % (&le;5% probability)
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell sx={{ paddingLeft: 4 }}>Optimal</TableCell>
+                <TableCell>
+                  {reviewMeta.totalOptimal}/{reviewMeta.totalReviewed} ={' '}
+                  {(
+                    (reviewMeta.totalOptimal / reviewMeta.totalReviewed) *
+                    100
+                  ).toFixed(2)}
+                  % (&gt;5% probability)
                 </TableCell>
               </TableRow>
               <TableRow>

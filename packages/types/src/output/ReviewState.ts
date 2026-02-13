@@ -54,6 +54,8 @@ export interface ReviewState {
 export interface ReviewMetaState {
   totalReviewed: number;
   totalMatches: number;
+  totalCritical: number;
+  totalOptimal: number;
   rating: number;
   temperature: number;
   modelTag: string;
