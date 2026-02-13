@@ -39,6 +39,10 @@ cd ../
 cd riichi-mahjong-tiles
 pnpm build
 ```
+Install dependencies. Note: `pnpm install` may show a warning from the extension's `postinstall` (`wxt prepare`) because workspace packages are not yet built at this point. This is expected and does not affect the install.
+```shell
+pnpm install
+```
 Build all packages in this repo. Execute the below command at the top level of this repo.
 ```shell
 pnpm build
