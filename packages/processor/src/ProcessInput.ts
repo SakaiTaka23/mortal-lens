@@ -25,7 +25,6 @@ import { TagStateProcessor } from './state/TagProcessor';
  */
 export const ProcessInput = (input: Input): Output => {
   const metaState: MetaState = MetaStateProcessor(input);
-  const reviewMetaState = ReviewMetaStateProcessor(input);
   const scoreOverviewState = ScoreOverviewProcessor();
   const tagState = TagStateProcessor();
 
@@ -97,6 +96,27 @@ export const ProcessInput = (input: Input): Output => {
     };
     kyokus.push(kyoku);
   });
+
+  /**
+   * Count Critical and Optimal moves from all reviewed moves
+   */
+  let totalCritical = 0;
+  let totalOptimal = 0;
+
+  kyokus.forEach((kyoku) => {
+    kyoku.steps.forEach((step) => {
+      if (step.review) {
+        if (step.review.diffLevel === 'Critical') totalCritical++;
+        if (step.review.diffLevel === 'Optimal') totalOptimal++;
+      }
+    });
+  });
+
+  const reviewMetaState = ReviewMetaStateProcessor(
+    input,
+    totalCritical,
+    totalOptimal,
+  );
 
   return {
     meta: metaState,
