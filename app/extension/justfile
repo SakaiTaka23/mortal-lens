@@ -41,6 +41,14 @@ format:
 format-fix:
     pnpm format:fix
 
+# Run tests in watch mode
+test-watch:
+    pnpm test
+
+# Run tests (one-time)
+test:
+    pnpm test:run
+
 # Clean build artifacts
 clean:
     rm -rf .dist .wxt
