@@ -17,6 +17,8 @@
     "format:fix": "prettier --write .",
     "test": "vitest",
     "test:run": "vitest run",
+    "test:e2e": "playwright test",
+    "test:e2e:update": "playwright test --update-snapshots",
     "postinstall": "wxt prepare || true"
   },
   "dependencies": {
@@ -38,6 +40,8 @@
     "@types/react-dom": "^19.0.2",
     "@wxt-dev/auto-icons": "^1.1.0",
     "@wxt-dev/module-react": "^1.1.0",
+    "@playwright/test": "^1.52.0",
+    "serve": "^14.2.4",
     "typescript": "^5.7.3"
   }
 }
