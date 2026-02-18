@@ -19,7 +19,8 @@ WORKDIR /app/app/core
 
 # Install Playwright browsers matching the installed version
 # This ensures the browser version matches the @playwright/test version
-RUN pnpm exec playwright install --with-deps chromium
+RUN pnpm exec playwright install --with-deps chromium && \
+    pnpm exec playwright install --with-deps firefox
 
 # Storybook runs on port 6006
 EXPOSE 6006
