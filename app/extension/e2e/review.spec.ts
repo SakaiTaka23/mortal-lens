@@ -8,16 +8,20 @@ const gameData = JSON.parse(
     path.resolve(process.cwd(), '../core/src/mock/1.json'),
     'utf-8',
   ),
-);
+) as unknown;
 
 test.describe('Review Page', () => {
   test('should display game data', async ({ page }) => {
     await page.addInitScript((data) => {
-      (globalThis as any).chrome = { runtime: { id: 'test' } };
-      (globalThis as any).browser = {
-        runtime: { id: 'test' },
-        storage: { session: { get: async () => ({ input: data }) } },
-      };
+      Object.assign(globalThis, {
+        chrome: { runtime: { id: 'test' } },
+        browser: {
+          runtime: { id: 'test' },
+          storage: {
+            session: { get: () => Promise.resolve({ input: data }) },
+          },
+        },
+      });
     }, gameData);
     await page.goto('/review.html');
     await page.waitForTimeout(2000);
