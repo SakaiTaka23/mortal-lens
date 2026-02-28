@@ -41,6 +41,22 @@ format:
 format-fix:
     pnpm format:fix
 
+# Run e2e test
+test-e2e:
+    docker compose run --rm e2e
+
+# Update e2e snapshots
+test-e2e-update:
+    docker compose run --rm e2e pnpm run test:e2e:update
+
+# Run tests in watch mode
+test-watch:
+    pnpm test
+
+# Run tests (one-time)
+test:
+    pnpm test:run
+
 # Clean build artifacts
 clean:
     rm -rf .dist .wxt

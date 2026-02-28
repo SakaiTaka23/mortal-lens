@@ -1,7 +1,7 @@
 import { defineConfig } from 'wxt';
 
 export default defineConfig({
-  modules: ['@wxt-dev/module-react'],
+  modules: ['@wxt-dev/module-react', '@wxt-dev/auto-icons'],
   srcDir: 'src',
   outDir: 'dist',
   manifest: {
@@ -15,5 +15,9 @@ export default defineConfig({
     eslintrc: {
       enabled: true,
     },
+  },
+  autoIcons: {
+    enabled: true,
+    baseIconPath: 'assets/icon.svg',
   },
 });

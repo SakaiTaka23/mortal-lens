@@ -8,6 +8,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["src", ".wxt/**/*"],
+  "include": ["src", "e2e", ".wxt/**/*"],
   "exclude": [".dist"]
 }

@@ -15,7 +15,11 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "postinstall": "wxt prepare"
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:e2e": "playwright test",
+    "test:e2e:update": "playwright test --update-snapshots",
+    "postinstall": "wxt prepare || true"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -34,7 +38,10 @@
     "@mortal-lens/prettier-config": "workspace:*",
     "@types/react": "^19.0.6",
     "@types/react-dom": "^19.0.2",
+    "@wxt-dev/auto-icons": "^1.1.0",
     "@wxt-dev/module-react": "^1.1.0",
+    "@playwright/test": "^1.52.0",
+    "serve": "^14.2.4",
     "typescript": "^5.7.3"
   }
 }

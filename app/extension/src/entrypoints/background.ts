@@ -1,5 +1,7 @@
 import { defineBackground } from 'wxt/sandbox';
 
+import { findReviewTab } from '../logic/tabManager';
+
 export default defineBackground(() => {
   // @ts-expect-error message and sender types are not defined
   browser.runtime.onMessage.addListener(async (message, _sender) => {
@@ -11,18 +13,15 @@ export default defineBackground(() => {
     });
 
     const tabs = await browser.tabs.query({});
-    const reviewTab = tabs.find((tab) =>
-      tab.url?.startsWith(browser.runtime.getURL('/review.html')),
-    );
+    const reviewUrl = browser.runtime.getURL('/review.html');
+    const reviewTabId = findReviewTab(tabs, reviewUrl);
 
-    if (reviewTab?.id) {
-      await browser.tabs.update(reviewTab.id, { active: true });
-      await browser.tabs.reload(reviewTab.id);
-      console.log('Reusing existing review tab:', reviewTab.id);
+    if (reviewTabId) {
+      await browser.tabs.update(reviewTabId, { active: true });
+      await browser.tabs.reload(reviewTabId);
+      console.log('Reusing existing review tab:', reviewTabId);
     } else {
-      await browser.tabs.create({
-        url: browser.runtime.getURL('/review.html'),
-      });
+      await browser.tabs.create({ url: reviewUrl });
       console.log('Created new review tab');
     }
   });
