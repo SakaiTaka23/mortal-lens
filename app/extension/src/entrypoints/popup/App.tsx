@@ -1,9 +1,12 @@
 import { Box, Typography, Paper, Chip, Button } from '@mui/material';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+
+import { processFileData } from '../../logic/fileProcessor';
 
 export const App = () => {
   const [isActiveOnMjai, setIsActiveOnMjai] = useState(false);
   const [currentTabId, setCurrentTabId] = useState<number | undefined>();
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     browser.tabs
@@ -29,6 +32,25 @@ export const App = () => {
           console.error('Error sending analyze message:', error);
         });
     }
+  };
+
+  const handleFileUpload = async (
+    event: React.ChangeEvent<HTMLInputElement>,
+  ) => {
+    const file = event.target.files?.[0];
+    if (!file) {
+      console.error('No file selected');
+      return;
+    }
+    const input = await processFileData(file);
+    browser.runtime
+      .sendMessage({
+        type: 'input',
+        data: input,
+      })
+      .catch((error: unknown) => {
+        console.error('Error sending analyze message:', error);
+      });
   };
 
   return (
@@ -83,6 +105,23 @@ export const App = () => {
           </Button>
         </Paper>
       )}
+
+      <Paper sx={{ p: 2 }}>
+        <input
+          ref={fileInputRef}
+          type='file'
+          accept='.json'
+          style={{ display: 'none' }}
+          onChange={(e) => void handleFileUpload(e)}
+        />
+        <Button
+          variant='contained'
+          fullWidth
+          onClick={() => fileInputRef.current?.click()}
+        >
+          📁 Upload JSON File
+        </Button>
+      </Paper>
     </Box>
   );
 };
