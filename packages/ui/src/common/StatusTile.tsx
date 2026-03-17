@@ -12,7 +12,10 @@ const maxHeight = 50;
 
 export const StatusTile: React.FC<Props> = ({ possibility, tileProps }) => {
   const scaledHeight = (possibility / 100) * maxHeight;
-  const height = Math.max(2, Math.round(scaledHeight * 10000) / 10000);
+  const height =
+    scaledHeight > 1
+      ? Math.max(2, Math.round(scaledHeight * 10000) / 10000)
+      : 0;
 
   return (
     <Tooltip title={`${possibility.toFixed(2)}%`} placement='top'>
